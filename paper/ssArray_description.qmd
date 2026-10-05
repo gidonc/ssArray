@@ -28,26 +28,27 @@ In this note I describe some approaches to modeling matricies and arrays with fi
 
 To illustrate some of the advantages of sequential sampling I also describe a raking approach to realising tables with exact margins. 
 
-1.  Exact margin approach. This approach is like a two-way stick breaking algorithm. It uses ideas from Sequential Importance Sampling (Chen et. al 2005) to build an algorithm based on an an unconstrained importance space to produce cell counts that ensure that both margin constraints are met. Thus, $(R - 1)(C - 1)$ unconstrained importance weight parameters ($\lambda$) are transformed to RxC cell values which sum precisely to row and column margins. Because the transform is sequential, the Jacobian is quite straightforward.  
+1.  Exact margin approach. This approach is like a two-way stick breaking algorithm. It uses ideas from Sequential Importance Sampling (Chen et. al 2005) to build an algorithm based on an unconstrained allocation space to produce cell counts that ensure that both margin constraints are met. Thus, $(R - 1)(C - 1)$ unconstrained allocation parameters ($\lambda$) are transformed to RxC cell values which sum precisely to row and column margins. Because the transform is sequential, the Jacobian is quite straightforward.  
 The resulting cell counts can be modeled in various ways including for example by further transforming the cell counts to the simplex underlying the table. In the examples below I further transform the cell values to an RxC - 1 simplex representation of the table ($\text{ilr}$) in order to provide structured information about the type of table to be generated. 
 
 ## Basis of the sequential sampling approaches
 
+Fréchet bounds describe the maximum and minimum value of each cell in a two-way table with total $T$, row margins $R_1 \dots R_R$ and column margins $C_1 \dots C_C$:
 
-Frèchet bounds, describe the maximum and minimum value of each cell in a two-way table with a total population of $T$ with known row margins as $R_1 \dots R_R$ and column margins $C_1 \dots C_C$ as: 
+$$ \mathrm{max}\left(0, R_r + C_c - T \right) \le \pi_{rc} \le \mathrm{min} \left( R_r, C_c \right)$$
 
-$$ \mathrm{max}\left(0, C_c + R_r - T \right) \le \pi_{jk} \le \mathrm{min} \left( R_r, C_c \right)$$
+Given these bounds, @Chen2005 describe a procedure for sequentially allocating values to cells that constructs only valid two-way contingency tables with fixed margins. Their approach begins the allocation from the top-left cell in the table ($\pi_{11}$). With no cells allocated, the limits on $\pi_{11}$ are:
 
-Given these bounds, @Chen2005 describe a procedure the sequentially allocate values to cells in a way that constructs only valid two-way contingency table with fixed margins. Their approach begins the allocation from the top-left cell in the table ($\pi_{11}$). In this table, with no cells allocated they consider the limits on cell $\pi_{11}$:
+$$ \mathrm{max}\left(0, R_1 + C_1 - T \right) \le \pi_{11} \le \mathrm{min} \left( R_1, C_1 \right)$$
 
-$$ \mathrm{max}\left(0, C_1 + R_1 - T )\right) \le \pi_{11} \le \mathrm{min} \left( R_1, C_1 \right)$$
+This is the only condition that $\pi_{11}$ needs to satisfy. Recursively, suppose that we have chosen $\pi_{i1}= \pi^{\prime}_{i1}$ for $1 \le i \le r-1$. Then the only restriction on $\pi_{r1}$ is
+$$ \mathrm{max}\left( 0, \left(C_1 - \sum_{i=1}^{r-1} \pi_{i1}^{\prime} \right) - \sum_{i=r+1}^{R} R_i\right) \le \pi_{r1} \le \mathrm{min}\left(R_r, C_1 - \sum_{i=1}^{r-1} \pi_{i1}^{\prime}\right)$$
 
-This is the only condition that $\pi_{11}$ needs to satisfy. Recursively suppose that we have chosen $\pi_{i1}= \pi^{\prime}_{i1}$. for $1 \le i \le k -1$, then the only restriction on $\pi_{k1}$ is $$ \mathrm{max}\left( 0, \left(C_1 - \sum_{i=1}^{R-1} \pi_{i1}^{\prime} \right) - \sum_{i=j+1}^{J} r_i\right) \le \pi_{j1} \le \mathrm{min}\left(r_j, c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime}\right)$$
+This describes a process for sequentially calculating cell bounds from the top of the first column down to the bottom of that column. If the first column of a contingency table is fully allocated (and only those cells are allocated) then the remaining unallocated cells in columns $2 \dots C$ form a contingency table of dimensions $R \times (C-1)$ where the row margins are $R_1 - \pi_{11}, \dots, R_R - \pi_{R1}$. Hence, we can continue the allocation from the top cell of each column once the previous column is fully allocated.
 
-This describes a process for sequentially calculating cell bounds from the top of the first down to the bottom of that column. If the first column of a contingency table is fully allocated (and only those cells are allocated) then the remaining unallocated cells in columns $2 \dots K$ form a contingency table of dimensions $J, K-1$ where the row margins are $R_1 - \pi_{1,1}, \dots, R_J - \pi_{1,j}$. Hence, we can continue the allocation process from the top cell of each column once the previous column is fully allocated. This gives lower bound ($\alpha_{jk}$) and upper bound equation ($\beta_jk$) equations that can be sequentially calculated, so that $\alpha_{j,k} = \mathrm{max}\left( 0, \left(c_k - \sum_{i=1}^{k-1} \pi_{i1}^{\prime} \right) - \sum_{i=k+1}^{m} r_i\right)$ gives the lower bound of cell $\pi_{j,k}$ and $\beta_{[j,k]} = \mathrm{min}\left(r_k, c_1 - \sum_{i=1}^{k-1} \pi_{i1}^{\prime}\right)$ gives the upper bound of cell $\pi_{j,k}$.
-
-
-
+In general, when the cell $\pi_{rc}$ is reached, let $R^{\prime}_i = R_i - \sum_{j=1}^{c-1} \pi^{\prime}_{ij}$ be what is left of row $i$ and $C^{\prime}_{c} = C_c - \sum_{i=1}^{r-1} \pi^{\prime}_{ic}$ what is left of column $c$. The lower bound $\alpha_{rc}$ and upper bound $\beta_{rc}$ of the cell are then
+$$\alpha_{rc} = \mathrm{max}\left( 0, C^{\prime}_{c} - \sum_{i=r+1}^{R} R^{\prime}_i\right), \qquad \beta_{rc} = \mathrm{min}\left(R^{\prime}_r, C^{\prime}_{c}\right),$$
+and can be calculated sequentially. (The Stan code fills the table row by row rather than column by column, which is the same construction with rows and columns swapped.)
 
 ### Dealing with Reduced Degrees of Freedom Arising from Zeros in the Row or Column Margins
 
@@ -60,44 +61,40 @@ One finding from these models is that even when descriptions of simplexes have w
 
 ## The four allocation functions
 
-The three sequential allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point in the feasible space for a cell between the lower and upper feasible bounds.
+Three of the four allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point for a cell between its lower and upper feasible bounds. The fourth, adjusted table, instead solves for an adjustment to the whole table.
 
 ### Between bounds
 
-In the between bounds transformation the $R - 1 \times C - 1$ parameters describe the inverse logit of the feasible bound width. 
-The transformation operates sequentially starting from $\pi_{[1,1]}$. Each unconstrained importance parameter $\lambda_{[j,k]}$ gives a corresponding cell value $\pi_{[r,c]}$ between the lower bound ($\alpha_{[r,c]}$) and upper bound ($\beta_{[r,c]}$) possible for the cell given the row and column margins and any allocations already made to other cells.
+In the between bounds transformation each of the $(R - 1)(C - 1)$ unconstrained allocation parameters $\lambda_{rc}$ places a cell within its feasible range: $\text{logit}^{-1}(\lambda_{rc})$ is the cell's position between the lower and upper bounds, as a share of the width of that range. The transformation operates sequentially starting from $\pi_{11}$. Each parameter $\lambda_{rc}$ gives a cell value $\pi_{rc}$ between the lower bound ($\alpha_{rc}$) and upper bound ($\beta_{rc}$) possible for the cell given the row and column margins and any allocations already made to other cells.
 
-For rows $1 \dots R-1$ and columns $1 \dots C-1$ the unconstrained parameter $\lambda_{[r,c]}$ can be transformed to a value $\pi_{r,c}$ in a fixed range from the lower bound $\alpha_{[r,c]}$ to the upper bound of $\beta_{[r,c]}$ with a transformation involving the inverse logit function: $$\pi_{[j,k]} = \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]})$$
+For rows $1 \dots R-1$ and columns $1 \dots C-1$ the unconstrained parameter $\lambda_{rc}$ is transformed to a value $\pi_{rc}$ in the range from $\alpha_{rc}$ to $\beta_{rc}$ with the inverse logit function: $$\pi_{rc} = \alpha_{rc} + \frac{1}{1+e^{-\lambda_{rc}}}(\beta_{rc} - \alpha_{rc})$$
 
-For cells in column $K$ of rows $1 \dots J-1$, $C_{[1 \dots J-1, K]}$ the values is the given by the remaining row total $R_{[1 \dots J-1]}$ left to be allocated. For cells in row $J$ the value is given by the remaining column totals $C\_{\left[1 \dots J \right]}$ left to be allocated.
+For cells in column $C$ of rows $1 \dots R-1$ the value is given by the remaining row total left to be allocated. For cells in row $R$ the value is given by the remaining column total left to be allocated.
 
-This transformation gives cells values which are real numbers greater than or equal to 0. This continuous version is needed for the `stan` modelling, and can be thought of as generating something like an expected value of the cell. The algorithm can be easily amended to give cells as integer values, by rounding the transformed value to the nearest integer:
+This transformation gives cell values which are real numbers greater than or equal to 0. This continuous version is needed for the `stan` modelling, and can be thought of as generating something like an expected value of the cell. The algorithm can be amended to give cells as integer values, by rounding the transformed value to the nearest integer:
 
-$$\pi_{j,k} = \left\lfloor \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]}) \right\rceil$$
+$$\pi_{rc} = \left\lfloor \alpha_{rc} + \frac{1}{1+e^{-\lambda_{rc}}}(\beta_{rc} - \alpha_{rc}) \right\rceil$$
 
-Stan requires function to be differentiable, so I use continuous function to calculate approximations the lower bound  $\alpha_{[j,k]}$ and the upper bound $\beta_{[j,k]}$. We adapt the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/).
+Stan requires functions to be differentiable, so a continuous function can be used to approximate the lower bound $\alpha_{rc}$ and the upper bound $\beta_{rc}$. In earlier versions I adapted the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/).
 
-For the lower bound I approximate  $ \mathrm{max}\left(0, c_1 + r_1 - T )\right) $ with the function 
-$$\alpha_[j,k] = \delta \log \left(1 +  e^{\frac{c_1 + r_1 - T}{\delta}} \right)$$
-As $c_1 + r_1 - T$ fall below zero then this function quickly approximates to zero, when it is greater than zero the function approximates $c_1 + r_1 - T$. $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the max function). 
+<!-- CHECK: the smoothing in stan/functions/alloc_bounds.stan (delta > 0) is not the Gelman hinge below; it rounds each kink inward over about delta x the cell's range. Decide which to describe. -->
 
-Similarly, I estimate the upper bound $\mathrm{min} \left( r_1, c_1 \right)$ with the function 
-$$ -\delta \log \left(e^{\frac{-r_1}{\delta}} + e^{\frac{-c_1}{\delta}} \right)$$.
+For the lower bound I approximate $\mathrm{max}\left(0, C_1 + R_1 - T \right)$ with the function
+$$\alpha = \delta \log \left(1 +  e^{\frac{C_1 + R_1 - T}{\delta}} \right)$$
+As $C_1 + R_1 - T$ falls below zero this function quickly approaches zero; when it is greater than zero the function approximates $C_1 + R_1 - T$. $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the max function).
 
-Again $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the min function). 
+Similarly, I approximate the upper bound $\mathrm{min} \left( R_1, C_1 \right)$ with the function
+$$ -\delta \log \left(e^{\frac{-R_1}{\delta}} + e^{\frac{-C_1}{\delta}} \right)$$
 
-#### The Log Determinant of the Jacobian of the Transform for between bounds
+Again $\delta$ determines how quickly that happens (smaller values give a sharper approximation to the min function).
 
-Fortunately, many of the Jacobian components are zero, and the sequential nature of the transform means that the Jacobian matrix is upper triangle. The elements on the diagonal simplify to a convenient function of bound widths and importance parameters. If we re-index the $L = (J - 1)(K - 1)$ parameters for the upper bound ($\beta$) the lower bound ($\alpha$) and importance weight ($\lambda$) using $l = j + (k - 1)(J - 1)$, then:
+#### The log determinant of the Jacobian of the transform for between bounds
+
+Many of the Jacobian components are zero, and the sequential nature of the transform means that the Jacobian matrix is triangular. The elements on the diagonal simplify to a convenient function of bound widths and allocation parameters. If we re-index the $L = (R - 1)(C - 1)$ parameters, the upper bounds ($\beta$), the lower bounds ($\alpha$) and the allocation parameters ($\lambda$) using $l = r + (c - 1)(R - 1)$, then:
 
 $$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \textrm{logit}^{-1}(\lambda_1) \cdot (1 - \textrm{logit}^{-1}(\lambda_1))\right) + 
 \dots + 
 \ln \left( \left(\beta_L -\alpha_L \right) \cdot \textrm{logit}^{-1}(\lambda_L) \cdot (1 - \textrm{logit}^{-1}(\lambda_L))\right)$$
-
-
-## Extensions to arrays
-
-@Chen2006 and @Dinwoodie2011 describe sequential importance sampling methods for cases which are more complex cases, particular on sampling from multi-way tables. I have not yet tried to implement these in Stan but imagine it should be possible to do so.
 
 ### Cell logit
 
@@ -106,8 +103,7 @@ $$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \text
 
 ### Adjusted table
 
-
-### The four allocation functions work 
+## The four allocation functions work 
 In this section I show that the there is a one-to-one map from RxC onto the tables with specific margins.
 
 Each allocation function should be a one-to-one map from an unconstrained
@@ -146,6 +142,10 @@ exception is the smoothed between-bounds scheme, where about 1% of random
 tables are unreachable because smoothing the kinks pulls the cell away
 from the Fréchet bounds. The sharp version has no such gap.
 
+
+## Extensions to arrays
+
+@Chen2006 and @Dinwoodie2011 describe sequential importance sampling methods for more complex cases, in particular sampling from multi-way tables. I have not yet tried to implement these in Stan but imagine it should be possible to do so.
 
 ## An example: votes for parties and candidates
 
