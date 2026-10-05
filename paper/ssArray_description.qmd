@@ -95,6 +95,47 @@ In a case of an RxC contingency table with fixed margins where none of the margi
 
 One finding from these models is that even when descriptions of simplexes have wide equivalence the way in which they are parameterised can make a big difference to Stan.
 
+## The four allocation functions work
+
+In this section I show that the there is a one-to-one map from RxC onto the tables with specific margins.
+
+Each allocation function should be a one-to-one map from an unconstrained
+vector of $K = (R-1)(C-1)$ parameters onto the interior of the set of
+$R \times C$ tables with the given margins, with a Jacobian we can write
+down. We checked this for each scheme at table sizes from $2 \times 2$ to
+$7 \times 7$, at random margins and parameters, and for two fill orders (rows
+in order with the last column by subtraction, and a random row order with a
+random subtraction column in each row). The checks were:
+
+- **margins**: the largest relative error in a row or column total;
+- **smallest cell**: the smallest cell, as a share of the table total
+  (it should be positive);
+- **inverse**: the largest error in recovering the parameters from the table;
+- **Jacobian**: the largest gap between the stated log Jacobian determinant
+  and a finite-difference one;
+- **onto**: the largest error in mapping random interior tables to parameters
+  and back;
+- **unreachable**: the share of random tables with no parameter vector that
+  produces them.
+
+The table gives the worst case for each scheme over all sizes and orders.
+
+| Scheme | Margins | Smallest cell | Inverse | Jacobian | Onto | Unreachable |
+|---|---|---|---|---|---|---|
+| between bounds, sharp | 3.7e-16 | 6.6e-07 | 3.7e-12 | 1.0e-08 | 1.9e-16 | 0.0% |
+| between bounds, smoothed (delta 0.05) | 3.4e-16 | 8.0e-07 | 5.0e-12 | 4.9e-08 | 3.4e-16 | 1.0% |
+| cell logit | 3.4e-16 | 3.4e-06 | 1.2e-12 | 1.1e-08 | 6.9e-15 | 0.0% |
+| adjusted row | 3.7e-16 | 6.4e-08 | 2.1e-12 | 2.4e-08 | 2.6e-16 | 0.0% |
+| adjusted table | 5.7e-16 | 1.3e-06 | 1.8e-15 | 1.7e-08 | 1.0e-15 | 0.0% |
+
+
+Every scheme reproduces the margins to rounding error, returns strictly
+positive tables, inverts exactly and has a correct Jacobian. The one
+exception is the smoothed between-bounds scheme, where about 1% of random
+tables are unreachable because smoothing the kinks pulls the cell away
+from the Fréchet bounds. The sharp version has no such gap.
+
+
 ## An example: votes for parties and candidates
 
 ```{r define_tbl}
