@@ -61,19 +61,17 @@ One finding from these models is that even when descriptions of simplexes have w
 
 ## The four allocation functions
 
-Three of the four allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point for a cell between its lower and upper feasible bounds. The fourth, adjusted table, instead solves for an adjustment to the whole table.
+Three of the four allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point for a cell between its lower and upper feasible bounds. The fourth, adjusted table, instead solves for an adjustment to the whole table. All approaches give cell values which are real numbers greater than 0, which is the continuous version is needed for Stan modelling. 
 
-### Between bounds
+### Position logit
 
-In the between bounds transformation each of the $(R - 1)(C - 1)$ unconstrained allocation parameters $\lambda_{rc}$ places a cell within its feasible range: $\text{logit}^{-1}(\lambda_{rc})$ is the cell's position between the lower and upper bounds, as a share of the width of that range. The transformation operates sequentially starting from $\pi_{11}$. Each parameter $\lambda_{rc}$ gives a cell value $\pi_{rc}$ between the lower bound ($\alpha_{rc}$) and upper bound ($\beta_{rc}$) possible for the cell given the row and column margins and any allocations already made to other cells.
+In the position transformation each of the $(R - 1)(C - 1)$ unconstrained allocation parameters $\lambda_{rc}$ places a cell within its feasible range: $\text{logit}^{-1}(\lambda_{rc})$ is the cell's position between the lower and upper bounds, as a share of the width of that range. The transformation operates sequentially starting from $\pi_{11}$. Each parameter $\lambda_{rc}$ gives a cell value $\pi_{rc}$ between the lower bound ($\alpha_{rc}$) and upper bound ($\beta_{rc}$) possible for the cell given the row and column margins and any allocations already made to other cells.
 
 For rows $1 \dots R-1$ and columns $1 \dots C-1$ the unconstrained parameter $\lambda_{rc}$ is transformed to a value $\pi_{rc}$ in the range from $\alpha_{rc}$ to $\beta_{rc}$ with the inverse logit function: $$\pi_{rc} = \alpha_{rc} + \frac{1}{1+e^{-\lambda_{rc}}}(\beta_{rc} - \alpha_{rc})$$
 
 For cells in column $C$ of rows $1 \dots R-1$ the value is given by the remaining row total left to be allocated. For cells in row $R$ the value is given by the remaining column total left to be allocated.
 
-This transformation gives cell values which are real numbers greater than or equal to 0. This continuous version is needed for the `stan` modelling, and can be thought of as generating something like an expected value of the cell. The algorithm can be amended to give cells as integer values, by rounding the transformed value to the nearest integer:
 
-$$\pi_{rc} = \left\lfloor \alpha_{rc} + \frac{1}{1+e^{-\lambda_{rc}}}(\beta_{rc} - \alpha_{rc}) \right\rceil$$
 
 Stan requires functions to be differentiable, so a continuous function can be used to approximate the lower bound $\alpha_{rc}$ and the upper bound $\beta_{rc}$. In earlier versions I adapted the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/).
 
@@ -88,7 +86,7 @@ $$ -\delta \log \left(e^{\frac{-R_1}{\delta}} + e^{\frac{-C_1}{\delta}} \right)$
 
 Again $\delta$ determines how quickly that happens (smaller values give a sharper approximation to the min function).
 
-#### The log determinant of the Jacobian of the transform for between bounds
+#### The log determinant of the Jacobian of the transform for position logit
 
 Many of the Jacobian components are zero, and the sequential nature of the transform means that the Jacobian matrix is triangular. The elements on the diagonal simplify to a convenient function of bound widths and allocation parameters. If we re-index the $L = (R - 1)(C - 1)$ parameters, the upper bounds ($\beta$), the lower bounds ($\alpha$) and the allocation parameters ($\lambda$) using $l = r + (c - 1)(R - 1)$, then:
 
@@ -96,12 +94,13 @@ $$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \text
 \dots + 
 \ln \left( \left(\beta_L -\alpha_L \right) \cdot \textrm{logit}^{-1}(\lambda_L) \cdot (1 - \textrm{logit}^{-1}(\lambda_L))\right)$$
 
-### Cell logit
+### Odds-ratio logit
 
 ### Adjusted row
 
 
 ### Adjusted table
+
 
 ## The four allocation functions work 
 In this section I show that the there is a one-to-one map from RxC onto the tables with specific margins.
@@ -129,19 +128,24 @@ The table gives the worst case for each scheme over all sizes and orders.
 
 | Scheme | Margins | Smallest cell | Inverse | Jacobian | Onto | Unreachable |
 |---|---|---|---|---|---|---|
-| between bounds, sharp | 3.7e-16 | 6.6e-07 | 3.7e-12 | 1.0e-08 | 1.9e-16 | 0.0% |
-| between bounds, smoothed (delta 0.05) | 3.4e-16 | 8.0e-07 | 5.0e-12 | 4.9e-08 | 3.4e-16 | 1.0% |
-| cell logit | 3.4e-16 | 3.4e-06 | 1.2e-12 | 1.1e-08 | 6.9e-15 | 0.0% |
+| position logit, sharp | 3.7e-16 | 6.6e-07 | 3.7e-12 | 1.0e-08 | 1.9e-16 | 0.0% |
+| position logit, smoothed (delta 0.05) | 3.4e-16 | 8.0e-07 | 5.0e-12 | 4.9e-08 | 3.4e-16 | 1.0% |
+| odds-ratio logit | 3.4e-16 | 3.4e-06 | 1.2e-12 | 1.1e-08 | 6.9e-15 | 0.0% |
 | adjusted row | 3.7e-16 | 6.4e-08 | 2.1e-12 | 2.4e-08 | 2.6e-16 | 0.0% |
 | adjusted table | 5.7e-16 | 1.3e-06 | 1.8e-15 | 1.7e-08 | 1.0e-15 | 0.0% |
 
 
 Every scheme reproduces the margins to rounding error, returns strictly
 positive tables, inverts exactly and has a correct Jacobian. The one
-exception is the smoothed between-bounds scheme, where about 1% of random
+exception is the smoothed position-logit scheme, where about 1% of random
 tables are unreachable because smoothing the kinks pulls the cell away
 from the Fréchet bounds. The sharp version has no such gap.
 
+### Integer version
+
+The algorithm can be amended to give cells as integer values, by rounding the transformed value to the nearest integer:
+
+$$\pi_{rc} = \left\lfloor \alpha_{rc} + \frac{1}{1+e^{-\lambda_{rc}}}(\beta_{rc} - \alpha_{rc}) \right\rceil$$
 
 ## Extensions to arrays
 
