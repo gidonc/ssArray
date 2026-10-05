@@ -63,7 +63,7 @@ One finding from these models is that even when descriptions of simplexes have w
 
 Three of the four allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point for a cell between its lower and upper feasible bounds. The fourth, adjusted table, instead solves for an adjustment to the whole table.
 
-### Between bounds
+### Position logit (between bounds)
 
 In the between bounds transformation each of the $(R - 1)(C - 1)$ unconstrained allocation parameters $\lambda_{rc}$ places a cell within its feasible range: $\text{logit}^{-1}(\lambda_{rc})$ is the cell's position between the lower and upper bounds, as a share of the width of that range. The transformation operates sequentially starting from $\pi_{11}$. Each parameter $\lambda_{rc}$ gives a cell value $\pi_{rc}$ between the lower bound ($\alpha_{rc}$) and upper bound ($\beta_{rc}$) possible for the cell given the row and column margins and any allocations already made to other cells.
 
@@ -96,12 +96,36 @@ $$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \text
 \dots + 
 \ln \left( \left(\beta_L -\alpha_L \right) \cdot \textrm{logit}^{-1}(\lambda_L) \cdot (1 - \textrm{logit}^{-1}(\lambda_L))\right)$$
 
-### Cell logit
+### Odds-ratio logit (cell logit)
+
+The odds-ratio logit uses the same sequential fill as the position logit, but each allocation parameter is the log odds ratio of a $2 \times 2$ table, not a position between bounds. When cell $\pi_{rc} = x$ is reached, collapse the rest of the table around it: let $s_R$ be what is left of the row, $s_C$ what is left of the column, and $\rho$ what is left of the columns the row has not yet visited. The cell sits in the table
+
+$$\begin{pmatrix} x & s_R - x \\ s_C - x & \rho - s_R + x \end{pmatrix}$$
+
+and its log odds ratio is
+$$\lambda = \log x + \log(\rho - s_R + x) - \log(s_R - x) - \log(s_C - x).$$
+
+The odds ratio increases with $x$, so for any $\lambda$ there is exactly one $x$ strictly inside the feasible range, found as the root of a quadratic. As $\lambda$ runs over the real line $x$ covers the whole range from $\alpha_{rc}$ to $\beta_{rc}$, and $\lambda = 0$ is independence: $x = s_R s_C / (s_C + \rho)$. As with the position logit the Jacobian is triangular, with the derivative of $x$ with respect to $\lambda$ on the diagonal. The difference is in the geometry: the position logit's midpoint is the middle of the feasible range and its bounds have kinks (where the binding bound changes), whereas here the cell is a smooth function of $s_R$, $s_C$ and $\rho$, so no smoothing parameter $\delta$ is needed.
 
 ### Adjusted row
 
+The adjusted row function allocates a whole row in one step instead of one cell at a time. For the row being filled, let $\kappa_c$ be the capacity left in column $c$ after earlier rows. The cells of the row are
+
+$$x_c = \kappa_c \cdot \text{logit}^{-1}(\eta_c + \tau),$$
+
+where the $\eta_c$ are free parameters (one column, the reference column, has $\eta_c = 0$, which leaves $C - 1$ free parameters per row) and $\tau$ is a single adjustment that is solved so that the row adds up to its total. The row total is increasing in $\tau$, so this is a one-dimensional monotone solve. Rows are filled in turn and the last row is found by subtraction, giving $(R-1)(C-1)$ free parameters in all.
+
+Each cell lies strictly between zero and its column's remaining capacity, the row total is met exactly, the whole feasible range can be reached and there are no kinks. The solve for $\tau$ is implicit, but the Jacobian of a row with respect to its $\eta$ parameters has a closed form (a rank-one adjustment of a diagonal matrix), and the Jacobian of the whole table is block triangular across rows.
 
 ### Adjusted table
+
+The adjusted table function allocates the whole table at once, in the manner of raking (iterative proportional fitting). The cells are
+
+$$\pi_{rc} = \exp(\theta_{rc} + u_r + v_c),$$
+
+where $\theta$ holds the $(R-1)(C-1)$ free parameters, which are log odds ratios against the last row and last column ($\theta$ is zero in the last row and column), and $u_r$ and $v_c$ are one adjustment per row and per column, solved jointly so that both sets of margins are met. The table is exactly the one that raking converges to when started from the seed $\exp(\theta)$.
+
+The adjustments minimise a convex function, so for any $\theta$ they exist and are unique (up to the one redundant direction between $u$ and $v$, fixed by setting $v_C = 0$). There is no fill order and there are no kinks. The price is that each evaluation requires solving a system of $R + C - 1$ equations (a few raking sweeps and then Newton steps), and the Jacobian is found by implicit differentiation, so it is not triangular and its cost grows more quickly with table size than for the sequential functions.
 
 ## The four allocation functions work 
 In this section I show that the there is a one-to-one map from RxC onto the tables with specific margins.
