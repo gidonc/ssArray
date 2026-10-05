@@ -22,7 +22,8 @@ data {
   int<lower=0, upper=5> param;
   vector<lower=0>[R] obs_w;                            // observed row totals
   vector<lower=0>[C] obs_m;                            // observed column totals
-  real<lower=0> eps;                                   // relative width of the margin penalty
+  real<lower=0> eps;
+  int<lower=0, upper=1> scale_margins;                 // sequential versions: 1 = margin parameters on the scale of the penalty                                   // relative width of the margin penalty
   matrix[R * C, R * C - 1] V;                          // ILR basis (orthonormal columns, each summing to zero), cells row by row
   vector[R * C - 1] mu_b;
   vector<lower=0>[R * C - 1] sigma_b;
@@ -39,7 +40,7 @@ transformed parameters {
   matrix[R, C] T;
   real lj;
   {
-    matrix[R + 1, C] a = sa_table(theta, param, R, C, V, obs_w, obs_m, eps, row_order, rem_col, delta);
+    matrix[R + 1, C] a = sa_table(theta, param, R, C, V, obs_w, obs_m, eps, scale_margins, row_order, rem_col, delta);
     T = a[1:R, 1:C];
     lj = a[R + 1, 1];
   }

@@ -24,12 +24,13 @@ sa_helmert <- function(D) {
 }
 
 # data list for the model; only the margins of `tab` are used
-sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0) {
+sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0, scale_margins = 0) {
   tab <- unclass(as.matrix(tab))
   R <- nrow(tab); C <- ncol(tab); D <- R * C
   w <- as.numeric(rowSums(tab)); m <- as.numeric(colSums(tab))
   list(
     R = R, C = C, param = param, obs_w = w, obs_m = m, eps = eps,
+    scale_margins = scale_margins,                            # sequential versions: 1 = margin parameters on the penalty's scale
     V = sa_helmert(D),
     mu_b = rep(0, D - 1), sigma_b = rep(sigma_b, D - 1),      # placeholder prior
     mu_logv = log(sum(w)), sigma_logv = 1,
