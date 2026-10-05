@@ -2,6 +2,7 @@
 title: "Arrays with Fixed Margins in Stan"
 author: "Gidon Cohen"
 format: html
+bibliography: references.bib
 editor: source
 ---
 
