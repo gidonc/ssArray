@@ -1,7 +1,7 @@
 ---
 title: "Arrays with Fixed Margins in Stan"
 author: "Gidon Cohen"
-format: pdf
+format: html
 editor: source
 ---
 
@@ -62,7 +62,7 @@ This transformation gives cells values which are real numbers greater than or eq
 
 $$\pi_{j,k} = \left\lfloor \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]}) \right\rceil$$
 
-Stan requires function to be differentiable, so I use continuous function to calculate approximations the lower bound  $\alpha_{[j,k]}$ and the upper bound $\beta_{[j,k]}$. We adapt the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/). 
+Stan requires function to be differentiable, so I use continuous function to calculate approximations the lower bound  $\alpha_{[j,k]}$ and the upper bound $\beta_{[j,k]}$. We adapt the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/).
 
 For the lower bound I approximate  $ \mathrm{max}\left(0, c_1 + r_1 - T )\right) $ with the function 
 $$\alpha_[j,k] = \delta \log \left(1 +  e^{\frac{c_1 + r_1 - T}{\delta}} \right)$$
