@@ -1,0 +1,191 @@
+---
+title: "Arrays with Fixed Margins in Stan"
+author: "Gidon Cohen"
+format: pdf
+editor: source
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+
+library(rstan)
+library(tidyverse)
+library(janitor)
+library(huxtable)
+
+exact_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/exact_1.stan"
+
+soft_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/soft_1.stan"
+
+hybrid_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/hybrid_1.stan"
+
+```
+
+In this note I describe some approaches to modeling matricies and arrays with fixed row and column margins in Stan where cell counts must be positive. To assist with modelling I relax the assumption that cell counts must be integers. Integer cell counts summing exactly to margin constraints are obtained in generated quantities using integer versions sequential sampling algorithms described below. The approaches works by making allocations sequentially, e.g. to each cell in turn, where each allocation ensures that the realisation of an overall table or array summing to the fixed margin remains possible. 
+
+To illustrate some of the advantages of sequential sampling I also describe a raking approach to realising tables with exact margins. 
+
+1.  Exact margin approach. This approach is like a two-way stick breaking algorithm. It uses ideas from Sequential Importance Sampling (Chen et. al 2005) to build an algorithm based on an an unconstrained importance space to produce cell counts that ensure that both margin constraints are met. Thus, $(R - 1)(C - 1)$ unconstrained importance weight parameters ($\lambda$) are transformed to RxC cell values which sum precisely to row and column margins. Because the transform is sequential, the Jacobian is quite straightforward.  
+The resulting cell counts can be modeled in various ways including for example by further transforming the cell counts to the simplex underlying the table. In the examples below I further transform the cell values to an RxC - 1 simplex representation of the table ($\text{ilr}$) in order to provide structured information about the type of table to be generated. 
+
+## Details of the exact margin approach
+
+
+Frèchet bounds, describe the maximum and minimum value of each cell in a two-way table with known row and column sums as: 
+
+$$ \mathrm{max}\left(0, c_k + r_j - T \right) \le \pi_{jk} \le \mathrm{min} \left( r_j, c_k \right)$$
+
+Given these bounds, @Chen2005 describe a procedure the sequentially allocate values to cells in a way that constructs only valid two-way contingency table with fixed margins. Their approach begins the allocation from the top-left cell in the table ($\pi_{11}$). In this table, with no cells allocated they consider the limits on cell $\pi_{11}$:
+
+$$ \mathrm{max}\left(0, c_1 + r_1 - T )\right) \le \pi_{11} \le \mathrm{min} \left( r_1, c_1 \right)$$
+
+This is the only condition that $\pi_{11}$ needs to satisfy. Recursively suppose that we have chosen $\pi_{i1}= \pi^{\prime}_{i1}$. for $1 \le i \le k -1$, then the only restriction on $\pi_{k1}$ is $$ \mathrm{max}\left( 0, \left(c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime} \right) - \sum_{i=j+1}^{J} r_i\right) \le \pi_{j1} \le \mathrm{min}\left(r_j, c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime}\right)$$
+
+This describes a process for sequentially calculating cell bounds from the top of the first down to the bottom of that column. If the first column of a contingency table is fully allocated (and only those cells are allocated) then the remaining unallocated cells in columns $2 \dots K$ form a contingency table of dimensions $J, K-1$ where the row margins are $R_1 - \pi_{1,1}, \dots, R_J - \pi_{1,j}$. Hence, we can continue the allocation process from the top cell of each column once the previous column is fully allocated. This gives lower bound ($\alpha_{jk}$) and upper bound equation ($\beta_jk$) equations that can be sequentially calculated, so that $\alpha_{j,k} = \mathrm{max}\left( 0, \left(c_k - \sum_{i=1}^{k-1} \pi_{i1}^{\prime} \right) - \sum_{i=k+1}^{m} r_i\right)$ gives the lower bound of cell $\pi_{j,k}$ and $\beta_{[j,k]} = \mathrm{min}\left(r_k, c_1 - \sum_{i=1}^{k-1} \pi_{i1}^{\prime}\right)$ gives the upper bound of cell $\pi_{j,k}$.
+
+### Incorporating SIS-constraints in a Stan Model
+
+Take a matrix with $J$ rows and $K$ columns, where the row margins are given in a vector $R_{[1 \dots J]}$ and the column margins given in a vector $C_{[1 \dots K]}$, but the the value of each of the individual cells $\pi_{j,k}$, the internal structure of the matrix, is unknown. I describe a way of transforming $L = (J-1)(K-1)$ parameters ($\lambda_{\left[J-1, K-1]\right]}$) into the $J \cdot K$ cell values, $\pi_{[1 \dots J,1 \dots K]}$, that are the internal structure of that matrix that sum to the defined row and column margins.
+
+<!-- We  describe a transformation of parameters $\lambda_{\left[J-1, K-1]\right]}$ in cell values $\pi_{[J, K]}$ such that the cell values sum to  row and column totals given in vectors $R_{[1 \dots J]}$ and $C_{[1 \dots K]}$.  -->
+
+The transformation operates sequentially starting from $\pi_{[1,1]}$. Each unconstrained importance parameter $\lambda_{[j,k]}$ gives a corresponding cell value $\pi_{[j,k]}$ between the lower bound ($\alpha_{[j,k]}$) and upper bound ($\beta_{[j,k]}$) possible for the cell given the row and column margins and any allocations already made to other cells.
+
+For rows $1 \dots J-1$ and columns $1 \dots K-1$ the unconstrained parameter $\lambda_{[j,k]}$ can be transformed to a value $\pi_{j,k}$ in a fixed range from the lower bound $\alpha_{[j,k]}$ to the upper bound of $\beta_{[j,k]}$ with a transformation involving the inverse logit function: $$\pi_{[j,k]} = \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]})$$
+
+For cells in column $K$ of rows $1 \dots J-1$, $C_{[1 \dots J-1, K]}$ the values is the given by the remaining row total $R_{[1 \dots J-1]}$ left to be allocated. For cells in row $J$ the value is given by the remaining column totals $C\_{\left[1 \dots J \right]}$ left to be allocated.
+
+This transformation gives cells values which are real numbers greater than or equal to 0. This continuous version is needed for the `stan` modelling, and can be thought of as generating something like an expected value of the cell. The algorithm can be easily amended to give cells as integer values, by rounding the transformed value to the nearest integer:
+
+$$\pi_{j,k} = \left\lfloor \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]}) \right\rceil$$
+
+Stan requires function to be differentiable, so I use continuous function to calculate approximations the lower bound  $\alpha_{[j,k]}$ and the upper bound $\beta_{[j,k]}$. We adapt the continuous hinge functions described by Andrew Gelman on his [blog](https://statmodeling.stat.columbia.edu/2017/05/19/continuous-hinge-function-bayesian-modeling/). 
+
+For the lower bound I approximate  $ \mathrm{max}\left(0, c_1 + r_1 - T )\right) $ with the function 
+$$\alpha_[j,k] = \delta \log \left(1 +  e^{\frac{c_1 + r_1 - T}{\delta}} \right)$$
+As $c_1 + r_1 - T$ fall below zero then this function quickly approximates to zero, when it is greater than zero the function approximates $c_1 + r_1 - T$. $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the max function). 
+
+Similarly, I estimate the upper bound $\mathrm{min} \left( r_1, c_1 \right)$ with the function 
+$$ -\delta \log \left(e^{\frac{-r_1}{\delta}} + e^{\frac{-c_1}{\delta}} \right)$$.
+
+Again $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the min function). 
+
+### The Log Determinant of the Jacobian of the Transform
+
+Fortunately, many of the Jacobian components are zero, and the sequential nature of the transform means that the Jacobian matrix is upper triangle. The elements on the diagonal simplify to a convenient function of bound widths and importance parameters. If we re-index the $L = (J - 1)(K - 1)$ parameters for the upper bound ($\beta$) the lower bound ($\alpha$) and importance weight ($\lambda$) using $l = j + (k - 1)(J - 1)$, then:
+
+$$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \textrm{logit}^{-1}(\lambda_1) \cdot (1 - \textrm{logit}^{-1}(\lambda_1))\right) + 
+\dots + 
+\ln \left( \left(\beta_L -\alpha_L \right) \cdot \textrm{logit}^{-1}(\lambda_L) \cdot (1 - \textrm{logit}^{-1}(\lambda_L))\right)$$
+
+
+### Dealing with Reduced Degrees of Freedom Arising from Zeros in the Row or Column Margins
+
+In a case of an RxC contingency table with fixed margins where none of the margins are equal to zero, then there are $(R - 1)(C - 1)$ degrees of freedom, which defines the number of parameters needed to fully allocate the table by the sequential sampling. In the case that some of the margins are equal to zero, then this reduces the degrees of freedom because all of the cells in any row of column with a margin sum of zero are required to be zero. To deal with the reduced number of parameters required, I make the allocations in a reduced dimension matrix (with zero rows and columns removed), and then increase to the RxC dimensions by inserting rows and/or columns of zero counts into the cells which make up the rows and/or columns that sum to zero.
+
+## Further Extensions
+
+@Chen2006 and @Dinwoodie2011 describe sequential importance sampling methods for cases which are more complex cases, particular on sampling from multi-way tables. I have not yet tried to implement these in Stan but imagine it should be possible to do so.
+
+
+## Representations of the table simplex
+
+One finding from these models is that even when descriptions of simplexes have wide equivalence the way in which they are parameterised can make a big difference to Stan.
+
+## An example: votes for parties and candidates
+
+```{r define_tbl, eval = FALSE}
+#| echo: false
+#| warning: false
+#| message: false
+s60_rm <- c("con" = 1721, "lab" = 12111, "lib" = 1570, "other" = 525, "green" = 281, "SNP" = 6998, "spoil" = 667)
+s60_cm <- c("con" = 1648, "lab" = 9437, "lib" = 1494, "other" = 2708, "green" = 580, "SNP" = 7198, "spoil" = 808)
+actual_cell_60 <- structure(list(row_no = c(1, 2, 3, 6, 7, 4, 5, 1, 2, 3, 6, 7,
+                          4, 5, 1, 2, 3, 6, 7, 4, 5, 1, 2, 3, 6, 7, 4, 5, 1, 2, 3, 6, 7,
+                          4, 5, 1, 2, 3, 6, 7, 4, 5, 1, 2, 3, 6, 7, 4, 5),
+               col_no = c(1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7),
+               actual_cell_value = c(1202, 277, 62, 54, 36, 6, 11, 29, 8941, 61, 129, 203, 53, 21, 25, 320, 1023, 74, 28, 19, 5, 353, 1076, 183, 502, 97, 328, 169, 27, 225, 121, 122, 10, 38, 37, 46, 771, 105, 6007, 168, 71, 30, 39, 501, 15, 110, 125, 10, 8)), row.names = c(NA, -49L), class = c("tbl_df", "tbl", "data.frame"))
+```
+
+```{r formattbl, eval=FALSE}
+name_lookup <- function(x){
+  case_when(
+    x == 1 ~ "con",
+    x == 2 ~ "lab",
+    x == 3 ~ "lib",
+    x == 4 ~ "other",
+    x == 5 ~ "green",
+    x == 6 ~ "SNP",
+    x == 7 ~ "spoil"
+  )
+}
+
+n_diag <- min(length(unique(actual_cell_60$row_no)), 
+              length(unique(actual_cell_60$col_no)))
+diag_coords <- cbind(1:n_diag + 1, 1:n_diag + 1)
+
+```
+
+```{r margin_tbl, eval = FALSE}
+#| tbl-cap: "Marginal Total Votes in the 2008 Scottish Parliament Election for party lists (rows) and candidates with party labels (columns). Substantively we know that a large volume of the vote splits in this table will sit on the diagonal with voters choosing the same party with both votes."
+
+ht_blank <- actual_cell_60 |>
+  mutate(
+    row = name_lookup(row_no),
+    col = name_lookup(col_no)
+  ) |>
+  arrange(col_no, row_no) |>
+  select(actual_cell_value, row, col) |> 
+  pivot_wider(names_from = col, values_from = actual_cell_value) |>
+  adorn_totals(where = c("row", "col")) |>
+  # rename(" " = row) |>
+  mutate(across(-c(row, Total), \(x) ifelse(row == "Total", x, ""))) |>
+  as_huxtable() |>
+  set_font_size(8) |>
+  set_bold(1, everywhere, TRUE) |>
+  set_bold(everywhere, 1, TRUE) |>
+  set_bottom_border(1, everywhere, 0.4) |>
+  set_bottom_border(final(1), everywhere, 0.4) |>
+  set_bold(final(1), everywhere, TRUE) |>
+  set_bold(everywhere, final(1), TRUE)|>
+  set_all_padding(3)
+
+background_color(ht_blank)[diag_coords] <- "#FFF2AC"
+number_format(ht_blank) <- list(function(x) format(x, big.mark = ",", scientific = FALSE)) 
+
+ht_blank
+```
+
+
+```{r full_tbl, eval=FALSE}
+#| echo: false
+#| warning: false
+#| message: false
+#| tbl-cap: "Votes in the 2008 Scottish Parliament Election for party lists (rows) and candidates with party labels (columns)."
+
+ht <- actual_cell_60 |>
+  mutate(row = name_lookup(row_no),
+         col = name_lookup(col_no)) |>
+  arrange(col_no, row_no) |>
+  select(actual_cell_value, row, col) |> 
+  pivot_wider(names_from = col, values_from = actual_cell_value) |>
+  adorn_totals(where = c("row", "col")) |>
+  rename(" "=row)|>
+  as_huxtable() |>
+  set_bold(1, everywhere, TRUE) |>              # Bold column headers
+  set_bottom_border(1, everywhere, 0.4) |>      # Top rule below header
+  set_bottom_border(final(1), everywhere, 0.4) |># Bottom rule above totals
+  set_bold(final(1), everywhere, TRUE) |>        # Bold total row
+  set_bold(everywhere, final(1), TRUE)  |>        # Bold total column
+  set_bold(everywhere, 1, TRUE) |> 
+  set_font_size(9) |>
+  set_all_padding(3)
+background_color(ht)[diag_coords] <- "#FFF2AC"
+number_format(ht) <- list(function(x) format(x, big.mark = ",", scientific = FALSE)) 
+
+ht
+
+```
