@@ -12,6 +12,7 @@ paper/*.log
 paper/*.tex
 paper/*.aux
 paper/*.pdf
+paper/*.html
 paper/*_files/
 paper/*_cache/
 .quarto/
