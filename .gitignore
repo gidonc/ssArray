@@ -6,3 +6,12 @@ stan/*.o
 __pycache__/
 .Rhistory
 .Rproj.user/
+
+# Quarto / LaTeX by-products (keep the .qmd, not what it builds)
+paper/*.log
+paper/*.tex
+paper/*.aux
+paper/*.pdf
+paper/*_files/
+paper/*_cache/
+.quarto/
