@@ -1,5 +1,7 @@
 # compiled Stan programs and build files
 stan/check_alloc
+stan/check_single_area
+stan/single_area
 stan/*.hpp
 stan/*.o
 *.exe
