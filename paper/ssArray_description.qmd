@@ -4,6 +4,10 @@ author: "Gidon Cohen"
 format: html
 bibliography: references.bib
 editor: source
+execute: 
+  echo: false
+  message: false
+  warning: false
 ---
 
 ```{r}
@@ -125,7 +129,7 @@ diag_coords <- cbind(1:n_diag + 1, 1:n_diag + 1)
 
 ```
 
-```{r margin_tbl, eval = FALSE}
+```{r margin_tbl}
 #| tbl-cap: "Marginal Total Votes in the 2008 Scottish Parliament Election for party lists (rows) and candidates with party labels (columns). Substantively we know that a large volume of the vote splits in this table will sit on the diagonal with voters choosing the same party with both votes."
 
 ht_blank <- actual_cell_60 |>
@@ -156,7 +160,7 @@ ht_blank
 ```
 
 
-```{r full_tbl, eval=FALSE}
+```{r full_tbl}
 #| echo: false
 #| warning: false
 #| message: false
