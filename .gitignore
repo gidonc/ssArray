@@ -1,0 +1,8 @@
+# compiled Stan programs and build files
+stan/check_alloc
+stan/*.hpp
+stan/*.o
+*.exe
+__pycache__/
+.Rhistory
+.Rproj.user/
