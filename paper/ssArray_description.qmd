@@ -31,30 +31,43 @@ To illustrate some of the advantages of sequential sampling I also describe a ra
 1.  Exact margin approach. This approach is like a two-way stick breaking algorithm. It uses ideas from Sequential Importance Sampling (Chen et. al 2005) to build an algorithm based on an an unconstrained importance space to produce cell counts that ensure that both margin constraints are met. Thus, $(R - 1)(C - 1)$ unconstrained importance weight parameters ($\lambda$) are transformed to RxC cell values which sum precisely to row and column margins. Because the transform is sequential, the Jacobian is quite straightforward.  
 The resulting cell counts can be modeled in various ways including for example by further transforming the cell counts to the simplex underlying the table. In the examples below I further transform the cell values to an RxC - 1 simplex representation of the table ($\text{ilr}$) in order to provide structured information about the type of table to be generated. 
 
-## Details of the exact margin approach
+## Basis of the sequential sampling approaches
 
 
-Frèchet bounds, describe the maximum and minimum value of each cell in a two-way table with known row and column sums as: 
+Frèchet bounds, describe the maximum and minimum value of each cell in a two-way table with a total population of $T$ with known row margins as $R_1 \dots R_R$ and column margins $C_1 \dots C_C$ as: 
 
-$$ \mathrm{max}\left(0, c_k + r_j - T \right) \le \pi_{jk} \le \mathrm{min} \left( r_j, c_k \right)$$
+$$ \mathrm{max}\left(0, C_c + R_r - T \right) \le \pi_{jk} \le \mathrm{min} \left( R_r, C_c \right)$$
 
 Given these bounds, @Chen2005 describe a procedure the sequentially allocate values to cells in a way that constructs only valid two-way contingency table with fixed margins. Their approach begins the allocation from the top-left cell in the table ($\pi_{11}$). In this table, with no cells allocated they consider the limits on cell $\pi_{11}$:
 
-$$ \mathrm{max}\left(0, c_1 + r_1 - T )\right) \le \pi_{11} \le \mathrm{min} \left( r_1, c_1 \right)$$
+$$ \mathrm{max}\left(0, C_1 + R_1 - T )\right) \le \pi_{11} \le \mathrm{min} \left( R_1, C_1 \right)$$
 
-This is the only condition that $\pi_{11}$ needs to satisfy. Recursively suppose that we have chosen $\pi_{i1}= \pi^{\prime}_{i1}$. for $1 \le i \le k -1$, then the only restriction on $\pi_{k1}$ is $$ \mathrm{max}\left( 0, \left(c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime} \right) - \sum_{i=j+1}^{J} r_i\right) \le \pi_{j1} \le \mathrm{min}\left(r_j, c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime}\right)$$
+This is the only condition that $\pi_{11}$ needs to satisfy. Recursively suppose that we have chosen $\pi_{i1}= \pi^{\prime}_{i1}$. for $1 \le i \le k -1$, then the only restriction on $\pi_{k1}$ is $$ \mathrm{max}\left( 0, \left(C_1 - \sum_{i=1}^{R-1} \pi_{i1}^{\prime} \right) - \sum_{i=j+1}^{J} r_i\right) \le \pi_{j1} \le \mathrm{min}\left(r_j, c_1 - \sum_{i=1}^{j-1} \pi_{i1}^{\prime}\right)$$
 
 This describes a process for sequentially calculating cell bounds from the top of the first down to the bottom of that column. If the first column of a contingency table is fully allocated (and only those cells are allocated) then the remaining unallocated cells in columns $2 \dots K$ form a contingency table of dimensions $J, K-1$ where the row margins are $R_1 - \pi_{1,1}, \dots, R_J - \pi_{1,j}$. Hence, we can continue the allocation process from the top cell of each column once the previous column is fully allocated. This gives lower bound ($\alpha_{jk}$) and upper bound equation ($\beta_jk$) equations that can be sequentially calculated, so that $\alpha_{j,k} = \mathrm{max}\left( 0, \left(c_k - \sum_{i=1}^{k-1} \pi_{i1}^{\prime} \right) - \sum_{i=k+1}^{m} r_i\right)$ gives the lower bound of cell $\pi_{j,k}$ and $\beta_{[j,k]} = \mathrm{min}\left(r_k, c_1 - \sum_{i=1}^{k-1} \pi_{i1}^{\prime}\right)$ gives the upper bound of cell $\pi_{j,k}$.
 
-### Incorporating SIS-constraints in a Stan Model
 
-Take a matrix with $J$ rows and $K$ columns, where the row margins are given in a vector $R_{[1 \dots J]}$ and the column margins given in a vector $C_{[1 \dots K]}$, but the the value of each of the individual cells $\pi_{j,k}$, the internal structure of the matrix, is unknown. I describe a way of transforming $L = (J-1)(K-1)$ parameters ($\lambda_{\left[J-1, K-1]\right]}$) into the $J \cdot K$ cell values, $\pi_{[1 \dots J,1 \dots K]}$, that are the internal structure of that matrix that sum to the defined row and column margins.
 
-<!-- We  describe a transformation of parameters $\lambda_{\left[J-1, K-1]\right]}$ in cell values $\pi_{[J, K]}$ such that the cell values sum to  row and column totals given in vectors $R_{[1 \dots J]}$ and $C_{[1 \dots K]}$.  -->
 
-The transformation operates sequentially starting from $\pi_{[1,1]}$. Each unconstrained importance parameter $\lambda_{[j,k]}$ gives a corresponding cell value $\pi_{[j,k]}$ between the lower bound ($\alpha_{[j,k]}$) and upper bound ($\beta_{[j,k]}$) possible for the cell given the row and column margins and any allocations already made to other cells.
+### Dealing with Reduced Degrees of Freedom Arising from Zeros in the Row or Column Margins
 
-For rows $1 \dots J-1$ and columns $1 \dots K-1$ the unconstrained parameter $\lambda_{[j,k]}$ can be transformed to a value $\pi_{j,k}$ in a fixed range from the lower bound $\alpha_{[j,k]}$ to the upper bound of $\beta_{[j,k]}$ with a transformation involving the inverse logit function: $$\pi_{[j,k]} = \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]})$$
+In a case of an RxC contingency table with fixed margins where none of the margins are equal to zero, then there are $(R - 1)(C - 1)$ degrees of freedom, which defines the number of parameters needed to fully allocate the table by the sequential sampling. In the case that some of the margins are equal to zero, then this reduces the degrees of freedom because all of the cells in any row of column with a margin sum of zero are required to be zero. To deal with the reduced number of parameters required, I make the allocations in a reduced dimension matrix (with zero rows and columns removed), and then increase to the RxC dimensions by inserting rows and/or columns of zero counts into the cells which make up the rows and/or columns that sum to zero.
+
+
+## Representations of the table simplex
+
+One finding from these models is that even when descriptions of simplexes have wide equivalence the way in which they are parameterised can make a big difference to Stan.
+
+## The four allocation functions
+
+The three sequential allocation functions build on the sequential transformation in @Chen2005, in that they provide different ways of choosing a point in the feasible space for a cell between the lower and upper feasible bounds.
+
+### Between bounds
+
+In the between bounds transformation the $R - 1 \times C - 1$ parameters describe the inverse logit of the feasible bound width. 
+The transformation operates sequentially starting from $\pi_{[1,1]}$. Each unconstrained importance parameter $\lambda_{[j,k]}$ gives a corresponding cell value $\pi_{[r,c]}$ between the lower bound ($\alpha_{[r,c]}$) and upper bound ($\beta_{[r,c]}$) possible for the cell given the row and column margins and any allocations already made to other cells.
+
+For rows $1 \dots R-1$ and columns $1 \dots C-1$ the unconstrained parameter $\lambda_{[r,c]}$ can be transformed to a value $\pi_{r,c}$ in a fixed range from the lower bound $\alpha_{[r,c]}$ to the upper bound of $\beta_{[r,c]}$ with a transformation involving the inverse logit function: $$\pi_{[j,k]} = \alpha_{[j,k]} + \frac{1}{1+e^{-\lambda_{[j,k]}}}(\beta_{[j,k]} - \alpha_{[j,k]})$$
 
 For cells in column $K$ of rows $1 \dots J-1$, $C_{[1 \dots J-1, K]}$ the values is the given by the remaining row total $R_{[1 \dots J-1]}$ left to be allocated. For cells in row $J$ the value is given by the remaining column totals $C\_{\left[1 \dots J \right]}$ left to be allocated.
 
@@ -73,7 +86,7 @@ $$ -\delta \log \left(e^{\frac{-r_1}{\delta}} + e^{\frac{-c_1}{\delta}} \right)$
 
 Again $\delta$ is a parameter which determines how quickly that happens (smaller values give a sharper approximation to the min function). 
 
-### The Log Determinant of the Jacobian of the Transform
+#### The Log Determinant of the Jacobian of the Transform for between bounds
 
 Fortunately, many of the Jacobian components are zero, and the sequential nature of the transform means that the Jacobian matrix is upper triangle. The elements on the diagonal simplify to a convenient function of bound widths and importance parameters. If we re-index the $L = (J - 1)(K - 1)$ parameters for the upper bound ($\beta$) the lower bound ($\alpha$) and importance weight ($\lambda$) using $l = j + (k - 1)(J - 1)$, then:
 
@@ -82,21 +95,19 @@ $$\ln (\det J_{f-1}(y)) = \ln \left( \left(\beta_1 -\alpha_1 \right) \cdot \text
 \ln \left( \left(\beta_L -\alpha_L \right) \cdot \textrm{logit}^{-1}(\lambda_L) \cdot (1 - \textrm{logit}^{-1}(\lambda_L))\right)$$
 
 
-### Dealing with Reduced Degrees of Freedom Arising from Zeros in the Row or Column Margins
-
-In a case of an RxC contingency table with fixed margins where none of the margins are equal to zero, then there are $(R - 1)(C - 1)$ degrees of freedom, which defines the number of parameters needed to fully allocate the table by the sequential sampling. In the case that some of the margins are equal to zero, then this reduces the degrees of freedom because all of the cells in any row of column with a margin sum of zero are required to be zero. To deal with the reduced number of parameters required, I make the allocations in a reduced dimension matrix (with zero rows and columns removed), and then increase to the RxC dimensions by inserting rows and/or columns of zero counts into the cells which make up the rows and/or columns that sum to zero.
-
-## Further Extensions
+## Extensions to arrays
 
 @Chen2006 and @Dinwoodie2011 describe sequential importance sampling methods for cases which are more complex cases, particular on sampling from multi-way tables. I have not yet tried to implement these in Stan but imagine it should be possible to do so.
 
+### Cell logit
 
-## Representations of the table simplex
+### Adjusted row
 
-One finding from these models is that even when descriptions of simplexes have wide equivalence the way in which they are parameterised can make a big difference to Stan.
 
-## The four allocation functions work
+### Adjusted table
 
+
+### The four allocation functions work 
 In this section I show that the there is a one-to-one map from RxC onto the tables with specific margins.
 
 Each allocation function should be a one-to-one map from an unconstrained
