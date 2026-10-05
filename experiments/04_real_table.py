@@ -37,11 +37,24 @@ def difficulty(w, m):
     return float(np.mean((hi - lo) / hi))
 
 
-def run(T, eps, sigma_b, param, seed, warm=500, draws=500, scale=0):
+def centre_table(T, centre):
+    w, m = T.sum(1), T.sum(0); R, C = T.shape
+    if centre == 'indep':
+        return np.log(np.outer(w, m))
+    if centre == 'reverse':                                         # independence table from reversed margins: conflicts with both margins
+        l = np.log(np.outer(w[::-1], m[::-1]))
+        return l + (np.log(T.sum()) - np.log(np.exp(l).sum()))
+    if centre == 'diag':                                            # mass pushed on the diagonal, which the margins cannot support
+        l = np.log(np.outer(w, m)); l = l + 3 * np.eye(R, C)
+        return l + (np.log(T.sum()) - np.log(np.exp(l).sum()))
+    raise ValueError(centre)
+
+
+def run(T, eps, sigma_b, param, seed, warm=500, draws=500, scale=0, centre='indep'):
     R, C = T.shape; D = R * C
     d = e2.base_data(T, eps, scale)
     V = d["V"]
-    lt0 = np.log(np.outer(T.sum(1), T.sum(0))).ravel()          # independence table, cells row by row
+    lt0 = centre_table(T, centre).ravel()                       # prior centre, cells row by row
     d.update(param=param, mu_b=V.T @ lt0, sigma_b=np.full(D - 1, sigma_b), mu_logv=float(np.log(T.sum())), sigma_logv=1.0)
     t0 = time.time()
     f = e2.model.sample(data=d, chains=2, parallel_chains=2, iter_warmup=warm, iter_sampling=draws, seed=seed,
@@ -58,6 +71,7 @@ def main():
     ap.add_argument("path"); ap.add_argument("label")
     ap.add_argument("--volumes", default="1"); ap.add_argument("--eps", default="1,0.1,0.01")
     ap.add_argument("--sigma", default="1,2"); ap.add_argument("--params", default="0,5,1,2,3,4"); ap.add_argument("--seeds", default="1,2")
+    ap.add_argument("--centre", default="indep", help="prior centre: indep, reverse, diag (comma list ok)")
     ap.add_argument("--scale", default="0", help="scale_margins for the sequential versions: 0, 1 or 0,1")
     a = ap.parse_args()
     f = lambda s: [float(x) for x in s.split(",")]
@@ -72,23 +86,24 @@ def main():
         for eps in f(a.eps):
             for sb in f(a.sigma):
                 tau = max(w.max(), m.max()) * sb ** 2 / eps ** 2
-                for p in [int(x) for x in a.params.split(",")]:
+                for cen in a.centre.split(","):
+                 for p in [int(x) for x in a.params.split(",")]:
                   for sc in [int(x) for x in a.scale.split(",")]:
                     if sc == 1 and p in (0, 5):
                         continue                                    # the switch does nothing for the direct versions
                     for seed in [int(x) for x in a.seeds.split(",")]:
-                        r = run(T, eps, sb, p, seed, scale=sc)
+                        r = run(T, eps, sb, p, seed, scale=sc, centre=cen)
                         r.update(label=a.label, volume=vol, total=T.sum(), eps=eps, sigma_b=sb, tau=tau, frechet_width=diff,
-                                 param=NAMES[p], scale_margins=sc, seed=seed)
+                                 param=NAMES[p], scale_margins=sc, seed=seed, centre=cen)
                         rows.append(r)
                         print({k: (round(v, 3) if isinstance(v, float) else v) for k, v in r.items() if k in
-                               ("volume", "eps", "sigma_b", "param", "scale_margins", "seed", "min_ess", "max_rhat", "div", "seconds")}, flush=True)
+                               ("volume", "eps", "sigma_b", "param", "scale_margins", "centre", "seed", "min_ess", "max_rhat", "div", "seconds")}, flush=True)
                         pd.DataFrame(rows).to_csv(out_csv, index=False)
     df = pd.DataFrame(rows)
     df["fail"] = df.max_rhat > 1.05
-    g = df.groupby(["volume", "eps", "sigma_b", "param", "scale_margins"]).agg(tau=("tau", "first"), runs=("fail", "size"), failed=("fail", "sum"),
+    g = df.groupby(["centre", "volume", "eps", "sigma_b", "param", "scale_margins"]).agg(tau=("tau", "first"), runs=("fail", "size"), failed=("fail", "sum"),
             median_min_ess=("min_ess", "median"), median_seconds=("seconds", "median"), max_rhat=("max_rhat", "max"))
-    g["ess_per_s_if_ok"] = df[~df.fail].groupby(["volume", "eps", "sigma_b", "param", "scale_margins"]).apply(lambda x: (x.min_ess / x.seconds).median())
+    g["ess_per_s_if_ok"] = df[~df.fail].groupby(["centre", "volume", "eps", "sigma_b", "param", "scale_margins"]).apply(lambda x: (x.min_ess / x.seconds).median())
     with open(os.path.join(ROOT, "experiments", "output", f"04_{a.label}.md"), "w") as fh:
         fh.write(f"# Real table: {a.label}\n\nfailed = max rhat > 1.05 (of runs); times are wall-clock seconds for 2 chains.\n\n"
                  + g.round(2).to_markdown() + "\n")
