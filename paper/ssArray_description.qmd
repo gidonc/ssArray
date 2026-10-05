@@ -17,11 +17,6 @@ library(tidyverse)
 library(janitor)
 library(huxtable)
 
-exact_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/exact_1.stan"
-
-soft_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/soft_1.stan"
-
-hybrid_path <- "C:/Users/gidon/Dropbox/Analysis with R/EI/EI_develop_2023/stan_models/single_area/hybrid_1.stan"
 
 ```
 
@@ -98,7 +93,7 @@ One finding from these models is that even when descriptions of simplexes have w
 
 ## An example: votes for parties and candidates
 
-```{r define_tbl, eval = FALSE}
+```{r define_tbl}
 #| echo: false
 #| warning: false
 #| message: false
@@ -111,7 +106,7 @@ actual_cell_60 <- structure(list(row_no = c(1, 2, 3, 6, 7, 4, 5, 1, 2, 3, 6, 7,
                actual_cell_value = c(1202, 277, 62, 54, 36, 6, 11, 29, 8941, 61, 129, 203, 53, 21, 25, 320, 1023, 74, 28, 19, 5, 353, 1076, 183, 502, 97, 328, 169, 27, 225, 121, 122, 10, 38, 37, 46, 771, 105, 6007, 168, 71, 30, 39, 501, 15, 110, 125, 10, 8)), row.names = c(NA, -49L), class = c("tbl_df", "tbl", "data.frame"))
 ```
 
-```{r formattbl, eval=FALSE}
+```{r formattbl}
 name_lookup <- function(x){
   case_when(
     x == 1 ~ "con",
