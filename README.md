@@ -18,8 +18,10 @@ Each file has a forward function returning the table and the log Jacobian, and a
 
 ## Layout
 
-- `stan/functions/` the allocation functions (the single source of truth)
-- `stan/check_alloc.stan` evaluates any of them at supplied points
+- `stan/functions/` the allocation functions and the single-area parameter map (the single source of truth)
+- `stan/single_area.stan` one area, one density on tables, sampled in a choice of six coordinate systems
+- `stan/check_*.stan` evaluate the functions at supplied points
+- `data/` example tables
 - `experiments/` one script per result; outputs in `experiments/output/`
 - `R/` R wrappers
 - `paper/` the write-up
@@ -27,7 +29,9 @@ Each file has a forward function returning the table and the log Jacobian, and a
 ## Status
 
 - `experiments/01_allocation_works.py`: all four functions meet the margins, invert, match a
-  finite-difference Jacobian and reach every interior table, at 2x2 to 7x7
-  (`experiments/output/01_allocation_works.md`).
-- The R wrapper in `R/expose.R` has not been run.
+  finite-difference Jacobian and reach every interior table, at 2x2 to 7x7.
+- `experiments/02_single_area_models.py`: the single-area model with R x C parameters in six
+  coordinate systems (ILR + log volume, log cells, and the four allocation functions with the margins
+  as parameters). Jacobians checked; the sequential versions give the same posterior.
+- The R files in `R/` have not been run.
 - Experiments are in Python for now (run with cmdstanpy and CmdStan 2.32.2).
