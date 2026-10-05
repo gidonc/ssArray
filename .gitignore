@@ -20,3 +20,8 @@ paper/*_cache/
 .quarto/
 stan/check_single_area
 stan/single_area
+
+# simulated-tables runs: per-task files and logs are not tracked (results/sim_tables.csv is)
+results/sim_tables/
+results/sim_tables_ranks.rds
+logs/
