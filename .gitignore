@@ -20,3 +20,5 @@ paper/*_cache/
 .quarto/
 stan/check_single_area
 stan/single_area
+stan/*_model.so
+*.whl
