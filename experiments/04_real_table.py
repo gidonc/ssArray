@@ -41,6 +41,8 @@ def centre_table(T, centre):
     w, m = T.sum(1), T.sum(0); R, C = T.shape
     if centre == 'indep':
         return np.log(np.outer(w, m))
+    if centre == 'actual':                                          # the table itself: large coefficients away from independence
+        return np.log(T)
     if centre == 'reverse':                                         # independence table from reversed margins: conflicts with both margins
         l = np.log(np.outer(w[::-1], m[::-1]))
         return l + (np.log(T.sum()) - np.log(np.exp(l).sum()))
@@ -71,7 +73,7 @@ def main():
     ap.add_argument("path"); ap.add_argument("label")
     ap.add_argument("--volumes", default="1"); ap.add_argument("--eps", default="1,0.1,0.01")
     ap.add_argument("--sigma", default="1,2"); ap.add_argument("--params", default="0,5,1,2,3,4"); ap.add_argument("--seeds", default="1,2")
-    ap.add_argument("--centre", default="indep", help="prior centre: indep, reverse, diag (comma list ok)")
+    ap.add_argument("--centre", default="indep", help="prior centre: indep, actual, reverse, diag (comma list ok)")
     ap.add_argument("--scale", default="0", help="scale_margins for the sequential versions: 0, 1 or 0,1")
     a = ap.parse_args()
     f = lambda s: [float(x) for x in s.split(",")]
