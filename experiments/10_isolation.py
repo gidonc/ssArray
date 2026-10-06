@@ -40,6 +40,51 @@ def P_x(t, V, obs_w, obs_m):
     return V @ V.T / SB ** 2 + s @ s.T + a.T @ W @ a
 
 
+def cond_diag(P):
+    dg = np.sqrt(np.diag(P)); ev = np.linalg.eigvalsh(P / np.outer(dg, dg)); return ev[-1] / ev[0]
+
+
+def summarise(cname, name, sc, tight, t0, near, k):
+    P, ev, U = tight(t0)
+    pr = [(u ** 2).sum() ** 2 / (u ** 4).sum() for u in U.T]
+    load = (U ** 2).sum(1)                                                          # each parameter's share of the tight subspace (sums to k)
+    nb = [tight(t) for t in near]
+    rot = [np.degrees(np.arccos(np.clip(np.linalg.svd(U.T @ x[2], compute_uv=False), -1, 1))).mean() for x in nb]
+    # one diagonal metric for the whole posterior: scale by the centre's diagonal, apply at the nearby tables
+    dg = np.sqrt(np.diag(P)); fixed = [np.linalg.eigvalsh(x[0] / np.outer(dg, dg)) for x in nb]
+    return dict(table=cname, param=name, scale_margins=sc, cond=ev[-1] / ev[0], cond_diag=cond_diag(P),
+                cond_diag_near=float(np.median([cond_diag(x[0]) for x in nb])), cond_fixed_metric_near=float(np.median([e[-1] / e[0] for e in fixed])),
+                carriers=float(np.median(pr)), in_k=float(np.sort(load)[-k:].sum() / k), rotation=float(np.mean(rot)))
+
+
+def alternatives(V, t0, R, C):
+    D = R * C; H = e2.helmert
+    lse = lambda x: np.log(np.exp(x - x.max()).sum()) + x.max()
+    def ilr(B):                                                                     # log cells = B z + const, const set by the log total
+        def fwd(th): lt = B @ th[:D - 1]; return lt + th[D - 1] - lse(lt)
+        return fwd, lambda t: np.r_[B.T @ np.log(t).ravel(), np.log(t.sum())]
+    # (a) ILR basis whose leading coordinates span the margin directions at the prior centre
+    a = []
+    for r in range(R):
+        v = np.zeros((R, C)); v[r] = t0[r] / t0[r].sum(); a.append(v.ravel())
+    for c in range(C):
+        v = np.zeros((R, C)); v[:, c] = t0[:, c] / t0[:, c].sum(); a.append(v.ravel())
+    a = np.array(a); a = a - a.mean(1, keepdims=True)
+    Q = np.linalg.qr(np.c_[np.linalg.svd(a.T, full_matrices=False)[0][:, :R + C - 2], np.eye(D) - 1.0 / D])[0]
+    Va = np.linalg.qr(np.c_[Q[:, :R + C - 2], V])[0][:, :D - 1]
+    # (b) log-linear basis: row effects, column effects, interactions (does not depend on the table)
+    Hr, Hc = H(R), H(C); one = lambda n: np.ones((n, 1)) / np.sqrt(n)
+    Vl = np.c_[np.kron(Hr, one(C)), np.kron(one(R), Hc), np.kron(Hr, Hc)]
+    # (c) row-conditional (the usual ecological-inference coordinates): log row totals + ILR of each row's shares
+    def fwd_rc(th):
+        out = np.zeros((R, C))
+        for r in range(R):
+            x = Hc @ th[R + r * (C - 1): R + (r + 1) * (C - 1)]; out[r] = th[r] + x - lse(x)
+        return out.ravel()
+    inv_rc = lambda t: np.r_[np.log(t.sum(1)), np.concatenate([Hc.T @ np.log(t[r]) for r in range(R)])]
+    return [("ILR, margin-aligned at centre",) + ilr(Va), ("log-linear effects",) + ilr(Vl), ("row-conditional", fwd_rc, inv_rc)]
+
+
 def main():
     T = r4.load(os.path.join(ROOT, "data", "scot_2007_all_areas.csv")); R, C = T.shape; D = R * C; k = R + C - 1
     w, m = T.sum(1), T.sum(0); Ti = np.outer(w, m) / T.sum()
@@ -70,15 +115,17 @@ def main():
                     ev, U = np.linalg.eigh(P)
                     return P, ev, U[:, -k:]
 
-                P, ev, U = tight(t0)
-                dg = np.sqrt(np.diag(P)); evd = np.linalg.eigvalsh(P / np.outer(dg, dg))
-                pr = [(u ** 2).sum() ** 2 / (u ** 4).sum() for u in U.T]
-                load = (U ** 2).sum(1)                                              # each parameter's share of the tight subspace (sums to k)
-                rot = [np.degrees(np.arccos(np.clip(np.linalg.svd(U.T @ tight(t)[2], compute_uv=False), -1, 1))).mean() for t in near]
-                rows.append(dict(table=cname, param=r4.NAMES[p], scale_margins=sc, cond=ev[-1] / ev[0], cond_diag=evd[-1] / evd[0],
-                                 carriers=float(np.median(pr)), carriers_max=float(np.max(pr)), in_k=float(np.sort(load)[-k:].sum() / k),
-                                 rotation=float(np.mean(rot))))
+                rows.append(summarise(cname, r4.NAMES[p], sc, tight, t0, near, k))
                 print(rows[-1], flush=True); del model
+        # linear or partly linear alternatives that need no allocation function (numpy maps, same P_x)
+        for name, fwd, inv in alternatives(V, t0, R, C):
+            def tight(t, fwd=fwd, inv=inv):
+                th = inv(t); h = 1e-6
+                J = np.array([(fwd(th + h * e) - fwd(th - h * e)) / (2 * h) for e in np.eye(D)]).T
+                P = J.T @ P_x(t, V, w, m) @ J; P = (P + P.T) / 2
+                ev, U = np.linalg.eigh(P)
+                return P, ev, U[:, -k:]
+            rows.append(summarise(cname, name, 0, tight, t0, near, k)); print(rows[-1], flush=True)
     df = pd.DataFrame(rows); out = os.path.join(ROOT, "experiments", "output", "10_isolation")
     df.to_csv(out + ".csv", index=False)
     f = df.copy(); f["cond"] = f.cond.map("{:.1e}".format); f["cond_diag"] = f.cond_diag.map("{:.1e}".format)
