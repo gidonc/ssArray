@@ -1,0 +1,65 @@
+centre,sigma_b,param,rhat,step,part,median,p90
+indep,1.0,position logit,1.00861,all parameters,interaction,0.04671934699311737,0.11930427758825289
+indep,1.0,position logit,1.00861,all parameters,main effects,0.09160967330895906,0.1684589038029084
+indep,1.0,position logit,1.00861,interior only,interaction,0.052119158178762934,0.11680145907207973
+indep,1.0,position logit,1.00861,interior only,main effects,0.10732297056692072,0.185821446679273
+indep,1.0,odds-ratio logit,1.00146,all parameters,interaction,0.03680808600202782,0.057219302089934844
+indep,1.0,odds-ratio logit,1.00146,all parameters,main effects,0.08367593214247862,0.13613335490648812
+indep,1.0,odds-ratio logit,1.00146,interior only,interaction,0.0421615002454508,0.06432791104225252
+indep,1.0,odds-ratio logit,1.00146,interior only,main effects,0.09798210926310119,0.15596270605878243
+indep,1.0,adjusted row,1.00325,all parameters,interaction,0.019795958463704137,0.033784997446254926
+indep,1.0,adjusted row,1.00325,all parameters,main effects,0.0726065692050068,0.11804503075353734
+indep,1.0,adjusted row,1.00325,interior only,interaction,0.022779384214216207,0.038383722022915706
+indep,1.0,adjusted row,1.00325,interior only,main effects,0.08408601064471544,0.1366677507432169
+indep,1.0,adjusted table,1.00392,all parameters,interaction,2.955673022400845e-11,3.606642095152022e-11
+indep,1.0,adjusted table,1.00392,all parameters,main effects,0.08628005697374597,0.1461264089791778
+indep,1.0,adjusted table,1.00392,interior only,interaction,2.505551737095765e-11,2.999427781590258e-11
+indep,1.0,adjusted table,1.00392,interior only,main effects,0.09981294720521111,0.16099860866244275
+indep,2.0,position logit,1.0069,all parameters,interaction,0.09869475833867308,0.5123502069234247
+indep,2.0,position logit,1.0069,all parameters,main effects,0.15924430687408808,0.5154960366684533
+indep,2.0,position logit,1.0069,interior only,interaction,0.12440370212585038,0.6255823940873945
+indep,2.0,position logit,1.0069,interior only,main effects,0.2078677824677057,0.6336599983265044
+indep,2.0,odds-ratio logit,1.00752,all parameters,interaction,0.07841098367659165,0.22489474593875292
+indep,2.0,odds-ratio logit,1.00752,all parameters,main effects,0.1419177007895822,0.3200300893597852
+indep,2.0,odds-ratio logit,1.00752,interior only,interaction,0.08715451433414363,0.2797476878493066
+indep,2.0,odds-ratio logit,1.00752,interior only,main effects,0.15856363037463092,0.3652979368343785
+indep,2.0,adjusted row,1.00666,all parameters,interaction,0.037449232058203594,0.07200716054617878
+indep,2.0,adjusted row,1.00666,all parameters,main effects,0.10794953221984743,0.19561618833899938
+indep,2.0,adjusted row,1.00666,interior only,interaction,0.04275068152589441,0.07784433477889466
+indep,2.0,adjusted row,1.00666,interior only,main effects,0.12177613148193583,0.2234183375812328
+indep,2.0,adjusted table,1.01533,all parameters,interaction,1.5237043795273632e-11,1.8868719460244568e-11
+indep,2.0,adjusted table,1.01533,all parameters,main effects,0.11519783734213308,0.19436238765302402
+indep,2.0,adjusted table,1.01533,interior only,interaction,1.2831250927882844e-11,1.5679337097814007e-11
+indep,2.0,adjusted table,1.01533,interior only,main effects,0.1369135033774749,0.23755836020082202
+actual,1.0,position logit,1.01009,all parameters,interaction,0.07373145978816133,0.35096695484616164
+actual,1.0,position logit,1.01009,all parameters,main effects,0.12850607893748678,0.37882323893502806
+actual,1.0,position logit,1.01009,interior only,interaction,0.09961315606536736,0.4834200431209764
+actual,1.0,position logit,1.01009,interior only,main effects,0.16293504402630482,0.4907036990646285
+actual,1.0,odds-ratio logit,1.01015,all parameters,interaction,0.046122638516612656,0.07949581471991661
+actual,1.0,odds-ratio logit,1.01015,all parameters,main effects,0.09246122796462691,0.15389783757768374
+actual,1.0,odds-ratio logit,1.01015,interior only,interaction,0.05389665341133204,0.09927134161990679
+actual,1.0,odds-ratio logit,1.01015,interior only,main effects,0.10562267386376589,0.17793452730616643
+actual,1.0,adjusted row,1.00463,all parameters,interaction,0.02103938952356072,0.03526588549828954
+actual,1.0,adjusted row,1.00463,all parameters,main effects,0.07156508910728604,0.11507474049915244
+actual,1.0,adjusted row,1.00463,interior only,interaction,0.023428453340683927,0.041543717912300146
+actual,1.0,adjusted row,1.00463,interior only,main effects,0.08346763950863473,0.14259480481667106
+actual,1.0,adjusted table,1.00264,all parameters,interaction,2.9725531392514684e-11,3.5951001262739975e-11
+actual,1.0,adjusted table,1.00264,all parameters,main effects,0.08210340799339555,0.1345595258828545
+actual,1.0,adjusted table,1.00264,interior only,interaction,2.5461442860629917e-11,3.0394895358448204e-11
+actual,1.0,adjusted table,1.00264,interior only,main effects,0.0914615251753319,0.1528661766703562
+actual,2.0,position logit,1.01056,all parameters,interaction,0.2783889142372572,0.8401060051458156
+actual,2.0,position logit,1.01056,all parameters,main effects,0.31813197508053925,0.830283606877675
+actual,2.0,position logit,1.01056,interior only,interaction,0.3308147378501885,0.9300478596688936
+actual,2.0,position logit,1.01056,interior only,main effects,0.3950831206188926,0.962524413136195
+actual,2.0,odds-ratio logit,1.01747,all parameters,interaction,0.12587049091366898,0.41338137202510655
+actual,2.0,odds-ratio logit,1.01747,all parameters,main effects,0.1886748467615992,0.4856149632128156
+actual,2.0,odds-ratio logit,1.01747,interior only,interaction,0.1290702276593097,0.4734688036358563
+actual,2.0,odds-ratio logit,1.01747,interior only,main effects,0.20927007658553237,0.5345381254113643
+actual,2.0,adjusted row,1.02264,all parameters,interaction,0.0399872253058207,0.07582379904098797
+actual,2.0,adjusted row,1.02264,all parameters,main effects,0.11111072007120534,0.19318825316709273
+actual,2.0,adjusted row,1.02264,interior only,interaction,0.048329120445109786,0.09403540870854546
+actual,2.0,adjusted row,1.02264,interior only,main effects,0.12925457086782427,0.22503791816809918
+actual,2.0,adjusted table,1.03983,all parameters,interaction,1.508060695719053e-11,1.8737681192613194e-11
+actual,2.0,adjusted table,1.03983,all parameters,main effects,0.11498037992619746,0.20271527770416284
+actual,2.0,adjusted table,1.03983,interior only,interaction,1.3185005122797557e-11,1.5849124644983294e-11
+actual,2.0,adjusted table,1.03983,interior only,main effects,0.13479720660279204,0.2432759374771788
