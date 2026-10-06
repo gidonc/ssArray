@@ -1,0 +1,1776 @@
+area,district,row,col,row_no,col_no,votes
+1,Auckland Central,National,National,1,1,10881
+1,Auckland Central,National,Labour,1,2,192
+1,Auckland Central,National,Green,1,3,160
+1,Auckland Central,National,NZ First,1,4,75
+1,Auckland Central,National,rest,1,5,228
+1,Auckland Central,Labour,National,2,1,1030
+1,Auckland Central,Labour,Labour,2,2,8270
+1,Auckland Central,Labour,Green,2,3,1431
+1,Auckland Central,Labour,NZ First,2,4,82
+1,Auckland Central,Labour,rest,2,5,265
+1,Auckland Central,Green,National,3,1,323
+1,Auckland Central,Green,Labour,3,2,2579
+1,Auckland Central,Green,Green,3,3,1075
+1,Auckland Central,Green,NZ First,3,4,1
+1,Auckland Central,Green,rest,3,5,90
+1,Auckland Central,NZ First,National,4,1,393
+1,Auckland Central,NZ First,Labour,4,2,267
+1,Auckland Central,NZ First,Green,4,3,37
+1,Auckland Central,NZ First,NZ First,4,4,395
+1,Auckland Central,NZ First,rest,4,5,40
+1,Auckland Central,rest,National,5,1,571
+1,Auckland Central,rest,Labour,5,2,309
+1,Auckland Central,rest,Green,5,3,135
+1,Auckland Central,rest,NZ First,5,4,25
+1,Auckland Central,rest,rest,5,5,522
+2,Bay of Plenty,National,National,1,1,21978
+2,Bay of Plenty,National,Labour,1,2,190
+2,Bay of Plenty,National,Green,1,3,0
+2,Bay of Plenty,National,NZ First,1,4,507
+2,Bay of Plenty,National,rest,1,5,271
+2,Bay of Plenty,Labour,National,2,1,840
+2,Bay of Plenty,Labour,Labour,2,2,8738
+2,Bay of Plenty,Labour,Green,2,3,0
+2,Bay of Plenty,Labour,NZ First,2,4,667
+2,Bay of Plenty,Labour,rest,2,5,335
+2,Bay of Plenty,Green,National,3,1,299
+2,Bay of Plenty,Green,Labour,3,2,1176
+2,Bay of Plenty,Green,Green,3,3,0
+2,Bay of Plenty,Green,NZ First,3,4,87
+2,Bay of Plenty,Green,rest,3,5,114
+2,Bay of Plenty,NZ First,National,4,1,1255
+2,Bay of Plenty,NZ First,Labour,4,2,576
+2,Bay of Plenty,NZ First,Green,4,3,0
+2,Bay of Plenty,NZ First,NZ First,4,4,2586
+2,Bay of Plenty,NZ First,rest,4,5,97
+2,Bay of Plenty,rest,National,5,1,980
+2,Bay of Plenty,rest,Labour,5,2,676
+2,Bay of Plenty,rest,Green,5,3,0
+2,Bay of Plenty,rest,NZ First,5,4,213
+2,Bay of Plenty,rest,rest,5,5,364
+3,Botany,National,National,1,1,19067
+3,Botany,National,Labour,1,2,282
+3,Botany,National,Green,1,3,540
+3,Botany,National,NZ First,1,4,0
+3,Botany,National,rest,1,5,1339
+3,Botany,Labour,National,2,1,1074
+3,Botany,Labour,Labour,2,2,7454
+3,Botany,Labour,Green,2,3,892
+3,Botany,Labour,NZ First,2,4,0
+3,Botany,Labour,rest,2,5,586
+3,Botany,Green,National,3,1,123
+3,Botany,Green,Labour,3,2,204
+3,Botany,Green,Green,3,3,439
+3,Botany,Green,NZ First,3,4,0
+3,Botany,Green,rest,3,5,62
+3,Botany,NZ First,National,4,1,745
+3,Botany,NZ First,Labour,4,2,438
+3,Botany,NZ First,Green,4,3,105
+3,Botany,NZ First,NZ First,4,4,0
+3,Botany,NZ First,rest,4,5,300
+3,Botany,rest,National,5,1,369
+3,Botany,rest,Labour,5,2,161
+3,Botany,rest,Green,5,3,127
+3,Botany,rest,NZ First,5,4,0
+3,Botany,rest,rest,5,5,381
+4,Christchurch Central,National,National,1,1,12244
+4,Christchurch Central,National,Labour,1,2,837
+4,Christchurch Central,National,Green,1,3,201
+4,Christchurch Central,National,NZ First,1,4,151
+4,Christchurch Central,National,rest,1,5,280
+4,Christchurch Central,Labour,National,2,1,539
+4,Christchurch Central,Labour,Labour,2,2,12148
+4,Christchurch Central,Labour,Green,2,3,890
+4,Christchurch Central,Labour,NZ First,2,4,177
+4,Christchurch Central,Labour,rest,2,5,408
+4,Christchurch Central,Green,National,3,1,174
+4,Christchurch Central,Green,Labour,3,2,2405
+4,Christchurch Central,Green,Green,3,3,741
+4,Christchurch Central,Green,NZ First,3,4,11
+4,Christchurch Central,Green,rest,3,5,90
+4,Christchurch Central,NZ First,National,4,1,387
+4,Christchurch Central,NZ First,Labour,4,2,614
+4,Christchurch Central,NZ First,Green,4,3,41
+4,Christchurch Central,NZ First,NZ First,4,4,702
+4,Christchurch Central,NZ First,rest,4,5,81
+4,Christchurch Central,rest,National,5,1,416
+4,Christchurch Central,rest,Labour,5,2,627
+4,Christchurch Central,rest,Green,5,3,84
+4,Christchurch Central,rest,NZ First,5,4,50
+4,Christchurch Central,rest,rest,5,5,735
+5,Christchurch East,National,National,1,1,10135
+5,Christchurch East,National,Labour,1,2,1193
+5,Christchurch East,National,Green,1,3,256
+5,Christchurch East,National,NZ First,1,4,229
+5,Christchurch East,National,rest,1,5,362
+5,Christchurch East,Labour,National,2,1,173
+5,Christchurch East,Labour,Labour,2,2,14292
+5,Christchurch East,Labour,Green,2,3,932
+5,Christchurch East,Labour,NZ First,2,4,284
+5,Christchurch East,Labour,rest,2,5,390
+5,Christchurch East,Green,National,3,1,53
+5,Christchurch East,Green,Labour,3,2,1567
+5,Christchurch East,Green,Green,3,3,607
+5,Christchurch East,Green,NZ First,3,4,14
+5,Christchurch East,Green,rest,3,5,46
+5,Christchurch East,NZ First,National,4,1,282
+5,Christchurch East,NZ First,Labour,4,2,789
+5,Christchurch East,NZ First,Green,4,3,41
+5,Christchurch East,NZ First,NZ First,4,4,939
+5,Christchurch East,NZ First,rest,4,5,109
+5,Christchurch East,rest,National,5,1,316
+5,Christchurch East,rest,Labour,5,2,598
+5,Christchurch East,rest,Green,5,3,182
+5,Christchurch East,rest,NZ First,5,4,63
+5,Christchurch East,rest,rest,5,5,379
+6,Clutha-Southland,National,National,1,1,20124
+6,Clutha-Southland,National,Labour,1,2,110
+6,Clutha-Southland,National,Green,1,3,294
+6,Clutha-Southland,National,NZ First,1,4,815
+6,Clutha-Southland,National,rest,1,5,419
+6,Clutha-Southland,Labour,National,2,1,420
+6,Clutha-Southland,Labour,Labour,2,2,6309
+6,Clutha-Southland,Labour,Green,2,3,1114
+6,Clutha-Southland,Labour,NZ First,2,4,675
+6,Clutha-Southland,Labour,rest,2,5,323
+6,Clutha-Southland,Green,National,3,1,141
+6,Clutha-Southland,Green,Labour,3,2,534
+6,Clutha-Southland,Green,Green,3,3,865
+6,Clutha-Southland,Green,NZ First,3,4,35
+6,Clutha-Southland,Green,rest,3,5,54
+6,Clutha-Southland,NZ First,National,4,1,579
+6,Clutha-Southland,NZ First,Labour,4,2,239
+6,Clutha-Southland,NZ First,Green,4,3,70
+6,Clutha-Southland,NZ First,NZ First,4,4,1811
+6,Clutha-Southland,NZ First,rest,4,5,165
+6,Clutha-Southland,rest,National,5,1,555
+6,Clutha-Southland,rest,Labour,5,2,273
+6,Clutha-Southland,rest,Green,5,3,307
+6,Clutha-Southland,rest,NZ First,5,4,149
+6,Clutha-Southland,rest,rest,5,5,413
+7,Coromandel,National,National,1,1,20144
+7,Coromandel,National,Labour,1,2,135
+7,Coromandel,National,Green,1,3,398
+7,Coromandel,National,NZ First,1,4,601
+7,Coromandel,National,rest,1,5,368
+7,Coromandel,Labour,National,2,1,754
+7,Coromandel,Labour,Labour,2,2,7299
+7,Coromandel,Labour,Green,2,3,2600
+7,Coromandel,Labour,NZ First,2,4,696
+7,Coromandel,Labour,rest,2,5,328
+7,Coromandel,Green,National,3,1,165
+7,Coromandel,Green,Labour,3,2,471
+7,Coromandel,Green,Green,3,3,1509
+7,Coromandel,Green,NZ First,3,4,30
+7,Coromandel,Green,rest,3,5,51
+7,Coromandel,NZ First,National,4,1,1434
+7,Coromandel,NZ First,Labour,4,2,554
+7,Coromandel,NZ First,Green,4,3,260
+7,Coromandel,NZ First,NZ First,4,4,2646
+7,Coromandel,NZ First,rest,4,5,265
+7,Coromandel,rest,National,5,1,556
+7,Coromandel,rest,Labour,5,2,268
+7,Coromandel,rest,Green,5,3,299
+7,Coromandel,rest,NZ First,5,4,169
+7,Coromandel,rest,rest,5,5,324
+8,Dunedin North,National,National,1,1,8566
+8,Dunedin North,National,Labour,1,2,1059
+8,Dunedin North,National,Green,1,3,212
+8,Dunedin North,National,NZ First,1,4,131
+8,Dunedin North,National,rest,1,5,311
+8,Dunedin North,Labour,National,2,1,260
+8,Dunedin North,Labour,Labour,2,2,15363
+8,Dunedin North,Labour,Green,2,3,1334
+8,Dunedin North,Labour,NZ First,2,4,150
+8,Dunedin North,Labour,rest,2,5,507
+8,Dunedin North,Green,National,3,1,91
+8,Dunedin North,Green,Labour,3,2,3343
+8,Dunedin North,Green,Green,3,3,1314
+8,Dunedin North,Green,NZ First,3,4,8
+8,Dunedin North,Green,rest,3,5,313
+8,Dunedin North,NZ First,National,4,1,291
+8,Dunedin North,NZ First,Labour,4,2,721
+8,Dunedin North,NZ First,Green,4,3,45
+8,Dunedin North,NZ First,NZ First,4,4,736
+8,Dunedin North,NZ First,rest,4,5,89
+8,Dunedin North,rest,National,5,1,297
+8,Dunedin North,rest,Labour,5,2,773
+8,Dunedin North,rest,Green,5,3,148
+8,Dunedin North,rest,NZ First,5,4,44
+8,Dunedin North,rest,rest,5,5,879
+9,Dunedin South,National,National,1,1,11791
+9,Dunedin South,National,Labour,1,2,1461
+9,Dunedin South,National,Green,1,3,185
+9,Dunedin South,National,NZ First,1,4,209
+9,Dunedin South,National,rest,1,5,438
+9,Dunedin South,Labour,National,2,1,249
+9,Dunedin South,Labour,Labour,2,2,16857
+9,Dunedin South,Labour,Green,2,3,1059
+9,Dunedin South,Labour,NZ First,2,4,324
+9,Dunedin South,Labour,rest,2,5,520
+9,Dunedin South,Green,National,3,1,58
+9,Dunedin South,Green,Labour,3,2,1527
+9,Dunedin South,Green,Green,3,3,641
+9,Dunedin South,Green,NZ First,3,4,7
+9,Dunedin South,Green,rest,3,5,108
+9,Dunedin South,NZ First,National,4,1,365
+9,Dunedin South,NZ First,Labour,4,2,1112
+9,Dunedin South,NZ First,Green,4,3,30
+9,Dunedin South,NZ First,NZ First,4,4,983
+9,Dunedin South,NZ First,rest,4,5,123
+9,Dunedin South,rest,National,5,1,224
+9,Dunedin South,rest,Labour,5,2,447
+9,Dunedin South,rest,Green,5,3,87
+9,Dunedin South,rest,NZ First,5,4,68
+9,Dunedin South,rest,rest,5,5,681
+10,East Coast,National,National,1,1,15551
+10,East Coast,National,Labour,1,2,252
+10,East Coast,National,Green,1,3,289
+10,East Coast,National,NZ First,1,4,392
+10,East Coast,National,rest,1,5,406
+10,East Coast,Labour,National,2,1,556
+10,East Coast,Labour,Labour,2,2,10680
+10,East Coast,Labour,Green,2,3,1384
+10,East Coast,Labour,NZ First,2,4,445
+10,East Coast,Labour,rest,2,5,646
+10,East Coast,Green,National,3,1,116
+10,East Coast,Green,Labour,3,2,808
+10,East Coast,Green,Green,3,3,712
+10,East Coast,Green,NZ First,3,4,19
+10,East Coast,Green,rest,3,5,88
+10,East Coast,NZ First,National,4,1,879
+10,East Coast,NZ First,Labour,4,2,644
+10,East Coast,NZ First,Green,4,3,128
+10,East Coast,NZ First,NZ First,4,4,1942
+10,East Coast,NZ First,rest,4,5,168
+10,East Coast,rest,National,5,1,415
+10,East Coast,rest,Labour,5,2,326
+10,East Coast,rest,Green,5,3,192
+10,East Coast,rest,NZ First,5,4,118
+10,East Coast,rest,rest,5,5,776
+11,East Coast Bays,National,National,1,1,20342
+11,East Coast Bays,National,Labour,1,2,451
+11,East Coast Bays,National,Green,1,3,288
+11,East Coast Bays,National,NZ First,1,4,209
+11,East Coast Bays,National,rest,1,5,534
+11,East Coast Bays,Labour,National,2,1,970
+11,East Coast Bays,Labour,Labour,2,2,5134
+11,East Coast Bays,Labour,Green,2,3,1163
+11,East Coast Bays,Labour,NZ First,2,4,216
+11,East Coast Bays,Labour,rest,2,5,526
+11,East Coast Bays,Green,National,3,1,201
+11,East Coast Bays,Green,Labour,3,2,562
+11,East Coast Bays,Green,Green,3,3,708
+11,East Coast Bays,Green,NZ First,3,4,11
+11,East Coast Bays,Green,rest,3,5,154
+11,East Coast Bays,NZ First,National,4,1,696
+11,East Coast Bays,NZ First,Labour,4,2,192
+11,East Coast Bays,NZ First,Green,4,3,77
+11,East Coast Bays,NZ First,NZ First,4,4,772
+11,East Coast Bays,NZ First,rest,4,5,136
+11,East Coast Bays,rest,National,5,1,522
+11,East Coast Bays,rest,Labour,5,2,102
+11,East Coast Bays,rest,Green,5,3,70
+11,East Coast Bays,rest,NZ First,5,4,46
+11,East Coast Bays,rest,rest,5,5,605
+12,Epsom,National,National,1,1,7548
+12,Epsom,National,Labour,1,2,258
+12,Epsom,National,Green,1,3,310
+12,Epsom,National,NZ First,1,4,123
+12,Epsom,National,rest,1,5,14386
+12,Epsom,Labour,National,2,1,1641
+12,Epsom,Labour,Labour,2,2,5554
+12,Epsom,Labour,Green,2,3,1141
+12,Epsom,Labour,NZ First,2,4,106
+12,Epsom,Labour,rest,2,5,965
+12,Epsom,Green,National,3,1,1152
+12,Epsom,Green,Labour,3,2,787
+12,Epsom,Green,Green,3,3,1024
+12,Epsom,Green,NZ First,3,4,6
+12,Epsom,Green,rest,3,5,235
+12,Epsom,NZ First,National,4,1,237
+12,Epsom,NZ First,Labour,4,2,179
+12,Epsom,NZ First,Green,4,3,45
+12,Epsom,NZ First,NZ First,4,4,389
+12,Epsom,NZ First,rest,4,5,359
+12,Epsom,rest,National,5,1,408
+12,Epsom,rest,Labour,5,2,289
+12,Epsom,rest,Green,5,3,265
+12,Epsom,rest,NZ First,5,4,33
+12,Epsom,rest,rest,5,5,1107
+13,Hamilton East,National,National,1,1,16097
+13,Hamilton East,National,Labour,1,2,656
+13,Hamilton East,National,Green,1,3,151
+13,Hamilton East,National,NZ First,1,4,117
+13,Hamilton East,National,rest,1,5,124
+13,Hamilton East,Labour,National,2,1,1224
+13,Hamilton East,Labour,Labour,2,2,10091
+13,Hamilton East,Labour,Green,2,3,903
+13,Hamilton East,Labour,NZ First,2,4,171
+13,Hamilton East,Labour,rest,2,5,145
+13,Hamilton East,Green,National,3,1,255
+13,Hamilton East,Green,Labour,3,2,1226
+13,Hamilton East,Green,Green,3,3,663
+13,Hamilton East,Green,NZ First,3,4,11
+13,Hamilton East,Green,rest,3,5,16
+13,Hamilton East,NZ First,National,4,1,679
+13,Hamilton East,NZ First,Labour,4,2,526
+13,Hamilton East,NZ First,Green,4,3,48
+13,Hamilton East,NZ First,NZ First,4,4,733
+13,Hamilton East,NZ First,rest,4,5,51
+13,Hamilton East,rest,National,5,1,720
+13,Hamilton East,rest,Labour,5,2,666
+13,Hamilton East,rest,Green,5,3,283
+13,Hamilton East,rest,NZ First,5,4,81
+13,Hamilton East,rest,rest,5,5,173
+14,Hamilton West,National,National,1,1,15998
+14,Hamilton West,National,Labour,1,2,212
+14,Hamilton West,National,Green,1,3,188
+14,Hamilton West,National,NZ First,1,4,207
+14,Hamilton West,National,rest,1,5,265
+14,Hamilton West,Labour,National,2,1,1154
+14,Hamilton West,Labour,Labour,2,2,9565
+14,Hamilton West,Labour,Green,2,3,1289
+14,Hamilton West,Labour,NZ First,2,4,531
+14,Hamilton West,Labour,rest,2,5,561
+14,Hamilton West,Green,National,3,1,191
+14,Hamilton West,Green,Labour,3,2,601
+14,Hamilton West,Green,Green,3,3,683
+14,Hamilton West,Green,NZ First,3,4,15
+14,Hamilton West,Green,rest,3,5,55
+14,Hamilton West,NZ First,National,4,1,887
+14,Hamilton West,NZ First,Labour,4,2,433
+14,Hamilton West,NZ First,Green,4,3,77
+14,Hamilton West,NZ First,NZ First,4,4,1276
+14,Hamilton West,NZ First,rest,4,5,108
+14,Hamilton West,rest,National,5,1,612
+14,Hamilton West,rest,Labour,5,2,300
+14,Hamilton West,rest,Green,5,3,118
+14,Hamilton West,rest,NZ First,5,4,104
+14,Hamilton West,rest,rest,5,5,694
+15,Helensville,National,National,1,1,19839
+15,Helensville,National,Labour,1,2,183
+15,Helensville,National,Green,1,3,903
+15,Helensville,National,NZ First,1,4,452
+15,Helensville,National,rest,1,5,320
+15,Helensville,Labour,National,2,1,407
+15,Helensville,Labour,Labour,2,2,5580
+15,Helensville,Labour,Green,2,3,3244
+15,Helensville,Labour,NZ First,2,4,423
+15,Helensville,Labour,rest,2,5,107
+15,Helensville,Green,National,3,1,162
+15,Helensville,Green,Labour,3,2,832
+15,Helensville,Green,Green,3,3,1892
+15,Helensville,Green,NZ First,3,4,28
+15,Helensville,Green,rest,3,5,16
+15,Helensville,NZ First,National,4,1,741
+15,Helensville,NZ First,Labour,4,2,257
+15,Helensville,NZ First,Green,4,3,264
+15,Helensville,NZ First,NZ First,4,4,1421
+15,Helensville,NZ First,rest,4,5,58
+15,Helensville,rest,National,5,1,555
+15,Helensville,rest,Labour,5,2,244
+15,Helensville,rest,Green,5,3,455
+15,Helensville,rest,NZ First,5,4,79
+15,Helensville,rest,rest,5,5,214
+16,Hunua,National,National,1,1,24047
+16,Hunua,National,Labour,1,2,237
+16,Hunua,National,Green,1,3,244
+16,Hunua,National,NZ First,1,4,509
+16,Hunua,National,rest,1,5,650
+16,Hunua,Labour,National,2,1,888
+16,Hunua,Labour,Labour,2,2,6227
+16,Hunua,Labour,Green,2,3,971
+16,Hunua,Labour,NZ First,2,4,539
+16,Hunua,Labour,rest,2,5,308
+16,Hunua,Green,National,3,1,188
+16,Hunua,Green,Labour,3,2,399
+16,Hunua,Green,Green,3,3,567
+16,Hunua,Green,NZ First,3,4,26
+16,Hunua,Green,rest,3,5,29
+16,Hunua,NZ First,National,4,1,1061
+16,Hunua,NZ First,Labour,4,2,288
+16,Hunua,NZ First,Green,4,3,73
+16,Hunua,NZ First,NZ First,4,4,1881
+16,Hunua,NZ First,rest,4,5,189
+16,Hunua,rest,National,5,1,641
+16,Hunua,rest,Labour,5,2,231
+16,Hunua,rest,Green,5,3,147
+16,Hunua,rest,NZ First,5,4,122
+16,Hunua,rest,rest,5,5,235
+17,Hutt South,National,National,1,1,16048
+17,Hutt South,National,Labour,1,2,664
+17,Hutt South,National,Green,1,3,151
+17,Hutt South,National,NZ First,1,4,119
+17,Hutt South,National,rest,1,5,269
+17,Hutt South,Labour,National,2,1,1650
+17,Hutt South,Labour,Labour,2,2,13900
+17,Hutt South,Labour,Green,2,3,550
+17,Hutt South,Labour,NZ First,2,4,143
+17,Hutt South,Labour,rest,2,5,289
+17,Hutt South,Green,National,3,1,317
+17,Hutt South,Green,Labour,3,2,2110
+17,Hutt South,Green,Green,3,3,505
+17,Hutt South,Green,NZ First,3,4,6
+17,Hutt South,Green,rest,3,5,70
+17,Hutt South,NZ First,National,4,1,827
+17,Hutt South,NZ First,Labour,4,2,735
+17,Hutt South,NZ First,Green,4,3,43
+17,Hutt South,NZ First,NZ First,4,4,590
+17,Hutt South,NZ First,rest,4,5,89
+17,Hutt South,rest,National,5,1,801
+17,Hutt South,rest,Labour,5,2,704
+17,Hutt South,rest,Green,5,3,82
+17,Hutt South,rest,NZ First,5,4,29
+17,Hutt South,rest,rest,5,5,674
+18,Ilam,National,National,1,1,15039
+18,Ilam,National,Labour,1,2,295
+18,Ilam,National,Green,1,3,391
+18,Ilam,National,NZ First,1,4,0
+18,Ilam,National,rest,1,5,3241
+18,Ilam,Labour,National,2,1,558
+18,Ilam,Labour,Labour,2,2,6054
+18,Ilam,Labour,Green,2,3,1021
+18,Ilam,Labour,NZ First,2,4,0
+18,Ilam,Labour,rest,2,5,3480
+18,Ilam,Green,National,3,1,155
+18,Ilam,Green,Labour,3,2,671
+18,Ilam,Green,Green,3,3,673
+18,Ilam,Green,NZ First,3,4,0
+18,Ilam,Green,rest,3,5,1069
+18,Ilam,NZ First,National,4,1,388
+18,Ilam,NZ First,Labour,4,2,321
+18,Ilam,NZ First,Green,4,3,81
+18,Ilam,NZ First,NZ First,4,4,0
+18,Ilam,NZ First,rest,4,5,559
+18,Ilam,rest,National,5,1,437
+18,Ilam,rest,Labour,5,2,321
+18,Ilam,rest,Green,5,3,193
+18,Ilam,rest,NZ First,5,4,0
+18,Ilam,rest,rest,5,5,1016
+19,Invercargill,National,National,1,1,16155
+19,Invercargill,National,Labour,1,2,376
+19,Invercargill,National,Green,1,3,157
+19,Invercargill,National,NZ First,1,4,506
+19,Invercargill,National,rest,1,5,147
+19,Invercargill,Labour,National,2,1,695
+19,Invercargill,Labour,Labour,2,2,10491
+19,Invercargill,Labour,Green,2,3,720
+19,Invercargill,Labour,NZ First,2,4,736
+19,Invercargill,Labour,rest,2,5,135
+19,Invercargill,Green,National,3,1,116
+19,Invercargill,Green,Labour,3,2,549
+19,Invercargill,Green,Green,3,3,441
+19,Invercargill,Green,NZ First,3,4,36
+19,Invercargill,Green,rest,3,5,7
+19,Invercargill,NZ First,National,4,1,654
+19,Invercargill,NZ First,Labour,4,2,645
+19,Invercargill,NZ First,Green,4,3,70
+19,Invercargill,NZ First,NZ First,4,4,1711
+19,Invercargill,NZ First,rest,4,5,38
+19,Invercargill,rest,National,5,1,482
+19,Invercargill,rest,Labour,5,2,462
+19,Invercargill,rest,Green,5,3,235
+19,Invercargill,rest,NZ First,5,4,225
+19,Invercargill,rest,rest,5,5,118
+20,Kaikoura,National,National,1,1,18838
+20,Kaikoura,National,Labour,1,2,316
+20,Kaikoura,National,Green,1,3,374
+20,Kaikoura,National,NZ First,1,4,910
+20,Kaikoura,National,rest,1,5,371
+20,Kaikoura,Labour,National,2,1,693
+20,Kaikoura,Labour,Labour,2,2,8298
+20,Kaikoura,Labour,Green,2,3,1258
+20,Kaikoura,Labour,NZ First,2,4,1006
+20,Kaikoura,Labour,rest,2,5,209
+20,Kaikoura,Green,National,3,1,167
+20,Kaikoura,Green,Labour,3,2,828
+20,Kaikoura,Green,Green,3,3,846
+20,Kaikoura,Green,NZ First,3,4,70
+20,Kaikoura,Green,rest,3,5,31
+20,Kaikoura,NZ First,National,4,1,744
+20,Kaikoura,NZ First,Labour,4,2,548
+20,Kaikoura,NZ First,Green,4,3,108
+20,Kaikoura,NZ First,NZ First,4,4,2018
+20,Kaikoura,NZ First,rest,4,5,114
+20,Kaikoura,rest,National,5,1,512
+20,Kaikoura,rest,Labour,5,2,411
+20,Kaikoura,rest,Green,5,3,279
+20,Kaikoura,rest,NZ First,5,4,197
+20,Kaikoura,rest,rest,5,5,319
+21,Kelston,National,National,1,1,8645
+21,Kelston,National,Labour,1,2,771
+21,Kelston,National,Green,1,3,282
+21,Kelston,National,NZ First,1,4,259
+21,Kelston,National,rest,1,5,317
+21,Kelston,Labour,National,2,1,276
+21,Kelston,Labour,Labour,2,2,13662
+21,Kelston,Labour,Green,2,3,935
+21,Kelston,Labour,NZ First,2,4,216
+21,Kelston,Labour,rest,2,5,364
+21,Kelston,Green,National,3,1,60
+21,Kelston,Green,Labour,3,2,1375
+21,Kelston,Green,Green,3,3,576
+21,Kelston,Green,NZ First,3,4,11
+21,Kelston,Green,rest,3,5,63
+21,Kelston,NZ First,National,4,1,308
+21,Kelston,NZ First,Labour,4,2,627
+21,Kelston,NZ First,Green,4,3,54
+21,Kelston,NZ First,NZ First,4,4,932
+21,Kelston,NZ First,rest,4,5,118
+21,Kelston,rest,National,5,1,231
+21,Kelston,rest,Labour,5,2,354
+21,Kelston,rest,Green,5,3,137
+21,Kelston,rest,NZ First,5,4,49
+21,Kelston,rest,rest,5,5,374
+22,Mana,National,National,1,1,10703
+22,Mana,National,Labour,1,2,2590
+22,Mana,National,Green,1,3,394
+22,Mana,National,NZ First,1,4,0
+22,Mana,National,rest,1,5,504
+22,Mana,Labour,National,2,1,169
+22,Mana,Labour,Labour,2,2,15846
+22,Mana,Labour,Green,2,3,1218
+22,Mana,Labour,NZ First,2,4,0
+22,Mana,Labour,rest,2,5,263
+22,Mana,Green,National,3,1,46
+22,Mana,Green,Labour,3,2,2009
+22,Mana,Green,Green,3,3,968
+22,Mana,Green,NZ First,3,4,0
+22,Mana,Green,rest,3,5,27
+22,Mana,NZ First,National,4,1,448
+22,Mana,NZ First,Labour,4,2,1104
+22,Mana,NZ First,Green,4,3,140
+22,Mana,NZ First,NZ First,4,4,0
+22,Mana,NZ First,rest,4,5,210
+22,Mana,rest,National,5,1,363
+22,Mana,rest,Labour,5,2,1160
+22,Mana,rest,Green,5,3,291
+22,Mana,rest,NZ First,5,4,0
+22,Mana,rest,rest,5,5,289
+23,Mangere,National,National,1,1,3720
+23,Mangere,National,Labour,1,2,510
+23,Mangere,National,Green,1,3,128
+23,Mangere,National,NZ First,1,4,119
+23,Mangere,National,rest,1,5,295
+23,Mangere,Labour,National,2,1,207
+23,Mangere,Labour,Labour,2,2,17103
+23,Mangere,Labour,Green,2,3,683
+23,Mangere,Labour,NZ First,2,4,314
+23,Mangere,Labour,rest,2,5,928
+23,Mangere,Green,National,3,1,28
+23,Mangere,Green,Labour,3,2,371
+23,Mangere,Green,Green,3,3,284
+23,Mangere,Green,NZ First,3,4,13
+23,Mangere,Green,rest,3,5,45
+23,Mangere,NZ First,National,4,1,144
+23,Mangere,NZ First,Labour,4,2,464
+23,Mangere,NZ First,Green,4,3,44
+23,Mangere,NZ First,NZ First,4,4,615
+23,Mangere,NZ First,rest,4,5,144
+23,Mangere,rest,National,5,1,114
+23,Mangere,rest,Labour,5,2,362
+23,Mangere,rest,Green,5,3,64
+23,Mangere,rest,NZ First,5,4,36
+23,Mangere,rest,rest,5,5,648
+24,Manukau East,National,National,1,1,4426
+24,Manukau East,National,Labour,1,2,791
+24,Manukau East,National,Green,1,3,108
+24,Manukau East,National,NZ First,1,4,332
+24,Manukau East,National,rest,1,5,401
+24,Manukau East,Labour,National,2,1,190
+24,Manukau East,Labour,Labour,2,2,15499
+24,Manukau East,Labour,Green,2,3,330
+24,Manukau East,Labour,NZ First,2,4,272
+24,Manukau East,Labour,rest,2,5,673
+24,Manukau East,Green,National,3,1,16
+24,Manukau East,Green,Labour,3,2,348
+24,Manukau East,Green,Green,3,3,163
+24,Manukau East,Green,NZ First,3,4,18
+24,Manukau East,Green,rest,3,5,36
+24,Manukau East,NZ First,National,4,1,91
+24,Manukau East,NZ First,Labour,4,2,463
+24,Manukau East,NZ First,Green,4,3,14
+24,Manukau East,NZ First,NZ First,4,4,827
+24,Manukau East,NZ First,rest,4,5,91
+24,Manukau East,rest,National,5,1,90
+24,Manukau East,rest,Labour,5,2,301
+24,Manukau East,rest,Green,5,3,35
+24,Manukau East,rest,NZ First,5,4,62
+24,Manukau East,rest,rest,5,5,617
+25,Manurewa,National,National,1,1,6583
+25,Manurewa,National,Labour,1,2,669
+25,Manurewa,National,Green,1,3,80
+25,Manurewa,National,NZ First,1,4,233
+25,Manurewa,National,rest,1,5,376
+25,Manurewa,Labour,National,2,1,231
+25,Manurewa,Labour,Labour,2,2,13768
+25,Manurewa,Labour,Green,2,3,478
+25,Manurewa,Labour,NZ First,2,4,376
+25,Manurewa,Labour,rest,2,5,782
+25,Manurewa,Green,National,3,1,27
+25,Manurewa,Green,Labour,3,2,358
+25,Manurewa,Green,Green,3,3,231
+25,Manurewa,Green,NZ First,3,4,16
+25,Manurewa,Green,rest,3,5,48
+25,Manurewa,NZ First,National,4,1,199
+25,Manurewa,NZ First,Labour,4,2,444
+25,Manurewa,NZ First,Green,4,3,27
+25,Manurewa,NZ First,NZ First,4,4,1004
+25,Manurewa,NZ First,rest,4,5,132
+25,Manurewa,rest,National,5,1,163
+25,Manurewa,rest,Labour,5,2,338
+25,Manurewa,rest,Green,5,3,64
+25,Manurewa,rest,NZ First,5,4,62
+25,Manurewa,rest,rest,5,5,453
+26,Maungakiekie,National,National,1,1,13008
+26,Maungakiekie,National,Labour,1,2,351
+26,Maungakiekie,National,Green,1,3,451
+26,Maungakiekie,National,NZ First,1,4,170
+26,Maungakiekie,National,rest,1,5,303
+26,Maungakiekie,Labour,National,2,1,893
+26,Maungakiekie,Labour,Labour,2,2,11008
+26,Maungakiekie,Labour,Green,2,3,2069
+26,Maungakiekie,Labour,NZ First,2,4,291
+26,Maungakiekie,Labour,rest,2,5,711
+26,Maungakiekie,Green,National,3,1,127
+26,Maungakiekie,Green,Labour,3,2,830
+26,Maungakiekie,Green,Green,3,3,1041
+26,Maungakiekie,Green,NZ First,3,4,9
+26,Maungakiekie,Green,rest,3,5,31
+26,Maungakiekie,NZ First,National,4,1,512
+26,Maungakiekie,NZ First,Labour,4,2,331
+26,Maungakiekie,NZ First,Green,4,3,113
+26,Maungakiekie,NZ First,NZ First,4,4,757
+26,Maungakiekie,NZ First,rest,4,5,50
+26,Maungakiekie,rest,National,5,1,523
+26,Maungakiekie,rest,Labour,5,2,386
+26,Maungakiekie,rest,Green,5,3,386
+26,Maungakiekie,rest,NZ First,5,4,72
+26,Maungakiekie,rest,rest,5,5,401
+27,Mt Albert,National,National,1,1,8604
+27,Mt Albert,National,Labour,1,2,3261
+27,Mt Albert,National,Green,1,3,419
+27,Mt Albert,National,NZ First,1,4,205
+27,Mt Albert,National,rest,1,5,483
+27,Mt Albert,Labour,National,2,1,60
+27,Mt Albert,Labour,Labour,2,2,15506
+27,Mt Albert,Labour,Green,2,3,623
+27,Mt Albert,Labour,NZ First,2,4,57
+27,Mt Albert,Labour,rest,2,5,212
+27,Mt Albert,Green,National,3,1,39
+27,Mt Albert,Green,Labour,3,2,4250
+27,Mt Albert,Green,Green,3,3,1202
+27,Mt Albert,Green,NZ First,3,4,8
+27,Mt Albert,Green,rest,3,5,80
+27,Mt Albert,NZ First,National,4,1,162
+27,Mt Albert,NZ First,Labour,4,2,602
+27,Mt Albert,NZ First,Green,4,3,54
+27,Mt Albert,NZ First,NZ First,4,4,420
+27,Mt Albert,NZ First,rest,4,5,71
+27,Mt Albert,rest,National,5,1,287
+27,Mt Albert,rest,Labour,5,2,797
+27,Mt Albert,rest,Green,5,3,140
+27,Mt Albert,rest,NZ First,5,4,34
+27,Mt Albert,rest,rest,5,5,623
+28,Mt Roskill,National,National,1,1,11309
+28,Mt Roskill,National,Labour,1,2,2743
+28,Mt Roskill,National,Green,1,3,216
+28,Mt Roskill,National,NZ First,1,4,227
+28,Mt Roskill,National,rest,1,5,595
+28,Mt Roskill,Labour,National,2,1,257
+28,Mt Roskill,Labour,Labour,2,2,13528
+28,Mt Roskill,Labour,Green,2,3,500
+28,Mt Roskill,Labour,NZ First,2,4,111
+28,Mt Roskill,Labour,rest,2,5,442
+28,Mt Roskill,Green,National,3,1,70
+28,Mt Roskill,Green,Labour,3,2,1575
+28,Mt Roskill,Green,Green,3,3,464
+28,Mt Roskill,Green,NZ First,3,4,2
+28,Mt Roskill,Green,rest,3,5,63
+28,Mt Roskill,NZ First,National,4,1,239
+28,Mt Roskill,NZ First,Labour,4,2,709
+28,Mt Roskill,NZ First,Green,4,3,18
+28,Mt Roskill,NZ First,NZ First,4,4,479
+28,Mt Roskill,NZ First,rest,4,5,101
+28,Mt Roskill,rest,National,5,1,321
+28,Mt Roskill,rest,Labour,5,2,539
+28,Mt Roskill,rest,Green,5,3,56
+28,Mt Roskill,rest,NZ First,5,4,27
+28,Mt Roskill,rest,rest,5,5,537
+29,Napier,National,National,1,1,14163
+29,Napier,National,Labour,1,2,3288
+29,Napier,National,Green,1,3,154
+29,Napier,National,NZ First,1,4,0
+29,Napier,National,rest,1,5,217
+29,Napier,Labour,National,2,1,194
+29,Napier,Labour,Labour,2,2,13435
+29,Napier,Labour,Green,2,3,550
+29,Napier,Labour,NZ First,2,4,0
+29,Napier,Labour,rest,2,5,223
+29,Napier,Green,National,3,1,70
+29,Napier,Green,Labour,3,2,1413
+29,Napier,Green,Green,3,3,402
+29,Napier,Green,NZ First,3,4,0
+29,Napier,Green,rest,3,5,31
+29,Napier,NZ First,National,4,1,643
+29,Napier,NZ First,Labour,4,2,1790
+29,Napier,NZ First,Green,4,3,121
+29,Napier,NZ First,NZ First,4,4,0
+29,Napier,NZ First,rest,4,5,212
+29,Napier,rest,National,5,1,387
+29,Napier,rest,Labour,5,2,751
+29,Napier,rest,Green,5,3,159
+29,Napier,rest,NZ First,5,4,0
+29,Napier,rest,rest,5,5,251
+30,Nelson,National,National,1,1,14203
+30,Nelson,National,Labour,1,2,494
+30,Nelson,National,Green,1,3,999
+30,Nelson,National,NZ First,1,4,237
+30,Nelson,National,rest,1,5,354
+30,Nelson,Labour,National,2,1,1031
+30,Nelson,Labour,Labour,2,2,10418
+30,Nelson,Labour,Green,2,3,5288
+30,Nelson,Labour,NZ First,2,4,191
+30,Nelson,Labour,rest,2,5,260
+30,Nelson,Green,National,3,1,131
+30,Nelson,Green,Labour,3,2,592
+30,Nelson,Green,Green,3,3,2349
+30,Nelson,Green,NZ First,3,4,10
+30,Nelson,Green,rest,3,5,24
+30,Nelson,NZ First,National,4,1,781
+30,Nelson,NZ First,Labour,4,2,520
+30,Nelson,NZ First,Green,4,3,339
+30,Nelson,NZ First,NZ First,4,4,925
+30,Nelson,NZ First,rest,4,5,126
+30,Nelson,rest,National,5,1,589
+30,Nelson,rest,Labour,5,2,428
+30,Nelson,rest,Green,5,3,771
+30,Nelson,rest,NZ First,5,4,66
+30,Nelson,rest,rest,5,5,395
+31,New Lynn,National,National,1,1,12059
+31,New Lynn,National,Labour,1,2,1006
+31,New Lynn,National,Green,1,3,236
+31,New Lynn,National,NZ First,1,4,453
+31,New Lynn,National,rest,1,5,587
+31,New Lynn,Labour,National,2,1,256
+31,New Lynn,Labour,Labour,2,2,12543
+31,New Lynn,Labour,Green,2,3,977
+31,New Lynn,Labour,NZ First,2,4,258
+31,New Lynn,Labour,rest,2,5,354
+31,New Lynn,Green,National,3,1,69
+31,New Lynn,Green,Labour,3,2,1307
+31,New Lynn,Green,Green,3,3,683
+31,New Lynn,Green,NZ First,3,4,14
+31,New Lynn,Green,rest,3,5,40
+31,New Lynn,NZ First,National,4,1,357
+31,New Lynn,NZ First,Labour,4,2,601
+31,New Lynn,NZ First,Green,4,3,71
+31,New Lynn,NZ First,NZ First,4,4,927
+31,New Lynn,NZ First,rest,4,5,120
+31,New Lynn,rest,National,5,1,274
+31,New Lynn,rest,Labour,5,2,383
+31,New Lynn,rest,Green,5,3,143
+31,New Lynn,rest,NZ First,5,4,57
+31,New Lynn,rest,rest,5,5,368
+32,New Plymouth,National,National,1,1,18033
+32,New Plymouth,National,Labour,1,2,295
+32,New Plymouth,National,Green,1,3,175
+32,New Plymouth,National,NZ First,1,4,603
+32,New Plymouth,National,rest,1,5,330
+32,New Plymouth,Labour,National,2,1,954
+32,New Plymouth,Labour,Labour,2,2,10680
+32,New Plymouth,Labour,Green,2,3,941
+32,New Plymouth,Labour,NZ First,2,4,631
+32,New Plymouth,Labour,rest,2,5,291
+32,New Plymouth,Green,National,3,1,192
+32,New Plymouth,Green,Labour,3,2,914
+32,New Plymouth,Green,Green,3,3,589
+32,New Plymouth,Green,NZ First,3,4,40
+32,New Plymouth,Green,rest,3,5,42
+32,New Plymouth,NZ First,National,4,1,823
+32,New Plymouth,NZ First,Labour,4,2,542
+32,New Plymouth,NZ First,Green,4,3,68
+32,New Plymouth,NZ First,NZ First,4,4,1567
+32,New Plymouth,NZ First,rest,4,5,91
+32,New Plymouth,rest,National,5,1,709
+32,New Plymouth,rest,Labour,5,2,547
+32,New Plymouth,rest,Green,5,3,297
+32,New Plymouth,rest,NZ First,5,4,200
+32,New Plymouth,rest,rest,5,5,262
+33,North Shore,National,National,1,1,20961
+33,North Shore,National,Labour,1,2,453
+33,North Shore,National,Green,1,3,0
+33,North Shore,National,NZ First,1,4,461
+33,North Shore,National,rest,1,5,939
+33,North Shore,Labour,National,2,1,1030
+33,North Shore,Labour,Labour,2,2,8105
+33,North Shore,Labour,Green,2,3,0
+33,North Shore,Labour,NZ First,2,4,408
+33,North Shore,Labour,rest,2,5,686
+33,North Shore,Green,National,3,1,391
+33,North Shore,Green,Labour,3,2,1747
+33,North Shore,Green,Green,3,3,0
+33,North Shore,Green,NZ First,3,4,101
+33,North Shore,Green,rest,3,5,365
+33,North Shore,NZ First,National,4,1,579
+33,North Shore,NZ First,Labour,4,2,285
+33,North Shore,NZ First,Green,4,3,0
+33,North Shore,NZ First,NZ First,4,4,1061
+33,North Shore,NZ First,rest,4,5,145
+33,North Shore,rest,National,5,1,603
+33,North Shore,rest,Labour,5,2,258
+33,North Shore,rest,Green,5,3,0
+33,North Shore,rest,NZ First,5,4,77
+33,North Shore,rest,rest,5,5,784
+34,Northcote,National,National,1,1,16506
+34,Northcote,National,Labour,1,2,499
+34,Northcote,National,Green,1,3,300
+34,Northcote,National,NZ First,1,4,207
+34,Northcote,National,rest,1,5,314
+34,Northcote,Labour,National,2,1,1050
+34,Northcote,Labour,Labour,2,2,10017
+34,Northcote,Labour,Green,2,3,1035
+34,Northcote,Labour,NZ First,2,4,187
+34,Northcote,Labour,rest,2,5,138
+34,Northcote,Green,National,3,1,217
+34,Northcote,Green,Labour,3,2,1354
+34,Northcote,Green,Green,3,3,844
+34,Northcote,Green,NZ First,3,4,12
+34,Northcote,Green,rest,3,5,21
+34,Northcote,NZ First,National,4,1,677
+34,Northcote,NZ First,Labour,4,2,509
+34,Northcote,NZ First,Green,4,3,62
+34,Northcote,NZ First,NZ First,4,4,882
+34,Northcote,NZ First,rest,4,5,56
+34,Northcote,rest,National,5,1,622
+34,Northcote,rest,Labour,5,2,483
+34,Northcote,rest,Green,5,3,216
+34,Northcote,rest,NZ First,5,4,74
+34,Northcote,rest,rest,5,5,202
+35,Northland,National,National,1,1,14324
+35,Northland,National,Labour,1,2,383
+35,Northland,National,Green,1,3,145
+35,Northland,National,NZ First,1,4,3627
+35,Northland,National,rest,1,5,204
+35,Northland,Labour,National,2,1,259
+35,Northland,Labour,Labour,2,2,6586
+35,Northland,Labour,Green,2,3,778
+35,Northland,Labour,NZ First,2,4,4151
+35,Northland,Labour,rest,2,5,114
+35,Northland,Green,National,3,1,108
+35,Northland,Green,Labour,3,2,1069
+35,Northland,Green,Green,3,3,656
+35,Northland,Green,NZ First,3,4,563
+35,Northland,Green,rest,3,5,19
+35,Northland,NZ First,National,4,1,172
+35,Northland,NZ First,Labour,4,2,169
+35,Northland,NZ First,Green,4,3,17
+35,Northland,NZ First,NZ First,4,4,4879
+35,Northland,NZ First,rest,4,5,35
+35,Northland,rest,National,5,1,380
+35,Northland,rest,Labour,5,2,392
+35,Northland,rest,Green,5,3,198
+35,Northland,rest,NZ First,5,4,634
+35,Northland,rest,rest,5,5,240
+36,Ohariu,National,National,1,1,14856
+36,Ohariu,National,Labour,1,2,1739
+36,Ohariu,National,Green,1,3,384
+36,Ohariu,National,NZ First,1,4,147
+36,Ohariu,National,rest,1,5,1040
+36,Ohariu,Labour,National,2,1,288
+36,Ohariu,Labour,Labour,2,2,11728
+36,Ohariu,Labour,Green,2,3,1109
+36,Ohariu,Labour,NZ First,2,4,120
+36,Ohariu,Labour,rest,2,5,850
+36,Ohariu,Green,National,3,1,121
+36,Ohariu,Green,Labour,3,2,2470
+36,Ohariu,Green,Green,3,3,857
+36,Ohariu,Green,NZ First,3,4,9
+36,Ohariu,Green,rest,3,5,383
+36,Ohariu,NZ First,National,4,1,324
+36,Ohariu,NZ First,Labour,4,2,594
+36,Ohariu,NZ First,Green,4,3,38
+36,Ohariu,NZ First,NZ First,4,4,434
+36,Ohariu,NZ First,rest,4,5,96
+36,Ohariu,rest,National,5,1,444
+36,Ohariu,rest,Labour,5,2,553
+36,Ohariu,rest,Green,5,3,134
+36,Ohariu,rest,NZ First,5,4,41
+36,Ohariu,rest,rest,5,5,1267
+37,Otaki,National,National,1,1,17897
+37,Otaki,National,Labour,1,2,353
+37,Otaki,National,Green,1,3,180
+37,Otaki,National,NZ First,1,4,184
+37,Otaki,National,rest,1,5,445
+37,Otaki,Labour,National,2,1,1087
+37,Otaki,Labour,Labour,2,2,11706
+37,Otaki,Labour,Green,2,3,1071
+37,Otaki,Labour,NZ First,2,4,256
+37,Otaki,Labour,rest,2,5,634
+37,Otaki,Green,National,3,1,202
+37,Otaki,Green,Labour,3,2,1274
+37,Otaki,Green,Green,3,3,707
+37,Otaki,Green,NZ First,3,4,10
+37,Otaki,Green,rest,3,5,126
+37,Otaki,NZ First,National,4,1,1033
+37,Otaki,NZ First,Labour,4,2,898
+37,Otaki,NZ First,Green,4,3,82
+37,Otaki,NZ First,NZ First,4,4,1181
+37,Otaki,NZ First,rest,4,5,198
+37,Otaki,rest,National,5,1,506
+37,Otaki,rest,Labour,5,2,338
+37,Otaki,rest,Green,5,3,127
+37,Otaki,rest,NZ First,5,4,49
+37,Otaki,rest,rest,5,5,643
+38,Pakuranga,National,National,1,1,20561
+38,Pakuranga,National,Labour,1,2,279
+38,Pakuranga,National,Green,1,3,350
+38,Pakuranga,National,NZ First,1,4,368
+38,Pakuranga,National,rest,1,5,376
+38,Pakuranga,Labour,National,2,1,705
+38,Pakuranga,Labour,Labour,2,2,6557
+38,Pakuranga,Labour,Green,2,3,831
+38,Pakuranga,Labour,NZ First,2,4,316
+38,Pakuranga,Labour,rest,2,5,268
+38,Pakuranga,Green,National,3,1,158
+38,Pakuranga,Green,Labour,3,2,464
+38,Pakuranga,Green,Green,3,3,637
+38,Pakuranga,Green,NZ First,3,4,13
+38,Pakuranga,Green,rest,3,5,50
+38,Pakuranga,NZ First,National,4,1,686
+38,Pakuranga,NZ First,Labour,4,2,303
+38,Pakuranga,NZ First,Green,4,3,47
+38,Pakuranga,NZ First,NZ First,4,4,1252
+38,Pakuranga,NZ First,rest,4,5,49
+38,Pakuranga,rest,National,5,1,553
+38,Pakuranga,rest,Labour,5,2,174
+38,Pakuranga,rest,Green,5,3,153
+38,Pakuranga,rest,NZ First,5,4,90
+38,Pakuranga,rest,rest,5,5,182
+39,Palmerston North,National,National,1,1,11073
+39,Palmerston North,National,Labour,1,2,2191
+39,Palmerston North,National,Green,1,3,243
+39,Palmerston North,National,NZ First,1,4,460
+39,Palmerston North,National,rest,1,5,186
+39,Palmerston North,Labour,National,2,1,160
+39,Palmerston North,Labour,Labour,2,2,12957
+39,Palmerston North,Labour,Green,2,3,778
+39,Palmerston North,Labour,NZ First,2,4,272
+39,Palmerston North,Labour,rest,2,5,199
+39,Palmerston North,Green,National,3,1,36
+39,Palmerston North,Green,Labour,3,2,1418
+39,Palmerston North,Green,Green,3,3,630
+39,Palmerston North,Green,NZ First,3,4,23
+39,Palmerston North,Green,rest,3,5,24
+39,Palmerston North,NZ First,National,4,1,342
+39,Palmerston North,NZ First,Labour,4,2,992
+39,Palmerston North,NZ First,Green,4,3,67
+39,Palmerston North,NZ First,NZ First,4,4,1269
+39,Palmerston North,NZ First,rest,4,5,50
+39,Palmerston North,rest,National,5,1,335
+39,Palmerston North,rest,Labour,5,2,780
+39,Palmerston North,rest,Green,5,3,242
+39,Palmerston North,rest,NZ First,5,4,131
+39,Palmerston North,rest,rest,5,5,154
+40,Papakura,National,National,1,1,17600
+40,Papakura,National,Labour,1,2,849
+40,Papakura,National,Green,1,3,0
+40,Papakura,National,NZ First,1,4,434
+40,Papakura,National,rest,1,5,295
+40,Papakura,Labour,National,2,1,960
+40,Papakura,Labour,Labour,2,2,10136
+40,Papakura,Labour,Green,2,3,0
+40,Papakura,Labour,NZ First,2,4,525
+40,Papakura,Labour,rest,2,5,474
+40,Papakura,Green,National,3,1,165
+40,Papakura,Green,Labour,3,2,764
+40,Papakura,Green,Green,3,3,0
+40,Papakura,Green,NZ First,3,4,61
+40,Papakura,Green,rest,3,5,60
+40,Papakura,NZ First,National,4,1,978
+40,Papakura,NZ First,Labour,4,2,585
+40,Papakura,NZ First,Green,4,3,0
+40,Papakura,NZ First,NZ First,4,4,1591
+40,Papakura,NZ First,rest,4,5,91
+40,Papakura,rest,National,5,1,563
+40,Papakura,rest,Labour,5,2,446
+40,Papakura,rest,Green,5,3,0
+40,Papakura,rest,NZ First,5,4,167
+40,Papakura,rest,rest,5,5,284
+41,Port Hills,National,National,1,1,13375
+41,Port Hills,National,Labour,1,2,2835
+41,Port Hills,National,Green,1,3,489
+41,Port Hills,National,NZ First,1,4,250
+41,Port Hills,National,rest,1,5,249
+41,Port Hills,Labour,National,2,1,348
+41,Port Hills,Labour,Labour,2,2,14752
+41,Port Hills,Labour,Green,2,3,1213
+41,Port Hills,Labour,NZ First,2,4,172
+41,Port Hills,Labour,rest,2,5,105
+41,Port Hills,Green,National,3,1,127
+41,Port Hills,Green,Labour,3,2,3180
+41,Port Hills,Green,Green,3,3,1026
+41,Port Hills,Green,NZ First,3,4,12
+41,Port Hills,Green,rest,3,5,13
+41,Port Hills,NZ First,National,4,1,357
+41,Port Hills,NZ First,Labour,4,2,824
+41,Port Hills,NZ First,Green,4,3,64
+41,Port Hills,NZ First,NZ First,4,4,745
+41,Port Hills,NZ First,rest,4,5,44
+41,Port Hills,rest,National,5,1,480
+41,Port Hills,rest,Labour,5,2,1012
+41,Port Hills,rest,Green,5,3,351
+41,Port Hills,rest,NZ First,5,4,79
+41,Port Hills,rest,rest,5,5,198
+42,Rangitata,National,National,1,1,18370
+42,Rangitata,National,Labour,1,2,721
+42,Rangitata,National,Green,1,3,196
+42,Rangitata,National,NZ First,1,4,0
+42,Rangitata,National,rest,1,5,732
+42,Rangitata,Labour,National,2,1,300
+42,Rangitata,Labour,Labour,2,2,11078
+42,Rangitata,Labour,Green,2,3,658
+42,Rangitata,Labour,NZ First,2,4,0
+42,Rangitata,Labour,rest,2,5,578
+42,Rangitata,Green,National,3,1,98
+42,Rangitata,Green,Labour,3,2,607
+42,Rangitata,Green,Green,3,3,490
+42,Rangitata,Green,NZ First,3,4,0
+42,Rangitata,Green,rest,3,5,116
+42,Rangitata,NZ First,National,4,1,821
+42,Rangitata,NZ First,Labour,4,2,942
+42,Rangitata,NZ First,Green,4,3,118
+42,Rangitata,NZ First,NZ First,4,4,0
+42,Rangitata,NZ First,rest,4,5,390
+42,Rangitata,rest,National,5,1,405
+42,Rangitata,rest,Labour,5,2,315
+42,Rangitata,rest,Green,5,3,121
+42,Rangitata,rest,NZ First,5,4,0
+42,Rangitata,rest,rest,5,5,747
+43,Rangitikei,National,National,1,1,18131
+43,Rangitikei,National,Labour,1,2,303
+43,Rangitikei,National,Green,1,3,191
+43,Rangitikei,National,NZ First,1,4,411
+43,Rangitikei,National,rest,1,5,280
+43,Rangitikei,Labour,National,2,1,771
+43,Rangitikei,Labour,Labour,2,2,8461
+43,Rangitikei,Labour,Green,2,3,863
+43,Rangitikei,Labour,NZ First,2,4,389
+43,Rangitikei,Labour,rest,2,5,156
+43,Rangitikei,Green,National,3,1,161
+43,Rangitikei,Green,Labour,3,2,717
+43,Rangitikei,Green,Green,3,3,698
+43,Rangitikei,Green,NZ First,3,4,23
+43,Rangitikei,Green,rest,3,5,25
+43,Rangitikei,NZ First,National,4,1,1110
+43,Rangitikei,NZ First,Labour,4,2,610
+43,Rangitikei,NZ First,Green,4,3,77
+43,Rangitikei,NZ First,NZ First,4,4,1948
+43,Rangitikei,NZ First,rest,4,5,100
+43,Rangitikei,rest,National,5,1,636
+43,Rangitikei,rest,Labour,5,2,428
+43,Rangitikei,rest,Green,5,3,253
+43,Rangitikei,rest,NZ First,5,4,152
+43,Rangitikei,rest,rest,5,5,269
+44,Rimutaka,National,National,1,1,11986
+44,Rimutaka,National,Labour,1,2,2530
+44,Rimutaka,National,Green,1,3,211
+44,Rimutaka,National,NZ First,1,4,275
+44,Rimutaka,National,rest,1,5,302
+44,Rimutaka,Labour,National,2,1,196
+44,Rimutaka,Labour,Labour,2,2,15510
+44,Rimutaka,Labour,Green,2,3,786
+44,Rimutaka,Labour,NZ First,2,4,235
+44,Rimutaka,Labour,rest,2,5,159
+44,Rimutaka,Green,National,3,1,58
+44,Rimutaka,Green,Labour,3,2,1472
+44,Rimutaka,Green,Green,3,3,557
+44,Rimutaka,Green,NZ First,3,4,18
+44,Rimutaka,Green,rest,3,5,26
+44,Rimutaka,NZ First,National,4,1,478
+44,Rimutaka,NZ First,Labour,4,2,1284
+44,Rimutaka,NZ First,Green,4,3,50
+44,Rimutaka,NZ First,NZ First,4,4,1001
+44,Rimutaka,NZ First,rest,4,5,94
+44,Rimutaka,rest,National,5,1,398
+44,Rimutaka,rest,Labour,5,2,929
+44,Rimutaka,rest,Green,5,3,211
+44,Rimutaka,rest,NZ First,5,4,75
+44,Rimutaka,rest,rest,5,5,312
+45,Rodney,National,National,1,1,25135
+45,Rodney,National,Labour,1,2,184
+45,Rodney,National,Green,1,3,340
+45,Rodney,National,NZ First,1,4,832
+45,Rodney,National,rest,1,5,256
+45,Rodney,Labour,National,2,1,945
+45,Rodney,Labour,Labour,2,2,7069
+45,Rodney,Labour,Green,2,3,1120
+45,Rodney,Labour,NZ First,2,4,947
+45,Rodney,Labour,rest,2,5,299
+45,Rodney,Green,National,3,1,225
+45,Rodney,Green,Labour,3,2,805
+45,Rodney,Green,Green,3,3,823
+45,Rodney,Green,NZ First,3,4,119
+45,Rodney,Green,rest,3,5,82
+45,Rodney,NZ First,National,4,1,1100
+45,Rodney,NZ First,Labour,4,2,323
+45,Rodney,NZ First,Green,4,3,94
+45,Rodney,NZ First,NZ First,4,4,2333
+45,Rodney,NZ First,rest,4,5,66
+45,Rodney,rest,National,5,1,735
+45,Rodney,rest,Labour,5,2,198
+45,Rodney,rest,Green,5,3,126
+45,Rodney,rest,NZ First,5,4,150
+45,Rodney,rest,rest,5,5,480
+46,Rongotai,National,National,1,1,8973
+46,Rongotai,National,Labour,1,2,1553
+46,Rongotai,National,Green,1,3,330
+46,Rongotai,National,NZ First,1,4,131
+46,Rongotai,National,rest,1,5,525
+46,Rongotai,Labour,National,2,1,438
+46,Rongotai,Labour,Labour,2,2,14248
+46,Rongotai,Labour,Green,2,3,2587
+46,Rongotai,Labour,NZ First,2,4,146
+46,Rongotai,Labour,rest,2,5,621
+46,Rongotai,Green,National,3,1,155
+46,Rongotai,Green,Labour,3,2,4016
+46,Rongotai,Green,Green,3,3,2827
+46,Rongotai,Green,NZ First,3,4,11
+46,Rongotai,Green,rest,3,5,260
+46,Rongotai,NZ First,National,4,1,262
+46,Rongotai,NZ First,Labour,4,2,533
+46,Rongotai,NZ First,Green,4,3,49
+46,Rongotai,NZ First,NZ First,4,4,540
+46,Rongotai,NZ First,rest,4,5,102
+46,Rongotai,rest,National,5,1,418
+46,Rongotai,rest,Labour,5,2,796
+46,Rongotai,rest,Green,5,3,322
+46,Rongotai,rest,NZ First,5,4,23
+46,Rongotai,rest,rest,5,5,1018
+47,Rotorua,National,National,1,1,16195
+47,Rotorua,National,Labour,1,2,329
+47,Rotorua,National,Green,1,3,132
+47,Rotorua,National,NZ First,1,4,397
+47,Rotorua,National,rest,1,5,237
+47,Rotorua,Labour,National,2,1,807
+47,Rotorua,Labour,Labour,2,2,8780
+47,Rotorua,Labour,Green,2,3,634
+47,Rotorua,Labour,NZ First,2,4,630
+47,Rotorua,Labour,rest,2,5,477
+47,Rotorua,Green,National,3,1,169
+47,Rotorua,Green,Labour,3,2,742
+47,Rotorua,Green,Green,3,3,464
+47,Rotorua,Green,NZ First,3,4,36
+47,Rotorua,Green,rest,3,5,52
+47,Rotorua,NZ First,National,4,1,995
+47,Rotorua,NZ First,Labour,4,2,531
+47,Rotorua,NZ First,Green,4,3,41
+47,Rotorua,NZ First,NZ First,4,4,1829
+47,Rotorua,NZ First,rest,4,5,116
+47,Rotorua,rest,National,5,1,622
+47,Rotorua,rest,Labour,5,2,505
+47,Rotorua,rest,Green,5,3,220
+47,Rotorua,rest,NZ First,5,4,170
+47,Rotorua,rest,rest,5,5,475
+48,Selwyn,National,National,1,1,24828
+48,Selwyn,National,Labour,1,2,174
+48,Selwyn,National,Green,1,3,256
+48,Selwyn,National,NZ First,1,4,195
+48,Selwyn,National,rest,1,5,305
+48,Selwyn,Labour,National,2,1,1783
+48,Selwyn,Labour,Labour,2,2,7544
+48,Selwyn,Labour,Green,2,3,1327
+48,Selwyn,Labour,NZ First,2,4,213
+48,Selwyn,Labour,rest,2,5,458
+48,Selwyn,Green,National,3,1,354
+48,Selwyn,Green,Labour,3,2,778
+48,Selwyn,Green,Green,3,3,998
+48,Selwyn,Green,NZ First,3,4,16
+48,Selwyn,Green,rest,3,5,165
+48,Selwyn,NZ First,National,4,1,1001
+48,Selwyn,NZ First,Labour,4,2,355
+48,Selwyn,NZ First,Green,4,3,72
+48,Selwyn,NZ First,NZ First,4,4,882
+48,Selwyn,NZ First,rest,4,5,95
+48,Selwyn,rest,National,5,1,720
+48,Selwyn,rest,Labour,5,2,196
+48,Selwyn,rest,Green,5,3,119
+48,Selwyn,rest,NZ First,5,4,39
+48,Selwyn,rest,rest,5,5,680
+49,Tamaki,National,National,1,1,21835
+49,Tamaki,National,Labour,1,2,341
+49,Tamaki,National,Green,1,3,380
+49,Tamaki,National,NZ First,1,4,211
+49,Tamaki,National,rest,1,5,629
+49,Tamaki,Labour,National,2,1,635
+49,Tamaki,Labour,Labour,2,2,6818
+49,Tamaki,Labour,Green,2,3,1083
+49,Tamaki,Labour,NZ First,2,4,199
+49,Tamaki,Labour,rest,2,5,411
+49,Tamaki,Green,National,3,1,229
+49,Tamaki,Green,Labour,3,2,954
+49,Tamaki,Green,Green,3,3,853
+49,Tamaki,Green,NZ First,3,4,11
+49,Tamaki,Green,rest,3,5,77
+49,Tamaki,NZ First,National,4,1,543
+49,Tamaki,NZ First,Labour,4,2,211
+49,Tamaki,NZ First,Green,4,3,41
+49,Tamaki,NZ First,NZ First,4,4,614
+49,Tamaki,NZ First,rest,4,5,65
+49,Tamaki,rest,National,5,1,784
+49,Tamaki,rest,Labour,5,2,300
+49,Tamaki,rest,Green,5,3,210
+49,Tamaki,rest,NZ First,5,4,45
+49,Tamaki,rest,rest,5,5,356
+50,Taranaki-King Country,National,National,1,1,20524
+50,Taranaki-King Country,National,Labour,1,2,140
+50,Taranaki-King Country,National,Green,1,3,293
+50,Taranaki-King Country,National,NZ First,1,4,0
+50,Taranaki-King Country,National,rest,1,5,292
+50,Taranaki-King Country,Labour,National,2,1,650
+50,Taranaki-King Country,Labour,Labour,2,2,6655
+50,Taranaki-King Country,Labour,Green,2,3,1149
+50,Taranaki-King Country,Labour,NZ First,2,4,0
+50,Taranaki-King Country,Labour,rest,2,5,135
+50,Taranaki-King Country,Green,National,3,1,157
+50,Taranaki-King Country,Green,Labour,3,2,602
+50,Taranaki-King Country,Green,Green,3,3,834
+50,Taranaki-King Country,Green,NZ First,3,4,0
+50,Taranaki-King Country,Green,rest,3,5,16
+50,Taranaki-King Country,NZ First,National,4,1,1711
+50,Taranaki-King Country,NZ First,Labour,4,2,827
+50,Taranaki-King Country,NZ First,Green,4,3,287
+50,Taranaki-King Country,NZ First,NZ First,4,4,0
+50,Taranaki-King Country,NZ First,rest,4,5,469
+50,Taranaki-King Country,rest,National,5,1,812
+50,Taranaki-King Country,rest,Labour,5,2,371
+50,Taranaki-King Country,rest,Green,5,3,337
+50,Taranaki-King Country,rest,NZ First,5,4,0
+50,Taranaki-King Country,rest,rest,5,5,262
+51,Taupo,National,National,1,1,20704
+51,Taupo,National,Labour,1,2,157
+51,Taupo,National,Green,1,3,234
+51,Taupo,National,NZ First,1,4,0
+51,Taupo,National,rest,1,5,448
+51,Taupo,Labour,National,2,1,1177
+51,Taupo,Labour,Labour,2,2,8376
+51,Taupo,Labour,Green,2,3,1520
+51,Taupo,Labour,NZ First,2,4,0
+51,Taupo,Labour,rest,2,5,302
+51,Taupo,Green,National,3,1,201
+51,Taupo,Green,Labour,3,2,440
+51,Taupo,Green,Green,3,3,688
+51,Taupo,Green,NZ First,3,4,0
+51,Taupo,Green,rest,3,5,25
+51,Taupo,NZ First,National,4,1,1705
+51,Taupo,NZ First,Labour,4,2,898
+51,Taupo,NZ First,Green,4,3,328
+51,Taupo,NZ First,NZ First,4,4,0
+51,Taupo,NZ First,rest,4,5,649
+51,Taupo,rest,National,5,1,824
+51,Taupo,rest,Labour,5,2,405
+51,Taupo,rest,Green,5,3,348
+51,Taupo,rest,NZ First,5,4,0
+51,Taupo,rest,rest,5,5,369
+52,Tauranga,National,National,1,1,18983
+52,Tauranga,National,Labour,1,2,480
+52,Tauranga,National,Green,1,3,265
+52,Tauranga,National,NZ First,1,4,866
+52,Tauranga,National,rest,1,5,351
+52,Tauranga,Labour,National,2,1,736
+52,Tauranga,Labour,Labour,2,2,7880
+52,Tauranga,Labour,Green,2,3,799
+52,Tauranga,Labour,NZ First,2,4,860
+52,Tauranga,Labour,rest,2,5,211
+52,Tauranga,Green,National,3,1,167
+52,Tauranga,Green,Labour,3,2,753
+52,Tauranga,Green,Green,3,3,545
+52,Tauranga,Green,NZ First,3,4,38
+52,Tauranga,Green,rest,3,5,33
+52,Tauranga,NZ First,National,4,1,868
+52,Tauranga,NZ First,Labour,4,2,582
+52,Tauranga,NZ First,Green,4,3,63
+52,Tauranga,NZ First,NZ First,4,4,2842
+52,Tauranga,NZ First,rest,4,5,106
+52,Tauranga,rest,National,5,1,745
+52,Tauranga,rest,Labour,5,2,552
+52,Tauranga,rest,Green,5,3,263
+52,Tauranga,rest,NZ First,5,4,223
+52,Tauranga,rest,rest,5,5,389
+53,Te Atatu,National,National,1,1,12260
+53,Te Atatu,National,Labour,1,2,1256
+53,Te Atatu,National,Green,1,3,174
+53,Te Atatu,National,NZ First,1,4,261
+53,Te Atatu,National,rest,1,5,365
+53,Te Atatu,Labour,National,2,1,441
+53,Te Atatu,Labour,Labour,2,2,13357
+53,Te Atatu,Labour,Green,2,3,633
+53,Te Atatu,Labour,NZ First,2,4,261
+53,Te Atatu,Labour,rest,2,5,181
+53,Te Atatu,Green,National,3,1,83
+53,Te Atatu,Green,Labour,3,2,1084
+53,Te Atatu,Green,Green,3,3,459
+53,Te Atatu,Green,NZ First,3,4,16
+53,Te Atatu,Green,rest,3,5,17
+53,Te Atatu,NZ First,National,4,1,459
+53,Te Atatu,NZ First,Labour,4,2,662
+53,Te Atatu,NZ First,Green,4,3,27
+53,Te Atatu,NZ First,NZ First,4,4,1002
+53,Te Atatu,NZ First,rest,4,5,51
+53,Te Atatu,rest,National,5,1,347
+53,Te Atatu,rest,Labour,5,2,415
+53,Te Atatu,rest,Green,5,3,120
+53,Te Atatu,rest,NZ First,5,4,69
+53,Te Atatu,rest,rest,5,5,304
+54,Tukituki,National,National,1,1,16263
+54,Tukituki,National,Labour,1,2,1673
+54,Tukituki,National,Green,1,3,291
+54,Tukituki,National,NZ First,1,4,458
+54,Tukituki,National,rest,1,5,364
+54,Tukituki,Labour,National,2,1,713
+54,Tukituki,Labour,Labour,2,2,11000
+54,Tukituki,Labour,Green,2,3,786
+54,Tukituki,Labour,NZ First,2,4,322
+54,Tukituki,Labour,rest,2,5,151
+54,Tukituki,Green,National,3,1,167
+54,Tukituki,Green,Labour,3,2,1160
+54,Tukituki,Green,Green,3,3,602
+54,Tukituki,Green,NZ First,3,4,21
+54,Tukituki,Green,rest,3,5,21
+54,Tukituki,NZ First,National,4,1,619
+54,Tukituki,NZ First,Labour,4,2,1137
+54,Tukituki,NZ First,Green,4,3,80
+54,Tukituki,NZ First,NZ First,4,4,1128
+54,Tukituki,NZ First,rest,4,5,60
+54,Tukituki,rest,National,5,1,518
+54,Tukituki,rest,Labour,5,2,497
+54,Tukituki,rest,Green,5,3,218
+54,Tukituki,rest,NZ First,5,4,98
+54,Tukituki,rest,rest,5,5,200
+55,Upper Harbour,National,National,1,1,17803
+55,Upper Harbour,National,Labour,1,2,546
+55,Upper Harbour,National,Green,1,3,368
+55,Upper Harbour,National,NZ First,1,4,404
+55,Upper Harbour,National,rest,1,5,333
+55,Upper Harbour,Labour,National,2,1,938
+55,Upper Harbour,Labour,Labour,2,2,8640
+55,Upper Harbour,Labour,Green,2,3,1301
+55,Upper Harbour,Labour,NZ First,2,4,448
+55,Upper Harbour,Labour,rest,2,5,169
+55,Upper Harbour,Green,National,3,1,132
+55,Upper Harbour,Green,Labour,3,2,589
+55,Upper Harbour,Green,Green,3,3,699
+55,Upper Harbour,Green,NZ First,3,4,17
+55,Upper Harbour,Green,rest,3,5,14
+55,Upper Harbour,NZ First,National,4,1,502
+55,Upper Harbour,NZ First,Labour,4,2,251
+55,Upper Harbour,NZ First,Green,4,3,81
+55,Upper Harbour,NZ First,NZ First,4,4,1182
+55,Upper Harbour,NZ First,rest,4,5,42
+55,Upper Harbour,rest,National,5,1,482
+55,Upper Harbour,rest,Labour,5,2,275
+55,Upper Harbour,rest,Green,5,3,239
+55,Upper Harbour,rest,NZ First,5,4,141
+55,Upper Harbour,rest,rest,5,5,229
+56,Waikato,National,National,1,1,22243
+56,Waikato,National,Labour,1,2,218
+56,Waikato,National,Green,1,3,294
+56,Waikato,National,NZ First,1,4,583
+56,Waikato,National,rest,1,5,219
+56,Waikato,Labour,National,2,1,380
+56,Waikato,Labour,Labour,2,2,7623
+56,Waikato,Labour,Green,2,3,873
+56,Waikato,Labour,NZ First,2,4,508
+56,Waikato,Labour,rest,2,5,140
+56,Waikato,Green,National,3,1,143
+56,Waikato,Green,Labour,3,2,443
+56,Waikato,Green,Green,3,3,588
+56,Waikato,Green,NZ First,3,4,18
+56,Waikato,Green,rest,3,5,9
+56,Waikato,NZ First,National,4,1,1031
+56,Waikato,NZ First,Labour,4,2,483
+56,Waikato,NZ First,Green,4,3,87
+56,Waikato,NZ First,NZ First,4,4,2398
+56,Waikato,NZ First,rest,4,5,51
+56,Waikato,rest,National,5,1,763
+56,Waikato,rest,Labour,5,2,341
+56,Waikato,rest,Green,5,3,271
+56,Waikato,rest,NZ First,5,4,209
+56,Waikato,rest,rest,5,5,129
+57,Waimakariri,National,National,1,1,20022
+57,Waimakariri,National,Labour,1,2,351
+57,Waimakariri,National,Green,1,3,229
+57,Waimakariri,National,NZ First,1,4,256
+57,Waimakariri,National,rest,1,5,372
+57,Waimakariri,Labour,National,2,1,1230
+57,Waimakariri,Labour,Labour,2,2,9918
+57,Waimakariri,Labour,Green,2,3,913
+57,Waimakariri,Labour,NZ First,2,4,292
+57,Waimakariri,Labour,rest,2,5,366
+57,Waimakariri,Green,National,3,1,217
+57,Waimakariri,Green,Labour,3,2,820
+57,Waimakariri,Green,Green,3,3,512
+57,Waimakariri,Green,NZ First,3,4,14
+57,Waimakariri,Green,rest,3,5,64
+57,Waimakariri,NZ First,National,4,1,741
+57,Waimakariri,NZ First,Labour,4,2,541
+57,Waimakariri,NZ First,Green,4,3,60
+57,Waimakariri,NZ First,NZ First,4,4,1159
+57,Waimakariri,NZ First,rest,4,5,118
+57,Waimakariri,rest,National,5,1,447
+57,Waimakariri,rest,Labour,5,2,261
+57,Waimakariri,rest,Green,5,3,85
+57,Waimakariri,rest,NZ First,5,4,50
+57,Waimakariri,rest,rest,5,5,557
+58,Wairarapa,National,National,1,1,15469
+58,Wairarapa,National,Labour,1,2,1305
+58,Wairarapa,National,Green,1,3,212
+58,Wairarapa,National,NZ First,1,4,2476
+58,Wairarapa,National,rest,1,5,191
+58,Wairarapa,Labour,National,2,1,190
+58,Wairarapa,Labour,Labour,2,2,10001
+58,Wairarapa,Labour,Green,2,3,699
+58,Wairarapa,Labour,NZ First,2,4,1738
+58,Wairarapa,Labour,rest,2,5,171
+58,Wairarapa,Green,National,3,1,70
+58,Wairarapa,Green,Labour,3,2,1178
+58,Wairarapa,Green,Green,3,3,529
+58,Wairarapa,Green,NZ First,3,4,126
+58,Wairarapa,Green,rest,3,5,26
+58,Wairarapa,NZ First,National,4,1,387
+58,Wairarapa,NZ First,Labour,4,2,628
+58,Wairarapa,NZ First,Green,4,3,40
+58,Wairarapa,NZ First,NZ First,4,4,3046
+58,Wairarapa,NZ First,rest,4,5,50
+58,Wairarapa,rest,National,5,1,398
+58,Wairarapa,rest,Labour,5,2,530
+58,Wairarapa,rest,Green,5,3,203
+58,Wairarapa,rest,NZ First,5,4,367
+58,Wairarapa,rest,rest,5,5,202
+59,Waitaki,National,National,1,1,22288
+59,Waitaki,National,Labour,1,2,284
+59,Waitaki,National,Green,1,3,209
+59,Waitaki,National,NZ First,1,4,387
+59,Waitaki,National,rest,1,5,371
+59,Waitaki,Labour,National,2,1,1052
+59,Waitaki,Labour,Labour,2,2,10033
+59,Waitaki,Labour,Green,2,3,1175
+59,Waitaki,Labour,NZ First,2,4,482
+59,Waitaki,Labour,rest,2,5,373
+59,Waitaki,Green,National,3,1,250
+59,Waitaki,Green,Labour,3,2,1012
+59,Waitaki,Green,Green,3,3,888
+59,Waitaki,Green,NZ First,3,4,38
+59,Waitaki,Green,rest,3,5,99
+59,Waitaki,NZ First,National,4,1,779
+59,Waitaki,NZ First,Labour,4,2,442
+59,Waitaki,NZ First,Green,4,3,58
+59,Waitaki,NZ First,NZ First,4,4,1476
+59,Waitaki,NZ First,rest,4,5,110
+59,Waitaki,rest,National,5,1,501
+59,Waitaki,rest,Labour,5,2,283
+59,Waitaki,rest,Green,5,3,168
+59,Waitaki,rest,NZ First,5,4,90
+59,Waitaki,rest,rest,5,5,799
+60,Wellington Central,National,National,1,1,9954
+60,Wellington Central,National,Labour,1,2,1557
+60,Wellington Central,National,Green,1,3,639
+60,Wellington Central,National,NZ First,1,4,238
+60,Wellington Central,National,rest,1,5,626
+60,Wellington Central,Labour,National,2,1,261
+60,Wellington Central,Labour,Labour,2,2,12789
+60,Wellington Central,Labour,Green,2,3,2409
+60,Wellington Central,Labour,NZ First,2,4,139
+60,Wellington Central,Labour,rest,2,5,619
+60,Wellington Central,Green,National,3,1,94
+60,Wellington Central,Green,Labour,3,2,5388
+60,Wellington Central,Green,Green,3,3,3057
+60,Wellington Central,Green,NZ First,3,4,17
+60,Wellington Central,Green,rest,3,5,548
+60,Wellington Central,NZ First,National,4,1,161
+60,Wellington Central,NZ First,Labour,4,2,341
+60,Wellington Central,NZ First,Green,4,3,42
+60,Wellington Central,NZ First,NZ First,4,4,368
+60,Wellington Central,NZ First,rest,4,5,45
+60,Wellington Central,rest,National,5,1,440
+60,Wellington Central,rest,Labour,5,2,798
+60,Wellington Central,rest,Green,5,3,373
+60,Wellington Central,rest,NZ First,5,4,35
+60,Wellington Central,rest,rest,5,5,1630
+61,West Coast-Tasman,National,National,1,1,11866
+61,West Coast-Tasman,National,Labour,1,2,2196
+61,West Coast-Tasman,National,Green,1,3,168
+61,West Coast-Tasman,National,NZ First,1,4,222
+61,West Coast-Tasman,National,rest,1,5,626
+61,West Coast-Tasman,Labour,National,2,1,233
+61,West Coast-Tasman,Labour,Labour,2,2,11972
+61,West Coast-Tasman,Labour,Green,2,3,924
+61,West Coast-Tasman,Labour,NZ First,2,4,238
+61,West Coast-Tasman,Labour,rest,2,5,525
+61,West Coast-Tasman,Green,National,3,1,51
+61,West Coast-Tasman,Green,Labour,3,2,2105
+61,West Coast-Tasman,Green,Green,3,3,821
+61,West Coast-Tasman,Green,NZ First,3,4,13
+61,West Coast-Tasman,Green,rest,3,5,105
+61,West Coast-Tasman,NZ First,National,4,1,426
+61,West Coast-Tasman,NZ First,Labour,4,2,1391
+61,West Coast-Tasman,NZ First,Green,4,3,61
+61,West Coast-Tasman,NZ First,NZ First,4,4,1220
+61,West Coast-Tasman,NZ First,rest,4,5,408
+61,West Coast-Tasman,rest,National,5,1,319
+61,West Coast-Tasman,rest,Labour,5,2,824
+61,West Coast-Tasman,rest,Green,5,3,256
+61,West Coast-Tasman,rest,NZ First,5,4,94
+61,West Coast-Tasman,rest,rest,5,5,559
+62,Whanganui,National,National,1,1,14914
+62,Whanganui,National,Labour,1,2,742
+62,Whanganui,National,Green,1,3,321
+62,Whanganui,National,NZ First,1,4,408
+62,Whanganui,National,rest,1,5,406
+62,Whanganui,Labour,National,2,1,407
+62,Whanganui,Labour,Labour,2,2,11777
+62,Whanganui,Labour,Green,2,3,880
+62,Whanganui,Labour,NZ First,2,4,282
+62,Whanganui,Labour,rest,2,5,154
+62,Whanganui,Green,National,3,1,136
+62,Whanganui,Green,Labour,3,2,1052
+62,Whanganui,Green,Green,3,3,536
+62,Whanganui,Green,NZ First,3,4,15
+62,Whanganui,Green,rest,3,5,13
+62,Whanganui,NZ First,National,4,1,878
+62,Whanganui,NZ First,Labour,4,2,964
+62,Whanganui,NZ First,Green,4,3,99
+62,Whanganui,NZ First,NZ First,4,4,1718
+62,Whanganui,NZ First,rest,4,5,87
+62,Whanganui,rest,National,5,1,416
+62,Whanganui,rest,Labour,5,2,510
+62,Whanganui,rest,Green,5,3,231
+62,Whanganui,rest,NZ First,5,4,157
+62,Whanganui,rest,rest,5,5,194
+63,Whangarei,National,National,1,1,16069
+63,Whangarei,National,Labour,1,2,154
+63,Whangarei,National,Green,1,3,369
+63,Whangarei,National,NZ First,1,4,1340
+63,Whangarei,National,rest,1,5,530
+63,Whangarei,Labour,National,2,1,912
+63,Whangarei,Labour,Labour,2,2,6635
+63,Whangarei,Labour,Green,2,3,2505
+63,Whangarei,Labour,NZ First,2,4,2188
+63,Whangarei,Labour,rest,2,5,467
+63,Whangarei,Green,National,3,1,183
+63,Whangarei,Green,Labour,3,2,472
+63,Whangarei,Green,Green,3,3,1426
+63,Whangarei,Green,NZ First,3,4,124
+63,Whangarei,Green,rest,3,5,107
+63,Whangarei,NZ First,National,4,1,1112
+63,Whangarei,NZ First,Labour,4,2,303
+63,Whangarei,NZ First,Green,4,3,222
+63,Whangarei,NZ First,NZ First,4,4,3747
+63,Whangarei,NZ First,rest,4,5,349
+63,Whangarei,rest,National,5,1,458
+63,Whangarei,rest,Labour,5,2,203
+63,Whangarei,rest,Green,5,3,346
+63,Whangarei,rest,NZ First,5,4,252
+63,Whangarei,rest,rest,5,5,393
+64,Wigram,National,National,1,1,11413
+64,Wigram,National,Labour,1,2,1578
+64,Wigram,National,Green,1,3,196
+64,Wigram,National,NZ First,1,4,165
+64,Wigram,National,rest,1,5,228
+64,Wigram,Labour,National,2,1,191
+64,Wigram,Labour,Labour,2,2,12310
+64,Wigram,Labour,Green,2,3,639
+64,Wigram,Labour,NZ First,2,4,197
+64,Wigram,Labour,rest,2,5,161
+64,Wigram,Green,National,3,1,73
+64,Wigram,Green,Labour,3,2,1574
+64,Wigram,Green,Green,3,3,529
+64,Wigram,Green,NZ First,3,4,8
+64,Wigram,Green,rest,3,5,15
+64,Wigram,NZ First,National,4,1,326
+64,Wigram,NZ First,Labour,4,2,790
+64,Wigram,NZ First,Green,4,3,44
+64,Wigram,NZ First,NZ First,4,4,735
+64,Wigram,NZ First,rest,4,5,50
+64,Wigram,rest,National,5,1,404
+64,Wigram,rest,Labour,5,2,749
+64,Wigram,rest,Green,5,3,215
+64,Wigram,rest,NZ First,5,4,81
+64,Wigram,rest,rest,5,5,235
+65,Hauraki-Waikato,National,National,1,1,0
+65,Hauraki-Waikato,National,Labour,1,2,426
+65,Hauraki-Waikato,National,Green,1,3,0
+65,Hauraki-Waikato,National,NZ First,1,4,0
+65,Hauraki-Waikato,National,rest,1,5,1088
+65,Hauraki-Waikato,Labour,National,2,1,0
+65,Hauraki-Waikato,Labour,Labour,2,2,11507
+65,Hauraki-Waikato,Labour,Green,2,3,0
+65,Hauraki-Waikato,Labour,NZ First,2,4,0
+65,Hauraki-Waikato,Labour,rest,2,5,2169
+65,Hauraki-Waikato,Green,National,3,1,0
+65,Hauraki-Waikato,Green,Labour,3,2,825
+65,Hauraki-Waikato,Green,Green,3,3,0
+65,Hauraki-Waikato,Green,NZ First,3,4,0
+65,Hauraki-Waikato,Green,rest,3,5,320
+65,Hauraki-Waikato,NZ First,National,4,1,0
+65,Hauraki-Waikato,NZ First,Labour,4,2,1109
+65,Hauraki-Waikato,NZ First,Green,4,3,0
+65,Hauraki-Waikato,NZ First,NZ First,4,4,0
+65,Hauraki-Waikato,NZ First,rest,4,5,750
+65,Hauraki-Waikato,rest,National,5,1,0
+65,Hauraki-Waikato,rest,Labour,5,2,1439
+65,Hauraki-Waikato,rest,Green,5,3,0
+65,Hauraki-Waikato,rest,NZ First,5,4,0
+65,Hauraki-Waikato,rest,rest,5,5,2599
+66,Ikaroa-Rawhiti,National,National,1,1,0
+66,Ikaroa-Rawhiti,National,Labour,1,2,179
+66,Ikaroa-Rawhiti,National,Green,1,3,159
+66,Ikaroa-Rawhiti,National,NZ First,1,4,0
+66,Ikaroa-Rawhiti,National,rest,1,5,759
+66,Ikaroa-Rawhiti,Labour,National,2,1,0
+66,Ikaroa-Rawhiti,Labour,Labour,2,2,10289
+66,Ikaroa-Rawhiti,Labour,Green,2,3,957
+66,Ikaroa-Rawhiti,Labour,NZ First,2,4,0
+66,Ikaroa-Rawhiti,Labour,rest,2,5,3575
+66,Ikaroa-Rawhiti,Green,National,3,1,0
+66,Ikaroa-Rawhiti,Green,Labour,3,2,394
+66,Ikaroa-Rawhiti,Green,Green,3,3,404
+66,Ikaroa-Rawhiti,Green,NZ First,3,4,0
+66,Ikaroa-Rawhiti,Green,rest,3,5,307
+66,Ikaroa-Rawhiti,NZ First,National,4,1,0
+66,Ikaroa-Rawhiti,NZ First,Labour,4,2,697
+66,Ikaroa-Rawhiti,NZ First,Green,4,3,168
+66,Ikaroa-Rawhiti,NZ First,NZ First,4,4,0
+66,Ikaroa-Rawhiti,NZ First,rest,4,5,779
+66,Ikaroa-Rawhiti,rest,National,5,1,0
+66,Ikaroa-Rawhiti,rest,Labour,5,2,715
+66,Ikaroa-Rawhiti,rest,Green,5,3,236
+66,Ikaroa-Rawhiti,rest,NZ First,5,4,0
+66,Ikaroa-Rawhiti,rest,rest,5,5,3247
+67,Tamaki Makaurau,National,National,1,1,0
+67,Tamaki Makaurau,National,Labour,1,2,173
+67,Tamaki Makaurau,National,Green,1,3,263
+67,Tamaki Makaurau,National,NZ First,1,4,0
+67,Tamaki Makaurau,National,rest,1,5,846
+67,Tamaki Makaurau,Labour,National,2,1,0
+67,Tamaki Makaurau,Labour,Labour,2,2,7376
+67,Tamaki Makaurau,Labour,Green,2,3,2208
+67,Tamaki Makaurau,Labour,NZ First,2,4,0
+67,Tamaki Makaurau,Labour,rest,2,5,2121
+67,Tamaki Makaurau,Green,National,3,1,0
+67,Tamaki Makaurau,Green,Labour,3,2,420
+67,Tamaki Makaurau,Green,Green,3,3,857
+67,Tamaki Makaurau,Green,NZ First,3,4,0
+67,Tamaki Makaurau,Green,rest,3,5,158
+67,Tamaki Makaurau,NZ First,National,4,1,0
+67,Tamaki Makaurau,NZ First,Labour,4,2,793
+67,Tamaki Makaurau,NZ First,Green,4,3,321
+67,Tamaki Makaurau,NZ First,NZ First,4,4,0
+67,Tamaki Makaurau,NZ First,rest,4,5,791
+67,Tamaki Makaurau,rest,National,5,1,0
+67,Tamaki Makaurau,rest,Labour,5,2,634
+67,Tamaki Makaurau,rest,Green,5,3,619
+67,Tamaki Makaurau,rest,NZ First,5,4,0
+67,Tamaki Makaurau,rest,rest,5,5,2197
+68,Te Tai Hauauru,National,National,1,1,0
+68,Te Tai Hauauru,National,Labour,1,2,156
+68,Te Tai Hauauru,National,Green,1,3,196
+68,Te Tai Hauauru,National,NZ First,1,4,0
+68,Te Tai Hauauru,National,rest,1,5,1107
+68,Te Tai Hauauru,Labour,National,2,1,0
+68,Te Tai Hauauru,Labour,Labour,2,2,8137
+68,Te Tai Hauauru,Labour,Green,2,3,1311
+68,Te Tai Hauauru,Labour,NZ First,2,4,0
+68,Te Tai Hauauru,Labour,rest,2,5,3561
+68,Te Tai Hauauru,Green,National,3,1,0
+68,Te Tai Hauauru,Green,Labour,3,2,357
+68,Te Tai Hauauru,Green,Green,3,3,672
+68,Te Tai Hauauru,Green,NZ First,3,4,0
+68,Te Tai Hauauru,Green,rest,3,5,435
+68,Te Tai Hauauru,NZ First,National,4,1,0
+68,Te Tai Hauauru,NZ First,Labour,4,2,549
+68,Te Tai Hauauru,NZ First,Green,4,3,194
+68,Te Tai Hauauru,NZ First,NZ First,4,4,0
+68,Te Tai Hauauru,NZ First,rest,4,5,892
+68,Te Tai Hauauru,rest,National,5,1,0
+68,Te Tai Hauauru,rest,Labour,5,2,592
+68,Te Tai Hauauru,rest,Green,5,3,425
+68,Te Tai Hauauru,rest,NZ First,5,4,0
+68,Te Tai Hauauru,rest,rest,5,5,3735
+69,Te Tai Tokerau,National,National,1,1,0
+69,Te Tai Tokerau,National,Labour,1,2,591
+69,Te Tai Tokerau,National,Green,1,3,337
+69,Te Tai Tokerau,National,NZ First,1,4,0
+69,Te Tai Tokerau,National,rest,1,5,864
+69,Te Tai Tokerau,Labour,National,2,1,0
+69,Te Tai Tokerau,Labour,Labour,2,2,9252
+69,Te Tai Tokerau,Labour,Green,2,3,813
+69,Te Tai Tokerau,Labour,NZ First,2,4,0
+69,Te Tai Tokerau,Labour,rest,2,5,3865
+69,Te Tai Tokerau,Green,National,3,1,0
+69,Te Tai Tokerau,Green,Labour,3,2,526
+69,Te Tai Tokerau,Green,Green,3,3,381
+69,Te Tai Tokerau,Green,NZ First,3,4,0
+69,Te Tai Tokerau,Green,rest,3,5,619
+69,Te Tai Tokerau,NZ First,National,4,1,0
+69,Te Tai Tokerau,NZ First,Labour,4,2,1369
+69,Te Tai Tokerau,NZ First,Green,4,3,203
+69,Te Tai Tokerau,NZ First,NZ First,4,4,0
+69,Te Tai Tokerau,NZ First,rest,4,5,1144
+69,Te Tai Tokerau,rest,National,5,1,0
+69,Te Tai Tokerau,rest,Labour,5,2,935
+69,Te Tai Tokerau,rest,Green,5,3,224
+69,Te Tai Tokerau,rest,NZ First,5,4,0
+69,Te Tai Tokerau,rest,rest,5,5,2970
+70,Te Tai Tonga,National,National,1,1,0
+70,Te Tai Tonga,National,Labour,1,2,376
+70,Te Tai Tonga,National,Green,1,3,495
+70,Te Tai Tonga,National,NZ First,1,4,0
+70,Te Tai Tonga,National,rest,1,5,2072
+70,Te Tai Tonga,Labour,National,2,1,0
+70,Te Tai Tonga,Labour,Labour,2,2,8130
+70,Te Tai Tonga,Labour,Green,2,3,2874
+70,Te Tai Tonga,Labour,NZ First,2,4,0
+70,Te Tai Tonga,Labour,rest,2,5,2064
+70,Te Tai Tonga,Green,National,3,1,0
+70,Te Tai Tonga,Green,Labour,3,2,421
+70,Te Tai Tonga,Green,Green,3,3,1267
+70,Te Tai Tonga,Green,NZ First,3,4,0
+70,Te Tai Tonga,Green,rest,3,5,201
+70,Te Tai Tonga,NZ First,National,4,1,0
+70,Te Tai Tonga,NZ First,Labour,4,2,807
+70,Te Tai Tonga,NZ First,Green,4,3,292
+70,Te Tai Tonga,NZ First,NZ First,4,4,0
+70,Te Tai Tonga,NZ First,rest,4,5,782
+70,Te Tai Tonga,rest,National,5,1,0
+70,Te Tai Tonga,rest,Labour,5,2,682
+70,Te Tai Tonga,rest,Green,5,3,812
+70,Te Tai Tonga,rest,NZ First,5,4,0
+70,Te Tai Tonga,rest,rest,5,5,2159
+71,Waiariki,National,National,1,1,0
+71,Waiariki,National,Labour,1,2,220
+71,Waiariki,National,Green,1,3,0
+71,Waiariki,National,NZ First,1,4,0
+71,Waiariki,National,rest,1,5,865
+71,Waiariki,Labour,National,2,1,0
+71,Waiariki,Labour,Labour,2,2,9868
+71,Waiariki,Labour,Green,2,3,0
+71,Waiariki,Labour,NZ First,2,4,0
+71,Waiariki,Labour,rest,2,5,3816
+71,Waiariki,Green,National,3,1,0
+71,Waiariki,Green,Labour,3,2,508
+71,Waiariki,Green,Green,3,3,0
+71,Waiariki,Green,NZ First,3,4,0
+71,Waiariki,Green,rest,3,5,388
+71,Waiariki,NZ First,National,4,1,0
+71,Waiariki,NZ First,Labour,4,2,811
+71,Waiariki,NZ First,Green,4,3,0
+71,Waiariki,NZ First,NZ First,4,4,0
+71,Waiariki,NZ First,rest,4,5,918
+71,Waiariki,rest,National,5,1,0
+71,Waiariki,rest,Labour,5,2,955
+71,Waiariki,rest,Green,5,3,0
+71,Waiariki,rest,NZ First,5,4,0
+71,Waiariki,rest,rest,5,5,5230

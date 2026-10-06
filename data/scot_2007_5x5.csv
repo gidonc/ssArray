@@ -1,0 +1,1826 @@
+area,district,row,col,row_no,col_no,votes
+1,ANNIESLAND,Con,Con,1,1,1797
+1,ANNIESLAND,Con,Lab,1,2,161
+1,ANNIESLAND,Con,LD,1,3,158
+1,ANNIESLAND,Con,SNP,1,4,197
+1,ANNIESLAND,Con,rest,1,5,841
+1,ANNIESLAND,Lab,Con,2,1,83
+1,ANNIESLAND,Lab,Lab,2,2,7964
+1,ANNIESLAND,Lab,LD,2,3,189
+1,ANNIESLAND,Lab,SNP,2,4,325
+1,ANNIESLAND,Lab,rest,2,5,1922
+1,ANNIESLAND,LD,Con,3,1,38
+1,ANNIESLAND,LD,Lab,3,2,122
+1,ANNIESLAND,LD,LD,3,3,1260
+1,ANNIESLAND,LD,SNP,3,4,148
+1,ANNIESLAND,LD,rest,3,5,757
+1,ANNIESLAND,SNP,Con,4,1,27
+1,ANNIESLAND,SNP,Lab,4,2,108
+1,ANNIESLAND,SNP,LD,4,3,64
+1,ANNIESLAND,SNP,SNP,4,4,4907
+1,ANNIESLAND,SNP,rest,4,5,1071
+1,ANNIESLAND,rest,Con,5,1,54
+1,ANNIESLAND,rest,Lab,5,2,600
+1,ANNIESLAND,rest,LD,5,3,56
+1,ANNIESLAND,rest,SNP,5,4,388
+1,ANNIESLAND,rest,rest,5,5,638
+2,AYR,Con,Con,1,1,8719
+2,AYR,Con,Lab,1,2,841
+2,AYR,Con,LD,1,3,384
+2,AYR,Con,SNP,1,4,1261
+2,AYR,Con,rest,1,5,1414
+2,AYR,Lab,Con,2,1,49
+2,AYR,Lab,Lab,2,2,7443
+2,AYR,Lab,LD,2,3,83
+2,AYR,Lab,SNP,2,4,259
+2,AYR,Lab,rest,2,5,879
+2,AYR,LD,Con,3,1,38
+2,AYR,LD,Lab,3,2,91
+2,AYR,LD,LD,3,3,1056
+2,AYR,LD,SNP,3,4,122
+2,AYR,LD,rest,3,5,434
+2,AYR,SNP,Con,4,1,56
+2,AYR,SNP,Lab,4,2,213
+2,AYR,SNP,LD,4,3,64
+2,AYR,SNP,SNP,4,4,6734
+2,AYR,SNP,rest,4,5,885
+2,AYR,rest,Con,5,1,121
+2,AYR,rest,Lab,5,2,283
+2,AYR,rest,LD,5,3,14
+2,AYR,rest,SNP,5,4,184
+2,AYR,rest,rest,5,5,271
+3,Aberdeen Central,Con,Con,1,1,1840
+3,Aberdeen Central,Con,Lab,1,2,58
+3,Aberdeen Central,Con,LD,1,3,62
+3,Aberdeen Central,Con,SNP,1,4,116
+3,Aberdeen Central,Con,rest,1,5,269
+3,Aberdeen Central,Lab,Con,2,1,134
+3,Aberdeen Central,Lab,Lab,2,2,5719
+3,Aberdeen Central,Lab,LD,2,3,242
+3,Aberdeen Central,Lab,SNP,2,4,295
+3,Aberdeen Central,Lab,rest,2,5,842
+3,Aberdeen Central,LD,Con,3,1,162
+3,Aberdeen Central,LD,Lab,3,2,261
+3,Aberdeen Central,LD,LD,3,3,3102
+3,Aberdeen Central,LD,SNP,3,4,423
+3,Aberdeen Central,LD,rest,3,5,745
+3,Aberdeen Central,SNP,Con,4,1,30
+3,Aberdeen Central,SNP,Lab,4,2,90
+3,Aberdeen Central,SNP,LD,4,3,94
+3,Aberdeen Central,SNP,SNP,4,4,6035
+3,Aberdeen Central,SNP,rest,4,5,601
+3,Aberdeen Central,rest,Con,5,1,40
+3,Aberdeen Central,rest,Lab,5,2,211
+3,Aberdeen Central,rest,LD,5,3,52
+3,Aberdeen Central,rest,SNP,5,4,211
+3,Aberdeen Central,rest,rest,5,5,262
+4,Aberdeen North,Con,Con,1,1,1520
+4,Aberdeen North,Con,Lab,1,2,53
+4,Aberdeen North,Con,LD,1,3,63
+4,Aberdeen North,Con,SNP,1,4,74
+4,Aberdeen North,Con,rest,1,5,282
+4,Aberdeen North,Lab,Con,2,1,65
+4,Aberdeen North,Lab,Lab,2,2,6512
+4,Aberdeen North,Lab,LD,2,3,153
+4,Aberdeen North,Lab,SNP,2,4,216
+4,Aberdeen North,Lab,rest,2,5,711
+4,Aberdeen North,LD,Con,3,1,107
+4,Aberdeen North,LD,Lab,3,2,236
+4,Aberdeen North,LD,LD,3,3,2791
+4,Aberdeen North,LD,SNP,3,4,272
+4,Aberdeen North,LD,rest,3,5,430
+4,Aberdeen North,SNP,Con,4,1,71
+4,Aberdeen North,SNP,Lab,4,2,282
+4,Aberdeen North,SNP,LD,4,3,183
+4,Aberdeen North,SNP,SNP,4,4,10155
+4,Aberdeen North,SNP,rest,4,5,715
+4,Aberdeen North,rest,Con,5,1,54
+4,Aberdeen North,rest,Lab,5,2,366
+4,Aberdeen North,rest,LD,5,3,81
+4,Aberdeen North,rest,SNP,5,4,356
+4,Aberdeen North,rest,rest,5,5,316
+5,Aberdeen South,Con,Con,1,1,4293
+5,Aberdeen South,Con,Lab,1,2,124
+5,Aberdeen South,Con,LD,1,3,95
+5,Aberdeen South,Con,SNP,1,4,323
+5,Aberdeen South,Con,rest,1,5,597
+5,Aberdeen South,Lab,Con,2,1,54
+5,Aberdeen South,Lab,Lab,2,2,4591
+5,Aberdeen South,Lab,LD,2,3,66
+5,Aberdeen South,Lab,SNP,2,4,165
+5,Aberdeen South,Lab,rest,2,5,623
+5,Aberdeen South,LD,Con,3,1,546
+5,Aberdeen South,LD,Lab,3,2,1167
+5,Aberdeen South,LD,LD,3,3,6498
+5,Aberdeen South,LD,SNP,3,4,1391
+5,Aberdeen South,LD,rest,3,5,1241
+5,Aberdeen South,SNP,Con,4,1,34
+5,Aberdeen South,SNP,Lab,4,2,129
+5,Aberdeen South,SNP,LD,4,3,45
+5,Aberdeen South,SNP,SNP,4,4,7241
+5,Aberdeen South,SNP,rest,4,5,662
+5,Aberdeen South,rest,Con,5,1,87
+5,Aberdeen South,rest,Lab,5,2,280
+5,Aberdeen South,rest,LD,5,3,115
+5,Aberdeen South,rest,SNP,5,4,329
+5,Aberdeen South,rest,rest,5,5,328
+6,Airdrie and Shotts,Con,Con,1,1,1517
+6,Airdrie and Shotts,Con,Lab,1,2,61
+6,Airdrie and Shotts,Con,LD,1,3,28
+6,Airdrie and Shotts,Con,SNP,1,4,79
+6,Airdrie and Shotts,Con,rest,1,5,685
+6,Airdrie and Shotts,Lab,Con,2,1,126
+6,Airdrie and Shotts,Lab,Lab,2,2,9565
+6,Airdrie and Shotts,Lab,LD,2,3,122
+6,Airdrie and Shotts,Lab,SNP,2,4,318
+6,Airdrie and Shotts,Lab,rest,2,5,1776
+6,Airdrie and Shotts,LD,Con,3,1,35
+6,Airdrie and Shotts,LD,Lab,3,2,130
+6,Airdrie and Shotts,LD,LD,3,3,834
+6,Airdrie and Shotts,LD,SNP,3,4,56
+6,Airdrie and Shotts,LD,rest,3,5,397
+6,Airdrie and Shotts,SNP,Con,4,1,223
+6,Airdrie and Shotts,SNP,Lab,4,2,564
+6,Airdrie and Shotts,SNP,LD,4,3,163
+6,Airdrie and Shotts,SNP,SNP,4,4,7772
+6,Airdrie and Shotts,SNP,rest,4,5,1739
+6,Airdrie and Shotts,rest,Con,5,1,94
+6,Airdrie and Shotts,rest,Lab,5,2,716
+6,Airdrie and Shotts,rest,LD,5,3,61
+6,Airdrie and Shotts,rest,SNP,5,4,380
+6,Airdrie and Shotts,rest,rest,5,5,1255
+7,Angus,Con,Con,1,1,5911
+7,Angus,Con,Lab,1,2,252
+7,Angus,Con,LD,1,3,168
+7,Angus,Con,SNP,1,4,251
+7,Angus,Con,rest,1,5,861
+7,Angus,Lab,Con,2,1,41
+7,Angus,Lab,Lab,2,2,4252
+7,Angus,Lab,LD,2,3,46
+7,Angus,Lab,SNP,2,4,91
+7,Angus,Lab,rest,2,5,602
+7,Angus,LD,Con,3,1,123
+7,Angus,LD,Lab,3,2,250
+7,Angus,LD,LD,3,3,2446
+7,Angus,LD,SNP,3,4,169
+7,Angus,LD,rest,3,5,811
+7,Angus,SNP,Con,4,1,355
+7,Angus,SNP,Lab,4,2,897
+7,Angus,SNP,LD,4,3,431
+7,Angus,SNP,SNP,4,4,12544
+7,Angus,SNP,rest,4,5,1459
+7,Angus,rest,Con,5,1,110
+7,Angus,rest,Lab,5,2,180
+7,Angus,rest,LD,5,3,33
+7,Angus,rest,SNP,5,4,276
+7,Angus,rest,rest,5,5,274
+8,Argyll and Bute,Con,Con,1,1,4017
+8,Argyll and Bute,Con,Lab,1,2,124
+8,Argyll and Bute,Con,LD,1,3,158
+8,Argyll and Bute,Con,SNP,1,4,326
+8,Argyll and Bute,Con,rest,1,5,946
+8,Argyll and Bute,Lab,Con,2,1,44
+8,Argyll and Bute,Lab,Lab,2,2,3120
+8,Argyll and Bute,Lab,LD,2,3,92
+8,Argyll and Bute,Lab,SNP,2,4,167
+8,Argyll and Bute,Lab,rest,2,5,725
+8,Argyll and Bute,LD,Con,3,1,498
+8,Argyll and Bute,LD,Lab,3,2,1142
+8,Argyll and Bute,LD,LD,3,3,4781
+8,Argyll and Bute,LD,SNP,3,4,1032
+8,Argyll and Bute,LD,rest,3,5,1676
+8,Argyll and Bute,SNP,Con,4,1,101
+8,Argyll and Bute,SNP,Lab,4,2,143
+8,Argyll and Bute,SNP,LD,4,3,108
+8,Argyll and Bute,SNP,SNP,4,4,8488
+8,Argyll and Bute,SNP,rest,4,5,1104
+8,Argyll and Bute,rest,Con,5,1,96
+8,Argyll and Bute,rest,Lab,5,2,164
+8,Argyll and Bute,rest,LD,5,3,70
+8,Argyll and Bute,rest,SNP,5,4,232
+8,Argyll and Bute,rest,rest,5,5,338
+9,BAILLIESTON,Con,Con,1,1,797
+9,BAILLIESTON,Con,Lab,1,2,36
+9,BAILLIESTON,Con,LD,1,3,12
+9,BAILLIESTON,Con,SNP,1,4,33
+9,BAILLIESTON,Con,rest,1,5,398
+9,BAILLIESTON,Lab,Con,2,1,64
+9,BAILLIESTON,Lab,Lab,2,2,7093
+9,BAILLIESTON,Lab,LD,2,3,75
+9,BAILLIESTON,Lab,SNP,2,4,275
+9,BAILLIESTON,Lab,rest,2,5,1634
+9,BAILLIESTON,LD,Con,3,1,22
+9,BAILLIESTON,LD,Lab,3,2,83
+9,BAILLIESTON,LD,LD,3,3,542
+9,BAILLIESTON,LD,SNP,3,4,83
+9,BAILLIESTON,LD,rest,3,5,330
+9,BAILLIESTON,SNP,Con,4,1,38
+9,BAILLIESTON,SNP,Lab,4,2,143
+9,BAILLIESTON,SNP,LD,4,3,48
+9,BAILLIESTON,SNP,SNP,4,4,4039
+9,BAILLIESTON,SNP,rest,4,5,939
+9,BAILLIESTON,rest,Con,5,1,117
+9,BAILLIESTON,rest,Lab,5,2,717
+9,BAILLIESTON,rest,LD,5,3,48
+9,BAILLIESTON,rest,SNP,5,4,427
+9,BAILLIESTON,rest,rest,5,5,1129
+10,Banff and Buchan,Con,Con,1,1,3942
+10,Banff and Buchan,Con,Lab,1,2,144
+10,Banff and Buchan,Con,LD,1,3,124
+10,Banff and Buchan,Con,SNP,1,4,476
+10,Banff and Buchan,Con,rest,1,5,815
+10,Banff and Buchan,Lab,Con,2,1,37
+10,Banff and Buchan,Lab,Lab,2,2,2382
+10,Banff and Buchan,Lab,LD,2,3,57
+10,Banff and Buchan,Lab,SNP,2,4,206
+10,Banff and Buchan,Lab,rest,2,5,454
+10,Banff and Buchan,LD,Con,3,1,102
+10,Banff and Buchan,LD,Lab,3,2,136
+10,Banff and Buchan,LD,LD,3,3,1621
+10,Banff and Buchan,LD,SNP,3,4,204
+10,Banff and Buchan,LD,rest,3,5,554
+10,Banff and Buchan,SNP,Con,4,1,161
+10,Banff and Buchan,SNP,Lab,4,2,312
+10,Banff and Buchan,SNP,LD,4,3,147
+10,Banff and Buchan,SNP,SNP,4,4,14557
+10,Banff and Buchan,SNP,rest,4,5,854
+10,Banff and Buchan,rest,Con,5,1,116
+10,Banff and Buchan,rest,Lab,5,2,148
+10,Banff and Buchan,rest,LD,5,3,69
+10,Banff and Buchan,rest,SNP,5,4,789
+10,Banff and Buchan,rest,rest,5,5,321
+11,CARRICK CUMNOCK AND DOON VALLEY,Con,Con,1,1,5515
+11,CARRICK CUMNOCK AND DOON VALLEY,Con,Lab,1,2,132
+11,CARRICK CUMNOCK AND DOON VALLEY,Con,LD,1,3,103
+11,CARRICK CUMNOCK AND DOON VALLEY,Con,SNP,1,4,331
+11,CARRICK CUMNOCK AND DOON VALLEY,Con,rest,1,5,648
+11,CARRICK CUMNOCK AND DOON VALLEY,Lab,Con,2,1,242
+11,CARRICK CUMNOCK AND DOON VALLEY,Lab,Lab,2,2,11829
+11,CARRICK CUMNOCK AND DOON VALLEY,Lab,LD,2,3,203
+11,CARRICK CUMNOCK AND DOON VALLEY,Lab,SNP,2,4,511
+11,CARRICK CUMNOCK AND DOON VALLEY,Lab,rest,2,5,1565
+11,CARRICK CUMNOCK AND DOON VALLEY,LD,Con,3,1,37
+11,CARRICK CUMNOCK AND DOON VALLEY,LD,Lab,3,2,52
+11,CARRICK CUMNOCK AND DOON VALLEY,LD,LD,3,3,923
+11,CARRICK CUMNOCK AND DOON VALLEY,LD,SNP,3,4,74
+11,CARRICK CUMNOCK AND DOON VALLEY,LD,rest,3,5,323
+11,CARRICK CUMNOCK AND DOON VALLEY,SNP,Con,4,1,175
+11,CARRICK CUMNOCK AND DOON VALLEY,SNP,Lab,4,2,283
+11,CARRICK CUMNOCK AND DOON VALLEY,SNP,LD,4,3,106
+11,CARRICK CUMNOCK AND DOON VALLEY,SNP,SNP,4,4,8790
+11,CARRICK CUMNOCK AND DOON VALLEY,SNP,rest,4,5,1010
+11,CARRICK CUMNOCK AND DOON VALLEY,rest,Con,5,1,202
+11,CARRICK CUMNOCK AND DOON VALLEY,rest,Lab,5,2,666
+11,CARRICK CUMNOCK AND DOON VALLEY,rest,LD,5,3,82
+11,CARRICK CUMNOCK AND DOON VALLEY,rest,SNP,5,4,436
+11,CARRICK CUMNOCK AND DOON VALLEY,rest,rest,5,5,979
+12,CATHCART,Con,Con,1,1,1621
+12,CATHCART,Con,Lab,1,2,71
+12,CATHCART,Con,LD,1,3,71
+12,CATHCART,Con,SNP,1,4,87
+12,CATHCART,Con,rest,1,5,474
+12,CATHCART,Lab,Con,2,1,81
+12,CATHCART,Lab,Lab,2,2,6602
+12,CATHCART,Lab,LD,2,3,194
+12,CATHCART,Lab,SNP,2,4,189
+12,CATHCART,Lab,rest,2,5,1410
+12,CATHCART,LD,Con,3,1,27
+12,CATHCART,LD,Lab,3,2,79
+12,CATHCART,LD,LD,3,3,948
+12,CATHCART,LD,SNP,3,4,93
+12,CATHCART,LD,rest,3,5,512
+12,CATHCART,SNP,Con,4,1,51
+12,CATHCART,SNP,Lab,4,2,108
+12,CATHCART,SNP,LD,4,3,97
+12,CATHCART,SNP,SNP,4,4,4970
+12,CATHCART,SNP,rest,4,5,1061
+12,CATHCART,rest,Con,5,1,480
+12,CATHCART,rest,Lab,5,2,1091
+12,CATHCART,rest,LD,5,3,411
+12,CATHCART,rest,SNP,5,4,710
+12,CATHCART,rest,rest,5,5,1936
+13,Caithness Sutherland & Easter Ross,Con,Con,1,1,1731
+13,Caithness Sutherland & Easter Ross,Con,Lab,1,2,61
+13,Caithness Sutherland & Easter Ross,Con,LD,1,3,95
+13,Caithness Sutherland & Easter Ross,Con,SNP,1,4,138
+13,Caithness Sutherland & Easter Ross,Con,rest,1,5,561
+13,Caithness Sutherland & Easter Ross,Lab,Con,2,1,19
+13,Caithness Sutherland & Easter Ross,Lab,Lab,2,2,2478
+13,Caithness Sutherland & Easter Ross,Lab,LD,2,3,86
+13,Caithness Sutherland & Easter Ross,Lab,SNP,2,4,90
+13,Caithness Sutherland & Easter Ross,Lab,rest,2,5,479
+13,Caithness Sutherland & Easter Ross,LD,Con,3,1,440
+13,Caithness Sutherland & Easter Ross,LD,Lab,3,2,1091
+13,Caithness Sutherland & Easter Ross,LD,LD,3,3,4860
+13,Caithness Sutherland & Easter Ross,LD,SNP,3,4,1072
+13,Caithness Sutherland & Easter Ross,LD,rest,3,5,1518
+13,Caithness Sutherland & Easter Ross,SNP,Con,4,1,43
+13,Caithness Sutherland & Easter Ross,SNP,Lab,4,2,88
+13,Caithness Sutherland & Easter Ross,SNP,LD,4,3,92
+13,Caithness Sutherland & Easter Ross,SNP,SNP,4,4,5692
+13,Caithness Sutherland & Easter Ross,SNP,rest,4,5,743
+13,Caithness Sutherland & Easter Ross,rest,Con,5,1,130
+13,Caithness Sutherland & Easter Ross,rest,Lab,5,2,320
+13,Caithness Sutherland & Easter Ross,rest,LD,5,3,193
+13,Caithness Sutherland & Easter Ross,rest,SNP,5,4,383
+13,Caithness Sutherland & Easter Ross,rest,rest,5,5,798
+14,Central Fife,Con,Con,1,1,1384
+14,Central Fife,Con,Lab,1,2,53
+14,Central Fife,Con,LD,1,3,24
+14,Central Fife,Con,SNP,1,4,111
+14,Central Fife,Con,rest,1,5,431
+14,Central Fife,Lab,Con,2,1,90
+14,Central Fife,Lab,Lab,2,2,9160
+14,Central Fife,Lab,LD,2,3,132
+14,Central Fife,Lab,SNP,2,4,309
+14,Central Fife,Lab,rest,2,5,1063
+14,Central Fife,LD,Con,3,1,58
+14,Central Fife,LD,Lab,3,2,112
+14,Central Fife,LD,LD,3,3,1465
+14,Central Fife,LD,SNP,3,4,102
+14,Central Fife,LD,rest,3,5,551
+14,Central Fife,SNP,Con,4,1,95
+14,Central Fife,SNP,Lab,4,2,459
+14,Central Fife,SNP,LD,4,3,136
+14,Central Fife,SNP,SNP,4,4,10126
+14,Central Fife,SNP,rest,4,5,1104
+14,Central Fife,rest,Con,5,1,48
+14,Central Fife,rest,Lab,5,2,470
+14,Central Fife,rest,LD,5,3,37
+14,Central Fife,rest,SNP,5,4,316
+14,Central Fife,rest,rest,5,5,385
+15,Clydebank and Milngavie,Con,Con,1,1,2572
+15,Clydebank and Milngavie,Con,Lab,1,2,94
+15,Clydebank and Milngavie,Con,LD,1,3,95
+15,Clydebank and Milngavie,Con,SNP,1,4,155
+15,Clydebank and Milngavie,Con,rest,1,5,628
+15,Clydebank and Milngavie,Lab,Con,2,1,189
+15,Clydebank and Milngavie,Lab,Lab,2,2,9001
+15,Clydebank and Milngavie,Lab,LD,2,3,247
+15,Clydebank and Milngavie,Lab,SNP,2,4,448
+15,Clydebank and Milngavie,Lab,rest,2,5,1732
+15,Clydebank and Milngavie,LD,Con,3,1,111
+15,Clydebank and Milngavie,LD,Lab,3,2,295
+15,Clydebank and Milngavie,LD,LD,3,3,1787
+15,Clydebank and Milngavie,LD,SNP,3,4,241
+15,Clydebank and Milngavie,LD,rest,3,5,732
+15,Clydebank and Milngavie,SNP,Con,4,1,90
+15,Clydebank and Milngavie,SNP,Lab,4,2,229
+15,Clydebank and Milngavie,SNP,LD,4,3,138
+15,Clydebank and Milngavie,SNP,SNP,4,4,6815
+15,Clydebank and Milngavie,SNP,rest,4,5,1166
+15,Clydebank and Milngavie,rest,Con,5,1,71
+15,Clydebank and Milngavie,rest,Lab,5,2,509
+15,Clydebank and Milngavie,rest,LD,5,3,40
+15,Clydebank and Milngavie,rest,SNP,5,4,313
+15,Clydebank and Milngavie,rest,rest,5,5,467
+16,Clydesdale,Con,Con,1,1,4394
+16,Clydesdale,Con,Lab,1,2,111
+16,Clydesdale,Con,LD,1,3,81
+16,Clydesdale,Con,SNP,1,4,225
+16,Clydesdale,Con,rest,1,5,793
+16,Clydesdale,Lab,Con,2,1,273
+16,Clydesdale,Lab,Lab,2,2,11201
+16,Clydesdale,Lab,LD,2,3,256
+16,Clydesdale,Lab,SNP,2,4,514
+16,Clydesdale,Lab,rest,2,5,1591
+16,Clydesdale,LD,Con,3,1,118
+16,Clydesdale,LD,Lab,3,2,174
+16,Clydesdale,LD,LD,3,3,1716
+16,Clydesdale,LD,SNP,3,4,175
+16,Clydesdale,LD,rest,3,5,768
+16,Clydesdale,SNP,Con,4,1,136
+16,Clydesdale,SNP,Lab,4,2,280
+16,Clydesdale,SNP,LD,4,3,111
+16,Clydesdale,SNP,SNP,4,4,9264
+16,Clydesdale,SNP,rest,4,5,1151
+16,Clydesdale,rest,Con,5,1,105
+16,Clydesdale,rest,Lab,5,2,429
+16,Clydesdale,rest,LD,5,3,20
+16,Clydesdale,rest,SNP,5,4,216
+16,Clydesdale,rest,rest,5,5,436
+17,Coatbridge and Chryston,Con,Con,1,1,1579
+17,Coatbridge and Chryston,Con,Lab,1,2,62
+17,Coatbridge and Chryston,Con,LD,1,3,27
+17,Coatbridge and Chryston,Con,SNP,1,4,90
+17,Coatbridge and Chryston,Con,rest,1,5,547
+17,Coatbridge and Chryston,Lab,Con,2,1,70
+17,Coatbridge and Chryston,Lab,Lab,2,2,9696
+17,Coatbridge and Chryston,Lab,LD,2,3,112
+17,Coatbridge and Chryston,Lab,SNP,2,4,296
+17,Coatbridge and Chryston,Lab,rest,2,5,1686
+17,Coatbridge and Chryston,LD,Con,3,1,43
+17,Coatbridge and Chryston,LD,Lab,3,2,91
+17,Coatbridge and Chryston,LD,LD,3,3,932
+17,Coatbridge and Chryston,LD,SNP,3,4,95
+17,Coatbridge and Chryston,LD,rest,3,5,358
+17,Coatbridge and Chryston,SNP,Con,4,1,72
+17,Coatbridge and Chryston,SNP,Lab,4,2,303
+17,Coatbridge and Chryston,SNP,LD,4,3,84
+17,Coatbridge and Chryston,SNP,SNP,4,4,5786
+17,Coatbridge and Chryston,SNP,rest,4,5,1105
+17,Coatbridge and Chryston,rest,Con,5,1,168
+17,Coatbridge and Chryston,rest,Lab,5,2,990
+17,Coatbridge and Chryston,rest,LD,5,3,167
+17,Coatbridge and Chryston,rest,SNP,5,4,599
+17,Coatbridge and Chryston,rest,rest,5,5,2052
+18,Cumbernauld and Kilsyth,Con,Con,1,1,883
+18,Cumbernauld and Kilsyth,Con,Lab,1,2,45
+18,Cumbernauld and Kilsyth,Con,LD,1,3,29
+18,Cumbernauld and Kilsyth,Con,SNP,1,4,59
+18,Cumbernauld and Kilsyth,Con,rest,1,5,431
+18,Cumbernauld and Kilsyth,Lab,Con,2,1,116
+18,Cumbernauld and Kilsyth,Lab,Lab,2,2,9997
+18,Cumbernauld and Kilsyth,Lab,LD,2,3,169
+18,Cumbernauld and Kilsyth,Lab,SNP,2,4,418
+18,Cumbernauld and Kilsyth,Lab,rest,2,5,1972
+18,Cumbernauld and Kilsyth,LD,Con,3,1,33
+18,Cumbernauld and Kilsyth,LD,Lab,3,2,156
+18,Cumbernauld and Kilsyth,LD,LD,3,3,848
+18,Cumbernauld and Kilsyth,LD,SNP,3,4,86
+18,Cumbernauld and Kilsyth,LD,rest,3,5,547
+18,Cumbernauld and Kilsyth,SNP,Con,4,1,102
+18,Cumbernauld and Kilsyth,SNP,Lab,4,2,435
+18,Cumbernauld and Kilsyth,SNP,LD,4,3,134
+18,Cumbernauld and Kilsyth,SNP,SNP,4,4,8587
+18,Cumbernauld and Kilsyth,SNP,rest,4,5,1335
+18,Cumbernauld and Kilsyth,rest,Con,5,1,30
+18,Cumbernauld and Kilsyth,rest,Lab,5,2,210
+18,Cumbernauld and Kilsyth,rest,LD,5,3,13
+18,Cumbernauld and Kilsyth,rest,SNP,5,4,241
+18,Cumbernauld and Kilsyth,rest,rest,5,5,309
+19,Cunninghame North,Con,Con,1,1,4296
+19,Cunninghame North,Con,Lab,1,2,138
+19,Cunninghame North,Con,LD,1,3,65
+19,Cunninghame North,Con,SNP,1,4,196
+19,Cunninghame North,Con,rest,1,5,771
+19,Cunninghame North,Lab,Con,2,1,137
+19,Cunninghame North,Lab,Lab,2,2,7564
+19,Cunninghame North,Lab,LD,2,3,172
+19,Cunninghame North,Lab,SNP,2,4,312
+19,Cunninghame North,Lab,rest,2,5,1062
+19,Cunninghame North,LD,Con,3,1,59
+19,Cunninghame North,LD,Lab,3,2,94
+19,Cunninghame North,LD,LD,3,3,1146
+19,Cunninghame North,LD,SNP,3,4,115
+19,Cunninghame North,LD,rest,3,5,396
+19,Cunninghame North,SNP,Con,4,1,95
+19,Cunninghame North,SNP,Lab,4,2,186
+19,Cunninghame North,SNP,LD,4,3,64
+19,Cunninghame North,SNP,SNP,4,4,8023
+19,Cunninghame North,SNP,rest,4,5,927
+19,Cunninghame North,rest,Con,5,1,653
+19,Cunninghame North,rest,Lab,5,2,965
+19,Cunninghame North,rest,LD,5,3,426
+19,Cunninghame North,rest,SNP,5,4,1349
+19,Cunninghame North,rest,rest,5,5,2045
+20,Cunninghame South,Con,Con,1,1,2208
+20,Cunninghame South,Con,Lab,1,2,101
+20,Cunninghame South,Con,LD,1,3,41
+20,Cunninghame South,Con,SNP,1,4,137
+20,Cunninghame South,Con,rest,1,5,586
+20,Cunninghame South,Lab,Con,2,1,102
+20,Cunninghame South,Lab,Lab,2,2,8381
+20,Cunninghame South,Lab,LD,2,3,124
+20,Cunninghame South,Lab,SNP,2,4,332
+20,Cunninghame South,Lab,rest,2,5,1331
+20,Cunninghame South,LD,Con,3,1,52
+20,Cunninghame South,LD,Lab,3,2,135
+20,Cunninghame South,LD,LD,3,3,1065
+20,Cunninghame South,LD,SNP,3,4,163
+20,Cunninghame South,LD,rest,3,5,562
+20,Cunninghame South,SNP,Con,4,1,48
+20,Cunninghame South,SNP,Lab,4,2,185
+20,Cunninghame South,SNP,LD,4,3,64
+20,Cunninghame South,SNP,SNP,4,4,6672
+20,Cunninghame South,SNP,rest,4,5,1133
+20,Cunninghame South,rest,Con,5,1,53
+20,Cunninghame South,rest,Lab,5,2,406
+20,Cunninghame South,rest,LD,5,3,26
+20,Cunninghame South,rest,SNP,5,4,221
+20,Cunninghame South,rest,rest,5,5,349
+21,DUMFRIES,Con,Con,1,1,8929
+21,DUMFRIES,Con,Lab,1,2,125
+21,DUMFRIES,Con,LD,1,3,140
+21,DUMFRIES,Con,SNP,1,4,537
+21,DUMFRIES,Con,rest,1,5,1137
+21,DUMFRIES,Lab,Con,2,1,295
+21,DUMFRIES,Lab,Lab,2,2,10568
+21,DUMFRIES,Lab,LD,2,3,380
+21,DUMFRIES,Lab,SNP,2,4,745
+21,DUMFRIES,Lab,rest,2,5,1719
+21,DUMFRIES,LD,Con,3,1,70
+21,DUMFRIES,LD,Lab,3,2,92
+21,DUMFRIES,LD,LD,3,3,1598
+21,DUMFRIES,LD,SNP,3,4,186
+21,DUMFRIES,LD,rest,3,5,592
+21,DUMFRIES,SNP,Con,4,1,60
+21,DUMFRIES,SNP,Lab,4,2,115
+21,DUMFRIES,SNP,LD,4,3,68
+21,DUMFRIES,SNP,SNP,4,4,5318
+21,DUMFRIES,SNP,rest,4,5,745
+21,DUMFRIES,rest,Con,5,1,199
+21,DUMFRIES,rest,Lab,5,2,250
+21,DUMFRIES,rest,LD,5,3,39
+21,DUMFRIES,rest,SNP,5,4,174
+21,DUMFRIES,rest,rest,5,5,344
+22,Dumbarton,Con,Con,1,1,3593
+22,Dumbarton,Con,Lab,1,2,124
+22,Dumbarton,Con,LD,1,3,66
+22,Dumbarton,Con,SNP,1,4,134
+22,Dumbarton,Con,rest,1,5,784
+22,Dumbarton,Lab,Con,2,1,466
+22,Dumbarton,Lab,Lab,2,2,8336
+22,Dumbarton,Lab,LD,2,3,468
+22,Dumbarton,Lab,SNP,2,4,556
+22,Dumbarton,Lab,rest,2,5,1809
+22,Dumbarton,LD,Con,3,1,116
+22,Dumbarton,LD,Lab,3,2,221
+22,Dumbarton,LD,LD,3,3,2016
+22,Dumbarton,LD,SNP,3,4,179
+22,Dumbarton,LD,rest,3,5,853
+22,Dumbarton,SNP,Con,4,1,119
+22,Dumbarton,SNP,Lab,4,2,282
+22,Dumbarton,SNP,LD,4,3,114
+22,Dumbarton,SNP,SNP,4,4,8162
+22,Dumbarton,SNP,rest,4,5,1347
+22,Dumbarton,rest,Con,5,1,77
+22,Dumbarton,rest,Lab,5,2,275
+22,Dumbarton,rest,LD,5,3,54
+22,Dumbarton,rest,SNP,5,4,261
+22,Dumbarton,rest,rest,5,5,656
+23,Dundee East,Con,Con,1,1,2374
+23,Dundee East,Con,Lab,1,2,68
+23,Dundee East,Con,LD,1,3,43
+23,Dundee East,Con,SNP,1,4,102
+23,Dundee East,Con,rest,1,5,389
+23,Dundee East,Lab,Con,2,1,152
+23,Dundee East,Lab,Lab,2,2,7171
+23,Dundee East,Lab,LD,2,3,164
+23,Dundee East,Lab,SNP,2,4,251
+23,Dundee East,Lab,rest,2,5,1052
+23,Dundee East,LD,Con,3,1,54
+23,Dundee East,LD,Lab,3,2,74
+23,Dundee East,LD,LD,3,3,1163
+23,Dundee East,LD,SNP,3,4,70
+23,Dundee East,LD,rest,3,5,428
+23,Dundee East,SNP,Con,4,1,267
+23,Dundee East,SNP,Lab,4,2,525
+23,Dundee East,SNP,LD,4,3,261
+23,Dundee East,SNP,SNP,4,4,11042
+23,Dundee East,SNP,rest,4,5,1219
+23,Dundee East,rest,Con,5,1,70
+23,Dundee East,rest,Lab,5,2,234
+23,Dundee East,rest,LD,5,3,24
+23,Dundee East,rest,SNP,5,4,302
+23,Dundee East,rest,rest,5,5,283
+24,Dundee West,Con,Con,1,1,1329
+24,Dundee West,Con,Lab,1,2,40
+24,Dundee West,Con,LD,1,3,30
+24,Dundee West,Con,SNP,1,4,58
+24,Dundee West,Con,rest,1,5,330
+24,Dundee West,Lab,Con,2,1,109
+24,Dundee West,Lab,Lab,2,2,7113
+24,Dundee West,Lab,LD,2,3,224
+24,Dundee West,Lab,SNP,2,4,311
+24,Dundee West,Lab,rest,2,5,1252
+24,Dundee West,LD,Con,3,1,68
+24,Dundee West,LD,Lab,3,2,188
+24,Dundee West,LD,LD,3,3,1503
+24,Dundee West,LD,SNP,3,4,158
+24,Dundee West,LD,rest,3,5,600
+24,Dundee West,SNP,Con,4,1,94
+24,Dundee West,SNP,Lab,4,2,318
+24,Dundee West,SNP,LD,4,3,107
+24,Dundee West,SNP,SNP,4,4,9342
+24,Dundee West,SNP,rest,4,5,1094
+24,Dundee West,rest,Con,5,1,28
+24,Dundee West,rest,Lab,5,2,295
+24,Dundee West,rest,LD,5,3,39
+24,Dundee West,rest,SNP,5,4,267
+24,Dundee West,rest,rest,5,5,349
+25,Dunfermline East,Con,Con,1,1,1680
+25,Dunfermline East,Con,Lab,1,2,1050
+25,Dunfermline East,Con,LD,1,3,93
+25,Dunfermline East,Con,SNP,1,4,272
+25,Dunfermline East,Con,rest,1,5,623
+25,Dunfermline East,Lab,Con,2,1,100
+25,Dunfermline East,Lab,Lab,2,2,9048
+25,Dunfermline East,Lab,LD,2,3,216
+25,Dunfermline East,Lab,SNP,2,4,357
+25,Dunfermline East,Lab,rest,2,5,1274
+25,Dunfermline East,LD,Con,3,1,89
+25,Dunfermline East,LD,Lab,3,2,108
+25,Dunfermline East,LD,LD,3,3,1848
+25,Dunfermline East,LD,SNP,3,4,164
+25,Dunfermline East,LD,rest,3,5,644
+25,Dunfermline East,SNP,Con,4,1,39
+25,Dunfermline East,SNP,Lab,4,2,123
+25,Dunfermline East,SNP,LD,4,3,65
+25,Dunfermline East,SNP,SNP,4,4,6044
+25,Dunfermline East,SNP,rest,4,5,731
+25,Dunfermline East,rest,Con,5,1,52
+25,Dunfermline East,rest,Lab,5,2,479
+25,Dunfermline East,rest,LD,5,3,43
+25,Dunfermline East,rest,SNP,5,4,237
+25,Dunfermline East,rest,rest,5,5,351
+26,Dunfermline West,Con,Con,1,1,1819
+26,Dunfermline West,Con,Lab,1,2,43
+26,Dunfermline West,Con,LD,1,3,74
+26,Dunfermline West,Con,SNP,1,4,67
+26,Dunfermline West,Con,rest,1,5,360
+26,Dunfermline West,Lab,Con,2,1,59
+26,Dunfermline West,Lab,Lab,2,2,8078
+26,Dunfermline West,Lab,LD,2,3,163
+26,Dunfermline West,Lab,SNP,2,4,242
+26,Dunfermline West,Lab,rest,2,5,934
+26,Dunfermline West,LD,Con,3,1,415
+26,Dunfermline West,LD,Lab,3,2,601
+26,Dunfermline West,LD,LD,3,3,6838
+26,Dunfermline West,LD,SNP,3,4,903
+26,Dunfermline West,LD,rest,3,5,1195
+26,Dunfermline West,SNP,Con,4,1,59
+26,Dunfermline West,SNP,Lab,4,2,130
+26,Dunfermline West,SNP,LD,4,3,94
+26,Dunfermline West,SNP,SNP,4,4,6447
+26,Dunfermline West,SNP,rest,4,5,566
+26,Dunfermline West,rest,Con,5,1,31
+26,Dunfermline West,rest,Lab,5,2,276
+26,Dunfermline West,rest,LD,5,3,98
+26,Dunfermline West,rest,SNP,5,4,219
+26,Dunfermline West,rest,rest,5,5,571
+27,EASTWOOD,Con,Con,1,1,10695
+27,EASTWOOD,Con,Lab,1,2,402
+27,EASTWOOD,Con,LD,1,3,302
+27,EASTWOOD,Con,SNP,1,4,1110
+27,EASTWOOD,Con,rest,1,5,1677
+27,EASTWOOD,Lab,Con,2,1,377
+27,EASTWOOD,Lab,Lab,2,2,11202
+27,EASTWOOD,Lab,LD,2,3,604
+27,EASTWOOD,Lab,SNP,2,4,916
+27,EASTWOOD,Lab,rest,2,5,1978
+27,EASTWOOD,LD,Con,3,1,121
+27,EASTWOOD,LD,Lab,3,2,174
+27,EASTWOOD,LD,LD,3,3,2191
+27,EASTWOOD,LD,SNP,3,4,308
+27,EASTWOOD,LD,rest,3,5,809
+27,EASTWOOD,SNP,Con,4,1,44
+27,EASTWOOD,SNP,Lab,4,2,138
+27,EASTWOOD,SNP,LD,4,3,82
+27,EASTWOOD,SNP,SNP,4,4,6755
+27,EASTWOOD,SNP,rest,4,5,953
+27,EASTWOOD,rest,Con,5,1,233
+27,EASTWOOD,rest,Lab,5,2,449
+27,EASTWOOD,rest,LD,5,3,153
+27,EASTWOOD,rest,SNP,5,4,371
+27,EASTWOOD,rest,rest,5,5,1111
+28,East Kilbride,Con,Con,1,1,2962
+28,East Kilbride,Con,Lab,1,2,107
+28,East Kilbride,Con,LD,1,3,50
+28,East Kilbride,Con,SNP,1,4,142
+28,East Kilbride,Con,rest,1,5,853
+28,East Kilbride,Lab,Con,2,1,178
+28,East Kilbride,Lab,Lab,2,2,12233
+28,East Kilbride,Lab,LD,2,3,238
+28,East Kilbride,Lab,SNP,2,4,463
+28,East Kilbride,Lab,rest,2,5,2222
+28,East Kilbride,LD,Con,3,1,65
+28,East Kilbride,LD,Lab,3,2,190
+28,East Kilbride,LD,LD,3,3,1676
+28,East Kilbride,LD,SNP,3,4,205
+28,East Kilbride,LD,rest,3,5,956
+28,East Kilbride,SNP,Con,4,1,194
+28,East Kilbride,SNP,Lab,4,2,488
+28,East Kilbride,SNP,LD,4,3,203
+28,East Kilbride,SNP,SNP,4,4,10549
+28,East Kilbride,SNP,rest,4,5,1928
+28,East Kilbride,rest,Con,5,1,53
+28,East Kilbride,rest,Lab,5,2,317
+28,East Kilbride,rest,LD,5,3,16
+28,East Kilbride,rest,SNP,5,4,195
+28,East Kilbride,rest,rest,5,5,452
+29,East Lothian,Con,Con,1,1,5052
+29,East Lothian,Con,Lab,1,2,128
+29,East Lothian,Con,LD,1,3,109
+29,East Lothian,Con,SNP,1,4,258
+29,East Lothian,Con,rest,1,5,685
+29,East Lothian,Lab,Con,2,1,115
+29,East Lothian,Lab,Lab,2,2,10221
+29,East Lothian,Lab,LD,2,3,166
+29,East Lothian,Lab,SNP,2,4,356
+29,East Lothian,Lab,rest,2,5,1361
+29,East Lothian,LD,Con,3,1,305
+29,East Lothian,LD,Lab,3,2,417
+29,East Lothian,LD,LD,3,3,3677
+29,East Lothian,LD,SNP,3,4,591
+29,East Lothian,LD,rest,3,5,1259
+29,East Lothian,SNP,Con,4,1,89
+29,East Lothian,SNP,Lab,4,2,157
+29,East Lothian,SNP,LD,4,3,104
+29,East Lothian,SNP,SNP,4,4,8472
+29,East Lothian,SNP,rest,4,5,949
+29,East Lothian,rest,Con,5,1,101
+29,East Lothian,rest,Lab,5,2,348
+29,East Lothian,rest,LD,5,3,36
+29,East Lothian,rest,SNP,5,4,241
+29,East Lothian,rest,rest,5,5,343
+30,Edinburgh Central,Con,Con,1,1,3506
+30,Edinburgh Central,Con,Lab,1,2,96
+30,Edinburgh Central,Con,LD,1,3,100
+30,Edinburgh Central,Con,SNP,1,4,141
+30,Edinburgh Central,Con,rest,1,5,940
+30,Edinburgh Central,Lab,Con,2,1,201
+30,Edinburgh Central,Lab,Lab,2,2,5983
+30,Edinburgh Central,Lab,LD,2,3,306
+30,Edinburgh Central,Lab,SNP,2,4,255
+30,Edinburgh Central,Lab,rest,2,5,2410
+30,Edinburgh Central,LD,Con,3,1,259
+30,Edinburgh Central,LD,Lab,3,2,295
+30,Edinburgh Central,LD,LD,3,3,4052
+30,Edinburgh Central,LD,SNP,3,4,534
+30,Edinburgh Central,LD,rest,3,5,2822
+30,Edinburgh Central,SNP,Con,4,1,45
+30,Edinburgh Central,SNP,Lab,4,2,66
+30,Edinburgh Central,SNP,LD,4,3,72
+30,Edinburgh Central,SNP,SNP,4,4,5642
+30,Edinburgh Central,SNP,rest,4,5,1671
+30,Edinburgh Central,rest,Con,5,1,96
+30,Edinburgh Central,rest,Lab,5,2,316
+30,Edinburgh Central,rest,LD,5,3,91
+30,Edinburgh Central,rest,SNP,5,4,304
+30,Edinburgh Central,rest,rest,5,5,694
+31,Edinburgh East and Musselburgh,Con,Con,1,1,2286
+31,Edinburgh East and Musselburgh,Con,Lab,1,2,82
+31,Edinburgh East and Musselburgh,Con,LD,1,3,63
+31,Edinburgh East and Musselburgh,Con,SNP,1,4,95
+31,Edinburgh East and Musselburgh,Con,rest,1,5,932
+31,Edinburgh East and Musselburgh,Lab,Con,2,1,67
+31,Edinburgh East and Musselburgh,Lab,Lab,2,2,7332
+31,Edinburgh East and Musselburgh,Lab,LD,2,3,143
+31,Edinburgh East and Musselburgh,Lab,SNP,2,4,165
+31,Edinburgh East and Musselburgh,Lab,rest,2,5,2120
+31,Edinburgh East and Musselburgh,LD,Con,3,1,103
+31,Edinburgh East and Musselburgh,LD,Lab,3,2,285
+31,Edinburgh East and Musselburgh,LD,LD,3,3,2777
+31,Edinburgh East and Musselburgh,LD,SNP,3,4,217
+31,Edinburgh East and Musselburgh,LD,rest,3,5,2091
+31,Edinburgh East and Musselburgh,SNP,Con,4,1,72
+31,Edinburgh East and Musselburgh,SNP,Lab,4,2,249
+31,Edinburgh East and Musselburgh,SNP,LD,4,3,146
+31,Edinburgh East and Musselburgh,SNP,SNP,4,4,8337
+31,Edinburgh East and Musselburgh,SNP,rest,4,5,2405
+31,Edinburgh East and Musselburgh,rest,Con,5,1,162
+31,Edinburgh East and Musselburgh,rest,Lab,5,2,802
+31,Edinburgh East and Musselburgh,rest,LD,5,3,121
+31,Edinburgh East and Musselburgh,rest,SNP,5,4,427
+31,Edinburgh East and Musselburgh,rest,rest,5,5,1009
+32,Edinburgh North and Leith,Con,Con,1,1,3001
+32,Edinburgh North and Leith,Con,Lab,1,2,69
+32,Edinburgh North and Leith,Con,LD,1,3,81
+32,Edinburgh North and Leith,Con,SNP,1,4,111
+32,Edinburgh North and Leith,Con,rest,1,5,783
+32,Edinburgh North and Leith,Lab,Con,2,1,259
+32,Edinburgh North and Leith,Lab,Lab,2,2,6562
+32,Edinburgh North and Leith,Lab,LD,2,3,515
+32,Edinburgh North and Leith,Lab,SNP,2,4,530
+32,Edinburgh North and Leith,Lab,rest,2,5,3154
+32,Edinburgh North and Leith,LD,Con,3,1,302
+32,Edinburgh North and Leith,LD,Lab,3,2,239
+32,Edinburgh North and Leith,LD,LD,3,3,4579
+32,Edinburgh North and Leith,LD,SNP,3,4,633
+32,Edinburgh North and Leith,LD,rest,3,5,2823
+32,Edinburgh North and Leith,SNP,Con,4,1,34
+32,Edinburgh North and Leith,SNP,Lab,4,2,75
+32,Edinburgh North and Leith,SNP,LD,4,3,86
+32,Edinburgh North and Leith,SNP,SNP,4,4,6067
+32,Edinburgh North and Leith,SNP,rest,4,5,1782
+32,Edinburgh North and Leith,rest,Con,5,1,111
+32,Edinburgh North and Leith,rest,Lab,5,2,308
+32,Edinburgh North and Leith,rest,LD,5,3,143
+32,Edinburgh North and Leith,rest,SNP,5,4,317
+32,Edinburgh North and Leith,rest,rest,5,5,657
+33,Edinburgh Pentlands,Con,Con,1,1,8578
+33,Edinburgh Pentlands,Con,Lab,1,2,525
+33,Edinburgh Pentlands,Con,LD,1,3,429
+33,Edinburgh Pentlands,Con,SNP,1,4,798
+33,Edinburgh Pentlands,Con,rest,1,5,2597
+33,Edinburgh Pentlands,Lab,Con,2,1,45
+33,Edinburgh Pentlands,Lab,Lab,2,2,6238
+33,Edinburgh Pentlands,Lab,LD,2,3,172
+33,Edinburgh Pentlands,Lab,SNP,2,4,203
+33,Edinburgh Pentlands,Lab,rest,2,5,1744
+33,Edinburgh Pentlands,LD,Con,3,1,69
+33,Edinburgh Pentlands,LD,Lab,3,2,219
+33,Edinburgh Pentlands,LD,LD,3,3,2652
+33,Edinburgh Pentlands,LD,SNP,3,4,250
+33,Edinburgh Pentlands,LD,rest,3,5,1624
+33,Edinburgh Pentlands,SNP,Con,4,1,43
+33,Edinburgh Pentlands,SNP,Lab,4,2,169
+33,Edinburgh Pentlands,SNP,LD,4,3,76
+33,Edinburgh Pentlands,SNP,SNP,4,4,6340
+33,Edinburgh Pentlands,SNP,rest,4,5,1606
+33,Edinburgh Pentlands,rest,Con,5,1,205
+33,Edinburgh Pentlands,rest,Lab,5,2,388
+33,Edinburgh Pentlands,rest,LD,5,3,72
+33,Edinburgh Pentlands,rest,SNP,5,4,288
+33,Edinburgh Pentlands,rest,rest,5,5,575
+34,Edinburgh South,Con,Con,1,1,4100
+34,Edinburgh South,Con,Lab,1,2,119
+34,Edinburgh South,Con,LD,1,3,119
+34,Edinburgh South,Con,SNP,1,4,169
+34,Edinburgh South,Con,rest,1,5,1082
+34,Edinburgh South,Lab,Con,2,1,181
+34,Edinburgh South,Lab,Lab,2,2,6567
+34,Edinburgh South,Lab,LD,2,3,203
+34,Edinburgh South,Lab,SNP,2,4,247
+34,Edinburgh South,Lab,rest,2,5,2271
+34,Edinburgh South,LD,Con,3,1,502
+34,Edinburgh South,LD,Lab,3,2,631
+34,Edinburgh South,LD,LD,3,3,5293
+34,Edinburgh South,LD,SNP,3,4,1035
+34,Edinburgh South,LD,rest,3,5,3937
+34,Edinburgh South,SNP,Con,4,1,29
+34,Edinburgh South,SNP,Lab,4,2,60
+34,Edinburgh South,SNP,LD,4,3,63
+34,Edinburgh South,SNP,SNP,4,4,4814
+34,Edinburgh South,SNP,rest,4,5,1151
+34,Edinburgh South,rest,Con,5,1,106
+34,Edinburgh South,rest,Lab,5,2,326
+34,Edinburgh South,rest,LD,5,3,130
+34,Edinburgh South,rest,SNP,5,4,250
+34,Edinburgh South,rest,rest,5,5,591
+35,Edinburgh West,Con,Con,1,1,5558
+35,Edinburgh West,Con,Lab,1,2,159
+35,Edinburgh West,Con,LD,1,3,155
+35,Edinburgh West,Con,SNP,1,4,270
+35,Edinburgh West,Con,rest,1,5,1219
+35,Edinburgh West,Lab,Con,2,1,26
+35,Edinburgh West,Lab,Lab,2,2,4358
+35,Edinburgh West,Lab,LD,2,3,84
+35,Edinburgh West,Lab,SNP,2,4,80
+35,Edinburgh West,Lab,rest,2,5,795
+35,Edinburgh West,LD,Con,3,1,428
+35,Edinburgh West,LD,Lab,3,2,1202
+35,Edinburgh West,LD,LD,3,3,7804
+35,Edinburgh West,LD,SNP,3,4,991
+35,Edinburgh West,LD,rest,3,5,3252
+35,Edinburgh West,SNP,Con,4,1,46
+35,Edinburgh West,SNP,Lab,4,2,112
+35,Edinburgh West,SNP,LD,4,3,109
+35,Edinburgh West,SNP,SNP,4,4,6282
+35,Edinburgh West,SNP,rest,4,5,1242
+35,Edinburgh West,rest,Con,5,1,214
+35,Edinburgh West,rest,Lab,5,2,527
+35,Edinburgh West,rest,LD,5,3,316
+35,Edinburgh West,rest,SNP,5,4,344
+35,Edinburgh West,rest,rest,5,5,1084
+36,Falkirk East,Con,Con,1,1,2542
+36,Falkirk East,Con,Lab,1,2,124
+36,Falkirk East,Con,LD,1,3,60
+36,Falkirk East,Con,SNP,1,4,176
+36,Falkirk East,Con,rest,1,5,799
+36,Falkirk East,Lab,Con,2,1,223
+36,Falkirk East,Lab,Lab,2,2,10292
+36,Falkirk East,Lab,LD,2,3,254
+36,Falkirk East,Lab,SNP,2,4,558
+36,Falkirk East,Lab,rest,2,5,1857
+36,Falkirk East,LD,Con,3,1,56
+36,Falkirk East,LD,Lab,3,2,117
+36,Falkirk East,LD,LD,3,3,1251
+36,Falkirk East,LD,SNP,3,4,105
+36,Falkirk East,LD,rest,3,5,607
+36,Falkirk East,SNP,Con,4,1,138
+36,Falkirk East,SNP,Lab,4,2,358
+36,Falkirk East,SNP,LD,4,3,144
+36,Falkirk East,SNP,SNP,4,4,9390
+36,Falkirk East,SNP,rest,4,5,1282
+36,Falkirk East,rest,Con,5,1,63
+36,Falkirk East,rest,Lab,5,2,343
+36,Falkirk East,rest,LD,5,3,18
+36,Falkirk East,rest,SNP,5,4,221
+36,Falkirk East,rest,rest,5,5,374
+37,Falkirk West,Con,Con,1,1,2006
+37,Falkirk West,Con,Lab,1,2,105
+37,Falkirk West,Con,LD,1,3,41
+37,Falkirk West,Con,SNP,1,4,82
+37,Falkirk West,Con,rest,1,5,653
+37,Falkirk West,Lab,Con,2,1,160
+37,Falkirk West,Lab,Lab,2,2,9180
+37,Falkirk West,Lab,LD,2,3,139
+37,Falkirk West,Lab,SNP,2,4,382
+37,Falkirk West,Lab,rest,2,5,1431
+37,Falkirk West,LD,Con,3,1,74
+37,Falkirk West,LD,Lab,3,2,302
+37,Falkirk West,LD,LD,3,3,1271
+37,Falkirk West,LD,SNP,3,4,139
+37,Falkirk West,LD,rest,3,5,752
+37,Falkirk West,SNP,Con,4,1,204
+37,Falkirk West,SNP,Lab,4,2,904
+37,Falkirk West,SNP,LD,4,3,202
+37,Falkirk West,SNP,SNP,4,4,9248
+37,Falkirk West,SNP,rest,4,5,1510
+37,Falkirk West,rest,Con,5,1,70
+37,Falkirk West,rest,Lab,5,2,381
+37,Falkirk West,rest,LD,5,3,16
+37,Falkirk West,rest,SNP,5,4,317
+37,Falkirk West,rest,rest,5,5,373
+38,GALLOWAY AND UPPER NITHSDALE,Con,Con,1,1,10199
+38,GALLOWAY AND UPPER NITHSDALE,Con,Lab,1,2,729
+38,GALLOWAY AND UPPER NITHSDALE,Con,LD,1,3,366
+38,GALLOWAY AND UPPER NITHSDALE,Con,SNP,1,4,739
+38,GALLOWAY AND UPPER NITHSDALE,Con,rest,1,5,1354
+38,GALLOWAY AND UPPER NITHSDALE,Lab,Con,2,1,21
+38,GALLOWAY AND UPPER NITHSDALE,Lab,Lab,2,2,4261
+38,GALLOWAY AND UPPER NITHSDALE,Lab,LD,2,3,42
+38,GALLOWAY AND UPPER NITHSDALE,Lab,SNP,2,4,79
+38,GALLOWAY AND UPPER NITHSDALE,Lab,rest,2,5,532
+38,GALLOWAY AND UPPER NITHSDALE,LD,Con,3,1,28
+38,GALLOWAY AND UPPER NITHSDALE,LD,Lab,3,2,84
+38,GALLOWAY AND UPPER NITHSDALE,LD,LD,3,3,1023
+38,GALLOWAY AND UPPER NITHSDALE,LD,SNP,3,4,74
+38,GALLOWAY AND UPPER NITHSDALE,LD,rest,3,5,422
+38,GALLOWAY AND UPPER NITHSDALE,SNP,Con,4,1,156
+38,GALLOWAY AND UPPER NITHSDALE,SNP,Lab,4,2,656
+38,GALLOWAY AND UPPER NITHSDALE,SNP,LD,4,3,198
+38,GALLOWAY AND UPPER NITHSDALE,SNP,SNP,4,4,8024
+38,GALLOWAY AND UPPER NITHSDALE,SNP,rest,4,5,1020
+38,GALLOWAY AND UPPER NITHSDALE,rest,Con,5,1,146
+38,GALLOWAY AND UPPER NITHSDALE,rest,Lab,5,2,348
+38,GALLOWAY AND UPPER NITHSDALE,rest,LD,5,3,43
+38,GALLOWAY AND UPPER NITHSDALE,rest,SNP,5,4,247
+38,GALLOWAY AND UPPER NITHSDALE,rest,rest,5,5,504
+39,GOVAN,Con,Con,1,1,1181
+39,GOVAN,Con,Lab,1,2,40
+39,GOVAN,Con,LD,1,3,19
+39,GOVAN,Con,SNP,1,4,22
+39,GOVAN,Con,rest,1,5,418
+39,GOVAN,Lab,Con,2,1,158
+39,GOVAN,Lab,Lab,2,2,5818
+39,GOVAN,Lab,LD,2,3,184
+39,GOVAN,Lab,SNP,2,4,198
+39,GOVAN,Lab,rest,2,5,1908
+39,GOVAN,LD,Con,3,1,39
+39,GOVAN,LD,Lab,3,2,85
+39,GOVAN,LD,LD,3,3,978
+39,GOVAN,LD,SNP,3,4,61
+39,GOVAN,LD,rest,3,5,728
+39,GOVAN,SNP,Con,4,1,166
+39,GOVAN,SNP,Lab,4,2,354
+39,GOVAN,SNP,LD,4,3,212
+39,GOVAN,SNP,SNP,4,4,6155
+39,GOVAN,SNP,rest,4,5,2123
+39,GOVAN,rest,Con,5,1,68
+39,GOVAN,rest,Lab,5,2,365
+39,GOVAN,rest,LD,5,3,57
+39,GOVAN,rest,SNP,5,4,291
+39,GOVAN,rest,rest,5,5,1113
+40,Glasgow Rutherglen,Con,Con,1,1,1433
+40,Glasgow Rutherglen,Con,Lab,1,2,61
+40,Glasgow Rutherglen,Con,LD,1,3,24
+40,Glasgow Rutherglen,Con,SNP,1,4,62
+40,Glasgow Rutherglen,Con,rest,1,5,514
+40,Glasgow Rutherglen,Lab,Con,2,1,48
+40,Glasgow Rutherglen,Lab,Lab,2,2,8391
+40,Glasgow Rutherglen,Lab,LD,2,3,88
+40,Glasgow Rutherglen,Lab,SNP,2,4,227
+40,Glasgow Rutherglen,Lab,rest,2,5,1483
+40,Glasgow Rutherglen,LD,Con,3,1,290
+40,Glasgow Rutherglen,LD,Lab,3,2,624
+40,Glasgow Rutherglen,LD,LD,3,3,2784
+40,Glasgow Rutherglen,LD,SNP,3,4,661
+40,Glasgow Rutherglen,LD,rest,3,5,1157
+40,Glasgow Rutherglen,SNP,Con,4,1,37
+40,Glasgow Rutherglen,SNP,Lab,4,2,120
+40,Glasgow Rutherglen,SNP,LD,4,3,46
+40,Glasgow Rutherglen,SNP,SNP,4,4,4790
+40,Glasgow Rutherglen,SNP,rest,4,5,864
+40,Glasgow Rutherglen,rest,Con,5,1,82
+40,Glasgow Rutherglen,rest,Lab,5,2,611
+40,Glasgow Rutherglen,rest,LD,5,3,71
+40,Glasgow Rutherglen,rest,SNP,5,4,290
+40,Glasgow Rutherglen,rest,rest,5,5,989
+41,Gordon,Con,Con,1,1,4357
+41,Gordon,Con,Lab,1,2,62
+41,Gordon,Con,LD,1,3,197
+41,Gordon,Con,SNP,1,4,242
+41,Gordon,Con,rest,1,5,490
+41,Gordon,Lab,Con,2,1,14
+41,Gordon,Lab,Lab,2,2,1918
+41,Gordon,Lab,LD,2,3,53
+41,Gordon,Lab,SNP,2,4,52
+41,Gordon,Lab,rest,2,5,239
+41,Gordon,LD,Con,3,1,521
+41,Gordon,LD,Lab,3,2,915
+41,Gordon,LD,LD,3,3,9195
+41,Gordon,LD,SNP,3,4,809
+41,Gordon,LD,rest,3,5,1148
+41,Gordon,SNP,Con,4,1,166
+41,Gordon,SNP,Lab,4,2,188
+41,Gordon,SNP,LD,4,3,234
+41,Gordon,SNP,SNP,4,4,13373
+41,Gordon,SNP,rest,4,5,689
+41,Gordon,rest,Con,5,1,138
+41,Gordon,rest,Lab,5,2,122
+41,Gordon,rest,LD,5,3,148
+41,Gordon,rest,SNP,5,4,460
+41,Gordon,rest,rest,5,5,482
+42,Greenock & Inverclyde,Con,Con,1,1,1428
+42,Greenock & Inverclyde,Con,Lab,1,2,45
+42,Greenock & Inverclyde,Con,LD,1,3,69
+42,Greenock & Inverclyde,Con,SNP,1,4,94
+42,Greenock & Inverclyde,Con,rest,1,5,530
+42,Greenock & Inverclyde,Lab,Con,2,1,101
+42,Greenock & Inverclyde,Lab,Lab,2,2,7736
+42,Greenock & Inverclyde,Lab,LD,2,3,197
+42,Greenock & Inverclyde,Lab,SNP,2,4,393
+42,Greenock & Inverclyde,Lab,rest,2,5,1608
+42,Greenock & Inverclyde,LD,Con,3,1,313
+42,Greenock & Inverclyde,LD,Lab,3,2,295
+42,Greenock & Inverclyde,LD,LD,3,3,2257
+42,Greenock & Inverclyde,LD,SNP,3,4,392
+42,Greenock & Inverclyde,LD,rest,3,5,636
+42,Greenock & Inverclyde,SNP,Con,4,1,46
+42,Greenock & Inverclyde,SNP,Lab,4,2,232
+42,Greenock & Inverclyde,SNP,LD,4,3,104
+42,Greenock & Inverclyde,SNP,SNP,4,4,5489
+42,Greenock & Inverclyde,SNP,rest,4,5,1140
+42,Greenock & Inverclyde,rest,Con,5,1,52
+42,Greenock & Inverclyde,rest,Lab,5,2,338
+42,Greenock & Inverclyde,rest,LD,5,3,56
+42,Greenock & Inverclyde,rest,SNP,5,4,231
+42,Greenock & Inverclyde,rest,rest,5,5,422
+43,Hamilton North and Bellshill,Con,Con,1,1,1964
+43,Hamilton North and Bellshill,Con,Lab,1,2,100
+43,Hamilton North and Bellshill,Con,LD,1,3,30
+43,Hamilton North and Bellshill,Con,SNP,1,4,122
+43,Hamilton North and Bellshill,Con,rest,1,5,619
+43,Hamilton North and Bellshill,Lab,Con,2,1,83
+43,Hamilton North and Bellshill,Lab,Lab,2,2,9998
+43,Hamilton North and Bellshill,Lab,LD,2,3,105
+43,Hamilton North and Bellshill,Lab,SNP,2,4,296
+43,Hamilton North and Bellshill,Lab,rest,2,5,1852
+43,Hamilton North and Bellshill,LD,Con,3,1,75
+43,Hamilton North and Bellshill,LD,Lab,3,2,120
+43,Hamilton North and Bellshill,LD,LD,3,3,984
+43,Hamilton North and Bellshill,LD,SNP,3,4,118
+43,Hamilton North and Bellshill,LD,rest,3,5,429
+43,Hamilton North and Bellshill,SNP,Con,4,1,99
+43,Hamilton North and Bellshill,SNP,Lab,4,2,258
+43,Hamilton North and Bellshill,SNP,LD,4,3,75
+43,Hamilton North and Bellshill,SNP,SNP,4,4,5902
+43,Hamilton North and Bellshill,SNP,rest,4,5,1135
+43,Hamilton North and Bellshill,rest,Con,5,1,93
+43,Hamilton North and Bellshill,rest,Lab,5,2,618
+43,Hamilton North and Bellshill,rest,LD,5,3,50
+43,Hamilton North and Bellshill,rest,SNP,5,4,374
+43,Hamilton North and Bellshill,rest,rest,5,5,1212
+44,Hamilton South,Con,Con,1,1,1753
+44,Hamilton South,Con,Lab,1,2,157
+44,Hamilton South,Con,LD,1,3,79
+44,Hamilton South,Con,SNP,1,4,222
+44,Hamilton South,Con,rest,1,5,718
+44,Hamilton South,Lab,Con,2,1,63
+44,Hamilton South,Lab,Lab,2,2,8424
+44,Hamilton South,Lab,LD,2,3,92
+44,Hamilton South,Lab,SNP,2,4,237
+44,Hamilton South,Lab,rest,2,5,1464
+44,Hamilton South,LD,Con,3,1,34
+44,Hamilton South,LD,Lab,3,2,128
+44,Hamilton South,LD,LD,3,3,964
+44,Hamilton South,LD,SNP,3,4,74
+44,Hamilton South,LD,rest,3,5,410
+44,Hamilton South,SNP,Con,4,1,60
+44,Hamilton South,SNP,Lab,4,2,174
+44,Hamilton South,SNP,LD,4,3,64
+44,Hamilton South,SNP,SNP,4,4,5453
+44,Hamilton South,SNP,rest,4,5,877
+44,Hamilton South,rest,Con,5,1,79
+44,Hamilton South,rest,Lab,5,2,707
+44,Hamilton South,rest,LD,5,3,110
+44,Hamilton South,rest,SNP,5,4,371
+44,Hamilton South,rest,rest,5,5,1208
+45,Inverness East Nairn & Lochaber,Con,Con,1,1,3381
+45,Inverness East Nairn & Lochaber,Con,Lab,1,2,85
+45,Inverness East Nairn & Lochaber,Con,LD,1,3,96
+45,Inverness East Nairn & Lochaber,Con,SNP,1,4,87
+45,Inverness East Nairn & Lochaber,Con,rest,1,5,986
+45,Inverness East Nairn & Lochaber,Lab,Con,2,1,76
+45,Inverness East Nairn & Lochaber,Lab,Lab,2,2,6096
+45,Inverness East Nairn & Lochaber,Lab,LD,2,3,183
+45,Inverness East Nairn & Lochaber,Lab,SNP,2,4,106
+45,Inverness East Nairn & Lochaber,Lab,rest,2,5,1098
+45,Inverness East Nairn & Lochaber,LD,Con,3,1,436
+45,Inverness East Nairn & Lochaber,LD,Lab,3,2,717
+45,Inverness East Nairn & Lochaber,LD,LD,3,3,7386
+45,Inverness East Nairn & Lochaber,LD,SNP,3,4,370
+45,Inverness East Nairn & Lochaber,LD,rest,3,5,2063
+45,Inverness East Nairn & Lochaber,SNP,Con,4,1,390
+45,Inverness East Nairn & Lochaber,SNP,Lab,4,2,631
+45,Inverness East Nairn & Lochaber,SNP,LD,4,3,832
+45,Inverness East Nairn & Lochaber,SNP,SNP,4,4,12607
+45,Inverness East Nairn & Lochaber,SNP,rest,4,5,1983
+45,Inverness East Nairn & Lochaber,rest,Con,5,1,101
+45,Inverness East Nairn & Lochaber,rest,Lab,5,2,305
+45,Inverness East Nairn & Lochaber,rest,LD,5,3,158
+45,Inverness East Nairn & Lochaber,rest,SNP,5,4,223
+45,Inverness East Nairn & Lochaber,rest,rest,5,5,462
+46,KELVIN,Con,Con,1,1,1481
+46,KELVIN,Con,Lab,1,2,59
+46,KELVIN,Con,LD,1,3,31
+46,KELVIN,Con,SNP,1,4,77
+46,KELVIN,Con,rest,1,5,295
+46,KELVIN,Lab,Con,2,1,143
+46,KELVIN,Lab,Lab,2,2,5922
+46,KELVIN,Lab,LD,2,3,268
+46,KELVIN,Lab,SNP,2,4,268
+46,KELVIN,Lab,rest,2,5,1274
+46,KELVIN,LD,Con,3,1,71
+46,KELVIN,LD,Lab,3,2,161
+46,KELVIN,LD,LD,3,3,1981
+46,KELVIN,LD,SNP,3,4,152
+46,KELVIN,LD,rest,3,5,478
+46,KELVIN,SNP,Con,4,1,63
+46,KELVIN,SNP,Lab,4,2,120
+46,KELVIN,SNP,LD,4,3,94
+46,KELVIN,SNP,SNP,4,4,5506
+46,KELVIN,SNP,rest,4,5,885
+46,KELVIN,rest,Con,5,1,176
+46,KELVIN,rest,Lab,5,2,754
+46,KELVIN,rest,LD,5,3,422
+46,KELVIN,rest,SNP,5,4,739
+46,KELVIN,rest,rest,5,5,3275
+47,Kilmarnock and Loudoun,Con,Con,1,1,3215
+47,Kilmarnock and Loudoun,Con,Lab,1,2,111
+47,Kilmarnock and Loudoun,Con,LD,1,3,38
+47,Kilmarnock and Loudoun,Con,SNP,1,4,138
+47,Kilmarnock and Loudoun,Con,rest,1,5,625
+47,Kilmarnock and Loudoun,Lab,Con,2,1,209
+47,Kilmarnock and Loudoun,Lab,Lab,2,2,10661
+47,Kilmarnock and Loudoun,Lab,LD,2,3,185
+47,Kilmarnock and Loudoun,Lab,SNP,2,4,364
+47,Kilmarnock and Loudoun,Lab,rest,2,5,1535
+47,Kilmarnock and Loudoun,LD,Con,3,1,72
+47,Kilmarnock and Loudoun,LD,Lab,3,2,127
+47,Kilmarnock and Loudoun,LD,LD,3,3,1189
+47,Kilmarnock and Loudoun,LD,SNP,3,4,110
+47,Kilmarnock and Loudoun,LD,rest,3,5,558
+47,Kilmarnock and Loudoun,SNP,Con,4,1,315
+47,Kilmarnock and Loudoun,SNP,Lab,4,2,908
+47,Kilmarnock and Loudoun,SNP,LD,4,3,204
+47,Kilmarnock and Loudoun,SNP,SNP,4,4,11263
+47,Kilmarnock and Loudoun,SNP,rest,4,5,1607
+47,Kilmarnock and Loudoun,rest,Con,5,1,83
+47,Kilmarnock and Loudoun,rest,Lab,5,2,339
+47,Kilmarnock and Loudoun,rest,LD,5,3,27
+47,Kilmarnock and Loudoun,rest,SNP,5,4,271
+47,Kilmarnock and Loudoun,rest,rest,5,5,298
+48,Kirkcaldy,Con,Con,1,1,1569
+48,Kirkcaldy,Con,Lab,1,2,71
+48,Kirkcaldy,Con,LD,1,3,42
+48,Kirkcaldy,Con,SNP,1,4,70
+48,Kirkcaldy,Con,rest,1,5,450
+48,Kirkcaldy,Lab,Con,2,1,107
+48,Kirkcaldy,Lab,Lab,2,2,8665
+48,Kirkcaldy,Lab,LD,2,3,208
+48,Kirkcaldy,Lab,SNP,2,4,450
+48,Kirkcaldy,Lab,rest,2,5,1197
+48,Kirkcaldy,LD,Con,3,1,135
+48,Kirkcaldy,LD,Lab,3,2,265
+48,Kirkcaldy,LD,LD,3,3,1908
+48,Kirkcaldy,LD,SNP,3,4,286
+48,Kirkcaldy,LD,rest,3,5,767
+48,Kirkcaldy,SNP,Con,4,1,71
+48,Kirkcaldy,SNP,Lab,4,2,163
+48,Kirkcaldy,SNP,LD,4,3,68
+48,Kirkcaldy,SNP,SNP,4,4,6910
+48,Kirkcaldy,SNP,rest,4,5,793
+48,Kirkcaldy,rest,Con,5,1,47
+48,Kirkcaldy,rest,Lab,5,2,319
+48,Kirkcaldy,rest,LD,5,3,35
+48,Kirkcaldy,rest,SNP,5,4,222
+48,Kirkcaldy,rest,rest,5,5,331
+49,Linlithgow,Con,Con,1,1,2022
+49,Linlithgow,Con,Lab,1,2,78
+49,Linlithgow,Con,LD,1,3,37
+49,Linlithgow,Con,SNP,1,4,133
+49,Linlithgow,Con,rest,1,5,854
+49,Linlithgow,Lab,Con,2,1,155
+49,Linlithgow,Lab,Lab,2,2,9658
+49,Linlithgow,Lab,LD,2,3,192
+49,Linlithgow,Lab,SNP,2,4,310
+49,Linlithgow,Lab,rest,2,5,2409
+49,Linlithgow,LD,Con,3,1,44
+49,Linlithgow,LD,Lab,3,2,83
+49,Linlithgow,LD,LD,3,3,1218
+49,Linlithgow,LD,SNP,3,4,65
+49,Linlithgow,LD,rest,3,5,822
+49,Linlithgow,SNP,Con,4,1,137
+49,Linlithgow,SNP,Lab,4,2,353
+49,Linlithgow,SNP,LD,4,3,155
+49,Linlithgow,SNP,SNP,4,4,9061
+49,Linlithgow,SNP,rest,4,5,1856
+49,Linlithgow,rest,Con,5,1,94
+49,Linlithgow,rest,Lab,5,2,521
+49,Linlithgow,rest,LD,5,3,53
+49,Linlithgow,rest,SNP,5,4,435
+49,Linlithgow,rest,rest,5,5,619
+50,Livingston,Con,Con,1,1,2003
+50,Livingston,Con,Lab,1,2,62
+50,Livingston,Con,LD,1,3,37
+50,Livingston,Con,SNP,1,4,84
+50,Livingston,Con,rest,1,5,618
+50,Livingston,Lab,Con,2,1,124
+50,Livingston,Lab,Lab,2,2,9850
+50,Livingston,Lab,LD,2,3,219
+50,Livingston,Lab,SNP,2,4,303
+50,Livingston,Lab,rest,2,5,1792
+50,Livingston,LD,Con,3,1,33
+50,Livingston,LD,Lab,3,2,91
+50,Livingston,LD,LD,3,3,1370
+50,Livingston,LD,SNP,3,4,77
+50,Livingston,LD,rest,3,5,587
+50,Livingston,SNP,Con,4,1,143
+50,Livingston,SNP,Lab,4,2,386
+50,Livingston,SNP,LD,4,3,137
+50,Livingston,SNP,SNP,4,4,10790
+50,Livingston,SNP,rest,4,5,1700
+50,Livingston,rest,Con,5,1,245
+50,Livingston,rest,Lab,5,2,1048
+50,Livingston,rest,LD,5,3,229
+50,Livingston,rest,SNP,5,4,804
+50,Livingston,rest,rest,5,5,2122
+51,MARYHILL,Con,Con,1,1,573
+51,MARYHILL,Con,Lab,1,2,33
+51,MARYHILL,Con,LD,1,3,12
+51,MARYHILL,Con,SNP,1,4,33
+51,MARYHILL,Con,rest,1,5,377
+51,MARYHILL,Lab,Con,2,1,56
+51,MARYHILL,Lab,Lab,2,2,5830
+51,MARYHILL,Lab,LD,2,3,162
+51,MARYHILL,Lab,SNP,2,4,231
+51,MARYHILL,Lab,rest,2,5,1676
+51,MARYHILL,LD,Con,3,1,17
+51,MARYHILL,LD,Lab,3,2,62
+51,MARYHILL,LD,LD,3,3,890
+51,MARYHILL,LD,SNP,3,4,103
+51,MARYHILL,LD,rest,3,5,864
+51,MARYHILL,SNP,Con,4,1,9
+51,MARYHILL,SNP,Lab,4,2,118
+51,MARYHILL,SNP,LD,4,3,40
+51,MARYHILL,SNP,SNP,4,4,4304
+51,MARYHILL,SNP,rest,4,5,1174
+51,MARYHILL,rest,Con,5,1,39
+51,MARYHILL,rest,Lab,5,2,737
+51,MARYHILL,rest,LD,5,3,42
+51,MARYHILL,rest,SNP,5,4,317
+51,MARYHILL,rest,rest,5,5,742
+52,Midlothian,Con,Con,1,1,1579
+52,Midlothian,Con,Lab,1,2,32
+52,Midlothian,Con,LD,1,3,35
+52,Midlothian,Con,SNP,1,4,67
+52,Midlothian,Con,rest,1,5,556
+52,Midlothian,Lab,Con,2,1,127
+52,Midlothian,Lab,Lab,2,2,7964
+52,Midlothian,Lab,LD,2,3,220
+52,Midlothian,Lab,SNP,2,4,304
+52,Midlothian,Lab,rest,2,5,2056
+52,Midlothian,LD,Con,3,1,65
+52,Midlothian,LD,Lab,3,2,121
+52,Midlothian,LD,LD,3,3,1554
+52,Midlothian,LD,SNP,3,4,109
+52,Midlothian,LD,rest,3,5,855
+52,Midlothian,SNP,Con,4,1,69
+52,Midlothian,SNP,Lab,4,2,212
+52,Midlothian,SNP,LD,4,3,79
+52,Midlothian,SNP,SNP,4,4,7045
+52,Midlothian,SNP,rest,4,5,1564
+52,Midlothian,rest,Con,5,1,74
+52,Midlothian,rest,Lab,5,2,677
+52,Midlothian,rest,LD,5,3,84
+52,Midlothian,rest,SNP,5,4,295
+52,Midlothian,rest,rest,5,5,1017
+53,Moray,Con,Con,1,1,5407
+53,Moray,Con,Lab,1,2,246
+53,Moray,Con,LD,1,3,227
+53,Moray,Con,SNP,1,4,182
+53,Moray,Con,rest,1,5,1059
+53,Moray,Lab,Con,2,1,30
+53,Moray,Lab,Lab,2,2,3702
+53,Moray,Lab,LD,2,3,59
+53,Moray,Lab,SNP,2,4,125
+53,Moray,Lab,rest,2,5,664
+53,Moray,LD,Con,3,1,138
+53,Moray,LD,Lab,3,2,172
+53,Moray,LD,LD,3,3,2179
+53,Moray,LD,SNP,3,4,110
+53,Moray,LD,rest,3,5,929
+53,Moray,SNP,Con,4,1,291
+53,Moray,SNP,Lab,4,2,789
+53,Moray,SNP,LD,4,3,434
+53,Moray,SNP,SNP,4,4,11904
+53,Moray,SNP,rest,4,5,1627
+53,Moray,rest,Con,5,1,124
+53,Moray,rest,Lab,5,2,177
+53,Moray,rest,LD,5,3,58
+53,Moray,rest,SNP,5,4,308
+53,Moray,rest,rest,5,5,351
+54,Motherwell and Wishaw,Con,Con,1,1,1512
+54,Motherwell and Wishaw,Con,Lab,1,2,41
+54,Motherwell and Wishaw,Con,LD,1,3,19
+54,Motherwell and Wishaw,Con,SNP,1,4,74
+54,Motherwell and Wishaw,Con,rest,1,5,344
+54,Motherwell and Wishaw,Lab,Con,2,1,101
+54,Motherwell and Wishaw,Lab,Lab,2,2,10382
+54,Motherwell and Wishaw,Lab,LD,2,3,103
+54,Motherwell and Wishaw,Lab,SNP,2,4,341
+54,Motherwell and Wishaw,Lab,rest,2,5,1647
+54,Motherwell and Wishaw,LD,Con,3,1,63
+54,Motherwell and Wishaw,LD,Lab,3,2,106
+54,Motherwell and Wishaw,LD,LD,3,3,855
+54,Motherwell and Wishaw,LD,SNP,3,4,199
+54,Motherwell and Wishaw,LD,rest,3,5,347
+54,Motherwell and Wishaw,SNP,Con,4,1,68
+54,Motherwell and Wishaw,SNP,Lab,4,2,145
+54,Motherwell and Wishaw,SNP,LD,4,3,52
+54,Motherwell and Wishaw,SNP,SNP,4,4,5603
+54,Motherwell and Wishaw,SNP,rest,4,5,768
+54,Motherwell and Wishaw,rest,Con,5,1,233
+54,Motherwell and Wishaw,rest,Lab,5,2,630
+54,Motherwell and Wishaw,rest,LD,5,3,121
+54,Motherwell and Wishaw,rest,SNP,5,4,643
+54,Motherwell and Wishaw,rest,rest,5,5,2723
+55,North East Fife,Con,Con,1,1,6073
+55,North East Fife,Con,Lab,1,2,224
+55,North East Fife,Con,LD,1,3,394
+55,North East Fife,Con,SNP,1,4,606
+55,North East Fife,Con,rest,1,5,994
+55,North East Fife,Lab,Con,2,1,16
+55,North East Fife,Lab,Lab,2,2,2048
+55,North East Fife,Lab,LD,2,3,67
+55,North East Fife,Lab,SNP,2,4,47
+55,North East Fife,Lab,rest,2,5,379
+55,North East Fife,LD,Con,3,1,333
+55,North East Fife,LD,Lab,3,2,1018
+55,North East Fife,LD,LD,3,3,8951
+55,North East Fife,LD,SNP,3,4,1142
+55,North East Fife,LD,rest,3,5,1863
+55,North East Fife,SNP,Con,4,1,24
+55,North East Fife,SNP,Lab,4,2,68
+55,North East Fife,SNP,LD,4,3,112
+55,North East Fife,SNP,SNP,4,4,5863
+55,North East Fife,SNP,rest,4,5,668
+55,North East Fife,rest,Con,5,1,148
+55,North East Fife,rest,Lab,5,2,142
+55,North East Fife,rest,LD,5,3,237
+55,North East Fife,rest,SNP,5,4,238
+55,North East Fife,rest,rest,5,5,659
+56,North Tayside,Con,Con,1,1,8540
+56,North Tayside,Con,Lab,1,2,321
+56,North Tayside,Con,LD,1,3,234
+56,North Tayside,Con,SNP,1,4,314
+56,North Tayside,Con,rest,1,5,1288
+56,North Tayside,Lab,Con,2,1,39
+56,North Tayside,Lab,Lab,2,2,2622
+56,North Tayside,Lab,LD,2,3,36
+56,North Tayside,Lab,SNP,2,4,44
+56,North Tayside,Lab,rest,2,5,502
+56,North Tayside,LD,Con,3,1,61
+56,North Tayside,LD,Lab,3,2,146
+56,North Tayside,LD,LD,3,3,2147
+56,North Tayside,LD,SNP,3,4,85
+56,North Tayside,LD,rest,3,5,736
+56,North Tayside,SNP,Con,4,1,571
+56,North Tayside,SNP,Lab,4,2,872
+56,North Tayside,SNP,LD,4,3,637
+56,North Tayside,SNP,SNP,4,4,14271
+56,North Tayside,SNP,rest,4,5,1930
+56,North Tayside,rest,Con,5,1,113
+56,North Tayside,rest,Lab,5,2,173
+56,North Tayside,rest,LD,5,3,64
+56,North Tayside,rest,SNP,5,4,368
+56,North Tayside,rest,rest,5,5,307
+57,OCHIL,Con,Con,1,1,3270
+57,OCHIL,Con,Lab,1,2,112
+57,OCHIL,Con,LD,1,3,86
+57,OCHIL,Con,SNP,1,4,163
+57,OCHIL,Con,rest,1,5,653
+57,OCHIL,Lab,Con,2,1,157
+57,OCHIL,Lab,Lab,2,2,9837
+57,OCHIL,Lab,LD,2,3,219
+57,OCHIL,Lab,SNP,2,4,196
+57,OCHIL,Lab,rest,2,5,1248
+57,OCHIL,LD,Con,3,1,112
+57,OCHIL,LD,Lab,3,2,191
+57,OCHIL,LD,LD,3,3,2121
+57,OCHIL,LD,SNP,3,4,188
+57,OCHIL,LD,rest,3,5,853
+57,OCHIL,SNP,Con,4,1,171
+57,OCHIL,SNP,Lab,4,2,436
+57,OCHIL,SNP,LD,4,3,192
+57,OCHIL,SNP,SNP,4,4,10143
+57,OCHIL,SNP,rest,4,5,1205
+57,OCHIL,rest,Con,5,1,79
+57,OCHIL,rest,Lab,5,2,331
+57,OCHIL,rest,LD,5,3,35
+57,OCHIL,rest,SNP,5,4,215
+57,OCHIL,rest,rest,5,5,356
+58,Orkney Islands,Con,Con,1,1,1118
+58,Orkney Islands,Con,Lab,1,2,34
+58,Orkney Islands,Con,LD,1,3,47
+58,Orkney Islands,Con,SNP,1,4,125
+58,Orkney Islands,Con,rest,1,5,308
+58,Orkney Islands,Lab,Con,2,1,15
+58,Orkney Islands,Lab,Lab,2,2,694
+58,Orkney Islands,Lab,LD,2,3,73
+58,Orkney Islands,Lab,SNP,2,4,91
+58,Orkney Islands,Lab,rest,2,5,261
+58,Orkney Islands,LD,Con,3,1,132
+58,Orkney Islands,LD,Lab,3,2,271
+58,Orkney Islands,LD,LD,3,3,2503
+58,Orkney Islands,LD,SNP,3,4,403
+58,Orkney Islands,LD,rest,3,5,804
+58,Orkney Islands,SNP,Con,4,1,18
+58,Orkney Islands,SNP,Lab,4,2,31
+58,Orkney Islands,SNP,LD,4,3,43
+58,Orkney Islands,SNP,SNP,4,4,1265
+58,Orkney Islands,SNP,rest,4,5,280
+58,Orkney Islands,rest,Con,5,1,24
+58,Orkney Islands,rest,Lab,5,2,45
+58,Orkney Islands,rest,LD,5,3,56
+58,Orkney Islands,rest,SNP,5,4,67
+58,Orkney Islands,rest,rest,5,5,230
+59,POLLOK,Con,Con,1,1,833
+59,POLLOK,Con,Lab,1,2,48
+59,POLLOK,Con,LD,1,3,7
+59,POLLOK,Con,SNP,1,4,46
+59,POLLOK,Con,rest,1,5,526
+59,POLLOK,Lab,Con,2,1,58
+59,POLLOK,Lab,Lab,2,2,7901
+59,POLLOK,Lab,LD,2,3,88
+59,POLLOK,Lab,SNP,2,4,292
+59,POLLOK,Lab,rest,2,5,2117
+59,POLLOK,LD,Con,3,1,31
+59,POLLOK,LD,Lab,3,2,88
+59,POLLOK,LD,LD,3,3,646
+59,POLLOK,LD,SNP,3,4,89
+59,POLLOK,LD,rest,3,5,582
+59,POLLOK,SNP,Con,4,1,37
+59,POLLOK,SNP,Lab,4,2,118
+59,POLLOK,SNP,LD,4,3,22
+59,POLLOK,SNP,SNP,4,4,4535
+59,POLLOK,SNP,rest,4,5,1351
+59,POLLOK,rest,Con,5,1,61
+59,POLLOK,rest,Lab,5,2,760
+59,POLLOK,rest,LD,5,3,29
+59,POLLOK,rest,SNP,5,4,390
+59,POLLOK,rest,rest,5,5,866
+60,Paisley North,Con,Con,1,1,1202
+60,Paisley North,Con,Lab,1,2,29
+60,Paisley North,Con,LD,1,3,25
+60,Paisley North,Con,SNP,1,4,46
+60,Paisley North,Con,rest,1,5,419
+60,Paisley North,Lab,Con,2,1,277
+60,Paisley North,Lab,Lab,2,2,8941
+60,Paisley North,Lab,LD,2,3,320
+60,Paisley North,Lab,SNP,2,4,771
+60,Paisley North,Lab,rest,2,5,1802
+60,Paisley North,LD,Con,3,1,62
+60,Paisley North,LD,Lab,3,2,61
+60,Paisley North,LD,LD,3,3,1023
+60,Paisley North,LD,SNP,3,4,105
+60,Paisley North,LD,rest,3,5,319
+60,Paisley North,SNP,Con,4,1,54
+60,Paisley North,SNP,Lab,4,2,129
+60,Paisley North,SNP,LD,4,3,74
+60,Paisley North,SNP,SNP,4,4,6007
+60,Paisley North,SNP,rest,4,5,734
+60,Paisley North,rest,Con,5,1,53
+60,Paisley North,rest,Lab,5,2,277
+60,Paisley North,rest,LD,5,3,52
+60,Paisley North,rest,SNP,5,4,269
+60,Paisley North,rest,rest,5,5,822
+61,Paisley South,Con,Con,1,1,1464
+61,Paisley South,Con,Lab,1,2,68
+61,Paisley South,Con,LD,1,3,24
+61,Paisley South,Con,SNP,1,4,94
+61,Paisley South,Con,rest,1,5,427
+61,Paisley South,Lab,Con,2,1,121
+61,Paisley South,Lab,Lab,2,2,9887
+61,Paisley South,Lab,LD,2,3,190
+61,Paisley South,Lab,SNP,2,4,371
+61,Paisley South,Lab,rest,2,5,1554
+61,Paisley South,LD,Con,3,1,161
+61,Paisley South,LD,Lab,3,2,351
+61,Paisley South,LD,LD,3,3,1769
+61,Paisley South,LD,SNP,3,4,341
+61,Paisley South,LD,rest,3,5,812
+61,Paisley South,SNP,Con,4,1,63
+61,Paisley South,SNP,Lab,4,2,203
+61,Paisley South,SNP,LD,4,3,82
+61,Paisley South,SNP,SNP,4,4,6602
+61,Paisley South,SNP,rest,4,5,943
+61,Paisley South,rest,Con,5,1,31
+61,Paisley South,rest,Lab,5,2,403
+61,Paisley South,rest,LD,5,3,34
+61,Paisley South,rest,SNP,5,4,260
+61,Paisley South,rest,rest,5,5,387
+62,Perth,Con,Con,1,1,9057
+62,Perth,Con,Lab,1,2,436
+62,Perth,Con,LD,1,3,345
+62,Perth,Con,SNP,1,4,284
+62,Perth,Con,rest,1,5,1134
+62,Perth,Lab,Con,2,1,38
+62,Perth,Lab,Lab,2,2,3792
+62,Perth,Lab,LD,2,3,55
+62,Perth,Lab,SNP,2,4,55
+62,Perth,Lab,rest,2,5,573
+62,Perth,LD,Con,3,1,217
+62,Perth,LD,Lab,3,2,371
+62,Perth,LD,LD,3,3,2997
+62,Perth,LD,SNP,3,4,285
+62,Perth,LD,rest,3,5,897
+62,Perth,SNP,Con,4,1,287
+62,Perth,SNP,Lab,4,2,694
+62,Perth,SNP,LD,4,3,399
+62,Perth,SNP,SNP,4,4,10962
+62,Perth,SNP,rest,4,5,1409
+62,Perth,rest,Con,5,1,169
+62,Perth,rest,Lab,5,2,242
+62,Perth,rest,LD,5,3,58
+62,Perth,rest,SNP,5,4,376
+62,Perth,rest,rest,5,5,608
+63,Ross Skye & Inverness West,Con,Con,1,1,2186
+63,Ross Skye & Inverness West,Con,Lab,1,2,26
+63,Ross Skye & Inverness West,Con,LD,1,3,62
+63,Ross Skye & Inverness West,Con,SNP,1,4,108
+63,Ross Skye & Inverness West,Con,rest,1,5,740
+63,Ross Skye & Inverness West,Lab,Con,2,1,45
+63,Ross Skye & Inverness West,Lab,Lab,2,2,3605
+63,Ross Skye & Inverness West,Lab,LD,2,3,196
+63,Ross Skye & Inverness West,Lab,SNP,2,4,157
+63,Ross Skye & Inverness West,Lab,rest,2,5,786
+63,Ross Skye & Inverness West,LD,Con,3,1,564
+63,Ross Skye & Inverness West,LD,Lab,3,2,1161
+63,Ross Skye & Inverness West,LD,LD,3,3,7438
+63,Ross Skye & Inverness West,LD,SNP,3,4,1636
+63,Ross Skye & Inverness West,LD,rest,3,5,2702
+63,Ross Skye & Inverness West,SNP,Con,4,1,69
+63,Ross Skye & Inverness West,SNP,Lab,4,2,118
+63,Ross Skye & Inverness West,SNP,LD,4,3,124
+63,Ross Skye & Inverness West,SNP,SNP,4,4,8481
+63,Ross Skye & Inverness West,SNP,rest,4,5,1223
+63,Ross Skye & Inverness West,rest,Con,5,1,90
+63,Ross Skye & Inverness West,rest,Lab,5,2,265
+63,Ross Skye & Inverness West,rest,LD,5,3,176
+63,Ross Skye & Inverness West,rest,SNP,5,4,424
+63,Ross Skye & Inverness West,rest,rest,5,5,756
+64,Roxburgh and Berwickshire,Con,Con,1,1,8035
+64,Roxburgh and Berwickshire,Con,Lab,1,2,276
+64,Roxburgh and Berwickshire,Con,LD,1,3,397
+64,Roxburgh and Berwickshire,Con,SNP,1,4,674
+64,Roxburgh and Berwickshire,Con,rest,1,5,1174
+64,Roxburgh and Berwickshire,Lab,Con,2,1,12
+64,Roxburgh and Berwickshire,Lab,Lab,2,2,1722
+64,Roxburgh and Berwickshire,Lab,LD,2,3,47
+64,Roxburgh and Berwickshire,Lab,SNP,2,4,50
+64,Roxburgh and Berwickshire,Lab,rest,2,5,277
+64,Roxburgh and Berwickshire,LD,Con,3,1,305
+64,Roxburgh and Berwickshire,LD,Lab,3,2,869
+64,Roxburgh and Berwickshire,LD,LD,3,3,5305
+64,Roxburgh and Berwickshire,LD,SNP,3,4,897
+64,Roxburgh and Berwickshire,LD,rest,3,5,1195
+64,Roxburgh and Berwickshire,SNP,Con,4,1,27
+64,Roxburgh and Berwickshire,SNP,Lab,4,2,58
+64,Roxburgh and Berwickshire,SNP,LD,4,3,71
+64,Roxburgh and Berwickshire,SNP,SNP,4,4,3522
+64,Roxburgh and Berwickshire,SNP,rest,4,5,449
+64,Roxburgh and Berwickshire,rest,Con,5,1,81
+64,Roxburgh and Berwickshire,rest,Lab,5,2,126
+64,Roxburgh and Berwickshire,rest,LD,5,3,136
+64,Roxburgh and Berwickshire,rest,SNP,5,4,174
+64,Roxburgh and Berwickshire,rest,rest,5,5,400
+65,SHETTLESTON,Con,Con,1,1,471
+65,SHETTLESTON,Con,Lab,1,2,27
+65,SHETTLESTON,Con,LD,1,3,12
+65,SHETTLESTON,Con,SNP,1,4,36
+65,SHETTLESTON,Con,rest,1,5,400
+65,SHETTLESTON,Lab,Con,2,1,51
+65,SHETTLESTON,Lab,Lab,2,2,5509
+65,SHETTLESTON,Lab,LD,2,3,80
+65,SHETTLESTON,Lab,SNP,2,4,215
+65,SHETTLESTON,Lab,rest,2,5,1719
+65,SHETTLESTON,LD,Con,3,1,9
+65,SHETTLESTON,LD,Lab,3,2,68
+65,SHETTLESTON,LD,LD,3,3,530
+65,SHETTLESTON,LD,SNP,3,4,78
+65,SHETTLESTON,LD,rest,3,5,497
+65,SHETTLESTON,SNP,Con,4,1,11
+65,SHETTLESTON,SNP,Lab,4,2,111
+65,SHETTLESTON,SNP,LD,4,3,34
+65,SHETTLESTON,SNP,SNP,4,4,3612
+65,SHETTLESTON,SNP,rest,4,5,925
+65,SHETTLESTON,rest,Con,5,1,69
+65,SHETTLESTON,rest,Lab,5,2,748
+65,SHETTLESTON,rest,LD,5,3,60
+65,SHETTLESTON,rest,SNP,5,4,420
+65,SHETTLESTON,rest,rest,5,5,1144
+66,SPRINGBURN,Con,Con,1,1,563
+66,SPRINGBURN,Con,Lab,1,2,30
+66,SPRINGBURN,Con,LD,1,3,9
+66,SPRINGBURN,Con,SNP,1,4,39
+66,SPRINGBURN,Con,rest,1,5,426
+66,SPRINGBURN,Lab,Con,2,1,66
+66,SPRINGBURN,Lab,Lab,2,2,7427
+66,SPRINGBURN,Lab,LD,2,3,112
+66,SPRINGBURN,Lab,SNP,2,4,342
+66,SPRINGBURN,Lab,rest,2,5,2077
+66,SPRINGBURN,LD,Con,3,1,19
+66,SPRINGBURN,LD,Lab,3,2,62
+66,SPRINGBURN,LD,LD,3,3,505
+66,SPRINGBURN,LD,SNP,3,4,69
+66,SPRINGBURN,LD,rest,3,5,453
+66,SPRINGBURN,SNP,Con,4,1,20
+66,SPRINGBURN,SNP,Lab,4,2,77
+66,SPRINGBURN,SNP,LD,4,3,27
+66,SPRINGBURN,SNP,SNP,4,4,3906
+66,SPRINGBURN,SNP,rest,4,5,899
+66,SPRINGBURN,rest,Con,5,1,55
+66,SPRINGBURN,rest,Lab,5,2,621
+66,SPRINGBURN,rest,LD,5,3,27
+66,SPRINGBURN,rest,SNP,5,4,405
+66,SPRINGBURN,rest,rest,5,5,1078
+67,STIRLING,Con,Con,1,1,6388
+67,STIRLING,Con,Lab,1,2,204
+67,STIRLING,Con,LD,1,3,165
+67,STIRLING,Con,SNP,1,4,506
+67,STIRLING,Con,rest,1,5,818
+67,STIRLING,Lab,Con,2,1,214
+67,STIRLING,Lab,Lab,2,2,7433
+67,STIRLING,Lab,LD,2,3,424
+67,STIRLING,Lab,SNP,2,4,438
+67,STIRLING,Lab,rest,2,5,1318
+67,STIRLING,LD,Con,3,1,98
+67,STIRLING,LD,Lab,3,2,146
+67,STIRLING,LD,LD,3,3,2422
+67,STIRLING,LD,SNP,3,4,245
+67,STIRLING,LD,rest,3,5,782
+67,STIRLING,SNP,Con,4,1,132
+67,STIRLING,SNP,Lab,4,2,200
+67,STIRLING,SNP,LD,4,3,150
+67,STIRLING,SNP,SNP,4,4,9018
+67,STIRLING,SNP,rest,4,5,947
+67,STIRLING,rest,Con,5,1,87
+67,STIRLING,rest,Lab,5,2,190
+67,STIRLING,rest,LD,5,3,61
+67,STIRLING,rest,SNP,5,4,184
+67,STIRLING,rest,rest,5,5,688
+68,Shetland Islands,Con,Con,1,1,598
+68,Shetland Islands,Con,Lab,1,2,14
+68,Shetland Islands,Con,LD,1,3,24
+68,Shetland Islands,Con,SNP,1,4,51
+68,Shetland Islands,Con,rest,1,5,285
+68,Shetland Islands,Lab,Con,2,1,4
+68,Shetland Islands,Lab,Lab,2,2,451
+68,Shetland Islands,Lab,LD,2,3,11
+68,Shetland Islands,Lab,SNP,2,4,17
+68,Shetland Islands,Lab,rest,2,5,187
+68,Shetland Islands,LD,Con,3,1,241
+68,Shetland Islands,LD,Lab,3,2,627
+68,Shetland Islands,LD,LD,3,3,3372
+68,Shetland Islands,LD,SNP,3,4,771
+68,Shetland Islands,LD,rest,3,5,1520
+68,Shetland Islands,SNP,Con,4,1,14
+68,Shetland Islands,SNP,Lab,4,2,19
+68,Shetland Islands,SNP,LD,4,3,26
+68,Shetland Islands,SNP,SNP,4,4,1251
+68,Shetland Islands,SNP,rest,4,5,312
+68,Shetland Islands,rest,Con,5,1,27
+68,Shetland Islands,rest,Lab,5,2,35
+68,Shetland Islands,rest,LD,5,3,52
+68,Shetland Islands,rest,SNP,5,4,38
+68,Shetland Islands,rest,rest,5,5,142
+69,Strathkelvin & Bearsden,Con,Con,1,1,4006
+69,Strathkelvin & Bearsden,Con,Lab,1,2,192
+69,Strathkelvin & Bearsden,Con,LD,1,3,118
+69,Strathkelvin & Bearsden,Con,SNP,1,4,245
+69,Strathkelvin & Bearsden,Con,rest,1,5,617
+69,Strathkelvin & Bearsden,Lab,Con,2,1,127
+69,Strathkelvin & Bearsden,Lab,Lab,2,2,9709
+69,Strathkelvin & Bearsden,Lab,LD,2,3,127
+69,Strathkelvin & Bearsden,Lab,SNP,2,4,254
+69,Strathkelvin & Bearsden,Lab,rest,2,5,1179
+69,Strathkelvin & Bearsden,LD,Con,3,1,198
+69,Strathkelvin & Bearsden,LD,Lab,3,2,477
+69,Strathkelvin & Bearsden,LD,LD,3,3,2817
+69,Strathkelvin & Bearsden,LD,SNP,3,4,469
+69,Strathkelvin & Bearsden,LD,rest,3,5,697
+69,Strathkelvin & Bearsden,SNP,Con,4,1,102
+69,Strathkelvin & Bearsden,SNP,Lab,4,2,136
+69,Strathkelvin & Bearsden,SNP,LD,4,3,114
+69,Strathkelvin & Bearsden,SNP,SNP,4,4,6964
+69,Strathkelvin & Bearsden,SNP,rest,4,5,692
+69,Strathkelvin & Bearsden,rest,Con,5,1,1145
+69,Strathkelvin & Bearsden,rest,Lab,5,2,1882
+69,Strathkelvin & Bearsden,rest,LD,5,3,798
+69,Strathkelvin & Bearsden,rest,SNP,5,4,1573
+69,Strathkelvin & Bearsden,rest,rest,5,5,3055
+70,Tweeddale Ettrick and Lauderdale,Con,Con,1,1,4625
+70,Tweeddale Ettrick and Lauderdale,Con,Lab,1,2,84
+70,Tweeddale Ettrick and Lauderdale,Con,LD,1,3,145
+70,Tweeddale Ettrick and Lauderdale,Con,SNP,1,4,210
+70,Tweeddale Ettrick and Lauderdale,Con,rest,1,5,530
+70,Tweeddale Ettrick and Lauderdale,Lab,Con,2,1,30
+70,Tweeddale Ettrick and Lauderdale,Lab,Lab,2,2,3232
+70,Tweeddale Ettrick and Lauderdale,Lab,LD,2,3,143
+70,Tweeddale Ettrick and Lauderdale,Lab,SNP,2,4,106
+70,Tweeddale Ettrick and Lauderdale,Lab,rest,2,5,508
+70,Tweeddale Ettrick and Lauderdale,LD,Con,3,1,626
+70,Tweeddale Ettrick and Lauderdale,LD,Lab,3,2,1060
+70,Tweeddale Ettrick and Lauderdale,LD,LD,3,3,6686
+70,Tweeddale Ettrick and Lauderdale,LD,SNP,3,4,782
+70,Tweeddale Ettrick and Lauderdale,LD,rest,3,5,1502
+70,Tweeddale Ettrick and Lauderdale,SNP,Con,4,1,235
+70,Tweeddale Ettrick and Lauderdale,SNP,Lab,4,2,419
+70,Tweeddale Ettrick and Lauderdale,SNP,LD,4,3,499
+70,Tweeddale Ettrick and Lauderdale,SNP,SNP,4,4,7817
+70,Tweeddale Ettrick and Lauderdale,SNP,rest,4,5,1088
+70,Tweeddale Ettrick and Lauderdale,rest,Con,5,1,91
+70,Tweeddale Ettrick and Lauderdale,rest,Lab,5,2,181
+70,Tweeddale Ettrick and Lauderdale,rest,LD,5,3,100
+70,Tweeddale Ettrick and Lauderdale,rest,SNP,5,4,159
+70,Tweeddale Ettrick and Lauderdale,rest,rest,5,5,283
+71,West Aberdeenshire and Kincardine,Con,Con,1,1,6863
+71,West Aberdeenshire and Kincardine,Con,Lab,1,2,117
+71,West Aberdeenshire and Kincardine,Con,LD,1,3,161
+71,West Aberdeenshire and Kincardine,Con,SNP,1,4,553
+71,West Aberdeenshire and Kincardine,Con,rest,1,5,910
+71,West Aberdeenshire and Kincardine,Lab,Con,2,1,14
+71,West Aberdeenshire and Kincardine,Lab,Lab,2,2,2280
+71,West Aberdeenshire and Kincardine,Lab,LD,2,3,45
+71,West Aberdeenshire and Kincardine,Lab,SNP,2,4,103
+71,West Aberdeenshire and Kincardine,Lab,rest,2,5,319
+71,West Aberdeenshire and Kincardine,LD,Con,3,1,888
+71,West Aberdeenshire and Kincardine,LD,Lab,3,2,1275
+71,West Aberdeenshire and Kincardine,LD,LD,3,3,8359
+71,West Aberdeenshire and Kincardine,LD,SNP,3,4,1992
+71,West Aberdeenshire and Kincardine,LD,rest,3,5,1800
+71,West Aberdeenshire and Kincardine,SNP,Con,4,1,50
+71,West Aberdeenshire and Kincardine,SNP,Lab,4,2,66
+71,West Aberdeenshire and Kincardine,SNP,LD,4,3,89
+71,West Aberdeenshire and Kincardine,SNP,SNP,4,4,8297
+71,West Aberdeenshire and Kincardine,SNP,rest,4,5,642
+71,West Aberdeenshire and Kincardine,rest,Con,5,1,175
+71,West Aberdeenshire and Kincardine,rest,Lab,5,2,124
+71,West Aberdeenshire and Kincardine,rest,LD,5,3,111
+71,West Aberdeenshire and Kincardine,rest,SNP,5,4,316
+71,West Aberdeenshire and Kincardine,rest,rest,5,5,258
+72,West Renfrewshire,Con,Con,1,1,5232
+72,West Renfrewshire,Con,Lab,1,2,626
+72,West Renfrewshire,Con,LD,1,3,365
+72,West Renfrewshire,Con,SNP,1,4,761
+72,West Renfrewshire,Con,rest,1,5,1305
+72,West Renfrewshire,Lab,Con,2,1,118
+72,West Renfrewshire,Lab,Lab,2,2,8477
+72,West Renfrewshire,Lab,LD,2,3,150
+72,West Renfrewshire,Lab,SNP,2,4,286
+72,West Renfrewshire,Lab,rest,2,5,1436
+72,West Renfrewshire,LD,Con,3,1,37
+72,West Renfrewshire,LD,Lab,3,2,103
+72,West Renfrewshire,LD,LD,3,3,1389
+72,West Renfrewshire,LD,SNP,3,4,117
+72,West Renfrewshire,LD,rest,3,5,560
+72,West Renfrewshire,SNP,Con,4,1,61
+72,West Renfrewshire,SNP,Lab,4,2,175
+72,West Renfrewshire,SNP,LD,4,3,84
+72,West Renfrewshire,SNP,SNP,4,4,6859
+72,West Renfrewshire,SNP,rest,4,5,988
+72,West Renfrewshire,rest,Con,5,1,69
+72,West Renfrewshire,rest,Lab,5,2,275
+72,West Renfrewshire,rest,LD,5,3,47
+72,West Renfrewshire,rest,SNP,5,4,241
+72,West Renfrewshire,rest,rest,5,5,324
+73,Western Isles,Con,Con,1,1,418
+73,Western Isles,Con,Lab,1,2,14
+73,Western Isles,Con,LD,1,3,3
+73,Western Isles,Con,SNP,1,4,24
+73,Western Isles,Con,rest,1,5,293
+73,Western Isles,Lab,Con,2,1,120
+73,Western Isles,Lab,Lab,2,2,3564
+73,Western Isles,Lab,LD,2,3,130
+73,Western Isles,Lab,SNP,2,4,310
+73,Western Isles,Lab,rest,2,5,1543
+73,Western Isles,LD,Con,3,1,26
+73,Western Isles,LD,Lab,3,2,59
+73,Western Isles,LD,LD,3,3,431
+73,Western Isles,LD,SNP,3,4,75
+73,Western Isles,LD,rest,3,5,261
+73,Western Isles,SNP,Con,4,1,116
+73,Western Isles,SNP,Lab,4,2,147
+73,Western Isles,SNP,LD,4,3,77
+73,Western Isles,SNP,SNP,4,4,4948
+73,Western Isles,SNP,rest,4,5,1066
+73,Western Isles,rest,Con,5,1,16
+73,Western Isles,rest,Lab,5,2,121
+73,Western Isles,rest,LD,5,3,10
+73,Western Isles,rest,SNP,5,4,95
+73,Western Isles,rest,rest,5,5,204
