@@ -56,7 +56,7 @@ def base_data(T, eps, scale):
     w, m = T.sum(1), T.sum(0)
     order = [int(i) + 1 for i in np.argsort(w)]                    # smallest row first, largest by subtraction
     return dict(R=R, C=C, obs_w=w, obs_m=m, eps=eps, scale_margins=scale, V=helmert(R * C), row_order=order,
-                rem_col=[r + 1 if r < C else C for r in range(R)], delta=0.0)
+                rem_col=[r + 1 if r < C else C for r in range(R)], delta=0.0, K_margin=np.eye(R + C - 1))
 
 
 def start(param, d):

@@ -22,8 +22,8 @@ data {
   int<lower=0, upper=5> param;
   vector<lower=0>[R] obs_w;                            // observed row totals
   vector<lower=0>[C] obs_m;                            // observed column totals
-  real<lower=0> eps;
-  int<lower=0, upper=1> scale_margins;                 // sequential versions: 1 = margin parameters on the scale of the penalty                                   // relative width of the margin penalty
+  real<lower=0> eps;                                   // relative width of the margin penalty
+  int<lower=0, upper=1> scale_margins;                 // sequential versions: 1 = margin parameters on the scale of the penalty
   matrix[R * C, R * C - 1] V;                          // ILR basis (orthonormal columns, each summing to zero), cells row by row
   vector[R * C - 1] mu_b;
   vector<lower=0>[R * C - 1] sigma_b;
@@ -32,6 +32,11 @@ data {
   array[R] int<lower=1, upper=R> row_order;            // sequential schemes: fill order of the rows
   array[R] int<lower=1, upper=C> rem_col;              // sequential schemes: column found by subtraction / reference
   real<lower=0> delta;                                 // between bounds: kink smoothing (0 = sharp)
+  // sequential versions: the R + C - 1 margin parameters used by sa_table are K_margin * theta[1:(R + C - 1)].
+  // A fixed linear change of margin coordinates (constant Jacobian, so the density on tables is unchanged):
+  // identity = column log-ratios against the last column; other choices: against the largest column, or whitened
+  // by the margin penalty so that no column is a reference (see sa_margin_K in R/single_area.R).
+  matrix[R + C - 1, R + C - 1] K_margin;
 }
 parameters {
   vector[R * C] theta;
@@ -40,7 +45,9 @@ transformed parameters {
   matrix[R, C] T;
   real lj;
   {
-    matrix[R + 1, C] a = sa_table(theta, param, R, C, V, obs_w, obs_m, eps, scale_margins, row_order, rem_col, delta);
+    vector[R * C] th = theta;
+    if (param >= 1 && param <= 4) th[1:(R + C - 1)] = K_margin * theta[1:(R + C - 1)];
+    matrix[R + 1, C] a = sa_table(th, param, R, C, V, obs_w, obs_m, eps, scale_margins, row_order, rem_col, delta);
     T = a[1:R, 1:C];
     lj = a[R + 1, 1];
   }
