@@ -1,0 +1,1909 @@
+area,district,row,col,row_no,col_no,votes
+1,Bladen ABBOTTS,white,dem,1,1,272
+1,Bladen ABBOTTS,white,rep,1,2,60
+1,Bladen ABBOTTS,white,non,1,3,23
+1,Bladen ABBOTTS,black,dem,2,1,126
+1,Bladen ABBOTTS,black,rep,2,2,1
+1,Bladen ABBOTTS,black,non,2,3,7
+1,Bladen ABBOTTS,natam,dem,3,1,1
+1,Bladen ABBOTTS,natam,rep,3,2,0
+1,Bladen ABBOTTS,natam,non,3,3,0
+2,Bladen BETHEL,white,dem,1,1,1023
+2,Bladen BETHEL,white,rep,1,2,337
+2,Bladen BETHEL,white,non,1,3,137
+2,Bladen BETHEL,black,dem,2,1,208
+2,Bladen BETHEL,black,rep,2,2,5
+2,Bladen BETHEL,black,non,2,3,11
+2,Bladen BETHEL,natam,dem,3,1,7
+2,Bladen BETHEL,natam,rep,3,2,1
+2,Bladen BETHEL,natam,non,3,3,0
+3,Bladen BROWN MARSH,white,dem,1,1,635
+3,Bladen BROWN MARSH,white,rep,1,2,125
+3,Bladen BROWN MARSH,white,non,1,3,57
+3,Bladen BROWN MARSH,black,dem,2,1,495
+3,Bladen BROWN MARSH,black,rep,2,2,24
+3,Bladen BROWN MARSH,black,non,2,3,22
+3,Bladen BROWN MARSH,natam,dem,3,1,2
+3,Bladen BROWN MARSH,natam,rep,3,2,1
+3,Bladen BROWN MARSH,natam,non,3,3,2
+4,Bladen CARVERS CREEK,white,dem,1,1,147
+4,Bladen CARVERS CREEK,white,rep,1,2,30
+4,Bladen CARVERS CREEK,white,non,1,3,25
+4,Bladen CARVERS CREEK,black,dem,2,1,825
+4,Bladen CARVERS CREEK,black,rep,2,2,22
+4,Bladen CARVERS CREEK,black,non,2,3,42
+4,Bladen CARVERS CREEK,natam,dem,3,1,60
+4,Bladen CARVERS CREEK,natam,rep,3,2,8
+4,Bladen CARVERS CREEK,natam,non,3,3,13
+5,Bladen CENTRAL,white,dem,1,1,223
+5,Bladen CENTRAL,white,rep,1,2,34
+5,Bladen CENTRAL,white,non,1,3,41
+5,Bladen CENTRAL,black,dem,2,1,154
+5,Bladen CENTRAL,black,rep,2,2,6
+5,Bladen CENTRAL,black,non,2,3,10
+5,Bladen CENTRAL,natam,dem,3,1,2
+5,Bladen CENTRAL,natam,rep,3,2,0
+5,Bladen CENTRAL,natam,non,3,3,0
+6,Bladen COLLY,white,dem,1,1,499
+6,Bladen COLLY,white,rep,1,2,199
+6,Bladen COLLY,white,non,1,3,86
+6,Bladen COLLY,black,dem,2,1,170
+6,Bladen COLLY,black,rep,2,2,4
+6,Bladen COLLY,black,non,2,3,9
+6,Bladen COLLY,natam,dem,3,1,5
+6,Bladen COLLY,natam,rep,3,2,2
+6,Bladen COLLY,natam,non,3,3,0
+7,Bladen CYPRESS CREEK,white,dem,1,1,251
+7,Bladen CYPRESS CREEK,white,rep,1,2,91
+7,Bladen CYPRESS CREEK,white,non,1,3,46
+7,Bladen CYPRESS CREEK,black,dem,2,1,53
+7,Bladen CYPRESS CREEK,black,rep,2,2,2
+7,Bladen CYPRESS CREEK,black,non,2,3,6
+7,Bladen CYPRESS CREEK,natam,dem,3,1,1
+7,Bladen CYPRESS CREEK,natam,rep,3,2,0
+7,Bladen CYPRESS CREEK,natam,non,3,3,0
+8,Bladen FRENCHES CREEK,white,dem,1,1,163
+8,Bladen FRENCHES CREEK,white,rep,1,2,87
+8,Bladen FRENCHES CREEK,white,non,1,3,32
+8,Bladen FRENCHES CREEK,black,dem,2,1,241
+8,Bladen FRENCHES CREEK,black,rep,2,2,5
+8,Bladen FRENCHES CREEK,black,non,2,3,9
+8,Bladen FRENCHES CREEK,natam,dem,3,1,0
+8,Bladen FRENCHES CREEK,natam,rep,3,2,0
+8,Bladen FRENCHES CREEK,natam,non,3,3,0
+9,Bladen HOLLOW,white,dem,1,1,395
+9,Bladen HOLLOW,white,rep,1,2,104
+9,Bladen HOLLOW,white,non,1,3,77
+9,Bladen HOLLOW,black,dem,2,1,378
+9,Bladen HOLLOW,black,rep,2,2,14
+9,Bladen HOLLOW,black,non,2,3,12
+9,Bladen HOLLOW,natam,dem,3,1,4
+9,Bladen HOLLOW,natam,rep,3,2,2
+9,Bladen HOLLOW,natam,non,3,3,0
+10,Bladen LAKE CREEK,white,dem,1,1,193
+10,Bladen LAKE CREEK,white,rep,1,2,118
+10,Bladen LAKE CREEK,white,non,1,3,30
+10,Bladen LAKE CREEK,black,dem,2,1,93
+10,Bladen LAKE CREEK,black,rep,2,2,2
+10,Bladen LAKE CREEK,black,non,2,3,2
+10,Bladen LAKE CREEK,natam,dem,3,1,2
+10,Bladen LAKE CREEK,natam,rep,3,2,0
+10,Bladen LAKE CREEK,natam,non,3,3,0
+11,Bladen TURNBULL,white,dem,1,1,177
+11,Bladen TURNBULL,white,rep,1,2,47
+11,Bladen TURNBULL,white,non,1,3,22
+11,Bladen TURNBULL,black,dem,2,1,143
+11,Bladen TURNBULL,black,rep,2,2,2
+11,Bladen TURNBULL,black,non,2,3,5
+11,Bladen TURNBULL,natam,dem,3,1,2
+11,Bladen TURNBULL,natam,rep,3,2,0
+11,Bladen TURNBULL,natam,non,3,3,0
+12,Bladen WHITES CREEK,white,dem,1,1,223
+12,Bladen WHITES CREEK,white,rep,1,2,44
+12,Bladen WHITES CREEK,white,non,1,3,25
+12,Bladen WHITES CREEK,black,dem,2,1,403
+12,Bladen WHITES CREEK,black,rep,2,2,17
+12,Bladen WHITES CREEK,black,non,2,3,22
+12,Bladen WHITES CREEK,natam,dem,3,1,6
+12,Bladen WHITES CREEK,natam,rep,3,2,1
+12,Bladen WHITES CREEK,natam,non,3,3,2
+13,Bladen WHITE OAK,white,dem,1,1,355
+13,Bladen WHITE OAK,white,rep,1,2,141
+13,Bladen WHITE OAK,white,non,1,3,96
+13,Bladen WHITE OAK,black,dem,2,1,211
+13,Bladen WHITE OAK,black,rep,2,2,9
+13,Bladen WHITE OAK,black,non,2,3,15
+13,Bladen WHITE OAK,natam,dem,3,1,3
+13,Bladen WHITE OAK,natam,rep,3,2,0
+13,Bladen WHITE OAK,natam,non,3,3,0
+14,Bladen BLADENBORO 1,white,dem,1,1,1051
+14,Bladen BLADENBORO 1,white,rep,1,2,280
+14,Bladen BLADENBORO 1,white,non,1,3,123
+14,Bladen BLADENBORO 1,black,dem,2,1,417
+14,Bladen BLADENBORO 1,black,rep,2,2,17
+14,Bladen BLADENBORO 1,black,non,2,3,25
+14,Bladen BLADENBORO 1,natam,dem,3,1,4
+14,Bladen BLADENBORO 1,natam,rep,3,2,1
+14,Bladen BLADENBORO 1,natam,non,3,3,2
+15,Bladen BLADENBORO 2,white,dem,1,1,1252
+15,Bladen BLADENBORO 2,white,rep,1,2,380
+15,Bladen BLADENBORO 2,white,non,1,3,126
+15,Bladen BLADENBORO 2,black,dem,2,1,417
+15,Bladen BLADENBORO 2,black,rep,2,2,17
+15,Bladen BLADENBORO 2,black,non,2,3,21
+15,Bladen BLADENBORO 2,natam,dem,3,1,5
+15,Bladen BLADENBORO 2,natam,rep,3,2,0
+15,Bladen BLADENBORO 2,natam,non,3,3,0
+16,Bladen ELIZABETHTOWN 1,white,dem,1,1,809
+16,Bladen ELIZABETHTOWN 1,white,rep,1,2,236
+16,Bladen ELIZABETHTOWN 1,white,non,1,3,113
+16,Bladen ELIZABETHTOWN 1,black,dem,2,1,943
+16,Bladen ELIZABETHTOWN 1,black,rep,2,2,23
+16,Bladen ELIZABETHTOWN 1,black,non,2,3,46
+16,Bladen ELIZABETHTOWN 1,natam,dem,3,1,3
+16,Bladen ELIZABETHTOWN 1,natam,rep,3,2,0
+16,Bladen ELIZABETHTOWN 1,natam,non,3,3,1
+17,Bladen ELIZABETHTOWN 2,white,dem,1,1,694
+17,Bladen ELIZABETHTOWN 2,white,rep,1,2,200
+17,Bladen ELIZABETHTOWN 2,white,non,1,3,98
+17,Bladen ELIZABETHTOWN 2,black,dem,2,1,358
+17,Bladen ELIZABETHTOWN 2,black,rep,2,2,20
+17,Bladen ELIZABETHTOWN 2,black,non,2,3,23
+17,Bladen ELIZABETHTOWN 2,natam,dem,3,1,1
+17,Bladen ELIZABETHTOWN 2,natam,rep,3,2,0
+17,Bladen ELIZABETHTOWN 2,natam,non,3,3,2
+18,Brunswick FRYING PAN,white,dem,1,1,1181
+18,Brunswick FRYING PAN,white,rep,1,2,1080
+18,Brunswick FRYING PAN,white,non,1,3,437
+18,Brunswick FRYING PAN,black,dem,2,1,77
+18,Brunswick FRYING PAN,black,rep,2,2,3
+18,Brunswick FRYING PAN,black,non,2,3,7
+18,Brunswick FRYING PAN,natam,dem,3,1,1
+18,Brunswick FRYING PAN,natam,rep,3,2,1
+18,Brunswick FRYING PAN,natam,non,3,3,1
+19,Brunswick GRISSETTOWN,white,dem,1,1,1292
+19,Brunswick GRISSETTOWN,white,rep,1,2,1070
+19,Brunswick GRISSETTOWN,white,non,1,3,545
+19,Brunswick GRISSETTOWN,black,dem,2,1,299
+19,Brunswick GRISSETTOWN,black,rep,2,2,18
+19,Brunswick GRISSETTOWN,black,non,2,3,29
+19,Brunswick GRISSETTOWN,natam,dem,3,1,2
+19,Brunswick GRISSETTOWN,natam,rep,3,2,0
+19,Brunswick GRISSETTOWN,natam,non,3,3,0
+20,Brunswick HOODS CREEK,white,dem,1,1,326
+20,Brunswick HOODS CREEK,white,rep,1,2,393
+20,Brunswick HOODS CREEK,white,non,1,3,106
+20,Brunswick HOODS CREEK,black,dem,2,1,366
+20,Brunswick HOODS CREEK,black,rep,2,2,7
+20,Brunswick HOODS CREEK,black,non,2,3,21
+20,Brunswick HOODS CREEK,natam,dem,3,1,0
+20,Brunswick HOODS CREEK,natam,rep,3,2,3
+20,Brunswick HOODS CREEK,natam,non,3,3,1
+21,Brunswick TOWN CREEK,white,dem,1,1,812
+21,Brunswick TOWN CREEK,white,rep,1,2,813
+21,Brunswick TOWN CREEK,white,non,1,3,313
+21,Brunswick TOWN CREEK,black,dem,2,1,315
+21,Brunswick TOWN CREEK,black,rep,2,2,12
+21,Brunswick TOWN CREEK,black,non,2,3,21
+21,Brunswick TOWN CREEK,natam,dem,3,1,3
+21,Brunswick TOWN CREEK,natam,rep,3,2,2
+21,Brunswick TOWN CREEK,natam,non,3,3,2
+22,Brunswick WOODBURN,white,dem,1,1,509
+22,Brunswick WOODBURN,white,rep,1,2,470
+22,Brunswick WOODBURN,white,non,1,3,170
+22,Brunswick WOODBURN,black,dem,2,1,399
+22,Brunswick WOODBURN,black,rep,2,2,26
+22,Brunswick WOODBURN,black,non,2,3,33
+22,Brunswick WOODBURN,natam,dem,3,1,1
+22,Brunswick WOODBURN,natam,rep,3,2,0
+22,Brunswick WOODBURN,natam,non,3,3,0
+23,Brunswick BELVILLE,white,dem,1,1,776
+23,Brunswick BELVILLE,white,rep,1,2,950
+23,Brunswick BELVILLE,white,non,1,3,410
+23,Brunswick BELVILLE,black,dem,2,1,427
+23,Brunswick BELVILLE,black,rep,2,2,25
+23,Brunswick BELVILLE,black,non,2,3,38
+23,Brunswick BELVILLE,natam,dem,3,1,2
+23,Brunswick BELVILLE,natam,rep,3,2,0
+23,Brunswick BELVILLE,natam,non,3,3,1
+24,Brunswick BOLIVIA,white,dem,1,1,400
+24,Brunswick BOLIVIA,white,rep,1,2,428
+24,Brunswick BOLIVIA,white,non,1,3,111
+24,Brunswick BOLIVIA,black,dem,2,1,278
+24,Brunswick BOLIVIA,black,rep,2,2,23
+24,Brunswick BOLIVIA,black,non,2,3,22
+24,Brunswick BOLIVIA,natam,dem,3,1,0
+24,Brunswick BOLIVIA,natam,rep,3,2,0
+24,Brunswick BOLIVIA,natam,non,3,3,0
+25,Brunswick BOILING SPRING LAKES,white,dem,1,1,812
+25,Brunswick BOILING SPRING LAKES,white,rep,1,2,975
+25,Brunswick BOILING SPRING LAKES,white,non,1,3,474
+25,Brunswick BOILING SPRING LAKES,black,dem,2,1,20
+25,Brunswick BOILING SPRING LAKES,black,rep,2,2,3
+25,Brunswick BOILING SPRING LAKES,black,non,2,3,4
+25,Brunswick BOILING SPRING LAKES,natam,dem,3,1,3
+25,Brunswick BOILING SPRING LAKES,natam,rep,3,2,2
+25,Brunswick BOILING SPRING LAKES,natam,non,3,3,1
+26,Brunswick LELAND,white,dem,1,1,813
+26,Brunswick LELAND,white,rep,1,2,712
+26,Brunswick LELAND,white,non,1,3,349
+26,Brunswick LELAND,black,dem,2,1,493
+26,Brunswick LELAND,black,rep,2,2,31
+26,Brunswick LELAND,black,non,2,3,37
+26,Brunswick LELAND,natam,dem,3,1,1
+26,Brunswick LELAND,natam,rep,3,2,1
+26,Brunswick LELAND,natam,non,3,3,0
+27,Brunswick LONGWOOD,white,dem,1,1,671
+27,Brunswick LONGWOOD,white,rep,1,2,695
+27,Brunswick LONGWOOD,white,non,1,3,328
+27,Brunswick LONGWOOD,black,dem,2,1,625
+27,Brunswick LONGWOOD,black,rep,2,2,25
+27,Brunswick LONGWOOD,black,non,2,3,28
+27,Brunswick LONGWOOD,natam,dem,3,1,1
+27,Brunswick LONGWOOD,natam,rep,3,2,0
+27,Brunswick LONGWOOD,natam,non,3,3,2
+28,Brunswick MOSQUITO,white,dem,1,1,608
+28,Brunswick MOSQUITO,white,rep,1,2,913
+28,Brunswick MOSQUITO,white,non,1,3,436
+28,Brunswick MOSQUITO,black,dem,2,1,126
+28,Brunswick MOSQUITO,black,rep,2,2,6
+28,Brunswick MOSQUITO,black,non,2,3,9
+28,Brunswick MOSQUITO,natam,dem,3,1,2
+28,Brunswick MOSQUITO,natam,rep,3,2,0
+28,Brunswick MOSQUITO,natam,non,3,3,1
+29,Brunswick OAK ISLAND 1,white,dem,1,1,442
+29,Brunswick OAK ISLAND 1,white,rep,1,2,462
+29,Brunswick OAK ISLAND 1,white,non,1,3,203
+29,Brunswick OAK ISLAND 1,black,dem,2,1,5
+29,Brunswick OAK ISLAND 1,black,rep,2,2,0
+29,Brunswick OAK ISLAND 1,black,non,2,3,0
+29,Brunswick OAK ISLAND 1,natam,dem,3,1,0
+29,Brunswick OAK ISLAND 1,natam,rep,3,2,0
+29,Brunswick OAK ISLAND 1,natam,non,3,3,0
+30,Brunswick OAK ISLAND 2,white,dem,1,1,963
+30,Brunswick OAK ISLAND 2,white,rep,1,2,790
+30,Brunswick OAK ISLAND 2,white,non,1,3,337
+30,Brunswick OAK ISLAND 2,black,dem,2,1,2
+30,Brunswick OAK ISLAND 2,black,rep,2,2,0
+30,Brunswick OAK ISLAND 2,black,non,2,3,2
+30,Brunswick OAK ISLAND 2,natam,dem,3,1,0
+30,Brunswick OAK ISLAND 2,natam,rep,3,2,0
+30,Brunswick OAK ISLAND 2,natam,non,3,3,0
+31,Brunswick OAK ISLAND 3,white,dem,1,1,845
+31,Brunswick OAK ISLAND 3,white,rep,1,2,847
+31,Brunswick OAK ISLAND 3,white,non,1,3,431
+31,Brunswick OAK ISLAND 3,black,dem,2,1,4
+31,Brunswick OAK ISLAND 3,black,rep,2,2,0
+31,Brunswick OAK ISLAND 3,black,non,2,3,0
+31,Brunswick OAK ISLAND 3,natam,dem,3,1,0
+31,Brunswick OAK ISLAND 3,natam,rep,3,2,0
+31,Brunswick OAK ISLAND 3,natam,non,3,3,1
+32,Brunswick SOUTHPORT 1,white,dem,1,1,801
+32,Brunswick SOUTHPORT 1,white,rep,1,2,759
+32,Brunswick SOUTHPORT 1,white,non,1,3,405
+32,Brunswick SOUTHPORT 1,black,dem,2,1,198
+32,Brunswick SOUTHPORT 1,black,rep,2,2,18
+32,Brunswick SOUTHPORT 1,black,non,2,3,14
+32,Brunswick SOUTHPORT 1,natam,dem,3,1,1
+32,Brunswick SOUTHPORT 1,natam,rep,3,2,2
+32,Brunswick SOUTHPORT 1,natam,non,3,3,1
+33,Brunswick SOUTHPORT 2,white,dem,1,1,580
+33,Brunswick SOUTHPORT 2,white,rep,1,2,602
+33,Brunswick SOUTHPORT 2,white,non,1,3,305
+33,Brunswick SOUTHPORT 2,black,dem,2,1,314
+33,Brunswick SOUTHPORT 2,black,rep,2,2,21
+33,Brunswick SOUTHPORT 2,black,non,2,3,28
+33,Brunswick SOUTHPORT 2,natam,dem,3,1,3
+33,Brunswick SOUTHPORT 2,natam,rep,3,2,0
+33,Brunswick SOUTHPORT 2,natam,non,3,3,1
+34,Brunswick SHINGLETREE 1,white,dem,1,1,920
+34,Brunswick SHINGLETREE 1,white,rep,1,2,1040
+34,Brunswick SHINGLETREE 1,white,non,1,3,539
+34,Brunswick SHINGLETREE 1,black,dem,2,1,35
+34,Brunswick SHINGLETREE 1,black,rep,2,2,3
+34,Brunswick SHINGLETREE 1,black,non,2,3,1
+34,Brunswick SHINGLETREE 1,natam,dem,3,1,0
+34,Brunswick SHINGLETREE 1,natam,rep,3,2,0
+34,Brunswick SHINGLETREE 1,natam,non,3,3,0
+35,Brunswick SHINGLETREE 2,white,dem,1,1,935
+35,Brunswick SHINGLETREE 2,white,rep,1,2,1394
+35,Brunswick SHINGLETREE 2,white,non,1,3,611
+35,Brunswick SHINGLETREE 2,black,dem,2,1,24
+35,Brunswick SHINGLETREE 2,black,rep,2,2,1
+35,Brunswick SHINGLETREE 2,black,non,2,3,2
+35,Brunswick SHINGLETREE 2,natam,dem,3,1,0
+35,Brunswick SHINGLETREE 2,natam,rep,3,2,0
+35,Brunswick SHINGLETREE 2,natam,non,3,3,1
+36,Brunswick SUPPLY,white,dem,1,1,537
+36,Brunswick SUPPLY,white,rep,1,2,351
+36,Brunswick SUPPLY,white,non,1,3,152
+36,Brunswick SUPPLY,black,dem,2,1,645
+36,Brunswick SUPPLY,black,rep,2,2,35
+36,Brunswick SUPPLY,black,non,2,3,36
+36,Brunswick SUPPLY,natam,dem,3,1,0
+36,Brunswick SUPPLY,natam,rep,3,2,1
+36,Brunswick SUPPLY,natam,non,3,3,0
+37,Brunswick WACCAMAW,white,dem,1,1,810
+37,Brunswick WACCAMAW,white,rep,1,2,558
+37,Brunswick WACCAMAW,white,non,1,3,148
+37,Brunswick WACCAMAW,black,dem,2,1,136
+37,Brunswick WACCAMAW,black,rep,2,2,8
+37,Brunswick WACCAMAW,black,non,2,3,6
+37,Brunswick WACCAMAW,natam,dem,3,1,0
+37,Brunswick WACCAMAW,natam,rep,3,2,0
+37,Brunswick WACCAMAW,natam,non,3,3,0
+38,Brunswick SECESSION 1,white,dem,1,1,942
+38,Brunswick SECESSION 1,white,rep,1,2,568
+38,Brunswick SECESSION 1,white,non,1,3,302
+38,Brunswick SECESSION 1,black,dem,2,1,187
+38,Brunswick SECESSION 1,black,rep,2,2,24
+38,Brunswick SECESSION 1,black,non,2,3,16
+38,Brunswick SECESSION 1,natam,dem,3,1,2
+38,Brunswick SECESSION 1,natam,rep,3,2,0
+38,Brunswick SECESSION 1,natam,non,3,3,0
+39,Brunswick SECESSION 2,white,dem,1,1,1246
+39,Brunswick SECESSION 2,white,rep,1,2,778
+39,Brunswick SECESSION 2,white,non,1,3,427
+39,Brunswick SECESSION 2,black,dem,2,1,25
+39,Brunswick SECESSION 2,black,rep,2,2,11
+39,Brunswick SECESSION 2,black,non,2,3,1
+39,Brunswick SECESSION 2,natam,dem,3,1,3
+39,Brunswick SECESSION 2,natam,rep,3,2,0
+39,Brunswick SECESSION 2,natam,non,3,3,3
+40,Brunswick SHALLOTTE,white,dem,1,1,880
+40,Brunswick SHALLOTTE,white,rep,1,2,441
+40,Brunswick SHALLOTTE,white,non,1,3,241
+40,Brunswick SHALLOTTE,black,dem,2,1,213
+40,Brunswick SHALLOTTE,black,rep,2,2,7
+40,Brunswick SHALLOTTE,black,non,2,3,13
+40,Brunswick SHALLOTTE,natam,dem,3,1,3
+40,Brunswick SHALLOTTE,natam,rep,3,2,1
+40,Brunswick SHALLOTTE,natam,non,3,3,2
+41,Columbus CERRO GORDO,white,dem,1,1,499
+41,Columbus CERRO GORDO,white,rep,1,2,114
+41,Columbus CERRO GORDO,white,non,1,3,87
+41,Columbus CERRO GORDO,black,dem,2,1,224
+41,Columbus CERRO GORDO,black,rep,2,2,4
+41,Columbus CERRO GORDO,black,non,2,3,20
+41,Columbus CERRO GORDO,natam,dem,3,1,6
+41,Columbus CERRO GORDO,natam,rep,3,2,0
+41,Columbus CERRO GORDO,natam,non,3,3,1
+42,Columbus FAIR BLUFF,white,dem,1,1,581
+42,Columbus FAIR BLUFF,white,rep,1,2,124
+42,Columbus FAIR BLUFF,white,non,1,3,61
+42,Columbus FAIR BLUFF,black,dem,2,1,573
+42,Columbus FAIR BLUFF,black,rep,2,2,20
+42,Columbus FAIR BLUFF,black,non,2,3,41
+42,Columbus FAIR BLUFF,natam,dem,3,1,1
+42,Columbus FAIR BLUFF,natam,rep,3,2,2
+42,Columbus FAIR BLUFF,natam,non,3,3,0
+43,Columbus BOLTON,white,dem,1,1,228
+43,Columbus BOLTON,white,rep,1,2,83
+43,Columbus BOLTON,white,non,1,3,37
+43,Columbus BOLTON,black,dem,2,1,579
+43,Columbus BOLTON,black,rep,2,2,9
+43,Columbus BOLTON,black,non,2,3,20
+43,Columbus BOLTON,natam,dem,3,1,387
+43,Columbus BOLTON,natam,rep,3,2,12
+43,Columbus BOLTON,natam,non,3,3,22
+44,Columbus NORTH WHITEVILLE,white,dem,1,1,523
+44,Columbus NORTH WHITEVILLE,white,rep,1,2,258
+44,Columbus NORTH WHITEVILLE,white,non,1,3,98
+44,Columbus NORTH WHITEVILLE,black,dem,2,1,153
+44,Columbus NORTH WHITEVILLE,black,rep,2,2,5
+44,Columbus NORTH WHITEVILLE,black,non,2,3,23
+44,Columbus NORTH WHITEVILLE,natam,dem,3,1,2
+44,Columbus NORTH WHITEVILLE,natam,rep,3,2,0
+44,Columbus NORTH WHITEVILLE,natam,non,3,3,0
+45,Columbus RANSOM,white,dem,1,1,882
+45,Columbus RANSOM,white,rep,1,2,622
+45,Columbus RANSOM,white,non,1,3,166
+45,Columbus RANSOM,black,dem,2,1,974
+45,Columbus RANSOM,black,rep,2,2,41
+45,Columbus RANSOM,black,non,2,3,53
+45,Columbus RANSOM,natam,dem,3,1,26
+45,Columbus RANSOM,natam,rep,3,2,1
+45,Columbus RANSOM,natam,non,3,3,6
+46,Columbus SOUTH WHITEVILLE,white,dem,1,1,973
+46,Columbus SOUTH WHITEVILLE,white,rep,1,2,334
+46,Columbus SOUTH WHITEVILLE,white,non,1,3,183
+46,Columbus SOUTH WHITEVILLE,black,dem,2,1,401
+46,Columbus SOUTH WHITEVILLE,black,rep,2,2,19
+46,Columbus SOUTH WHITEVILLE,black,non,2,3,37
+46,Columbus SOUTH WHITEVILLE,natam,dem,3,1,3
+46,Columbus SOUTH WHITEVILLE,natam,rep,3,2,4
+46,Columbus SOUTH WHITEVILLE,natam,non,3,3,1
+47,Columbus SOUTH WILLIAMS,white,dem,1,1,1581
+47,Columbus SOUTH WILLIAMS,white,rep,1,2,599
+47,Columbus SOUTH WILLIAMS,white,non,1,3,339
+47,Columbus SOUTH WILLIAMS,black,dem,2,1,1112
+47,Columbus SOUTH WILLIAMS,black,rep,2,2,45
+47,Columbus SOUTH WILLIAMS,black,non,2,3,132
+47,Columbus SOUTH WILLIAMS,natam,dem,3,1,3
+47,Columbus SOUTH WILLIAMS,natam,rep,3,2,0
+47,Columbus SOUTH WILLIAMS,natam,non,3,3,2
+48,Columbus WACCAMAW,white,dem,1,1,764
+48,Columbus WACCAMAW,white,rep,1,2,285
+48,Columbus WACCAMAW,white,non,1,3,122
+48,Columbus WACCAMAW,black,dem,2,1,203
+48,Columbus WACCAMAW,black,rep,2,2,10
+48,Columbus WACCAMAW,black,non,2,3,18
+48,Columbus WACCAMAW,natam,dem,3,1,281
+48,Columbus WACCAMAW,natam,rep,3,2,9
+48,Columbus WACCAMAW,natam,non,3,3,16
+49,Columbus WHITEVILLE 1,white,dem,1,1,1188
+49,Columbus WHITEVILLE 1,white,rep,1,2,598
+49,Columbus WHITEVILLE 1,white,non,1,3,227
+49,Columbus WHITEVILLE 1,black,dem,2,1,625
+49,Columbus WHITEVILLE 1,black,rep,2,2,30
+49,Columbus WHITEVILLE 1,black,non,2,3,48
+49,Columbus WHITEVILLE 1,natam,dem,3,1,6
+49,Columbus WHITEVILLE 1,natam,rep,3,2,1
+49,Columbus WHITEVILLE 1,natam,non,3,3,0
+50,Columbus WHITEVILLE 2,white,dem,1,1,369
+50,Columbus WHITEVILLE 2,white,rep,1,2,147
+50,Columbus WHITEVILLE 2,white,non,1,3,96
+50,Columbus WHITEVILLE 2,black,dem,2,1,504
+50,Columbus WHITEVILLE 2,black,rep,2,2,29
+50,Columbus WHITEVILLE 2,black,non,2,3,43
+50,Columbus WHITEVILLE 2,natam,dem,3,1,5
+50,Columbus WHITEVILLE 2,natam,rep,3,2,4
+50,Columbus WHITEVILLE 2,natam,non,3,3,0
+51,Columbus WILLIAMS 1,white,dem,1,1,1040
+51,Columbus WILLIAMS 1,white,rep,1,2,234
+51,Columbus WILLIAMS 1,white,non,1,3,163
+51,Columbus WILLIAMS 1,black,dem,2,1,126
+51,Columbus WILLIAMS 1,black,rep,2,2,9
+51,Columbus WILLIAMS 1,black,non,2,3,19
+51,Columbus WILLIAMS 1,natam,dem,3,1,1
+51,Columbus WILLIAMS 1,natam,rep,3,2,1
+51,Columbus WILLIAMS 1,natam,non,3,3,1
+52,Columbus WILLIAMS2,white,dem,1,1,618
+52,Columbus WILLIAMS2,white,rep,1,2,198
+52,Columbus WILLIAMS2,white,non,1,3,110
+52,Columbus WILLIAMS2,black,dem,2,1,33
+52,Columbus WILLIAMS2,black,rep,2,2,6
+52,Columbus WILLIAMS2,black,non,2,3,13
+52,Columbus WILLIAMS2,natam,dem,3,1,4
+52,Columbus WILLIAMS2,natam,rep,3,2,0
+52,Columbus WILLIAMS2,natam,non,3,3,1
+53,Columbus WEST WHITEVILLE,white,dem,1,1,575
+53,Columbus WEST WHITEVILLE,white,rep,1,2,271
+53,Columbus WEST WHITEVILLE,white,non,1,3,141
+53,Columbus WEST WHITEVILLE,black,dem,2,1,570
+53,Columbus WEST WHITEVILLE,black,rep,2,2,36
+53,Columbus WEST WHITEVILLE,black,non,2,3,58
+53,Columbus WEST WHITEVILLE,natam,dem,3,1,9
+53,Columbus WEST WHITEVILLE,natam,rep,3,2,2
+53,Columbus WEST WHITEVILLE,natam,non,3,3,3
+54,Columbus BUG HILL 1,white,dem,1,1,282
+54,Columbus BUG HILL 1,white,rep,1,2,84
+54,Columbus BUG HILL 1,white,non,1,3,45
+54,Columbus BUG HILL 1,black,dem,2,1,4
+54,Columbus BUG HILL 1,black,rep,2,2,0
+54,Columbus BUG HILL 1,black,non,2,3,3
+54,Columbus BUG HILL 1,natam,dem,3,1,0
+54,Columbus BUG HILL 1,natam,rep,3,2,0
+54,Columbus BUG HILL 1,natam,non,3,3,0
+55,Columbus BUG HILL 2,white,dem,1,1,210
+55,Columbus BUG HILL 2,white,rep,1,2,50
+55,Columbus BUG HILL 2,white,non,1,3,24
+55,Columbus BUG HILL 2,black,dem,2,1,149
+55,Columbus BUG HILL 2,black,rep,2,2,2
+55,Columbus BUG HILL 2,black,non,2,3,18
+55,Columbus BUG HILL 2,natam,dem,3,1,0
+55,Columbus BUG HILL 2,natam,rep,3,2,0
+55,Columbus BUG HILL 2,natam,non,3,3,0
+56,Columbus BUG HILL 3,white,dem,1,1,359
+56,Columbus BUG HILL 3,white,rep,1,2,59
+56,Columbus BUG HILL 3,white,non,1,3,29
+56,Columbus BUG HILL 3,black,dem,2,1,64
+56,Columbus BUG HILL 3,black,rep,2,2,2
+56,Columbus BUG HILL 3,black,non,2,3,4
+56,Columbus BUG HILL 3,natam,dem,3,1,0
+56,Columbus BUG HILL 3,natam,rep,3,2,0
+56,Columbus BUG HILL 3,natam,non,3,3,0
+57,Columbus CHADBOURN,white,dem,1,1,1347
+57,Columbus CHADBOURN,white,rep,1,2,376
+57,Columbus CHADBOURN,white,non,1,3,221
+57,Columbus CHADBOURN,black,dem,2,1,1133
+57,Columbus CHADBOURN,black,rep,2,2,38
+57,Columbus CHADBOURN,black,non,2,3,93
+57,Columbus CHADBOURN,natam,dem,3,1,32
+57,Columbus CHADBOURN,natam,rep,3,2,4
+57,Columbus CHADBOURN,natam,non,3,3,5
+58,Columbus CHERRY GROVE,white,dem,1,1,272
+58,Columbus CHERRY GROVE,white,rep,1,2,68
+58,Columbus CHERRY GROVE,white,non,1,3,43
+58,Columbus CHERRY GROVE,black,dem,2,1,26
+58,Columbus CHERRY GROVE,black,rep,2,2,3
+58,Columbus CHERRY GROVE,black,non,2,3,0
+58,Columbus CHERRY GROVE,natam,dem,3,1,0
+58,Columbus CHERRY GROVE,natam,rep,3,2,0
+58,Columbus CHERRY GROVE,natam,non,3,3,1
+59,Columbus WESTERN PRONG,white,dem,1,1,306
+59,Columbus WESTERN PRONG,white,rep,1,2,54
+59,Columbus WESTERN PRONG,white,non,1,3,46
+59,Columbus WESTERN PRONG,black,dem,2,1,93
+59,Columbus WESTERN PRONG,black,rep,2,2,7
+59,Columbus WESTERN PRONG,black,non,2,3,9
+59,Columbus WESTERN PRONG,natam,dem,3,1,1
+59,Columbus WESTERN PRONG,natam,rep,3,2,1
+59,Columbus WESTERN PRONG,natam,non,3,3,1
+60,Columbus BOGUE,white,dem,1,1,915
+60,Columbus BOGUE,white,rep,1,2,228
+60,Columbus BOGUE,white,non,1,3,127
+60,Columbus BOGUE,black,dem,2,1,604
+60,Columbus BOGUE,black,rep,2,2,13
+60,Columbus BOGUE,black,non,2,3,20
+60,Columbus BOGUE,natam,dem,3,1,38
+60,Columbus BOGUE,natam,rep,3,2,1
+60,Columbus BOGUE,natam,non,3,3,3
+61,Columbus EAST LEES,white,dem,1,1,500
+61,Columbus EAST LEES,white,rep,1,2,120
+61,Columbus EAST LEES,white,non,1,3,71
+61,Columbus EAST LEES,black,dem,2,1,5
+61,Columbus EAST LEES,black,rep,2,2,0
+61,Columbus EAST LEES,black,non,2,3,1
+61,Columbus EAST LEES,natam,dem,3,1,1
+61,Columbus EAST LEES,natam,rep,3,2,2
+61,Columbus EAST LEES,natam,non,3,3,0
+62,Columbus NORTH LEES,white,dem,1,1,505
+62,Columbus NORTH LEES,white,rep,1,2,171
+62,Columbus NORTH LEES,white,non,1,3,99
+62,Columbus NORTH LEES,black,dem,2,1,86
+62,Columbus NORTH LEES,black,rep,2,2,3
+62,Columbus NORTH LEES,black,non,2,3,6
+62,Columbus NORTH LEES,natam,dem,3,1,2
+62,Columbus NORTH LEES,natam,rep,3,2,0
+62,Columbus NORTH LEES,natam,non,3,3,3
+63,Columbus SOUTH LEES,white,dem,1,1,248
+63,Columbus SOUTH LEES,white,rep,1,2,35
+63,Columbus SOUTH LEES,white,non,1,3,15
+63,Columbus SOUTH LEES,black,dem,2,1,0
+63,Columbus SOUTH LEES,black,rep,2,2,0
+63,Columbus SOUTH LEES,black,non,2,3,0
+63,Columbus SOUTH LEES,natam,dem,3,1,1
+63,Columbus SOUTH LEES,natam,rep,3,2,0
+63,Columbus SOUTH LEES,natam,non,3,3,0
+64,Columbus TATUM,white,dem,1,1,1049
+64,Columbus TATUM,white,rep,1,2,145
+64,Columbus TATUM,white,non,1,3,107
+64,Columbus TATUM,black,dem,2,1,857
+64,Columbus TATUM,black,rep,2,2,26
+64,Columbus TATUM,black,non,2,3,55
+64,Columbus TATUM,natam,dem,3,1,10
+64,Columbus TATUM,natam,rep,3,2,0
+64,Columbus TATUM,natam,non,3,3,0
+65,Columbus WEST LEES,white,dem,1,1,345
+65,Columbus WEST LEES,white,rep,1,2,79
+65,Columbus WEST LEES,white,non,1,3,60
+65,Columbus WEST LEES,black,dem,2,1,42
+65,Columbus WEST LEES,black,rep,2,2,1
+65,Columbus WEST LEES,black,non,2,3,2
+65,Columbus WEST LEES,natam,dem,3,1,1
+65,Columbus WEST LEES,natam,rep,3,2,1
+65,Columbus WEST LEES,natam,non,3,3,0
+66,Columbus WELCHES CREEK,white,dem,1,1,297
+66,Columbus WELCHES CREEK,white,rep,1,2,98
+66,Columbus WELCHES CREEK,white,non,1,3,38
+66,Columbus WELCHES CREEK,black,dem,2,1,584
+66,Columbus WELCHES CREEK,black,rep,2,2,19
+66,Columbus WELCHES CREEK,black,non,2,3,44
+66,Columbus WELCHES CREEK,natam,dem,3,1,32
+66,Columbus WELCHES CREEK,natam,rep,3,2,3
+66,Columbus WELCHES CREEK,natam,non,3,3,8
+67,Duplin ALBERTSON,white,dem,1,1,450
+67,Duplin ALBERTSON,white,rep,1,2,240
+67,Duplin ALBERTSON,white,non,1,3,122
+67,Duplin ALBERTSON,black,dem,2,1,70
+67,Duplin ALBERTSON,black,rep,2,2,8
+67,Duplin ALBERTSON,black,non,2,3,6
+67,Duplin ALBERTSON,natam,dem,3,1,0
+67,Duplin ALBERTSON,natam,rep,3,2,0
+67,Duplin ALBERTSON,natam,non,3,3,0
+68,Duplin BEULAVILLE,white,dem,1,1,961
+68,Duplin BEULAVILLE,white,rep,1,2,631
+68,Duplin BEULAVILLE,white,non,1,3,313
+68,Duplin BEULAVILLE,black,dem,2,1,150
+68,Duplin BEULAVILLE,black,rep,2,2,13
+68,Duplin BEULAVILLE,black,non,2,3,7
+68,Duplin BEULAVILLE,natam,dem,3,1,0
+68,Duplin BEULAVILLE,natam,rep,3,2,0
+68,Duplin BEULAVILLE,natam,non,3,3,0
+69,Duplin CALYPSO,white,dem,1,1,244
+69,Duplin CALYPSO,white,rep,1,2,262
+69,Duplin CALYPSO,white,non,1,3,70
+69,Duplin CALYPSO,black,dem,2,1,86
+69,Duplin CALYPSO,black,rep,2,2,7
+69,Duplin CALYPSO,black,non,2,3,4
+69,Duplin CALYPSO,natam,dem,3,1,0
+69,Duplin CALYPSO,natam,rep,3,2,0
+69,Duplin CALYPSO,natam,non,3,3,0
+70,Duplin CYPRESS CREEK,white,dem,1,1,320
+70,Duplin CYPRESS CREEK,white,rep,1,2,283
+70,Duplin CYPRESS CREEK,white,non,1,3,256
+70,Duplin CYPRESS CREEK,black,dem,2,1,135
+70,Duplin CYPRESS CREEK,black,rep,2,2,6
+70,Duplin CYPRESS CREEK,black,non,2,3,12
+70,Duplin CYPRESS CREEK,natam,dem,3,1,1
+70,Duplin CYPRESS CREEK,natam,rep,3,2,0
+70,Duplin CYPRESS CREEK,natam,non,3,3,0
+71,Duplin CEDAR FORK,white,dem,1,1,224
+71,Duplin CEDAR FORK,white,rep,1,2,180
+71,Duplin CEDAR FORK,white,non,1,3,126
+71,Duplin CEDAR FORK,black,dem,2,1,3
+71,Duplin CEDAR FORK,black,rep,2,2,1
+71,Duplin CEDAR FORK,black,non,2,3,0
+71,Duplin CEDAR FORK,natam,dem,3,1,0
+71,Duplin CEDAR FORK,natam,rep,3,2,1
+71,Duplin CEDAR FORK,natam,non,3,3,0
+72,Duplin CHARITY,white,dem,1,1,172
+72,Duplin CHARITY,white,rep,1,2,144
+72,Duplin CHARITY,white,non,1,3,76
+72,Duplin CHARITY,black,dem,2,1,558
+72,Duplin CHARITY,black,rep,2,2,29
+72,Duplin CHARITY,black,non,2,3,35
+72,Duplin CHARITY,natam,dem,3,1,2
+72,Duplin CHARITY,natam,rep,3,2,0
+72,Duplin CHARITY,natam,non,3,3,0
+73,Duplin CHINQUAPIN,white,dem,1,1,286
+73,Duplin CHINQUAPIN,white,rep,1,2,182
+73,Duplin CHINQUAPIN,white,non,1,3,120
+73,Duplin CHINQUAPIN,black,dem,2,1,136
+73,Duplin CHINQUAPIN,black,rep,2,2,3
+73,Duplin CHINQUAPIN,black,non,2,3,10
+73,Duplin CHINQUAPIN,natam,dem,3,1,0
+73,Duplin CHINQUAPIN,natam,rep,3,2,0
+73,Duplin CHINQUAPIN,natam,non,3,3,0
+74,Duplin FAISON,white,dem,1,1,371
+74,Duplin FAISON,white,rep,1,2,232
+74,Duplin FAISON,white,non,1,3,83
+74,Duplin FAISON,black,dem,2,1,351
+74,Duplin FAISON,black,rep,2,2,16
+74,Duplin FAISON,black,non,2,3,40
+74,Duplin FAISON,natam,dem,3,1,0
+74,Duplin FAISON,natam,rep,3,2,1
+74,Duplin FAISON,natam,non,3,3,1
+75,Duplin GLISSON,white,dem,1,1,301
+75,Duplin GLISSON,white,rep,1,2,132
+75,Duplin GLISSON,white,non,1,3,78
+75,Duplin GLISSON,black,dem,2,1,46
+75,Duplin GLISSON,black,rep,2,2,2
+75,Duplin GLISSON,black,non,2,3,3
+75,Duplin GLISSON,natam,dem,3,1,0
+75,Duplin GLISSON,natam,rep,3,2,0
+75,Duplin GLISSON,natam,non,3,3,1
+76,Duplin HALLSVILLE,white,dem,1,1,329
+76,Duplin HALLSVILLE,white,rep,1,2,140
+76,Duplin HALLSVILLE,white,non,1,3,122
+76,Duplin HALLSVILLE,black,dem,2,1,236
+76,Duplin HALLSVILLE,black,rep,2,2,18
+76,Duplin HALLSVILLE,black,non,2,3,19
+76,Duplin HALLSVILLE,natam,dem,3,1,0
+76,Duplin HALLSVILLE,natam,rep,3,2,0
+76,Duplin HALLSVILLE,natam,non,3,3,0
+77,Duplin KENANSVILLE,white,dem,1,1,809
+77,Duplin KENANSVILLE,white,rep,1,2,367
+77,Duplin KENANSVILLE,white,non,1,3,186
+77,Duplin KENANSVILLE,black,dem,2,1,979
+77,Duplin KENANSVILLE,black,rep,2,2,36
+77,Duplin KENANSVILLE,black,non,2,3,56
+77,Duplin KENANSVILLE,natam,dem,3,1,0
+77,Duplin KENANSVILLE,natam,rep,3,2,1
+77,Duplin KENANSVILLE,natam,non,3,3,0
+78,Duplin LOCKLIN,white,dem,1,1,135
+78,Duplin LOCKLIN,white,rep,1,2,165
+78,Duplin LOCKLIN,white,non,1,3,68
+78,Duplin LOCKLIN,black,dem,2,1,55
+78,Duplin LOCKLIN,black,rep,2,2,3
+78,Duplin LOCKLIN,black,non,2,3,2
+78,Duplin LOCKLIN,natam,dem,3,1,1
+78,Duplin LOCKLIN,natam,rep,3,2,0
+78,Duplin LOCKLIN,natam,non,3,3,0
+79,Duplin MAGNOLIA,white,dem,1,1,256
+79,Duplin MAGNOLIA,white,rep,1,2,227
+79,Duplin MAGNOLIA,white,non,1,3,59
+79,Duplin MAGNOLIA,black,dem,2,1,471
+79,Duplin MAGNOLIA,black,rep,2,2,23
+79,Duplin MAGNOLIA,black,non,2,3,37
+79,Duplin MAGNOLIA,natam,dem,3,1,2
+79,Duplin MAGNOLIA,natam,rep,3,2,0
+79,Duplin MAGNOLIA,natam,non,3,3,2
+80,Duplin ROCKFISH,white,dem,1,1,192
+80,Duplin ROCKFISH,white,rep,1,2,167
+80,Duplin ROCKFISH,white,non,1,3,55
+80,Duplin ROCKFISH,black,dem,2,1,240
+80,Duplin ROCKFISH,black,rep,2,2,13
+80,Duplin ROCKFISH,black,non,2,3,21
+80,Duplin ROCKFISH,natam,dem,3,1,0
+80,Duplin ROCKFISH,natam,rep,3,2,0
+80,Duplin ROCKFISH,natam,non,3,3,0
+81,Duplin ROSE HILL,white,dem,1,1,392
+81,Duplin ROSE HILL,white,rep,1,2,302
+81,Duplin ROSE HILL,white,non,1,3,121
+81,Duplin ROSE HILL,black,dem,2,1,562
+81,Duplin ROSE HILL,black,rep,2,2,8
+81,Duplin ROSE HILL,black,non,2,3,22
+81,Duplin ROSE HILL,natam,dem,3,1,3
+81,Duplin ROSE HILL,natam,rep,3,2,0
+81,Duplin ROSE HILL,natam,non,3,3,0
+82,Duplin SMITH CABIN,white,dem,1,1,372
+82,Duplin SMITH CABIN,white,rep,1,2,230
+82,Duplin SMITH CABIN,white,non,1,3,148
+82,Duplin SMITH CABIN,black,dem,2,1,121
+82,Duplin SMITH CABIN,black,rep,2,2,8
+82,Duplin SMITH CABIN,black,non,2,3,6
+82,Duplin SMITH CABIN,natam,dem,3,1,0
+82,Duplin SMITH CABIN,natam,rep,3,2,1
+82,Duplin SMITH CABIN,natam,non,3,3,0
+83,Duplin WALLACE,white,dem,1,1,1019
+83,Duplin WALLACE,white,rep,1,2,680
+83,Duplin WALLACE,white,non,1,3,284
+83,Duplin WALLACE,black,dem,2,1,933
+83,Duplin WALLACE,black,rep,2,2,44
+83,Duplin WALLACE,black,non,2,3,79
+83,Duplin WALLACE,natam,dem,3,1,2
+83,Duplin WALLACE,natam,rep,3,2,2
+83,Duplin WALLACE,natam,non,3,3,1
+84,Duplin WARSAW,white,dem,1,1,837
+84,Duplin WARSAW,white,rep,1,2,502
+84,Duplin WARSAW,white,non,1,3,167
+84,Duplin WARSAW,black,dem,2,1,1291
+84,Duplin WARSAW,black,rep,2,2,60
+84,Duplin WARSAW,black,non,2,3,132
+84,Duplin WARSAW,natam,dem,3,1,2
+84,Duplin WARSAW,natam,rep,3,2,0
+84,Duplin WARSAW,natam,non,3,3,1
+85,Duplin WOLFSCRAPE,white,dem,1,1,430
+85,Duplin WOLFSCRAPE,white,rep,1,2,503
+85,Duplin WOLFSCRAPE,white,non,1,3,245
+85,Duplin WOLFSCRAPE,black,dem,2,1,68
+85,Duplin WOLFSCRAPE,black,rep,2,2,16
+85,Duplin WOLFSCRAPE,black,non,2,3,11
+85,Duplin WOLFSCRAPE,natam,dem,3,1,0
+85,Duplin WOLFSCRAPE,natam,rep,3,2,0
+85,Duplin WOLFSCRAPE,natam,non,3,3,0
+86,New Hanover WRIGHTSVILLE BEACH,white,dem,1,1,1013
+86,New Hanover WRIGHTSVILLE BEACH,white,rep,1,2,1289
+86,New Hanover WRIGHTSVILLE BEACH,white,non,1,3,596
+86,New Hanover WRIGHTSVILLE BEACH,black,dem,2,1,3
+86,New Hanover WRIGHTSVILLE BEACH,black,rep,2,2,1
+86,New Hanover WRIGHTSVILLE BEACH,black,non,2,3,1
+86,New Hanover WRIGHTSVILLE BEACH,natam,dem,3,1,0
+86,New Hanover WRIGHTSVILLE BEACH,natam,rep,3,2,0
+86,New Hanover WRIGHTSVILLE BEACH,natam,non,3,3,1
+87,New Hanover HARNETT 1,white,dem,1,1,496
+87,New Hanover HARNETT 1,white,rep,1,2,702
+87,New Hanover HARNETT 1,white,non,1,3,249
+87,New Hanover HARNETT 1,black,dem,2,1,149
+87,New Hanover HARNETT 1,black,rep,2,2,5
+87,New Hanover HARNETT 1,black,non,2,3,16
+87,New Hanover HARNETT 1,natam,dem,3,1,2
+87,New Hanover HARNETT 1,natam,rep,3,2,4
+87,New Hanover HARNETT 1,natam,non,3,3,2
+88,New Hanover HARNETT 2,white,dem,1,1,352
+88,New Hanover HARNETT 2,white,rep,1,2,1055
+88,New Hanover HARNETT 2,white,non,1,3,262
+88,New Hanover HARNETT 2,black,dem,2,1,9
+88,New Hanover HARNETT 2,black,rep,2,2,4
+88,New Hanover HARNETT 2,black,non,2,3,0
+88,New Hanover HARNETT 2,natam,dem,3,1,0
+88,New Hanover HARNETT 2,natam,rep,3,2,0
+88,New Hanover HARNETT 2,natam,non,3,3,0
+89,New Hanover HARNETT 3,white,dem,1,1,1406
+89,New Hanover HARNETT 3,white,rep,1,2,2129
+89,New Hanover HARNETT 3,white,non,1,3,749
+89,New Hanover HARNETT 3,black,dem,2,1,82
+89,New Hanover HARNETT 3,black,rep,2,2,6
+89,New Hanover HARNETT 3,black,non,2,3,9
+89,New Hanover HARNETT 3,natam,dem,3,1,2
+89,New Hanover HARNETT 3,natam,rep,3,2,1
+89,New Hanover HARNETT 3,natam,non,3,3,0
+90,New Hanover HARNETT 4,white,dem,1,1,1004
+90,New Hanover HARNETT 4,white,rep,1,2,1329
+90,New Hanover HARNETT 4,white,non,1,3,547
+90,New Hanover HARNETT 4,black,dem,2,1,132
+90,New Hanover HARNETT 4,black,rep,2,2,4
+90,New Hanover HARNETT 4,black,non,2,3,12
+90,New Hanover HARNETT 4,natam,dem,3,1,1
+90,New Hanover HARNETT 4,natam,rep,3,2,3
+90,New Hanover HARNETT 4,natam,non,3,3,1
+91,New Hanover HARNETT 5,white,dem,1,1,1031
+91,New Hanover HARNETT 5,white,rep,1,2,1327
+91,New Hanover HARNETT 5,white,non,1,3,444
+91,New Hanover HARNETT 5,black,dem,2,1,66
+91,New Hanover HARNETT 5,black,rep,2,2,2
+91,New Hanover HARNETT 5,black,non,2,3,9
+91,New Hanover HARNETT 5,natam,dem,3,1,0
+91,New Hanover HARNETT 5,natam,rep,3,2,0
+91,New Hanover HARNETT 5,natam,non,3,3,0
+92,New Hanover HARNETT 6,white,dem,1,1,924
+92,New Hanover HARNETT 6,white,rep,1,2,1276
+92,New Hanover HARNETT 6,white,non,1,3,528
+92,New Hanover HARNETT 6,black,dem,2,1,253
+92,New Hanover HARNETT 6,black,rep,2,2,9
+92,New Hanover HARNETT 6,black,non,2,3,29
+92,New Hanover HARNETT 6,natam,dem,3,1,1
+92,New Hanover HARNETT 6,natam,rep,3,2,2
+92,New Hanover HARNETT 6,natam,non,3,3,0
+93,New Hanover HARNETT 7,white,dem,1,1,964
+93,New Hanover HARNETT 7,white,rep,1,2,1581
+93,New Hanover HARNETT 7,white,non,1,3,692
+93,New Hanover HARNETT 7,black,dem,2,1,673
+93,New Hanover HARNETT 7,black,rep,2,2,31
+93,New Hanover HARNETT 7,black,non,2,3,63
+93,New Hanover HARNETT 7,natam,dem,3,1,2
+93,New Hanover HARNETT 7,natam,rep,3,2,2
+93,New Hanover HARNETT 7,natam,non,3,3,0
+94,New Hanover HARNETT 8,white,dem,1,1,1362
+94,New Hanover HARNETT 8,white,rep,1,2,1829
+94,New Hanover HARNETT 8,white,non,1,3,674
+94,New Hanover HARNETT 8,black,dem,2,1,35
+94,New Hanover HARNETT 8,black,rep,2,2,8
+94,New Hanover HARNETT 8,black,non,2,3,5
+94,New Hanover HARNETT 8,natam,dem,3,1,1
+94,New Hanover HARNETT 8,natam,rep,3,2,3
+94,New Hanover HARNETT 8,natam,non,3,3,1
+95,New Hanover HARNETT 9,white,dem,1,1,864
+95,New Hanover HARNETT 9,white,rep,1,2,1492
+95,New Hanover HARNETT 9,white,non,1,3,469
+95,New Hanover HARNETT 9,black,dem,2,1,75
+95,New Hanover HARNETT 9,black,rep,2,2,2
+95,New Hanover HARNETT 9,black,non,2,3,5
+95,New Hanover HARNETT 9,natam,dem,3,1,1
+95,New Hanover HARNETT 9,natam,rep,3,2,2
+95,New Hanover HARNETT 9,natam,non,3,3,0
+96,New Hanover MASONBORO 2,white,dem,1,1,1283
+96,New Hanover MASONBORO 2,white,rep,1,2,2126
+96,New Hanover MASONBORO 2,white,non,1,3,743
+96,New Hanover MASONBORO 2,black,dem,2,1,149
+96,New Hanover MASONBORO 2,black,rep,2,2,9
+96,New Hanover MASONBORO 2,black,non,2,3,15
+96,New Hanover MASONBORO 2,natam,dem,3,1,1
+96,New Hanover MASONBORO 2,natam,rep,3,2,3
+96,New Hanover MASONBORO 2,natam,non,3,3,0
+97,New Hanover MASONBORO 3,white,dem,1,1,937
+97,New Hanover MASONBORO 3,white,rep,1,2,1117
+97,New Hanover MASONBORO 3,white,non,1,3,495
+97,New Hanover MASONBORO 3,black,dem,2,1,175
+97,New Hanover MASONBORO 3,black,rep,2,2,2
+97,New Hanover MASONBORO 3,black,non,2,3,16
+97,New Hanover MASONBORO 3,natam,dem,3,1,4
+97,New Hanover MASONBORO 3,natam,rep,3,2,3
+97,New Hanover MASONBORO 3,natam,non,3,3,3
+98,New Hanover MASONBORO 4,white,dem,1,1,1062
+98,New Hanover MASONBORO 4,white,rep,1,2,1960
+98,New Hanover MASONBORO 4,white,non,1,3,672
+98,New Hanover MASONBORO 4,black,dem,2,1,93
+98,New Hanover MASONBORO 4,black,rep,2,2,7
+98,New Hanover MASONBORO 4,black,non,2,3,17
+98,New Hanover MASONBORO 4,natam,dem,3,1,3
+98,New Hanover MASONBORO 4,natam,rep,3,2,1
+98,New Hanover MASONBORO 4,natam,non,3,3,0
+99,New Hanover MASONBORO 5,white,dem,1,1,1349
+99,New Hanover MASONBORO 5,white,rep,1,2,1770
+99,New Hanover MASONBORO 5,white,non,1,3,642
+99,New Hanover MASONBORO 5,black,dem,2,1,59
+99,New Hanover MASONBORO 5,black,rep,2,2,3
+99,New Hanover MASONBORO 5,black,non,2,3,10
+99,New Hanover MASONBORO 5,natam,dem,3,1,0
+99,New Hanover MASONBORO 5,natam,rep,3,2,1
+99,New Hanover MASONBORO 5,natam,non,3,3,1
+100,New Hanover WILMINGTON 1,white,dem,1,1,43
+100,New Hanover WILMINGTON 1,white,rep,1,2,21
+100,New Hanover WILMINGTON 1,white,non,1,3,35
+100,New Hanover WILMINGTON 1,black,dem,2,1,1008
+100,New Hanover WILMINGTON 1,black,rep,2,2,52
+100,New Hanover WILMINGTON 1,black,non,2,3,100
+100,New Hanover WILMINGTON 1,natam,dem,3,1,2
+100,New Hanover WILMINGTON 1,natam,rep,3,2,0
+100,New Hanover WILMINGTON 1,natam,non,3,3,0
+101,New Hanover WILMINGTON 2,white,dem,1,1,724
+101,New Hanover WILMINGTON 2,white,rep,1,2,410
+101,New Hanover WILMINGTON 2,white,non,1,3,469
+101,New Hanover WILMINGTON 2,black,dem,2,1,470
+101,New Hanover WILMINGTON 2,black,rep,2,2,14
+101,New Hanover WILMINGTON 2,black,non,2,3,50
+101,New Hanover WILMINGTON 2,natam,dem,3,1,2
+101,New Hanover WILMINGTON 2,natam,rep,3,2,0
+101,New Hanover WILMINGTON 2,natam,non,3,3,1
+102,New Hanover WILMINGTON 3,white,dem,1,1,435
+102,New Hanover WILMINGTON 3,white,rep,1,2,208
+102,New Hanover WILMINGTON 3,white,non,1,3,278
+102,New Hanover WILMINGTON 3,black,dem,2,1,1003
+102,New Hanover WILMINGTON 3,black,rep,2,2,74
+102,New Hanover WILMINGTON 3,black,non,2,3,95
+102,New Hanover WILMINGTON 3,natam,dem,3,1,2
+102,New Hanover WILMINGTON 3,natam,rep,3,2,1
+102,New Hanover WILMINGTON 3,natam,non,3,3,1
+103,New Hanover WILMINGTON 4,white,dem,1,1,348
+103,New Hanover WILMINGTON 4,white,rep,1,2,309
+103,New Hanover WILMINGTON 4,white,non,1,3,199
+103,New Hanover WILMINGTON 4,black,dem,2,1,278
+103,New Hanover WILMINGTON 4,black,rep,2,2,32
+103,New Hanover WILMINGTON 4,black,non,2,3,60
+103,New Hanover WILMINGTON 4,natam,dem,3,1,3
+103,New Hanover WILMINGTON 4,natam,rep,3,2,0
+103,New Hanover WILMINGTON 4,natam,non,3,3,1
+104,New Hanover WILMINGTON 5,white,dem,1,1,534
+104,New Hanover WILMINGTON 5,white,rep,1,2,607
+104,New Hanover WILMINGTON 5,white,non,1,3,278
+104,New Hanover WILMINGTON 5,black,dem,2,1,91
+104,New Hanover WILMINGTON 5,black,rep,2,2,11
+104,New Hanover WILMINGTON 5,black,non,2,3,10
+104,New Hanover WILMINGTON 5,natam,dem,3,1,2
+104,New Hanover WILMINGTON 5,natam,rep,3,2,1
+104,New Hanover WILMINGTON 5,natam,non,3,3,3
+105,New Hanover WILMINGTON 6,white,dem,1,1,127
+105,New Hanover WILMINGTON 6,white,rep,1,2,83
+105,New Hanover WILMINGTON 6,white,non,1,3,66
+105,New Hanover WILMINGTON 6,black,dem,2,1,813
+105,New Hanover WILMINGTON 6,black,rep,2,2,35
+105,New Hanover WILMINGTON 6,black,non,2,3,61
+105,New Hanover WILMINGTON 6,natam,dem,3,1,0
+105,New Hanover WILMINGTON 6,natam,rep,3,2,0
+105,New Hanover WILMINGTON 6,natam,non,3,3,0
+106,New Hanover WILMINGTON 7,white,dem,1,1,41
+106,New Hanover WILMINGTON 7,white,rep,1,2,10
+106,New Hanover WILMINGTON 7,white,non,1,3,21
+106,New Hanover WILMINGTON 7,black,dem,2,1,1429
+106,New Hanover WILMINGTON 7,black,rep,2,2,50
+106,New Hanover WILMINGTON 7,black,non,2,3,83
+106,New Hanover WILMINGTON 7,natam,dem,3,1,2
+106,New Hanover WILMINGTON 7,natam,rep,3,2,0
+106,New Hanover WILMINGTON 7,natam,non,3,3,1
+107,New Hanover WILMINGTON 8,white,dem,1,1,614
+107,New Hanover WILMINGTON 8,white,rep,1,2,384
+107,New Hanover WILMINGTON 8,white,non,1,3,160
+107,New Hanover WILMINGTON 8,black,dem,2,1,511
+107,New Hanover WILMINGTON 8,black,rep,2,2,51
+107,New Hanover WILMINGTON 8,black,non,2,3,81
+107,New Hanover WILMINGTON 8,natam,dem,3,1,3
+107,New Hanover WILMINGTON 8,natam,rep,3,2,0
+107,New Hanover WILMINGTON 8,natam,non,3,3,0
+108,New Hanover WILMINGTON 9,white,dem,1,1,714
+108,New Hanover WILMINGTON 9,white,rep,1,2,445
+108,New Hanover WILMINGTON 9,white,non,1,3,304
+108,New Hanover WILMINGTON 9,black,dem,2,1,167
+108,New Hanover WILMINGTON 9,black,rep,2,2,9
+108,New Hanover WILMINGTON 9,black,non,2,3,20
+108,New Hanover WILMINGTON 9,natam,dem,3,1,1
+108,New Hanover WILMINGTON 9,natam,rep,3,2,0
+108,New Hanover WILMINGTON 9,natam,non,3,3,0
+109,New Hanover WILMINGTON 10,white,dem,1,1,281
+109,New Hanover WILMINGTON 10,white,rep,1,2,185
+109,New Hanover WILMINGTON 10,white,non,1,3,175
+109,New Hanover WILMINGTON 10,black,dem,2,1,716
+109,New Hanover WILMINGTON 10,black,rep,2,2,25
+109,New Hanover WILMINGTON 10,black,non,2,3,67
+109,New Hanover WILMINGTON 10,natam,dem,3,1,4
+109,New Hanover WILMINGTON 10,natam,rep,3,2,0
+109,New Hanover WILMINGTON 10,natam,non,3,3,2
+110,New Hanover WILMINGTON 11,white,dem,1,1,828
+110,New Hanover WILMINGTON 11,white,rep,1,2,1077
+110,New Hanover WILMINGTON 11,white,non,1,3,214
+110,New Hanover WILMINGTON 11,black,dem,2,1,16
+110,New Hanover WILMINGTON 11,black,rep,2,2,2
+110,New Hanover WILMINGTON 11,black,non,2,3,1
+110,New Hanover WILMINGTON 11,natam,dem,3,1,0
+110,New Hanover WILMINGTON 11,natam,rep,3,2,0
+110,New Hanover WILMINGTON 11,natam,non,3,3,1
+111,New Hanover WILMINGTON 12,white,dem,1,1,777
+111,New Hanover WILMINGTON 12,white,rep,1,2,751
+111,New Hanover WILMINGTON 12,white,non,1,3,295
+111,New Hanover WILMINGTON 12,black,dem,2,1,89
+111,New Hanover WILMINGTON 12,black,rep,2,2,6
+111,New Hanover WILMINGTON 12,black,non,2,3,21
+111,New Hanover WILMINGTON 12,natam,dem,3,1,3
+111,New Hanover WILMINGTON 12,natam,rep,3,2,0
+111,New Hanover WILMINGTON 12,natam,non,3,3,0
+112,New Hanover WILMINGTON 13,white,dem,1,1,650
+112,New Hanover WILMINGTON 13,white,rep,1,2,728
+112,New Hanover WILMINGTON 13,white,non,1,3,661
+112,New Hanover WILMINGTON 13,black,dem,2,1,267
+112,New Hanover WILMINGTON 13,black,rep,2,2,9
+112,New Hanover WILMINGTON 13,black,non,2,3,59
+112,New Hanover WILMINGTON 13,natam,dem,3,1,3
+112,New Hanover WILMINGTON 13,natam,rep,3,2,1
+112,New Hanover WILMINGTON 13,natam,non,3,3,3
+113,New Hanover WILMINGTON 14,white,dem,1,1,592
+113,New Hanover WILMINGTON 14,white,rep,1,2,633
+113,New Hanover WILMINGTON 14,white,non,1,3,234
+113,New Hanover WILMINGTON 14,black,dem,2,1,31
+113,New Hanover WILMINGTON 14,black,rep,2,2,3
+113,New Hanover WILMINGTON 14,black,non,2,3,1
+113,New Hanover WILMINGTON 14,natam,dem,3,1,1
+113,New Hanover WILMINGTON 14,natam,rep,3,2,1
+113,New Hanover WILMINGTON 14,natam,non,3,3,0
+114,New Hanover WILMINGTON 15,white,dem,1,1,370
+114,New Hanover WILMINGTON 15,white,rep,1,2,359
+114,New Hanover WILMINGTON 15,white,non,1,3,211
+114,New Hanover WILMINGTON 15,black,dem,2,1,1404
+114,New Hanover WILMINGTON 15,black,rep,2,2,73
+114,New Hanover WILMINGTON 15,black,non,2,3,192
+114,New Hanover WILMINGTON 15,natam,dem,3,1,2
+114,New Hanover WILMINGTON 15,natam,rep,3,2,1
+114,New Hanover WILMINGTON 15,natam,non,3,3,0
+115,New Hanover WILMINGTON 16,white,dem,1,1,1117
+115,New Hanover WILMINGTON 16,white,rep,1,2,1412
+115,New Hanover WILMINGTON 16,white,non,1,3,496
+115,New Hanover WILMINGTON 16,black,dem,2,1,48
+115,New Hanover WILMINGTON 16,black,rep,2,2,4
+115,New Hanover WILMINGTON 16,black,non,2,3,13
+115,New Hanover WILMINGTON 16,natam,dem,3,1,7
+115,New Hanover WILMINGTON 16,natam,rep,3,2,4
+115,New Hanover WILMINGTON 16,natam,non,3,3,0
+116,New Hanover WILMINGTON 17,white,dem,1,1,664
+116,New Hanover WILMINGTON 17,white,rep,1,2,667
+116,New Hanover WILMINGTON 17,white,non,1,3,221
+116,New Hanover WILMINGTON 17,black,dem,2,1,246
+116,New Hanover WILMINGTON 17,black,rep,2,2,9
+116,New Hanover WILMINGTON 17,black,non,2,3,17
+116,New Hanover WILMINGTON 17,natam,dem,3,1,0
+116,New Hanover WILMINGTON 17,natam,rep,3,2,0
+116,New Hanover WILMINGTON 17,natam,non,3,3,1
+117,New Hanover WILMINGTON 18,white,dem,1,1,642
+117,New Hanover WILMINGTON 18,white,rep,1,2,600
+117,New Hanover WILMINGTON 18,white,non,1,3,323
+117,New Hanover WILMINGTON 18,black,dem,2,1,10
+117,New Hanover WILMINGTON 18,black,rep,2,2,5
+117,New Hanover WILMINGTON 18,black,non,2,3,6
+117,New Hanover WILMINGTON 18,natam,dem,3,1,0
+117,New Hanover WILMINGTON 18,natam,rep,3,2,1
+117,New Hanover WILMINGTON 18,natam,non,3,3,0
+118,New Hanover WILMINGTON 19,white,dem,1,1,694
+118,New Hanover WILMINGTON 19,white,rep,1,2,502
+118,New Hanover WILMINGTON 19,white,non,1,3,341
+118,New Hanover WILMINGTON 19,black,dem,2,1,122
+118,New Hanover WILMINGTON 19,black,rep,2,2,5
+118,New Hanover WILMINGTON 19,black,non,2,3,23
+118,New Hanover WILMINGTON 19,natam,dem,3,1,2
+118,New Hanover WILMINGTON 19,natam,rep,3,2,2
+118,New Hanover WILMINGTON 19,natam,non,3,3,1
+119,New Hanover WILMINGTON 20,white,dem,1,1,503
+119,New Hanover WILMINGTON 20,white,rep,1,2,542
+119,New Hanover WILMINGTON 20,white,non,1,3,299
+119,New Hanover WILMINGTON 20,black,dem,2,1,194
+119,New Hanover WILMINGTON 20,black,rep,2,2,22
+119,New Hanover WILMINGTON 20,black,non,2,3,26
+119,New Hanover WILMINGTON 20,natam,dem,3,1,3
+119,New Hanover WILMINGTON 20,natam,rep,3,2,1
+119,New Hanover WILMINGTON 20,natam,non,3,3,0
+120,New Hanover WILMINGTON 21,white,dem,1,1,783
+120,New Hanover WILMINGTON 21,white,rep,1,2,1174
+120,New Hanover WILMINGTON 21,white,non,1,3,650
+120,New Hanover WILMINGTON 21,black,dem,2,1,91
+120,New Hanover WILMINGTON 21,black,rep,2,2,5
+120,New Hanover WILMINGTON 21,black,non,2,3,14
+120,New Hanover WILMINGTON 21,natam,dem,3,1,4
+120,New Hanover WILMINGTON 21,natam,rep,3,2,1
+120,New Hanover WILMINGTON 21,natam,non,3,3,0
+121,New Hanover WILMINGTON 22,white,dem,1,1,599
+121,New Hanover WILMINGTON 22,white,rep,1,2,679
+121,New Hanover WILMINGTON 22,white,non,1,3,497
+121,New Hanover WILMINGTON 22,black,dem,2,1,174
+121,New Hanover WILMINGTON 22,black,rep,2,2,13
+121,New Hanover WILMINGTON 22,black,non,2,3,28
+121,New Hanover WILMINGTON 22,natam,dem,3,1,0
+121,New Hanover WILMINGTON 22,natam,rep,3,2,3
+121,New Hanover WILMINGTON 22,natam,non,3,3,2
+122,New Hanover WILMINGTON 23,white,dem,1,1,446
+122,New Hanover WILMINGTON 23,white,rep,1,2,449
+122,New Hanover WILMINGTON 23,white,non,1,3,292
+122,New Hanover WILMINGTON 23,black,dem,2,1,34
+122,New Hanover WILMINGTON 23,black,rep,2,2,1
+122,New Hanover WILMINGTON 23,black,non,2,3,10
+122,New Hanover WILMINGTON 23,natam,dem,3,1,2
+122,New Hanover WILMINGTON 23,natam,rep,3,2,1
+122,New Hanover WILMINGTON 23,natam,non,3,3,3
+123,New Hanover WILMINGTON 24,white,dem,1,1,799
+123,New Hanover WILMINGTON 24,white,rep,1,2,984
+123,New Hanover WILMINGTON 24,white,non,1,3,711
+123,New Hanover WILMINGTON 24,black,dem,2,1,117
+123,New Hanover WILMINGTON 24,black,rep,2,2,6
+123,New Hanover WILMINGTON 24,black,non,2,3,32
+123,New Hanover WILMINGTON 24,natam,dem,3,1,0
+123,New Hanover WILMINGTON 24,natam,rep,3,2,1
+123,New Hanover WILMINGTON 24,natam,non,3,3,3
+124,New Hanover CAPE FEAR 1,white,dem,1,1,993
+124,New Hanover CAPE FEAR 1,white,rep,1,2,991
+124,New Hanover CAPE FEAR 1,white,non,1,3,324
+124,New Hanover CAPE FEAR 1,black,dem,2,1,755
+124,New Hanover CAPE FEAR 1,black,rep,2,2,30
+124,New Hanover CAPE FEAR 1,black,non,2,3,62
+124,New Hanover CAPE FEAR 1,natam,dem,3,1,4
+124,New Hanover CAPE FEAR 1,natam,rep,3,2,4
+124,New Hanover CAPE FEAR 1,natam,non,3,3,2
+125,New Hanover CAPE FEAR 2,white,dem,1,1,872
+125,New Hanover CAPE FEAR 2,white,rep,1,2,870
+125,New Hanover CAPE FEAR 2,white,non,1,3,357
+125,New Hanover CAPE FEAR 2,black,dem,2,1,265
+125,New Hanover CAPE FEAR 2,black,rep,2,2,9
+125,New Hanover CAPE FEAR 2,black,non,2,3,27
+125,New Hanover CAPE FEAR 2,natam,dem,3,1,3
+125,New Hanover CAPE FEAR 2,natam,rep,3,2,0
+125,New Hanover CAPE FEAR 2,natam,non,3,3,6
+126,New Hanover CAPE FEAR 3,white,dem,1,1,1198
+126,New Hanover CAPE FEAR 3,white,rep,1,2,1777
+126,New Hanover CAPE FEAR 3,white,non,1,3,712
+126,New Hanover CAPE FEAR 3,black,dem,2,1,360
+126,New Hanover CAPE FEAR 3,black,rep,2,2,20
+126,New Hanover CAPE FEAR 3,black,non,2,3,36
+126,New Hanover CAPE FEAR 3,natam,dem,3,1,2
+126,New Hanover CAPE FEAR 3,natam,rep,3,2,2
+126,New Hanover CAPE FEAR 3,natam,non,3,3,2
+127,New Hanover FEDERAL POINT 1,white,dem,1,1,994
+127,New Hanover FEDERAL POINT 1,white,rep,1,2,1470
+127,New Hanover FEDERAL POINT 1,white,non,1,3,724
+127,New Hanover FEDERAL POINT 1,black,dem,2,1,178
+127,New Hanover FEDERAL POINT 1,black,rep,2,2,9
+127,New Hanover FEDERAL POINT 1,black,non,2,3,10
+127,New Hanover FEDERAL POINT 1,natam,dem,3,1,4
+127,New Hanover FEDERAL POINT 1,natam,rep,3,2,5
+127,New Hanover FEDERAL POINT 1,natam,non,3,3,1
+128,New Hanover FEDERAL POINT 2,white,dem,1,1,974
+128,New Hanover FEDERAL POINT 2,white,rep,1,2,935
+128,New Hanover FEDERAL POINT 2,white,non,1,3,457
+128,New Hanover FEDERAL POINT 2,black,dem,2,1,8
+128,New Hanover FEDERAL POINT 2,black,rep,2,2,0
+128,New Hanover FEDERAL POINT 2,black,non,2,3,0
+128,New Hanover FEDERAL POINT 2,natam,dem,3,1,3
+128,New Hanover FEDERAL POINT 2,natam,rep,3,2,1
+128,New Hanover FEDERAL POINT 2,natam,non,3,3,3
+129,New Hanover FEDERAL POINT 3,white,dem,1,1,509
+129,New Hanover FEDERAL POINT 3,white,rep,1,2,634
+129,New Hanover FEDERAL POINT 3,white,non,1,3,304
+129,New Hanover FEDERAL POINT 3,black,dem,2,1,2
+129,New Hanover FEDERAL POINT 3,black,rep,2,2,0
+129,New Hanover FEDERAL POINT 3,black,non,2,3,1
+129,New Hanover FEDERAL POINT 3,natam,dem,3,1,0
+129,New Hanover FEDERAL POINT 3,natam,rep,3,2,0
+129,New Hanover FEDERAL POINT 3,natam,non,3,3,0
+130,New Hanover FEDERAL POINT 4,white,dem,1,1,975
+130,New Hanover FEDERAL POINT 4,white,rep,1,2,1152
+130,New Hanover FEDERAL POINT 4,white,non,1,3,507
+130,New Hanover FEDERAL POINT 4,black,dem,2,1,157
+130,New Hanover FEDERAL POINT 4,black,rep,2,2,4
+130,New Hanover FEDERAL POINT 4,black,non,2,3,14
+130,New Hanover FEDERAL POINT 4,natam,dem,3,1,0
+130,New Hanover FEDERAL POINT 4,natam,rep,3,2,0
+130,New Hanover FEDERAL POINT 4,natam,non,3,3,0
+131,New Hanover FEDERAL POINT 5,white,dem,1,1,816
+131,New Hanover FEDERAL POINT 5,white,rep,1,2,950
+131,New Hanover FEDERAL POINT 5,white,non,1,3,564
+131,New Hanover FEDERAL POINT 5,black,dem,2,1,11
+131,New Hanover FEDERAL POINT 5,black,rep,2,2,1
+131,New Hanover FEDERAL POINT 5,black,non,2,3,1
+131,New Hanover FEDERAL POINT 5,natam,dem,3,1,6
+131,New Hanover FEDERAL POINT 5,natam,rep,3,2,0
+131,New Hanover FEDERAL POINT 5,natam,non,3,3,2
+132,Pender COLUMBIA,white,dem,1,1,264
+132,Pender COLUMBIA,white,rep,1,2,154
+132,Pender COLUMBIA,white,non,1,3,54
+132,Pender COLUMBIA,black,dem,2,1,573
+132,Pender COLUMBIA,black,rep,2,2,25
+132,Pender COLUMBIA,black,non,2,3,37
+132,Pender COLUMBIA,natam,dem,3,1,0
+132,Pender COLUMBIA,natam,rep,3,2,0
+132,Pender COLUMBIA,natam,non,3,3,0
+133,Pender CASWELL,white,dem,1,1,253
+133,Pender CASWELL,white,rep,1,2,129
+133,Pender CASWELL,white,non,1,3,64
+133,Pender CASWELL,black,dem,2,1,246
+133,Pender CASWELL,black,rep,2,2,4
+133,Pender CASWELL,black,non,2,3,13
+133,Pender CASWELL,natam,dem,3,1,0
+133,Pender CASWELL,natam,rep,3,2,0
+133,Pender CASWELL,natam,non,3,3,0
+134,Pender CANETUCK,white,dem,1,1,55
+134,Pender CANETUCK,white,rep,1,2,33
+134,Pender CANETUCK,white,non,1,3,11
+134,Pender CANETUCK,black,dem,2,1,114
+134,Pender CANETUCK,black,rep,2,2,5
+134,Pender CANETUCK,black,non,2,3,6
+134,Pender CANETUCK,natam,dem,3,1,0
+134,Pender CANETUCK,natam,rep,3,2,0
+134,Pender CANETUCK,natam,non,3,3,0
+135,Pender GRADY,white,dem,1,1,319
+135,Pender GRADY,white,rep,1,2,289
+135,Pender GRADY,white,non,1,3,124
+135,Pender GRADY,black,dem,2,1,377
+135,Pender GRADY,black,rep,2,2,14
+135,Pender GRADY,black,non,2,3,7
+135,Pender GRADY,natam,dem,3,1,3
+135,Pender GRADY,natam,rep,3,2,2
+135,Pender GRADY,natam,non,3,3,1
+136,Pender LONG CREEK,white,dem,1,1,371
+136,Pender LONG CREEK,white,rep,1,2,326
+136,Pender LONG CREEK,white,non,1,3,95
+136,Pender LONG CREEK,black,dem,2,1,259
+136,Pender LONG CREEK,black,rep,2,2,12
+136,Pender LONG CREEK,black,non,2,3,11
+136,Pender LONG CREEK,natam,dem,3,1,0
+136,Pender LONG CREEK,natam,rep,3,2,0
+136,Pender LONG CREEK,natam,non,3,3,0
+137,Pender LOWER TOPSAIL,white,dem,1,1,955
+137,Pender LOWER TOPSAIL,white,rep,1,2,1303
+137,Pender LOWER TOPSAIL,white,non,1,3,481
+137,Pender LOWER TOPSAIL,black,dem,2,1,224
+137,Pender LOWER TOPSAIL,black,rep,2,2,1
+137,Pender LOWER TOPSAIL,black,non,2,3,12
+137,Pender LOWER TOPSAIL,natam,dem,3,1,5
+137,Pender LOWER TOPSAIL,natam,rep,3,2,1
+137,Pender LOWER TOPSAIL,natam,non,3,3,0
+138,Pender LOWER UNION,white,dem,1,1,342
+138,Pender LOWER UNION,white,rep,1,2,211
+138,Pender LOWER UNION,white,non,1,3,73
+138,Pender LOWER UNION,black,dem,2,1,127
+138,Pender LOWER UNION,black,rep,2,2,1
+138,Pender LOWER UNION,black,non,2,3,7
+138,Pender LOWER UNION,natam,dem,3,1,1
+138,Pender LOWER UNION,natam,rep,3,2,0
+138,Pender LOWER UNION,natam,non,3,3,0
+139,Pender MIDDLE HOLLY,white,dem,1,1,152
+139,Pender MIDDLE HOLLY,white,rep,1,2,87
+139,Pender MIDDLE HOLLY,white,non,1,3,30
+139,Pender MIDDLE HOLLY,black,dem,2,1,5
+139,Pender MIDDLE HOLLY,black,rep,2,2,0
+139,Pender MIDDLE HOLLY,black,non,2,3,0
+139,Pender MIDDLE HOLLY,natam,dem,3,1,1
+139,Pender MIDDLE HOLLY,natam,rep,3,2,0
+139,Pender MIDDLE HOLLY,natam,non,3,3,0
+140,Pender NORTH BURGAW,white,dem,1,1,596
+140,Pender NORTH BURGAW,white,rep,1,2,295
+140,Pender NORTH BURGAW,white,non,1,3,121
+140,Pender NORTH BURGAW,black,dem,2,1,353
+140,Pender NORTH BURGAW,black,rep,2,2,10
+140,Pender NORTH BURGAW,black,non,2,3,23
+140,Pender NORTH BURGAW,natam,dem,3,1,2
+140,Pender NORTH BURGAW,natam,rep,3,2,0
+140,Pender NORTH BURGAW,natam,non,3,3,1
+141,Pender PENDERLEA,white,dem,1,1,209
+141,Pender PENDERLEA,white,rep,1,2,113
+141,Pender PENDERLEA,white,non,1,3,40
+141,Pender PENDERLEA,black,dem,2,1,53
+141,Pender PENDERLEA,black,rep,2,2,1
+141,Pender PENDERLEA,black,non,2,3,1
+141,Pender PENDERLEA,natam,dem,3,1,0
+141,Pender PENDERLEA,natam,rep,3,2,0
+141,Pender PENDERLEA,natam,non,3,3,0
+142,Pender ROCKY POINT,white,dem,1,1,884
+142,Pender ROCKY POINT,white,rep,1,2,989
+142,Pender ROCKY POINT,white,non,1,3,436
+142,Pender ROCKY POINT,black,dem,2,1,705
+142,Pender ROCKY POINT,black,rep,2,2,30
+142,Pender ROCKY POINT,black,non,2,3,41
+142,Pender ROCKY POINT,natam,dem,3,1,3
+142,Pender ROCKY POINT,natam,rep,3,2,0
+142,Pender ROCKY POINT,natam,non,3,3,2
+143,Pender SOUTH BURGAW,white,dem,1,1,912
+143,Pender SOUTH BURGAW,white,rep,1,2,521
+143,Pender SOUTH BURGAW,white,non,1,3,211
+143,Pender SOUTH BURGAW,black,dem,2,1,664
+143,Pender SOUTH BURGAW,black,rep,2,2,29
+143,Pender SOUTH BURGAW,black,non,2,3,27
+143,Pender SOUTH BURGAW,natam,dem,3,1,0
+143,Pender SOUTH BURGAW,natam,rep,3,2,0
+143,Pender SOUTH BURGAW,natam,non,3,3,2
+144,Pender SURF CITY,white,dem,1,1,862
+144,Pender SURF CITY,white,rep,1,2,735
+144,Pender SURF CITY,white,non,1,3,345
+144,Pender SURF CITY,black,dem,2,1,116
+144,Pender SURF CITY,black,rep,2,2,6
+144,Pender SURF CITY,black,non,2,3,6
+144,Pender SURF CITY,natam,dem,3,1,1
+144,Pender SURF CITY,natam,rep,3,2,0
+144,Pender SURF CITY,natam,non,3,3,2
+145,Pender SCOTTS HILL,white,dem,1,1,428
+145,Pender SCOTTS HILL,white,rep,1,2,565
+145,Pender SCOTTS HILL,white,non,1,3,181
+145,Pender SCOTTS HILL,black,dem,2,1,13
+145,Pender SCOTTS HILL,black,rep,2,2,2
+145,Pender SCOTTS HILL,black,non,2,3,2
+145,Pender SCOTTS HILL,natam,dem,3,1,0
+145,Pender SCOTTS HILL,natam,rep,3,2,0
+145,Pender SCOTTS HILL,natam,non,3,3,0
+146,Pender UPPER HOLLY,white,dem,1,1,108
+146,Pender UPPER HOLLY,white,rep,1,2,53
+146,Pender UPPER HOLLY,white,non,1,3,13
+146,Pender UPPER HOLLY,black,dem,2,1,496
+146,Pender UPPER HOLLY,black,rep,2,2,12
+146,Pender UPPER HOLLY,black,non,2,3,24
+146,Pender UPPER HOLLY,natam,dem,3,1,0
+146,Pender UPPER HOLLY,natam,rep,3,2,1
+146,Pender UPPER HOLLY,natam,non,3,3,0
+147,Pender UPPER TOPSAIL,white,dem,1,1,855
+147,Pender UPPER TOPSAIL,white,rep,1,2,1204
+147,Pender UPPER TOPSAIL,white,non,1,3,555
+147,Pender UPPER TOPSAIL,black,dem,2,1,152
+147,Pender UPPER TOPSAIL,black,rep,2,2,6
+147,Pender UPPER TOPSAIL,black,non,2,3,12
+147,Pender UPPER TOPSAIL,natam,dem,3,1,1
+147,Pender UPPER TOPSAIL,natam,rep,3,2,1
+147,Pender UPPER TOPSAIL,natam,non,3,3,0
+148,Pender UPPER UNION,white,dem,1,1,292
+148,Pender UPPER UNION,white,rep,1,2,156
+148,Pender UPPER UNION,white,non,1,3,59
+148,Pender UPPER UNION,black,dem,2,1,367
+148,Pender UPPER UNION,black,rep,2,2,17
+148,Pender UPPER UNION,black,non,2,3,16
+148,Pender UPPER UNION,natam,dem,3,1,0
+148,Pender UPPER UNION,natam,rep,3,2,0
+148,Pender UPPER UNION,natam,non,3,3,0
+149,Robeson ALFORDSVILLE,white,dem,1,1,103
+149,Robeson ALFORDSVILLE,white,rep,1,2,22
+149,Robeson ALFORDSVILLE,white,non,1,3,9
+149,Robeson ALFORDSVILLE,black,dem,2,1,166
+149,Robeson ALFORDSVILLE,black,rep,2,2,7
+149,Robeson ALFORDSVILLE,black,non,2,3,8
+149,Robeson ALFORDSVILLE,natam,dem,3,1,499
+149,Robeson ALFORDSVILLE,natam,rep,3,2,34
+149,Robeson ALFORDSVILLE,natam,non,3,3,27
+150,Robeson BLACK SWAMP,white,dem,1,1,162
+150,Robeson BLACK SWAMP,white,rep,1,2,39
+150,Robeson BLACK SWAMP,white,non,1,3,15
+150,Robeson BLACK SWAMP,black,dem,2,1,485
+150,Robeson BLACK SWAMP,black,rep,2,2,22
+150,Robeson BLACK SWAMP,black,non,2,3,27
+150,Robeson BLACK SWAMP,natam,dem,3,1,1247
+150,Robeson BLACK SWAMP,natam,rep,3,2,63
+150,Robeson BLACK SWAMP,natam,non,3,3,60
+151,Robeson BRITTS,white,dem,1,1,979
+151,Robeson BRITTS,white,rep,1,2,125
+151,Robeson BRITTS,white,non,1,3,76
+151,Robeson BRITTS,black,dem,2,1,74
+151,Robeson BRITTS,black,rep,2,2,5
+151,Robeson BRITTS,black,non,2,3,10
+151,Robeson BRITTS,natam,dem,3,1,129
+151,Robeson BRITTS,natam,rep,3,2,7
+151,Robeson BRITTS,natam,non,3,3,8
+152,Robeson BURNT SWAMP,white,dem,1,1,62
+152,Robeson BURNT SWAMP,white,rep,1,2,15
+152,Robeson BURNT SWAMP,white,non,1,3,16
+152,Robeson BURNT SWAMP,black,dem,2,1,39
+152,Robeson BURNT SWAMP,black,rep,2,2,1
+152,Robeson BURNT SWAMP,black,non,2,3,2
+152,Robeson BURNT SWAMP,natam,dem,3,1,1724
+152,Robeson BURNT SWAMP,natam,rep,3,2,52
+152,Robeson BURNT SWAMP,natam,non,3,3,38
+153,Robeson FAIRMONT 1,white,dem,1,1,981
+153,Robeson FAIRMONT 1,white,rep,1,2,146
+153,Robeson FAIRMONT 1,white,non,1,3,74
+153,Robeson FAIRMONT 1,black,dem,2,1,1229
+153,Robeson FAIRMONT 1,black,rep,2,2,40
+153,Robeson FAIRMONT 1,black,non,2,3,39
+153,Robeson FAIRMONT 1,natam,dem,3,1,546
+153,Robeson FAIRMONT 1,natam,rep,3,2,28
+153,Robeson FAIRMONT 1,natam,non,3,3,17
+154,Robeson FAIRMONT 2,white,dem,1,1,273
+154,Robeson FAIRMONT 2,white,rep,1,2,34
+154,Robeson FAIRMONT 2,white,non,1,3,20
+154,Robeson FAIRMONT 2,black,dem,2,1,675
+154,Robeson FAIRMONT 2,black,rep,2,2,8
+154,Robeson FAIRMONT 2,black,non,2,3,17
+154,Robeson FAIRMONT 2,natam,dem,3,1,215
+154,Robeson FAIRMONT 2,natam,rep,3,2,7
+154,Robeson FAIRMONT 2,natam,non,3,3,9
+155,Robeson GADDY,white,dem,1,1,145
+155,Robeson GADDY,white,rep,1,2,14
+155,Robeson GADDY,white,non,1,3,11
+155,Robeson GADDY,black,dem,2,1,130
+155,Robeson GADDY,black,rep,2,2,4
+155,Robeson GADDY,black,non,2,3,6
+155,Robeson GADDY,natam,dem,3,1,327
+155,Robeson GADDY,natam,rep,3,2,6
+155,Robeson GADDY,natam,non,3,3,11
+156,Robeson EAST HOWELLSVILLE,white,dem,1,1,801
+156,Robeson EAST HOWELLSVILLE,white,rep,1,2,171
+156,Robeson EAST HOWELLSVILLE,white,non,1,3,96
+156,Robeson EAST HOWELLSVILLE,black,dem,2,1,177
+156,Robeson EAST HOWELLSVILLE,black,rep,2,2,5
+156,Robeson EAST HOWELLSVILLE,black,non,2,3,9
+156,Robeson EAST HOWELLSVILLE,natam,dem,3,1,97
+156,Robeson EAST HOWELLSVILLE,natam,rep,3,2,9
+156,Robeson EAST HOWELLSVILLE,natam,non,3,3,8
+157,Robeson WEST HOWELLSVILLE,white,dem,1,1,315
+157,Robeson WEST HOWELLSVILLE,white,rep,1,2,77
+157,Robeson WEST HOWELLSVILLE,white,non,1,3,42
+157,Robeson WEST HOWELLSVILLE,black,dem,2,1,212
+157,Robeson WEST HOWELLSVILLE,black,rep,2,2,14
+157,Robeson WEST HOWELLSVILLE,black,non,2,3,18
+157,Robeson WEST HOWELLSVILLE,natam,dem,3,1,246
+157,Robeson WEST HOWELLSVILLE,natam,rep,3,2,5
+157,Robeson WEST HOWELLSVILLE,natam,non,3,3,15
+158,Robeson LUMBER BRIDGE,white,dem,1,1,233
+158,Robeson LUMBER BRIDGE,white,rep,1,2,84
+158,Robeson LUMBER BRIDGE,white,non,1,3,88
+158,Robeson LUMBER BRIDGE,black,dem,2,1,323
+158,Robeson LUMBER BRIDGE,black,rep,2,2,11
+158,Robeson LUMBER BRIDGE,black,non,2,3,33
+158,Robeson LUMBER BRIDGE,natam,dem,3,1,168
+158,Robeson LUMBER BRIDGE,natam,rep,3,2,11
+158,Robeson LUMBER BRIDGE,natam,non,3,3,20
+159,Robeson LUMBERTON 1,white,dem,1,1,2336
+159,Robeson LUMBERTON 1,white,rep,1,2,885
+159,Robeson LUMBERTON 1,white,non,1,3,370
+159,Robeson LUMBERTON 1,black,dem,2,1,272
+159,Robeson LUMBERTON 1,black,rep,2,2,18
+159,Robeson LUMBERTON 1,black,non,2,3,21
+159,Robeson LUMBERTON 1,natam,dem,3,1,571
+159,Robeson LUMBERTON 1,natam,rep,3,2,55
+159,Robeson LUMBERTON 1,natam,non,3,3,35
+160,Robeson LUMBERTON 2,white,dem,1,1,714
+160,Robeson LUMBERTON 2,white,rep,1,2,236
+160,Robeson LUMBERTON 2,white,non,1,3,129
+160,Robeson LUMBERTON 2,black,dem,2,1,610
+160,Robeson LUMBERTON 2,black,rep,2,2,28
+160,Robeson LUMBERTON 2,black,non,2,3,47
+160,Robeson LUMBERTON 2,natam,dem,3,1,177
+160,Robeson LUMBERTON 2,natam,rep,3,2,19
+160,Robeson LUMBERTON 2,natam,non,3,3,19
+161,Robeson LUMBERTON 3,white,dem,1,1,981
+161,Robeson LUMBERTON 3,white,rep,1,2,254
+161,Robeson LUMBERTON 3,white,non,1,3,116
+161,Robeson LUMBERTON 3,black,dem,2,1,202
+161,Robeson LUMBERTON 3,black,rep,2,2,16
+161,Robeson LUMBERTON 3,black,non,2,3,16
+161,Robeson LUMBERTON 3,natam,dem,3,1,92
+161,Robeson LUMBERTON 3,natam,rep,3,2,17
+161,Robeson LUMBERTON 3,natam,non,3,3,8
+162,Robeson LUMBERTON 4,white,dem,1,1,818
+162,Robeson LUMBERTON 4,white,rep,1,2,231
+162,Robeson LUMBERTON 4,white,non,1,3,76
+162,Robeson LUMBERTON 4,black,dem,2,1,156
+162,Robeson LUMBERTON 4,black,rep,2,2,15
+162,Robeson LUMBERTON 4,black,non,2,3,25
+162,Robeson LUMBERTON 4,natam,dem,3,1,175
+162,Robeson LUMBERTON 4,natam,rep,3,2,26
+162,Robeson LUMBERTON 4,natam,non,3,3,14
+163,Robeson LUMBERTON 5,white,dem,1,1,298
+163,Robeson LUMBERTON 5,white,rep,1,2,66
+163,Robeson LUMBERTON 5,white,non,1,3,60
+163,Robeson LUMBERTON 5,black,dem,2,1,1198
+163,Robeson LUMBERTON 5,black,rep,2,2,34
+163,Robeson LUMBERTON 5,black,non,2,3,68
+163,Robeson LUMBERTON 5,natam,dem,3,1,161
+163,Robeson LUMBERTON 5,natam,rep,3,2,18
+163,Robeson LUMBERTON 5,natam,non,3,3,20
+164,Robeson LUMBERTON 6,white,dem,1,1,52
+164,Robeson LUMBERTON 6,white,rep,1,2,7
+164,Robeson LUMBERTON 6,white,non,1,3,2
+164,Robeson LUMBERTON 6,black,dem,2,1,1433
+164,Robeson LUMBERTON 6,black,rep,2,2,43
+164,Robeson LUMBERTON 6,black,non,2,3,64
+164,Robeson LUMBERTON 6,natam,dem,3,1,106
+164,Robeson LUMBERTON 6,natam,rep,3,2,3
+164,Robeson LUMBERTON 6,natam,non,3,3,4
+165,Robeson LUMBERTON 7,white,dem,1,1,162
+165,Robeson LUMBERTON 7,white,rep,1,2,31
+165,Robeson LUMBERTON 7,white,non,1,3,25
+165,Robeson LUMBERTON 7,black,dem,2,1,286
+165,Robeson LUMBERTON 7,black,rep,2,2,15
+165,Robeson LUMBERTON 7,black,non,2,3,23
+165,Robeson LUMBERTON 7,natam,dem,3,1,519
+165,Robeson LUMBERTON 7,natam,rep,3,2,30
+165,Robeson LUMBERTON 7,natam,non,3,3,24
+166,Robeson LUMBERTON 8,white,dem,1,1,1345
+166,Robeson LUMBERTON 8,white,rep,1,2,320
+166,Robeson LUMBERTON 8,white,non,1,3,187
+166,Robeson LUMBERTON 8,black,dem,2,1,120
+166,Robeson LUMBERTON 8,black,rep,2,2,5
+166,Robeson LUMBERTON 8,black,non,2,3,18
+166,Robeson LUMBERTON 8,natam,dem,3,1,61
+166,Robeson LUMBERTON 8,natam,rep,3,2,7
+166,Robeson LUMBERTON 8,natam,non,3,3,7
+167,Robeson MAXTON,white,dem,1,1,563
+167,Robeson MAXTON,white,rep,1,2,136
+167,Robeson MAXTON,white,non,1,3,76
+167,Robeson MAXTON,black,dem,2,1,1850
+167,Robeson MAXTON,black,rep,2,2,54
+167,Robeson MAXTON,black,non,2,3,89
+167,Robeson MAXTON,natam,dem,3,1,864
+167,Robeson MAXTON,natam,rep,3,2,86
+167,Robeson MAXTON,natam,non,3,3,84
+168,Robeson ORRUM,white,dem,1,1,555
+168,Robeson ORRUM,white,rep,1,2,77
+168,Robeson ORRUM,white,non,1,3,34
+168,Robeson ORRUM,black,dem,2,1,351
+168,Robeson ORRUM,black,rep,2,2,17
+168,Robeson ORRUM,black,non,2,3,21
+168,Robeson ORRUM,natam,dem,3,1,69
+168,Robeson ORRUM,natam,rep,3,2,1
+168,Robeson ORRUM,natam,non,3,3,4
+169,Robeson PARKTON,white,dem,1,1,668
+169,Robeson PARKTON,white,rep,1,2,291
+169,Robeson PARKTON,white,non,1,3,247
+169,Robeson PARKTON,black,dem,2,1,484
+169,Robeson PARKTON,black,rep,2,2,27
+169,Robeson PARKTON,black,non,2,3,40
+169,Robeson PARKTON,natam,dem,3,1,77
+169,Robeson PARKTON,natam,rep,3,2,16
+169,Robeson PARKTON,natam,non,3,3,6
+170,Robeson NORTH PEMBROKE,white,dem,1,1,194
+170,Robeson NORTH PEMBROKE,white,rep,1,2,87
+170,Robeson NORTH PEMBROKE,white,non,1,3,53
+170,Robeson NORTH PEMBROKE,black,dem,2,1,184
+170,Robeson NORTH PEMBROKE,black,rep,2,2,5
+170,Robeson NORTH PEMBROKE,black,non,2,3,13
+170,Robeson NORTH PEMBROKE,natam,dem,3,1,2194
+170,Robeson NORTH PEMBROKE,natam,rep,3,2,163
+170,Robeson NORTH PEMBROKE,natam,non,3,3,110
+171,Robeson SOUTH PEMBROKE,white,dem,1,1,215
+171,Robeson SOUTH PEMBROKE,white,rep,1,2,60
+171,Robeson SOUTH PEMBROKE,white,non,1,3,49
+171,Robeson SOUTH PEMBROKE,black,dem,2,1,90
+171,Robeson SOUTH PEMBROKE,black,rep,2,2,8
+171,Robeson SOUTH PEMBROKE,black,non,2,3,11
+171,Robeson SOUTH PEMBROKE,natam,dem,3,1,2899
+171,Robeson SOUTH PEMBROKE,natam,rep,3,2,206
+171,Robeson SOUTH PEMBROKE,natam,non,3,3,113
+172,Robeson PHILADEPLUS,white,dem,1,1,97
+172,Robeson PHILADEPLUS,white,rep,1,2,12
+172,Robeson PHILADEPLUS,white,non,1,3,11
+172,Robeson PHILADEPLUS,black,dem,2,1,90
+172,Robeson PHILADEPLUS,black,rep,2,2,1
+172,Robeson PHILADEPLUS,black,non,2,3,3
+172,Robeson PHILADEPLUS,natam,dem,3,1,657
+172,Robeson PHILADEPLUS,natam,rep,3,2,23
+172,Robeson PHILADEPLUS,natam,non,3,3,20
+173,Robeson RAFT SWAMP,white,dem,1,1,281
+173,Robeson RAFT SWAMP,white,rep,1,2,54
+173,Robeson RAFT SWAMP,white,non,1,3,24
+173,Robeson RAFT SWAMP,black,dem,2,1,134
+173,Robeson RAFT SWAMP,black,rep,2,2,14
+173,Robeson RAFT SWAMP,black,non,2,3,12
+173,Robeson RAFT SWAMP,natam,dem,3,1,1027
+173,Robeson RAFT SWAMP,natam,rep,3,2,48
+173,Robeson RAFT SWAMP,natam,non,3,3,44
+174,Robeson RED SPRINGS 1,white,dem,1,1,558
+174,Robeson RED SPRINGS 1,white,rep,1,2,132
+174,Robeson RED SPRINGS 1,white,non,1,3,90
+174,Robeson RED SPRINGS 1,black,dem,2,1,1345
+174,Robeson RED SPRINGS 1,black,rep,2,2,28
+174,Robeson RED SPRINGS 1,black,non,2,3,66
+174,Robeson RED SPRINGS 1,natam,dem,3,1,339
+174,Robeson RED SPRINGS 1,natam,rep,3,2,41
+174,Robeson RED SPRINGS 1,natam,non,3,3,34
+175,Robeson RED SPRINGS 2,white,dem,1,1,500
+175,Robeson RED SPRINGS 2,white,rep,1,2,97
+175,Robeson RED SPRINGS 2,white,non,1,3,59
+175,Robeson RED SPRINGS 2,black,dem,2,1,315
+175,Robeson RED SPRINGS 2,black,rep,2,2,16
+175,Robeson RED SPRINGS 2,black,non,2,3,20
+175,Robeson RED SPRINGS 2,natam,dem,3,1,100
+175,Robeson RED SPRINGS 2,natam,rep,3,2,21
+175,Robeson RED SPRINGS 2,natam,non,3,3,17
+176,Robeson RENNERT,white,dem,1,1,61
+176,Robeson RENNERT,white,rep,1,2,33
+176,Robeson RENNERT,white,non,1,3,22
+176,Robeson RENNERT,black,dem,2,1,113
+176,Robeson RENNERT,black,rep,2,2,6
+176,Robeson RENNERT,black,non,2,3,11
+176,Robeson RENNERT,natam,dem,3,1,685
+176,Robeson RENNERT,natam,rep,3,2,42
+176,Robeson RENNERT,natam,non,3,3,26
+177,Robeson ROWLAND,white,dem,1,1,440
+177,Robeson ROWLAND,white,rep,1,2,56
+177,Robeson ROWLAND,white,non,1,3,43
+177,Robeson ROWLAND,black,dem,2,1,1113
+177,Robeson ROWLAND,black,rep,2,2,19
+177,Robeson ROWLAND,black,non,2,3,32
+177,Robeson ROWLAND,natam,dem,3,1,474
+177,Robeson ROWLAND,natam,rep,3,2,18
+177,Robeson ROWLAND,natam,non,3,3,21
+178,Robeson SADDLETREE,white,dem,1,1,209
+178,Robeson SADDLETREE,white,rep,1,2,68
+178,Robeson SADDLETREE,white,non,1,3,43
+178,Robeson SADDLETREE,black,dem,2,1,68
+178,Robeson SADDLETREE,black,rep,2,2,8
+178,Robeson SADDLETREE,black,non,2,3,6
+178,Robeson SADDLETREE,natam,dem,3,1,1618
+178,Robeson SADDLETREE,natam,rep,3,2,62
+178,Robeson SADDLETREE,natam,non,3,3,67
+179,Robeson NORTH ST PAULS,white,dem,1,1,820
+179,Robeson NORTH ST PAULS,white,rep,1,2,327
+179,Robeson NORTH ST PAULS,white,non,1,3,185
+179,Robeson NORTH ST PAULS,black,dem,2,1,675
+179,Robeson NORTH ST PAULS,black,rep,2,2,26
+179,Robeson NORTH ST PAULS,black,non,2,3,42
+179,Robeson NORTH ST PAULS,natam,dem,3,1,96
+179,Robeson NORTH ST PAULS,natam,rep,3,2,8
+179,Robeson NORTH ST PAULS,natam,non,3,3,20
+180,Robeson SOUTH ST PAULS,white,dem,1,1,813
+180,Robeson SOUTH ST PAULS,white,rep,1,2,241
+180,Robeson SOUTH ST PAULS,white,non,1,3,152
+180,Robeson SOUTH ST PAULS,black,dem,2,1,381
+180,Robeson SOUTH ST PAULS,black,rep,2,2,32
+180,Robeson SOUTH ST PAULS,black,non,2,3,34
+180,Robeson SOUTH ST PAULS,natam,dem,3,1,215
+180,Robeson SOUTH ST PAULS,natam,rep,3,2,19
+180,Robeson SOUTH ST PAULS,natam,non,3,3,16
+181,Robeson SHANNON,white,dem,1,1,53
+181,Robeson SHANNON,white,rep,1,2,18
+181,Robeson SHANNON,white,non,1,3,17
+181,Robeson SHANNON,black,dem,2,1,124
+181,Robeson SHANNON,black,rep,2,2,4
+181,Robeson SHANNON,black,non,2,3,10
+181,Robeson SHANNON,natam,dem,3,1,264
+181,Robeson SHANNON,natam,rep,3,2,35
+181,Robeson SHANNON,natam,non,3,3,43
+182,Robeson OXENDINE,white,dem,1,1,70
+182,Robeson OXENDINE,white,rep,1,2,16
+182,Robeson OXENDINE,white,non,1,3,13
+182,Robeson OXENDINE,black,dem,2,1,45
+182,Robeson OXENDINE,black,rep,2,2,5
+182,Robeson OXENDINE,black,non,2,3,2
+182,Robeson OXENDINE,natam,dem,3,1,929
+182,Robeson OXENDINE,natam,rep,3,2,60
+182,Robeson OXENDINE,natam,non,3,3,57
+183,Robeson PROSPECT,white,dem,1,1,55
+183,Robeson PROSPECT,white,rep,1,2,13
+183,Robeson PROSPECT,white,non,1,3,9
+183,Robeson PROSPECT,black,dem,2,1,6
+183,Robeson PROSPECT,black,rep,2,2,0
+183,Robeson PROSPECT,black,non,2,3,1
+183,Robeson PROSPECT,natam,dem,3,1,1397
+183,Robeson PROSPECT,natam,rep,3,2,76
+183,Robeson PROSPECT,natam,non,3,3,38
+184,Robeson SMYRNA,white,dem,1,1,298
+184,Robeson SMYRNA,white,rep,1,2,48
+184,Robeson SMYRNA,white,non,1,3,25
+184,Robeson SMYRNA,black,dem,2,1,241
+184,Robeson SMYRNA,black,rep,2,2,14
+184,Robeson SMYRNA,black,non,2,3,23
+184,Robeson SMYRNA,natam,dem,3,1,242
+184,Robeson SMYRNA,natam,rep,3,2,6
+184,Robeson SMYRNA,natam,non,3,3,13
+185,Robeson STERLINGS,white,dem,1,1,433
+185,Robeson STERLINGS,white,rep,1,2,52
+185,Robeson STERLINGS,white,non,1,3,26
+185,Robeson STERLINGS,black,dem,2,1,44
+185,Robeson STERLINGS,black,rep,2,2,2
+185,Robeson STERLINGS,black,non,2,3,3
+185,Robeson STERLINGS,natam,dem,3,1,17
+185,Robeson STERLINGS,natam,rep,3,2,0
+185,Robeson STERLINGS,natam,non,3,3,0
+186,Robeson THOMPSON,white,dem,1,1,79
+186,Robeson THOMPSON,white,rep,1,2,25
+186,Robeson THOMPSON,white,non,1,3,9
+186,Robeson THOMPSON,black,dem,2,1,38
+186,Robeson THOMPSON,black,rep,2,2,3
+186,Robeson THOMPSON,black,non,2,3,2
+186,Robeson THOMPSON,natam,dem,3,1,314
+186,Robeson THOMPSON,natam,rep,3,2,7
+186,Robeson THOMPSON,natam,non,3,3,8
+187,Robeson UNION,white,dem,1,1,123
+187,Robeson UNION,white,rep,1,2,26
+187,Robeson UNION,white,non,1,3,13
+187,Robeson UNION,black,dem,2,1,235
+187,Robeson UNION,black,rep,2,2,12
+187,Robeson UNION,black,non,2,3,12
+187,Robeson UNION,natam,dem,3,1,848
+187,Robeson UNION,natam,rep,3,2,67
+187,Robeson UNION,natam,non,3,3,29
+188,Robeson WHITEHOUSE,white,dem,1,1,224
+188,Robeson WHITEHOUSE,white,rep,1,2,41
+188,Robeson WHITEHOUSE,white,non,1,3,23
+188,Robeson WHITEHOUSE,black,dem,2,1,267
+188,Robeson WHITEHOUSE,black,rep,2,2,7
+188,Robeson WHITEHOUSE,black,non,2,3,9
+188,Robeson WHITEHOUSE,natam,dem,3,1,17
+188,Robeson WHITEHOUSE,natam,rep,3,2,3
+188,Robeson WHITEHOUSE,natam,non,3,3,3
+189,Robeson WISHARTS,white,dem,1,1,1534
+189,Robeson WISHARTS,white,rep,1,2,274
+189,Robeson WISHARTS,white,non,1,3,166
+189,Robeson WISHARTS,black,dem,2,1,186
+189,Robeson WISHARTS,black,rep,2,2,18
+189,Robeson WISHARTS,black,non,2,3,23
+189,Robeson WISHARTS,natam,dem,3,1,605
+189,Robeson WISHARTS,natam,rep,3,2,36
+189,Robeson WISHARTS,natam,non,3,3,34
+190,Sampson AUTRYVILLE,white,dem,1,1,456
+190,Sampson AUTRYVILLE,white,rep,1,2,692
+190,Sampson AUTRYVILLE,white,non,1,3,143
+190,Sampson AUTRYVILLE,black,dem,2,1,136
+190,Sampson AUTRYVILLE,black,rep,2,2,5
+190,Sampson AUTRYVILLE,black,non,2,3,5
+190,Sampson AUTRYVILLE,natam,dem,3,1,3
+190,Sampson AUTRYVILLE,natam,rep,3,2,1
+190,Sampson AUTRYVILLE,natam,non,3,3,0
+191,Sampson CENTRAL CLINTON,white,dem,1,1,75
+191,Sampson CENTRAL CLINTON,white,rep,1,2,67
+191,Sampson CENTRAL CLINTON,white,non,1,3,13
+191,Sampson CENTRAL CLINTON,black,dem,2,1,950
+191,Sampson CENTRAL CLINTON,black,rep,2,2,48
+191,Sampson CENTRAL CLINTON,black,non,2,3,56
+191,Sampson CENTRAL CLINTON,natam,dem,3,1,5
+191,Sampson CENTRAL CLINTON,natam,rep,3,2,0
+191,Sampson CENTRAL CLINTON,natam,non,3,3,1
+192,Sampson EAST CLINTON,white,dem,1,1,276
+192,Sampson EAST CLINTON,white,rep,1,2,328
+192,Sampson EAST CLINTON,white,non,1,3,65
+192,Sampson EAST CLINTON,black,dem,2,1,1239
+192,Sampson EAST CLINTON,black,rep,2,2,49
+192,Sampson EAST CLINTON,black,non,2,3,70
+192,Sampson EAST CLINTON,natam,dem,3,1,2
+192,Sampson EAST CLINTON,natam,rep,3,2,1
+192,Sampson EAST CLINTON,natam,non,3,3,0
+193,Sampson CLEMENT,white,dem,1,1,215
+193,Sampson CLEMENT,white,rep,1,2,537
+193,Sampson CLEMENT,white,non,1,3,73
+193,Sampson CLEMENT,black,dem,2,1,140
+193,Sampson CLEMENT,black,rep,2,2,12
+193,Sampson CLEMENT,black,non,2,3,9
+193,Sampson CLEMENT,natam,dem,3,1,14
+193,Sampson CLEMENT,natam,rep,3,2,21
+193,Sampson CLEMENT,natam,non,3,3,0
+194,Sampson NORTHEAST CLINTON,white,dem,1,1,934
+194,Sampson NORTHEAST CLINTON,white,rep,1,2,980
+194,Sampson NORTHEAST CLINTON,white,non,1,3,186
+194,Sampson NORTHEAST CLINTON,black,dem,2,1,359
+194,Sampson NORTHEAST CLINTON,black,rep,2,2,15
+194,Sampson NORTHEAST CLINTON,black,non,2,3,21
+194,Sampson NORTHEAST CLINTON,natam,dem,3,1,8
+194,Sampson NORTHEAST CLINTON,natam,rep,3,2,0
+194,Sampson NORTHEAST CLINTON,natam,non,3,3,3
+195,Sampson SOUTHWEST CLINTON,white,dem,1,1,496
+195,Sampson SOUTHWEST CLINTON,white,rep,1,2,531
+195,Sampson SOUTHWEST CLINTON,white,non,1,3,121
+195,Sampson SOUTHWEST CLINTON,black,dem,2,1,202
+195,Sampson SOUTHWEST CLINTON,black,rep,2,2,12
+195,Sampson SOUTHWEST CLINTON,black,non,2,3,14
+195,Sampson SOUTHWEST CLINTON,natam,dem,3,1,134
+195,Sampson SOUTHWEST CLINTON,natam,rep,3,2,5
+195,Sampson SOUTHWEST CLINTON,natam,non,3,3,11
+196,Sampson WEST CLINTON,white,dem,1,1,640
+196,Sampson WEST CLINTON,white,rep,1,2,791
+196,Sampson WEST CLINTON,white,non,1,3,142
+196,Sampson WEST CLINTON,black,dem,2,1,450
+196,Sampson WEST CLINTON,black,rep,2,2,25
+196,Sampson WEST CLINTON,black,non,2,3,28
+196,Sampson WEST CLINTON,natam,dem,3,1,25
+196,Sampson WEST CLINTON,natam,rep,3,2,2
+196,Sampson WEST CLINTON,natam,non,3,3,2
+197,Sampson GARLAND,white,dem,1,1,300
+197,Sampson GARLAND,white,rep,1,2,282
+197,Sampson GARLAND,white,non,1,3,80
+197,Sampson GARLAND,black,dem,2,1,495
+197,Sampson GARLAND,black,rep,2,2,22
+197,Sampson GARLAND,black,non,2,3,30
+197,Sampson GARLAND,natam,dem,3,1,2
+197,Sampson GARLAND,natam,rep,3,2,0
+197,Sampson GARLAND,natam,non,3,3,0
+198,Sampson GIDDENSVILLE,white,dem,1,1,285
+198,Sampson GIDDENSVILLE,white,rep,1,2,235
+198,Sampson GIDDENSVILLE,white,non,1,3,55
+198,Sampson GIDDENSVILLE,black,dem,2,1,357
+198,Sampson GIDDENSVILLE,black,rep,2,2,47
+198,Sampson GIDDENSVILLE,black,non,2,3,20
+198,Sampson GIDDENSVILLE,natam,dem,3,1,1
+198,Sampson GIDDENSVILLE,natam,rep,3,2,0
+198,Sampson GIDDENSVILLE,natam,non,3,3,0
+199,Sampson HARRELLS,white,dem,1,1,269
+199,Sampson HARRELLS,white,rep,1,2,205
+199,Sampson HARRELLS,white,non,1,3,42
+199,Sampson HARRELLS,black,dem,2,1,808
+199,Sampson HARRELLS,black,rep,2,2,42
+199,Sampson HARRELLS,black,non,2,3,38
+199,Sampson HARRELLS,natam,dem,3,1,6
+199,Sampson HARRELLS,natam,rep,3,2,1
+199,Sampson HARRELLS,natam,non,3,3,0
+200,Sampson HERRING,white,dem,1,1,157
+200,Sampson HERRING,white,rep,1,2,444
+200,Sampson HERRING,white,non,1,3,33
+200,Sampson HERRING,black,dem,2,1,38
+200,Sampson HERRING,black,rep,2,2,12
+200,Sampson HERRING,black,non,2,3,2
+200,Sampson HERRING,natam,dem,3,1,2
+200,Sampson HERRING,natam,rep,3,2,3
+200,Sampson HERRING,natam,non,3,3,0
+201,Sampson INGOLD,white,dem,1,1,218
+201,Sampson INGOLD,white,rep,1,2,293
+201,Sampson INGOLD,white,non,1,3,52
+201,Sampson INGOLD,black,dem,2,1,471
+201,Sampson INGOLD,black,rep,2,2,17
+201,Sampson INGOLD,black,non,2,3,17
+201,Sampson INGOLD,natam,dem,3,1,0
+201,Sampson INGOLD,natam,rep,3,2,0
+201,Sampson INGOLD,natam,non,3,3,1
+202,Sampson KEENER,white,dem,1,1,375
+202,Sampson KEENER,white,rep,1,2,497
+202,Sampson KEENER,white,non,1,3,104
+202,Sampson KEENER,black,dem,2,1,159
+202,Sampson KEENER,black,rep,2,2,25
+202,Sampson KEENER,black,non,2,3,6
+202,Sampson KEENER,natam,dem,3,1,4
+202,Sampson KEENER,natam,rep,3,2,0
+202,Sampson KEENER,natam,non,3,3,1
+203,Sampson KITTY FORK,white,dem,1,1,399
+203,Sampson KITTY FORK,white,rep,1,2,545
+203,Sampson KITTY FORK,white,non,1,3,83
+203,Sampson KITTY FORK,black,dem,2,1,222
+203,Sampson KITTY FORK,black,rep,2,2,6
+203,Sampson KITTY FORK,black,non,2,3,12
+203,Sampson KITTY FORK,natam,dem,3,1,126
+203,Sampson KITTY FORK,natam,rep,3,2,16
+203,Sampson KITTY FORK,natam,non,3,3,14
+204,Sampson LAKEWOOD,white,dem,1,1,412
+204,Sampson LAKEWOOD,white,rep,1,2,453
+204,Sampson LAKEWOOD,white,non,1,3,111
+204,Sampson LAKEWOOD,black,dem,2,1,1184
+204,Sampson LAKEWOOD,black,rep,2,2,47
+204,Sampson LAKEWOOD,black,non,2,3,68
+204,Sampson LAKEWOOD,natam,dem,3,1,4
+204,Sampson LAKEWOOD,natam,rep,3,2,5
+204,Sampson LAKEWOOD,natam,non,3,3,0
+205,Sampson MINGO,white,dem,1,1,379
+205,Sampson MINGO,white,rep,1,2,1037
+205,Sampson MINGO,white,non,1,3,106
+205,Sampson MINGO,black,dem,2,1,198
+205,Sampson MINGO,black,rep,2,2,34
+205,Sampson MINGO,black,non,2,3,17
+205,Sampson MINGO,natam,dem,3,1,4
+205,Sampson MINGO,natam,rep,3,2,4
+205,Sampson MINGO,natam,non,3,3,6
+206,Sampson NEWTON GROVE,white,dem,1,1,548
+206,Sampson NEWTON GROVE,white,rep,1,2,420
+206,Sampson NEWTON GROVE,white,non,1,3,96
+206,Sampson NEWTON GROVE,black,dem,2,1,280
+206,Sampson NEWTON GROVE,black,rep,2,2,17
+206,Sampson NEWTON GROVE,black,non,2,3,15
+206,Sampson NEWTON GROVE,natam,dem,3,1,1
+206,Sampson NEWTON GROVE,natam,rep,3,2,1
+206,Sampson NEWTON GROVE,natam,non,3,3,1
+207,Sampson PLAINVIEW,white,dem,1,1,481
+207,Sampson PLAINVIEW,white,rep,1,2,1051
+207,Sampson PLAINVIEW,white,non,1,3,112
+207,Sampson PLAINVIEW,black,dem,2,1,61
+207,Sampson PLAINVIEW,black,rep,2,2,13
+207,Sampson PLAINVIEW,black,non,2,3,6
+207,Sampson PLAINVIEW,natam,dem,3,1,7
+207,Sampson PLAINVIEW,natam,rep,3,2,2
+207,Sampson PLAINVIEW,natam,non,3,3,0
+208,Sampson ROSEBORO,white,dem,1,1,464
+208,Sampson ROSEBORO,white,rep,1,2,494
+208,Sampson ROSEBORO,white,non,1,3,133
+208,Sampson ROSEBORO,black,dem,2,1,207
+208,Sampson ROSEBORO,black,rep,2,2,6
+208,Sampson ROSEBORO,black,non,2,3,13
+208,Sampson ROSEBORO,natam,dem,3,1,1
+208,Sampson ROSEBORO,natam,rep,3,2,2
+208,Sampson ROSEBORO,natam,non,3,3,2
+209,Sampson ROWAN,white,dem,1,1,314
+209,Sampson ROWAN,white,rep,1,2,560
+209,Sampson ROWAN,white,non,1,3,95
+209,Sampson ROWAN,black,dem,2,1,299
+209,Sampson ROWAN,black,rep,2,2,23
+209,Sampson ROWAN,black,non,2,3,26
+209,Sampson ROWAN,natam,dem,3,1,13
+209,Sampson ROWAN,natam,rep,3,2,1
+209,Sampson ROWAN,natam,non,3,3,5
+210,Sampson SALEMBURG,white,dem,1,1,231
+210,Sampson SALEMBURG,white,rep,1,2,368
+210,Sampson SALEMBURG,white,non,1,3,56
+210,Sampson SALEMBURG,black,dem,2,1,96
+210,Sampson SALEMBURG,black,rep,2,2,19
+210,Sampson SALEMBURG,black,non,2,3,5
+210,Sampson SALEMBURG,natam,dem,3,1,1
+210,Sampson SALEMBURG,natam,rep,3,2,1
+210,Sampson SALEMBURG,natam,non,3,3,0
+211,Sampson TURKEY,white,dem,1,1,333
+211,Sampson TURKEY,white,rep,1,2,277
+211,Sampson TURKEY,white,non,1,3,85
+211,Sampson TURKEY,black,dem,2,1,459
+211,Sampson TURKEY,black,rep,2,2,22
+211,Sampson TURKEY,black,non,2,3,26
+211,Sampson TURKEY,natam,dem,3,1,1
+211,Sampson TURKEY,natam,rep,3,2,1
+211,Sampson TURKEY,natam,non,3,3,1
+212,Sampson WESTBROOK,white,dem,1,1,502
+212,Sampson WESTBROOK,white,rep,1,2,523
+212,Sampson WESTBROOK,white,non,1,3,83
+212,Sampson WESTBROOK,black,dem,2,1,98
+212,Sampson WESTBROOK,black,rep,2,2,10
+212,Sampson WESTBROOK,black,non,2,3,7
+212,Sampson WESTBROOK,natam,dem,3,1,3
+212,Sampson WESTBROOK,natam,rep,3,2,1
+212,Sampson WESTBROOK,natam,non,3,3,1

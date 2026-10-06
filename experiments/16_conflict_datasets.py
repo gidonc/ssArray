@@ -8,13 +8,15 @@ and the prior is equal sd on every coordinate, or (national centre only) on the 
 eps = 1.  Six parameterisations, sequential ones with scaled margins.  Areas: five per dataset, spread over the mismatch
 between area and national margins, among areas with all margins positive.
 Part A: areas x sigma_b (0.5, 2) x four set-ups x two seeds.   Part B: the middle area, raked centre, sigma_b 1, volume x 0.01, 1, 100.
-Run:  python3 experiments/16_conflict_datasets.py     Writes experiments/output/16_conflict_datasets.csv
+Run:  python3 experiments/16_conflict_datasets.py [datasets, comma separated] [output label]
+Default: the two elections, written to experiments/output/16_conflict_datasets.csv
 """
 import os, time, importlib.util, numpy as np, pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 spec = importlib.util.spec_from_file_location("r4", os.path.join(ROOT, "experiments", "04_real_table.py"))
 r4 = importlib.util.module_from_spec(spec); spec.loader.exec_module(r4); e2 = r4.e2
-DATA = {"Scotland 2007": "scot_2007_5x5.csv", "New Zealand 2017": "nz_2017_5x5.csv"}
+DATA = {"Scotland 2007": "scot_2007_5x5.csv", "New Zealand 2017": "nz_2017_5x5.csv", "senc": "senc_3x3.csv", "redistrict": "redistrict_margins.csv"}
+# redistrict has margins only (no known interior): its common centre is the independence table of the pooled margins, and there is no raked set-up
 
 
 def ipf(x, w, m, it=2000):
@@ -25,13 +27,27 @@ def ipf(x, w, m, it=2000):
 
 
 def main():
-    rows = []; out = os.path.join(ROOT, "experiments", "output", "16_conflict_datasets.csv")
-    for dname, fn in DATA.items():
-        d = pd.read_csv(os.path.join(ROOT, "data", fn)); R, C = d.row_no.max(), d.col_no.max(); D = R * C; nm = R + C - 2
-        tabs = {a: g.sort_values(["row_no", "col_no"]).votes.values.reshape(R, C).astype(float) for a, g in d.groupby("area")}
+    import sys
+    which = sys.argv[1].split(",") if len(sys.argv) > 1 else ["Scotland 2007", "New Zealand 2017"]
+    label = sys.argv[2] if len(sys.argv) > 2 else "16_conflict_datasets"
+    rows = []; out = os.path.join(ROOT, "experiments", "output", label + ".csv")
+    for dname in which:
+        fn = DATA[dname]
+        d = pd.read_csv(os.path.join(ROOT, "data", fn)); interior = "votes" in d.columns
+        if interior:
+            R, C = d.row_no.max(), d.col_no.max()
+            tabs = {a: g.sort_values(["row_no", "col_no"]).votes.values.reshape(R, C).astype(float) for a, g in d.groupby("area")}
+        else:                                                       # margins only: carry each area as its independence table
+            tabs = {}
+            for a, g in d.groupby("area"):
+                w = g[g.margin == "row"].sort_values("no")["count"].values.astype(float); m = g[g.margin == "col"].sort_values("no")["count"].values.astype(float)
+                tabs[a] = np.outer(w, m) / w.sum()
+            R, C = next(iter(tabs.values())).shape
+        D = R * C; nm = R + C - 2
         tabs = {a: t for a, t in tabs.items() if t.sum(1).min() > 0 and t.sum(0).min() > 0}
         name = d.groupby("area").district.first()
         G = sum(tabs.values())
+        if not interior: G = np.outer(G.sum(1), G.sum(0)) / G.sum()
         Hr, Hc = e2.helmert(R), e2.helmert(C); one = lambda n: np.ones((n, 1)) / np.sqrt(n)
         V = np.c_[np.kron(Hr, one(C)), np.kron(one(R), Hc), np.kron(Hr, Hc)]
         gw, gm = G.sum(1) / G.sum(), G.sum(0) / G.sum()
@@ -66,9 +82,10 @@ def main():
             for a in areas:
                 for sb in (0.5, 2.0):
                     for cname, prior in (("indep", "equal sd"), ("raked", "equal sd"), ("national", "equal sd"), ("national", "interactions only")):
+                        if cname == "raked" and not interior: continue
                         fit("A", a, 1.0, sb, cname, prior, seed)
             for vol in (0.01, 1.0, 100.0):
-                fit("B", areas[2], vol, 1.0, "raked", "equal sd", seed)
+                fit("B", areas[2], vol, 1.0, "raked" if interior else "indep", "equal sd", seed)
 
 
 if __name__ == "__main__":
