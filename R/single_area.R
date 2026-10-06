@@ -31,9 +31,10 @@ sa_helmert <- function(D) {
 #   "largest"   column log-ratios against the largest column instead of the last
 #   "whitened"  u roughly unit scale and uncorrelated under the margin penalty, no reference column (uses scale_margins = 0)
 # A small reference column puts its noise into every column parameter, which a diagonal metric cannot undo
-# (experiments/21_reference_column.py), so "whitened" or "largest" is the safer choice when the last column is small.
+# (experiments/21_reference_column.py). "largest" is the default: it removes the problem, performs within a few per cent
+# of "whitened" (experiments/22_margin_coords.py), and is simpler to describe. "last" reproduces runs made before this option.
 # Returns list(K = matrix, scale_margins = value to pass to the model).
-sa_margin_K <- function(w, m, eps, kind = c("last", "largest", "whitened"), scale_margins = 1) {
+sa_margin_K <- function(w, m, eps, kind = c("largest", "last", "whitened"), scale_margins = 1) {
   kind <- match.arg(kind)
   R <- length(w); C <- length(m); n <- R + C - 1
   if (kind == "last") return(list(K = diag(n), scale_margins = scale_margins))
@@ -66,7 +67,7 @@ sa_margin_K <- function(w, m, eps, kind = c("last", "largest", "whitened"), scal
 
 # data list for the model; only the margins of `tab` are used
 sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0, scale_margins = 0,
-                    margin_coords = c("last", "largest", "whitened")) {
+                    margin_coords = c("largest", "last", "whitened")) {
   tab <- unclass(as.matrix(tab))
   R <- nrow(tab); C <- ncol(tab); D <- R * C
   w <- as.numeric(rowSums(tab)); m <- as.numeric(colSums(tab))

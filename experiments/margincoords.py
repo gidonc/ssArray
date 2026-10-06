@@ -6,12 +6,13 @@ sampled parameters.  Any K is a fixed linear change of coordinates: the density 
   'last'      K = identity (the original coordinates)
   'largest'   column log-ratios against the largest column instead of the last
   'whitened'  u has roughly unit, uncorrelated scale under the margin penalty (no reference column); use scale_margins = 0
-margin_K returns (K, scale_margins to pass to the model).
+margin_K returns (K, scale_margins to pass to the model).  Default 'largest' (as in R/single_area.R); the model's own default data
+(base_data in 02) is still the identity, so earlier experiments reproduce.
 """
 import numpy as np
 
 
-def margin_K(obs_w, obs_m, eps, kind="last", scale_margins=1):
+def margin_K(obs_w, obs_m, eps, kind="largest", scale_margins=1):
     w = np.asarray(obs_w, float); m = np.asarray(obs_m, float); R, C = len(w), len(m); n = R + C - 1
     if kind == "last":
         return np.eye(n), scale_margins
