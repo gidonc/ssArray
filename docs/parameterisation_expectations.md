@@ -45,6 +45,8 @@ Experiment 16: Scotland 2007 and New Zealand 2017 constituencies (5x5, 20,000-40
 8. **Margin tightness decides direct against sequential, and the direct schemes' range has shrunk.** Per gradient the best sequential scheme is ahead of the best direct scheme down to about 300 votes per table in the elections (59-73 against 18-29) and level at 16 in senc; direct is ahead only in redistrict at 5 units per table. On time direct is ahead only at the lowest volume in each dataset (5-350 per table). At about 30,000 per table direct is 40-90 times worse per gradient, and in the millions it is several hundred times worse or fails. Simulated: total 30 gives direct x20-29 and all sequential schemes x0.3-0.55.
 9. **Table size.** Simulated 3x3 and 8x8 relative to 5x5: position x2.0 and x0.73, odds-ratio x1.2 and x0.48, adjusted row x1.0 and x0.46, adjusted table x1.3 and x0.66. Large tables (24): every scheme converges up to 48x48 (2,304 cells) in 30-110 s for 2 chains x 1,000 iterations, with 15-63 leapfrogs per draw (about 6,000 per margin, sigma_b 0.5, independence centre, one replicate).
 
+9a. **Areas with an empty row or column (25).** Left out of 16 (17 of 71 NZ electorates, 29 of 212 senc precincts, 82 of 150 redistrict precincts). Dropping the empty rows and columns gives a smaller table; the common centre is the national table closed over the area's active cells (its subcomposition, which keeps every log-ratio between active cells). 768 fits, 1 not converged (rhat 1.06). Same pattern as the complete areas: ESS per second as a median share of the best scheme, sigma_b 0.5: position 1.00, odds-ratio 0.89, adjusted row 0.75, adjusted table 0.43; sigma_b 2: 0.66, 0.71, 0.93, 0.48.
+
 ## Model changes and what they fixed
 
 10. **Margin reference column (20-22).** Column margins were log-ratios against the last column; with it at 0.4% of the total the column parameters correlate at 0.99 and ESS per gradient falls about ninefold. Largest-column reference or whitening removes it; the two perform within 2-5% of each other. A residual of about two times remains for which column sits last in the fill order.
@@ -73,4 +75,4 @@ Experiment 16: Scotland 2007 and New Zealand 2017 constituencies (5x5, 20,000-40
 - The fill-order residual in item 10; large tables with a wide prior, unbalanced margins or large counts.
 - The single-table diagnostics (07, 10, 13) and the first regime sweep (08) with the current model.
 - An estimated centre: cross-area models (E_rc, sigma_jrc), centring, and the coupling between hyperparameters and areas.
-- Areas with zero margins or structural zeros (excluded so far: 17 of 71 NZ electorates, 29 of 212 senc precincts, 83 of 150 redistrict precincts).
+- Structural zeros in individual cells (a non-rectangular active set), and an observed zero margin treated as a small positive one in the soft model; the test model anchors margin parameters and noise to the observed margin, so it cannot represent the latter.
