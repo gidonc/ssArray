@@ -18,14 +18,17 @@ Each arm changes one or two knobs.  Three replicates per arm: the margins are ji
 has to hold across margins of the same kind, and the sampler seed changes too.
 Run:  python3 experiments/17_sim_features.py     Writes experiments/output/17_sim_features.csv and .md
 Environment: MARGIN_COORDS = last (default) | largest | whitened  (see margincoords.py; output gets the suffix _<coords>),
-             SEQ_ONLY = 1 to run only the four sequential schemes.
+             SEQ_ONLY = 1 to run only the four sequential schemes,
+             MODEL = current for the model as it now stands (largest-column margin coordinates, centred interior,
+             split basis without its matrix; output suffix _current).
 """
 import os, time, importlib.util, numpy as np, pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 spec = importlib.util.spec_from_file_location("r4", os.path.join(ROOT, "experiments", "04_real_table.py"))
 r4 = importlib.util.module_from_spec(spec); spec.loader.exec_module(r4); e2 = r4.e2
 import sys; sys.path.insert(0, os.path.join(ROOT, "experiments")); import margincoords as mc
-COORDS = os.environ.get("MARGIN_COORDS", "last"); PARAMS = (1, 2, 3, 4) if os.environ.get("SEQ_ONLY") == "1" else (0, 5, 1, 2, 3, 4)
+CURRENT = os.environ.get("MODEL") == "current"      # MODEL=current: largest-column margins, centred interior, split basis without its matrix
+COORDS = "largest" if CURRENT else os.environ.get("MARGIN_COORDS", "last"); PARAMS = (1, 2, 3, 4) if os.environ.get("SEQ_ONLY") == "1" else (0, 5, 1, 2, 3, 4)
 BASE = dict(size=5, N=3e4, sigma_b=0.5, tie=0, kappa=0.0, tiny=None, conflict=0.0, prior="equal", ratio=1.6)
 ARMS = [("baseline", {}),
         ("low volume", dict(N=30.0)), ("high volume", dict(N=3e6)),
@@ -81,7 +84,7 @@ def flips(Tt, order, rem_col):
 
 
 def main():
-    rows = []; out = os.path.join(ROOT, "experiments", "output", "17_sim_features" + ("" if COORDS == "last" else "_" + COORDS))
+    rows = []; out = os.path.join(ROOT, "experiments", "output", "17_sim_features" + ("_current" if CURRENT else "" if COORDS == "last" else "_" + COORDS))
     for arm, ch in ARMS:
         k = dict(BASE); k.update(ch)
         for rep in (1, 2, 3):
@@ -91,6 +94,7 @@ def main():
             Km, scm = mc.margin_K(w, m, 1.0, COORDS, 1)
             for p in PARAMS:
                 dd = e2.base_data(T, 1.0, 0 if p in (0, 5) else scm); dd["V"] = V; dd["K_margin"] = Km
+                if CURRENT: dd["centred_interior"] = 1; dd["split_basis"] = 1; dd["V"] = np.zeros((0, 0))
                 dd.update(param=p, mu_b=V.T @ np.log(cen).ravel(), sigma_b=sig, mu_logv=float(np.log(k["N"])), sigma_logv=1.0)
                 row = dict(arm=arm, rep=rep, param=r4.NAMES[p], min_margin=float(min(w.min(), m.min())), **{a: b for a, b in k.items() if a != "ratio"}); t0 = time.time()
                 try:

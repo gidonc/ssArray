@@ -11,14 +11,16 @@ Part A: areas x sigma_b (0.5, 2) x four set-ups x two seeds.   Part B: the middl
 Run:  python3 experiments/16_conflict_datasets.py [datasets, comma separated] [output label]
 Default: the two elections, written to experiments/output/16_conflict_datasets.csv
 Environment: MARGIN_COORDS = last (default) | largest | whitened (see margincoords.py), SEQ_ONLY = 1 for the sequential
-schemes only, SEEDS = e.g. "1" (default "1,2").
+schemes only, SEEDS = e.g. "1" (default "1,2"), MODEL = current for the model as it now stands (largest-column margin
+coordinates, centred interior, split basis without its matrix).
 """
 import os, time, importlib.util, numpy as np, pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 spec = importlib.util.spec_from_file_location("r4", os.path.join(ROOT, "experiments", "04_real_table.py"))
 r4 = importlib.util.module_from_spec(spec); spec.loader.exec_module(r4); e2 = r4.e2
 import sys; sys.path.insert(0, os.path.join(ROOT, "experiments")); import margincoords as mc
-COORDS = os.environ.get("MARGIN_COORDS", "last"); PARAMS = (1, 2, 3, 4) if os.environ.get("SEQ_ONLY") == "1" else (0, 5, 1, 2, 3, 4)
+CURRENT = os.environ.get("MODEL") == "current"      # MODEL=current: largest-column margins, centred interior, split basis without its matrix
+COORDS = "largest" if CURRENT else os.environ.get("MARGIN_COORDS", "last"); PARAMS = (1, 2, 3, 4) if os.environ.get("SEQ_ONLY") == "1" else (0, 5, 1, 2, 3, 4)
 SEEDS = [int(x) for x in os.environ.get("SEEDS", "1,2").split(",")]
 DATA = {"Scotland 2007": "scot_2007_5x5.csv", "New Zealand 2017": "nz_2017_5x5.csv", "senc": "senc_3x3.csv", "redistrict": "redistrict_margins.csv"}
 # redistrict has margins only (no known interior): its common centre is the independence table of the pooled margins, and there is no raked set-up
@@ -69,6 +71,7 @@ def main():
             Km, scm = mc.margin_K(w, m, 1.0, COORDS, 1)
             for p in PARAMS:
                 dd = e2.base_data(t, 1.0, 0 if p in (0, 5) else scm); dd["V"] = V; dd["K_margin"] = Km
+                if CURRENT: dd["centred_interior"] = 1; dd["split_basis"] = 1; dd["V"] = np.zeros((0, 0))
                 dd.update(param=p, mu_b=V.T @ np.log(cen).ravel(), sigma_b=sig, mu_logv=float(np.log(N)), sigma_logv=1.0)
                 row = dict(dataset=dname, part=part, area=str(name[a]), mismatch=mis[a], N=N, sigma_b=sb, centre=cname, prior=prior, conflict_sd=conflict,
                            param=r4.NAMES[p], seed=seed); t0 = time.time()
