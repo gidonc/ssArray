@@ -65,9 +65,23 @@ sa_margin_K <- function(w, m, eps, kind = c("largest", "last", "whitened"), scal
   list(K = t(solve(L)), scale_margins = 0)
 }
 
+# the split basis as a matrix: R-1 row effects, C-1 column effects, (R-1)(C-1) interactions (cells row by row).
+# Only needed outside the model (for setting mu_b, or for inspection): with split_basis = 1 the model works without it.
+sa_split_basis <- function(R, C) {
+  one <- function(n) matrix(1 / sqrt(n), n, 1)
+  cbind(kronecker(sa_helmert(R), one(C)), kronecker(one(R), sa_helmert(C)), kronecker(sa_helmert(R), sa_helmert(C)))
+}
+
 # data list for the model; only the margins of `tab` are used
+#   split_basis      TRUE: the prior is on the split basis and the model evaluates it without the RC x (RC-1) matrix
+#                    (cost about RC(R+C) per gradient instead of (RC)^2; matters from about 15 x 15).
+#                    FALSE: the Helmert basis over all cells, passed as the matrix V.
+#                    With the same sigma_b on every coordinate the two give the same prior.
+#   centred_interior TRUE: adjusted row and adjusted table use contrasts with no reference cell (same density, better
+#                    conditioned; experiments/24_structured.py). FALSE reproduces runs made before this option.
 sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0, scale_margins = 0,
-                    margin_coords = c("largest", "last", "whitened")) {
+                    margin_coords = c("largest", "last", "whitened"),
+                    split_basis = FALSE, centred_interior = TRUE) {
   tab <- unclass(as.matrix(tab))
   R <- nrow(tab); C <- ncol(tab); D <- R * C
   w <- as.numeric(rowSums(tab)); m <- as.numeric(colSums(tab))
@@ -76,7 +90,9 @@ sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0, scale_margins = 0,
     R = R, C = C, param = param, obs_w = w, obs_m = m, eps = eps,
     scale_margins = mk$scale_margins,                         # sequential versions: 1 = margin parameters on the penalty's scale
     K_margin = mk$K,                                          # sequential versions: linear change of margin coordinates
-    V = sa_helmert(D),
+    split_basis = as.integer(split_basis),
+    V = if (split_basis) matrix(0, 0, 0) else sa_helmert(D),
+    centred_interior = as.integer(centred_interior),
     mu_b = rep(0, D - 1), sigma_b = rep(sigma_b, D - 1),      # placeholder prior
     mu_logv = log(sum(w)), sigma_logv = 1,
     row_order = order(w),                                     # smallest row first, largest found by subtraction
@@ -89,7 +105,8 @@ sa_data <- function(tab, param, eps, sigma_b = 2, delta = 0, scale_margins = 0,
 sa_init <- function(d) {
   T0 <- outer(d$obs_w, d$obs_m) / sum(d$obs_w)
   lt <- log(as.vector(t(T0)))                                 # cells row by row
-  theta <- if (d$param == 0) c(as.vector(t(d$V) %*% lt), log(sum(T0)))
+  V <- if (d$split_basis == 1) sa_split_basis(d$R, d$C) else d$V
+  theta <- if (d$param == 0) c(as.vector(t(V) %*% lt), log(sum(T0)))
            else if (d$param == 5) lt
            else rep(0, d$R * d$C)
   list(theta = theta)

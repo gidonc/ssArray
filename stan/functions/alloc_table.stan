@@ -59,16 +59,31 @@ matrix alloc_table(vector w, vector m, vector lam) {
   // Jacobian. The inverse map is explicit, theta[r, c] = log T[r, c] + log T[R, C] - log T[r, C] - log T[R, c],
   // with the last row and column linear in the free cells, so
   //   d theta[r, c] / d T[r', c'] = (r = r')(c = c') / T[r, c] + 1 / T[R, C] + (r = r') / T[r, C] + (c = c') / T[R, c].
+  // That (R-1)(C-1) square matrix is diagonal plus a term of rank R + C - 1 (one direction for the corner cell, one per
+  // free row, one per free column), so by the matrix determinant lemma its determinant needs only an (R + C - 1) square
+  // matrix M:
+  //   log |d T / d theta| = sum over ALL cells of log T - log det M,
+  //   M[corner, corner] = sum of the free cells + T[R, C],   M[corner, row r] = sum of row r's free cells,
+  //   M[corner, col c] = sum of column c's free cells,       M[row r, row r] = w[r],   M[col c, col c] = m[c],
+  //   M[row r, col c] = T[r, c].
+  // Cost about RC + (R + C)^3, against ((R-1)(C-1))^3 for the determinant of the full matrix.
   {
-    matrix[K, K] J;
-    for (r in 1:(R - 1)) for (c in 1:(C - 1)) {
-      int a = (r - 1) * (C - 1) + c;
-      for (r2 in 1:(R - 1)) for (c2 in 1:(C - 1)) {
-        int b = (r2 - 1) * (C - 1) + c2;
-        J[a, b] = inv(T[R, C]) + (r == r2 ? inv(T[r, C]) : 0) + (c == c2 ? inv(T[R, c]) : 0) + (a == b ? inv(T[r, c]) : 0);
-      }
+    matrix[D, D] M = rep_matrix(0, D, D);
+    vector[R - 1] rf = T[1:(R - 1), 1:(C - 1)] * rep_vector(1, C - 1);
+    row_vector[C - 1] cf = rep_row_vector(1, R - 1) * T[1:(R - 1), 1:(C - 1)];
+    M[1, 1] = sum(rf) + T[R, C];
+    for (r in 1:(R - 1)) {
+      M[1, 1 + r] = rf[r];
+      M[1 + r, 1] = rf[r];
+      M[1 + r, 1 + r] = rf[r] + T[r, C];
+      for (c in 1:(C - 1)) { M[1 + r, R + c] = T[r, c]; M[R + c, 1 + r] = T[r, c]; }
     }
-    out[R + 1, 1] = -log_determinant_spd(J);
+    for (c in 1:(C - 1)) {
+      M[1, R + c] = cf[c];
+      M[R + c, 1] = cf[c];
+      M[R + c, R + c] = cf[c] + T[R, c];
+    }
+    out[R + 1, 1] = sum(log(T)) - log_determinant_spd(M);
   }
   out[1:R, 1:C] = T;
   return out;

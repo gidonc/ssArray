@@ -50,3 +50,40 @@ matrix sa_table(vector theta, int param, int R, int C, matrix V, vector obs_w, v
   }
   return out;
 }
+
+// ---------------------------------------------------------------------------------------------
+// The SPLIT basis without its matrix.
+// Orthonormal log-contrast basis of an R x C table in three blocks: R-1 row effects, C-1 column effects and
+// (R-1)(C-1) interactions, each built from Helmert contrasts (Hr, Hc). As a matrix it is
+//   [ Hr (x) 1/sqrt(C),  1/sqrt(R) (x) Hc,  Hr (x) Hc ]        (cells row by row),
+// which has about (RC)^2 entries. Because every block is a Kronecker product the coordinates can be had
+// from the R x C matrix of log cells with small matrix products, at a cost of about RC(R + C).
+// ---------------------------------------------------------------------------------------------
+matrix sa_helmert(int n) {
+  matrix[n, n - 1] H = rep_matrix(0, n, n - 1);
+  for (k in 1:(n - 1)) {
+    for (i in 1:k) H[i, k] = inv_sqrt(k * (k + 1.0));
+    H[k + 1, k] = -k * inv_sqrt(k * (k + 1.0));
+  }
+  return H;
+}
+
+// coordinates of the log cells L: row effects, column effects, interactions (row by row)
+vector split_coords(matrix L, matrix Hr, matrix Hc) {
+  int R = rows(L);
+  int C = cols(L);
+  vector[R * C - 1] z;
+  z[1:(R - 1)] = Hr' * (L * rep_vector(inv_sqrt(C), C));
+  z[R:(R + C - 2)] = (rep_row_vector(inv_sqrt(R), R) * L * Hc)';
+  z[(R + C - 1):(R * C - 1)] = to_vector((Hr' * L * Hc)');
+  return z;
+}
+
+// the centred log cells with coordinates z (inverse of split_coords on tables whose log cells sum to zero)
+matrix split_logcells(vector z, matrix Hr, matrix Hc) {
+  int R = rows(Hr);
+  int C = rows(Hc);
+  return rep_matrix(Hr * z[1:(R - 1)] * inv_sqrt(C), C)
+         + rep_matrix((Hc * z[R:(R + C - 2)])' * inv_sqrt(R), R)
+         + Hr * to_matrix(z[(R + C - 1):(R * C - 1)], C - 1, R - 1)' * Hc';
+}
