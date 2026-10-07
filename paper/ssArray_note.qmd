@@ -1,0 +1,50 @@
+---
+title: "Sampling tables with tight margins in Stan: a summary"
+author: "Gidon Cohen"
+format: html
+bibliography: references.bib
+editor: source
+---
+
+<!-- DRAFT 2026-10-07. Numbers are from experiments 16, 17, 21, 24 and 25 on the branch real-table-experiment;
+     the working summary with sources is docs/parameterisation_expectations.md. -->
+
+## The problem
+
+Many models need an $R \times C$ table of positive values whose row and column totals are known exactly or almost exactly, while the interior is known only through a prior. Ecological inference is the motivating case. Priors on tables are naturally stated on log-contrast (ILR) coordinates, but in those coordinates the margins are a curved constraint that becomes harder to sample the more precisely the margins are known.
+
+## The approach
+
+Make the margins parameters in their own right, and fill the interior with an *allocation function*: a one-to-one map from $(R-1)(C-1)$ unconstrained parameters to the tables with the given margins. The model is the same density on tables whichever map is used; only the coordinates change. I compare four allocation functions, with a Jacobian for each.
+
+- **Position logit** and **odds-ratio logit** fill the table cell by cell, following the sequential construction of @Chen2005. Position logit places each cell at a fraction of its feasible range. Odds-ratio logit sets the log odds ratio of the cell against what remains.
+- **Adjusted row** allocates a row at a time, with one adjustment per row so that the row adds up.
+- **Adjusted table** allocates the whole table at once, with one adjustment per row and column, which is raking.
+
+The comparators are two direct parameterisations with no allocation function: ILR coordinates with a log total, and log cells.
+
+## Key points
+
+1. **Margins as coordinates remove the hard part.** With the margins as parameters their tightness costs nothing. The direct parameterisations are competitive only at a few hundred counts per table or fewer. On real election tables they were about 5 to 7 times slower at about 30,000 votes and 20 to 50 times slower at 3 million, where ILR failed to converge.
+
+2. **The four functions differ in how linear they are in the prior's coordinates.** Adjusted table is exactly linear in the interactions, adjusted row nearly so, and the two cell-by-cell functions less so because their parameters describe collapsed tables. Gradient cost runs the other way: adjusted table is about 2.5 times odds-ratio logit.
+
+3. **Adjusted row is the robust default.** The table gives effective samples per second as a share of the best function in each case, over 220 cases (single areas from four datasets, with different prior centres and seeds).
+
+    | prior sd on each coordinate | position logit | odds-ratio logit | adjusted row | adjusted table |
+    |---|---|---|---|---|
+    | 0.5 | 0.96 | 0.92 | 0.80 | 0.44 |
+    | 2 | 0.33 | 0.54 | 1.00 | 0.57 |
+    | fits not converged | 2 | 4 | 0 | 1 |
+
+    With a narrow prior the cell-by-cell functions are slightly faster because their gradient is cheaper. With a wide prior they need many more steps per draw, and adjusted row is typically two to three times faster and up to eight.
+
+4. **Avoid reference categories.** Wherever parameters were defined against a reference (the last column for the margins, a reference cell in the raking functions), the reference's noise entered every parameter and efficiency fell as the number of categories grew: up to ninefold for the margins, and to non-convergence for adjusted row at $32 \times 32$. Contrasts with no reference fix this without changing the model.
+
+5. **It scales.** With the prior evaluated through its row-by-column structure, all four functions sample a $48 \times 48$ table (2,304 cells) in under two minutes for two chains of 1,000 iterations. Odds-ratio logit and adjusted row are level at that size; adjusted table is about half as fast.
+
+6. **Empty rows and columns reduce the table.** An area with an empty row or column is fitted as the smaller table, with a common prior centre closed over its active cells.
+
+## Evidence and limits
+
+The comparisons use constituency tables from the Scottish 2007 and New Zealand 2017 elections (collapsed to $5 \times 5$), two $3 \times 3$ precinct datasets, and simulated designs. Each fit is a single area with a fixed prior centre, margins observed with count-like noise, and short runs (two chains of 500 warm-up and 500 sampling iterations). The cross-area model, in which the centre and spread are estimated, has not been tested with these changes.
